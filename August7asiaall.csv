@@ -1,0 +1,50 @@
+Country,TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,Continent,Reliable
+Afghanistan,36896,,1298,,25840,Asia,True
+Armenia,39819,,772,,31556,Asia,True
+Azerbaijan,33247,,479,,29275,Asia,True
+Bahrain,42889,,156,,39945,Asia,True
+Bangladesh,249651,,3306,,143824,Asia,True
+Bhutan,105,,,,93,Asia,False
+Brunei,141,,3,,138,Asia,False
+Cambodia,243,,,,210,Asia,False
+China,84565,37,4634,,79088,Asia,True
+Cyprus,1208,,19,,856,Asia,True
+Georgia,1206,,17,,987,Asia,True
+Hong Kong,3850,,46,,2458,Asia,True
+India,2025409,,41638,,1377384,Asia,True
+Indonesia,118753,,5521,,75645,Asia,True
+Iran,320117,,17976,,277463,Asia,True
+Iraq,140603,,5161,,101025,Asia,True
+Israel,79559,,576,,53427,Asia,True
+Japan,42263,,1026,,28877,Asia,True
+Jordan,1232,,11,,1171,Asia,True
+Kazakhstan,95942,,1058,,68871,Asia,True
+Kuwait,70045,,469,,61610,Asia,True
+Kyrgyzstan,38659,,1447,,30099,Asia,True
+Laos,20,,,,19,Asia,False
+Lebanon,5672,,70,,1974,Asia,True
+Macao,46,,,,46,Asia,False
+Malaysia,9038,,125,,8713,Asia,True
+Maldives,4680,,19,,2725,Asia,True
+Mongolia,293,,,,260,Asia,False
+Myanmar,357,,6,,308,Asia,True
+Nepal,21750,,65,,15389,Asia,True
+Oman,80713,,492,,70910,Asia,True
+Pakistan,281863,,6035,,256058,Asia,True
+Palestine,13398,,92,,6907,Asia,True
+Philippines,119460,,2150,,66837,Asia,True
+Qatar,112092,,178,,108831,Asia,True
+Saudi Arabia,284226,,3055,,247089,Asia,True
+Singapore,54555,,27,,48031,Asia,True
+South Korea,14519,20,303,1,13543,Asia,True
+Sri Lanka,2839,,11,,2541,Asia,True
+Syria,999,,48,,311,Asia,True
+Taiwan,477,,7,,443,Asia,True
+Tajikistan,7665,,62,,6443,Asia,True
+Thailand,3330,,58,,3148,Asia,True
+Timor-Leste,25,,,,24,Asia,False
+Turkey,237265,,5798,,220546,Asia,True
+UAE,61845,,354,,55739,Asia,True
+Uzbekistan,28315,,175,,19291,Asia,True
+Vietnam,747,,10,,392,Asia,True
+Yemen,1768,,508,,898,Asia,True
