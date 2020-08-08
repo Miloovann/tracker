@@ -1,49 +1,49 @@
 Country,TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,Continent,Reliable
-Albania,6016,,188,,3155,Europe,True
-Andorra,944,,52,,828,Europe,True
-Austria,21696,,719,,19596,Europe,True
-Belarus,68503,,580,,63756,Europe,True
-Belgium,71158,,9859,,17661,Europe,True
-Bosnia and Herzegovina,13396,,384,,7042,Europe,True
+Albania,6151,135,189,1,3227,Europe,True
+Andorra,955,11,52,,839,Europe,True
+Austria,21837,141,720,1,19690,Europe,True
+Belarus,68614,111,583,3,64200,Europe,True
+Belgium,72016,858,9861,2,17700,Europe,True
+Bosnia and Herzegovina,13687,291,394,10,7373,Europe,True
 Bulgaria,13014,,435,,7374,Europe,True
 Channel Islands,597,,47,,533,Europe,True
-Croatia,5404,,155,,4688,Europe,True
-Czechia,17731,,390,,12320,Europe,True
-Denmark,14306,,617,,12787,Europe,True
-Estonia,2124,,63,,1954,Europe,True
-Faroe Islands,266,,,,192,Europe,False
-Finland,7532,,331,,6980,Europe,True
+Croatia,5466,62,155,,4758,Europe,True
+Czechia,17896,165,389,,12698,Europe,False
+Denmark,14442,136,617,,12840,Europe,True
+Estonia,2133,9,63,,1956,Europe,True
+Faroe Islands,291,25,,,192,Europe,False
+Finland,7554,22,331,,6980,Europe,True
 France,195633,,30312,,82460,Europe,False
-Germany,215210,,9252,,196200,Europe,True
+Germany,215604,394,9252,,196200,Europe,True
 Gibraltar,190,,,,184,Europe,False
-Greece,5123,,210,,1374,Europe,True
-Hungary,4597,,600,,3463,Europe,True
-Iceland,1930,,10,,1825,Europe,True
+Greece,5270,147,210,,1374,Europe,False
+Hungary,4621,24,602,2,3464,Europe,True
+Iceland,1952,22,10,,1833,Europe,True
 Ireland,26372,,1768,,23364,Europe,True
 Isle of Man,336,,24,,312,Europe,True
-Italy,249204,,35187,,201323,Europe,True
-Latvia,1275,,32,,1070,Europe,True
+Italy,249756,552,35190,3,201642,Europe,True
+Latvia,1281,6,32,,1070,Europe,True
 Liechtenstein,89,,1,,85,Europe,True
-Lithuania,2171,,81,,1656,Europe,True
+Lithuania,2194,23,81,,1658,Europe,True
 Luxembourg,7073,,119,,5750,Europe,True
-Malta,946,,9,,670,Europe,True
-Moldova,26628,,828,,18676,Europe,True
+Malta,995,49,9,,675,Europe,True
+Moldova,26990,362,835,7,18918,Europe,True
 Monaco,125,,4,,105,Europe,True
-Montenegro,3480,,60,,2178,Europe,True
-Netherlands,56982,,6153,,N/A,Europe,False
-North Macedonia,11399,,517,,7480,Europe,True
-Norway,9468,,256,,8857,Europe,True
-Poland,49515,,1774,,35642,Europe,True
-Portugal,52061,,1743,,37840,Europe,True
-Romania,57895,,2566,,28992,Europe,True
-Russia,871894,,14606,,676357,Europe,True
+Montenegro,3549,69,61,1,2296,Europe,True
+Netherlands,57501,519,6154,1,N/A,Europe,False
+North Macedonia,11554,155,519,2,7607,Europe,True
+Norway,9503,35,256,,8857,Europe,True
+Poland,50324,809,1787,13,36041,Europe,True
+Portugal,52351,290,1746,3,38087,Europe,True
+Romania,59273,1378,2616,50,29289,Europe,True
+Russia,877135,5241,14725,119,683592,Europe,True
 San Marino,699,,42,,657,Europe,True
-Serbia,27332,,621,,14047,Europe,True
-Slovakia,2480,,29,,1824,Europe,True
-Slovenia,2223,,125,,1909,Europe,True
+Serbia,27608,276,626,5,14047,Europe,True
+Slovakia,2523,43,31,2,1846,Europe,True
+Slovenia,2233,10,125,,1927,Europe,True
 Spain,354530,,28500,,N/A,Europe,False
-Sweden,81967,,5766,,N/A,Europe,False
-Switzerland,36108,,1985,,31600,Europe,True
-UK,308134,,46413,,N/A,Europe,False
-Ukraine,76808,,1819,,42524,Europe,True
+Sweden,82323,41,5763,5,N/A,Europe,False
+Switzerland,36269,161,1986,1,31600,Europe,True
+UK,309005,871,46511,98,N/A,Europe,False
+Ukraine,78261,1453,1852,33,43055,Europe,True
 Vatican City,12,,,,12,Europe,False

@@ -1,50 +1,50 @@
 Country,TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,Continent,Reliable
-Afghanistan,36896,,1298,,25840,Asia,True
-Armenia,39819,,772,,31556,Asia,True
-Azerbaijan,33247,,479,,29275,Asia,True
-Bahrain,42889,,156,,39945,Asia,True
-Bangladesh,249651,,3306,,143824,Asia,True
-Bhutan,105,,,,93,Asia,False
-Brunei,141,,3,,138,Asia,False
-Cambodia,243,,,,210,Asia,False
+Afghanistan,37015,119,1307,9,25903,Asia,True
+Armenia,39985,166,777,5,32008,Asia,True
+Azerbaijan,33376,129,483,4,29696,Asia,True
+Bahrain,42889,,158,2,39945,Asia,True
+Bangladesh,252502,2851,3333,27,145584,Asia,True
+Bhutan,108,3,,,96,Asia,False
+Brunei,142,1,3,,138,Asia,False
+Cambodia,243,,,,214,Asia,False
 China,84565,37,4634,,79088,Asia,True
-Cyprus,1208,,19,,856,Asia,True
-Georgia,1206,,17,,987,Asia,True
-Hong Kong,3850,,46,,2458,Asia,True
-India,2025409,,41638,,1377384,Asia,True
-Indonesia,118753,,5521,,75645,Asia,True
-Iran,320117,,17976,,277463,Asia,True
-Iraq,140603,,5161,,101025,Asia,True
-Israel,79559,,576,,53427,Asia,True
+Cyprus,1222,14,19,,856,Asia,False
+Georgia,1213,7,17,,994,Asia,True
+Hong Kong,3939,89,46,,2620,Asia,True
+India,2076553,51144,42436,798,1419699,Asia,False
+Indonesia,121226,2473,5593,72,77557,Asia,True
+Iran,322567,2450,18132,156,279724,Asia,True
+Iraq,144064,3461,5236,75,103197,Asia,True
+Israel,80431,872,578,2,55274,Asia,True
 Japan,42263,,1026,,28877,Asia,True
-Jordan,1232,,11,,1171,Asia,True
-Kazakhstan,95942,,1058,,68871,Asia,True
-Kuwait,70045,,469,,61610,Asia,True
-Kyrgyzstan,38659,,1447,,30099,Asia,True
+Jordan,1237,5,11,,1178,Asia,True
+Kazakhstan,96922,980,1058,,70680,Asia,True
+Kuwait,70727,682,471,2,62330,Asia,True
+Kyrgyzstan,39162,503,1451,4,30764,Asia,True
 Laos,20,,,,19,Asia,False
 Lebanon,5672,,70,,1974,Asia,True
 Macao,46,,,,46,Asia,False
-Malaysia,9038,,125,,8713,Asia,True
+Malaysia,9063,25,125,,8728,Asia,True
 Maldives,4680,,19,,2725,Asia,True
 Mongolia,293,,,,260,Asia,False
-Myanmar,357,,6,,308,Asia,True
-Nepal,21750,,65,,15389,Asia,True
-Oman,80713,,492,,70910,Asia,True
-Pakistan,281863,,6035,,256058,Asia,True
-Palestine,13398,,92,,6907,Asia,True
-Philippines,119460,,2150,,66837,Asia,True
-Qatar,112092,,178,,108831,Asia,True
-Saudi Arabia,284226,,3055,,247089,Asia,True
-Singapore,54555,,27,,48031,Asia,True
+Myanmar,359,2,6,,309,Asia,True
+Nepal,22214,464,70,5,15814,Asia,True
+Oman,81067,354,502,10,72263,Asia,True
+Pakistan,282645,782,6052,17,258099,Asia,True
+Palestine,13722,324,94,2,7210,Asia,True
+Philippines,122754,3379,2168,24,66852,Asia,True
+Qatar,112383,291,180,2,109142,Asia,True
+Saudi Arabia,285793,1567,3093,38,248948,Asia,True
+Singapore,54797,242,27,,48312,Asia,True
 South Korea,14519,20,303,1,13543,Asia,True
-Sri Lanka,2839,,11,,2541,Asia,True
+Sri Lanka,2839,,11,,2564,Asia,True
 Syria,999,,48,,311,Asia,True
 Taiwan,477,,7,,443,Asia,True
-Tajikistan,7665,,62,,6443,Asia,True
-Thailand,3330,,58,,3148,Asia,True
+Tajikistan,7706,41,62,,6484,Asia,True
+Thailand,3345,15,58,,3148,Asia,True
 Timor-Leste,25,,,,24,Asia,False
 Turkey,237265,,5798,,220546,Asia,True
-UAE,61845,,354,,55739,Asia,True
-Uzbekistan,28315,,175,,19291,Asia,True
-Vietnam,747,,10,,392,Asia,True
+UAE,62061,216,356,2,56015,Asia,True
+Uzbekistan,28809,494,179,4,19587,Asia,True
+Vietnam,784,37,10,,395,Asia,True
 Yemen,1768,,508,,898,Asia,True
