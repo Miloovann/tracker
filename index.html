@@ -224,9 +224,9 @@ function processData(allText) {
             lines.push(tarr);
         }
    // alert(lines);
-    document.getElementById('total_cases').innerHTML = lines[0][3].toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
-    document.getElementById('total_deaths').innerHTML = lines[0][7].toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
-    document.getElementById('total_recovered').innerHTML = lines[0][11].toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
+    document.getElementById('total_cases').innerHTML = lines[0][3].toLocaleString();
+    document.getElementById('total_deaths').innerHTML = lines[0][7].toLocaleString();
+    document.getElementById('total_recovered').innerHTML = lines[0][11].toLocaleString();
 }
         
         function sgdatelink(){
