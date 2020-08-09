@@ -1,0 +1,49 @@
+Country,TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,Continent,Reliable
+Albania,6411,136,199,6,3342,Europe,True
+Andorra,955,,52,,839,Europe,True
+Austria,22033,114,721,,19923,Europe,True
+Belarus,68850,112,587,2,64935,Europe,True
+Belgium,73401,617,9870,4,17766,Europe,True
+Bosnia and Herzegovina,13687,,394,,7373,Europe,True
+Bulgaria,13343,,445,,7718,Europe,True
+Channel Islands,597,,47,,533,Europe,True
+Croatia,5604,61,157,,4861,Europe,True
+Czechia,18303,68,390,1,12776,Europe,True
+Denmark,14442,,617,,12840,Europe,True
+Estonia,2152,5,63,,1961,Europe,True
+Faroe Islands,303,8,,,215,Europe,False
+Finland,7584,16,331,,6980,Europe,True
+France,197921,,30324,,82836,Europe,False
+Germany,216911,15,9261,,197400,Europe,True
+Gibraltar,197,,,,184,Europe,False
+Greece,5623,202,212,1,3804,Europe,True
+Hungary,4696,43,602,,3499,Europe,True
+Iceland,1958,3,10,,1834,Europe,True
+Ireland,26644,,1772,,23364,Europe,True
+Isle of Man,336,,24,,312,Europe,True
+Italy,250566,463,35205,2,202098,Europe,True
+Latvia,1290,2,32,,1070,Europe,True
+Liechtenstein,89,,1,,85,Europe,True
+Lithuania,2252,21,81,,1670,Europe,True
+Luxembourg,7169,,120,,5848,Europe,True
+Malta,1089,54,9,,684,Europe,True
+Moldova,27660,217,845,4,19300,Europe,True
+Monaco,131,,4,,112,Europe,True
+Montenegro,3588,,62,,2407,Europe,True
+Netherlands,58564,577,6157,,N/A,Europe,False
+North Macedonia,11839,85,527,4,7664,Europe,True
+Norway,9615,16,256,,8857,Europe,True
+Poland,51791,624,1807,7,36691,Europe,True
+Portugal,52668,131,1756,6,38511,Europe,True
+Romania,61768,1145,2700,41,30119,Europe,True
+Russia,887536,5189,14931,77,693422,Europe,True
+San Marino,699,,42,,657,Europe,True
+Serbia,28099,236,641,9,14047,Europe,True
+Slovakia,2596,30,31,,1864,Europe,True
+Slovenia,2249,2,127,1,1927,Europe,True
+Spain,361442,,28503,,N/A,Europe,False
+Sweden,82323,,5763,,N/A,Europe,False
+Switzerland,36603,152,1986,,32000,Europe,True
+UK,310825,1062,46574,8,N/A,Europe,False
+Ukraine,80949,1199,1897,18,43972,Europe,True
+Vatican City,12,,,,12,Europe,False

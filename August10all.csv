@@ -1,0 +1,213 @@
+Country,TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,Continent,Reliable
+Afghanistan,37054,,1312,,25960,Asia,True
+Albania,6411,136,199,6,3342,Europe,True
+Algeria,34693,,1293,,24083,Africa,True
+Andorra,955,,52,,839,Europe,True
+Angola,1572,,70,,564,Africa,True
+Anguilla,3,,,,3,North America,False
+Antigua and Barbuda,92,,3,,76,North America,True
+Argentina,241811,,4556,33,108242,South America,True
+Armenia,40410,225,791,6,32520,Asia,True
+Aruba,509,,3,,114,North America,True
+Australia,21084,386,295,17,11561,Australia/Oceania,False
+Austria,22033,114,721,,19923,Europe,True
+Azerbaijan,33568,87,490,2,30364,Asia,True
+Bahamas,878,,14,,99,North America,True
+Bahrain,43629,,162,1,40549,Asia,True
+Bangladesh,257600,2487,3399,34,148370,Asia,True
+Barbados,138,,7,,108,North America,True
+Belarus,68850,112,587,2,64935,Europe,True
+Belgium,73401,617,9870,4,17766,Europe,True
+Belize,146,,2,,32,North America,True
+Benin,1936,,38,,1600,Africa,True
+Bermuda,157,,9,,144,North America,True
+Bhutan,108,,,,96,Asia,False
+Bolivia,89055,1164,3587,63,28904,South America,True
+Bosnia and Herzegovina,13687,,394,,7373,Europe,True
+Botswana,804,,2,,63,Africa,True
+Brazil,3013369,,100543,,2094293,South America,True
+British Virgin Islands,9,,1,,7,North America,True
+Brunei,142,,3,,138,Asia,False
+Bulgaria,13343,,445,,7718,Europe,True
+Burkina Faso,1175,,54,,974,Africa,True
+Burundi,405,,1,,312,Africa,True
+Cabo Verde,2835,,32,,2073,Africa,True
+Cambodia,248,2,,,217,Asia,False
+Cameroon,18042,,395,,15320,Africa,True
+Canada,119404,183,8981,5,103715,North America,False
+Caribbean Netherlands,13,,,,7,North America,False
+Cayman Islands,203,,1,,202,North America,True
+Central African Republic,4641,,59,,1716,Africa,True
+Chad,942,,76,,839,Africa,True
+Channel Islands,597,,47,,533,Europe,True
+Chile,371023,,10011,,344133,South America,True
+China,84619,23,4634,,79168,Asia,True
+Colombia,376870,,12540,,204591,South America,True
+Comoros,399,,7,,369,Africa,True
+Costa Rica,22802,,228,,7589,North America,True
+Croatia,5604,61,157,,4861,Europe,True
+Cuba,2953,65,88,,2451,North America,True
+Curaçao,31,,1,,30,North America,True
+Cyprus,1233,,19,,856,Asia,True
+Czechia,18303,68,390,1,12776,Europe,True
+DR Congo,9454,18,224,6,8324,Africa,True
+Denmark,14442,,617,,12840,Europe,True
+Djibouti,5338,,59,,5083,Africa,True
+Dominica,18,,,,18,North America,False
+Dominican Republic,78778,,1289,,42538,North America,True
+Ecuador,93572,,5916,,71605,South America,True
+Egypt,95314,,4992,,51672,Africa,True
+El Salvador,20423,445,549,13,9626,North America,True
+Equatorial Guinea,4821,,83,,2182,Africa,True
+Eritrea,285,,,,245,Africa,False
+Estonia,2152,5,63,,1961,Europe,True
+Eswatini,3128,,56,,1565,Africa,True
+Ethiopia,22253,,390,,9707,Africa,True
+Falkland Islands,13,,,,13,South America,False
+Faroe Islands,303,8,,,215,Europe,False
+Fiji,27,,1,,18,Australia/Oceania,True
+Finland,7584,16,331,,6980,Europe,True
+France,197921,,30324,,82836,Europe,False
+French Guiana,8267,,48,,7501,South America,True
+French Polynesia,69,,,,62,Australia/Oceania,False
+Gabon,7923,,51,,5704,Africa,True
+Gambia,1090,,19,,146,Africa,True
+Georgia,1225,9,17,,1000,Asia,True
+Germany,216911,15,9261,,197400,Europe,True
+Ghana,41003,470,215,9,38330,Africa,True
+Gibraltar,197,,,,184,Europe,False
+Greece,5623,202,212,1,3804,Europe,True
+Greenland,14,,,,14,North America,False
+Grenada,24,,,,23,North America,False
+Guadeloupe,290,,14,,186,North America,True
+Guatemala,56189,,2197,,44072,North America,True
+Guinea,7875,,50,,6828,Africa,True
+Guinea-Bissau,2052,,29,,944,Africa,True
+Guyana,554,,22,,189,South America,True
+Haiti,7611,12,182,5,4893,North America,True
+Honduras,46973,608,1476,11,6428,North America,True
+Hong Kong,4080,72,51,4,2847,Asia,True
+Hungary,4696,43,602,,3499,Europe,True
+Iceland,1958,3,10,,1834,Europe,True
+India,2199101,47081,44048,595,1506413,Asia,True
+Indonesia,125396,1893,5723,65,80952,Asia,True
+Iran,326712,2020,18427,163,284371,Asia,True
+Iraq,150115,2726,5392,82,107775,Asia,True
+Ireland,26644,,1772,,23364,Europe,True
+Isle of Man,336,,24,,312,Europe,True
+Israel,82515,191,597,4,57483,Asia,True
+Italy,250566,463,35205,2,202098,Europe,True
+Ivory Coast,16620,,104,,12893,Africa,True
+Jamaica,1003,16,13,,745,North America,True
+Japan,45439,,1039,,31307,Asia,True
+Jordan,1252,6,11,,1187,Asia,False
+Kazakhstan,98701,872,1058,,72273,Asia,True
+Kenya,25837,,418,,11899,Africa,True
+Kuwait,71713,514,478,4,63519,Asia,True
+Kyrgyzstan,39919,332,1468,8,31822,Asia,True
+Laos,20,,,,19,Asia,False
+Latvia,1290,2,32,,1070,Europe,True
+Lebanon,6223,,78,,2043,Asia,True
+Lesotho,742,,23,,175,Africa,True
+Liberia,1234,,79,,714,Africa,True
+Libya,5232,,113,,691,Africa,True
+Liechtenstein,89,,1,,85,Europe,True
+Lithuania,2252,21,81,,1670,Europe,True
+Luxembourg,7169,,120,,5848,Europe,True
+Macao,46,,,,46,Asia,False
+Madagascar,13086,164,148,7,10816,Africa,True
+Malawi,4624,,143,,2329,Africa,True
+Malaysia,9083,13,125,,8784,Asia,True
+Maldives,4898,,19,,2791,Asia,True
+Mali,2565,,125,,1960,Africa,True
+Malta,1089,54,9,,684,Europe,True
+Martinique,336,,16,,98,North America,True
+Mauritania,6510,,157,,5527,Africa,True
+Mauritius,344,,10,,334,Africa,True
+Mayotte,3068,,39,,2835,Africa,True
+Mexico,475902,6495,52006,695,318638,North America,True
+Moldova,27660,217,845,4,19300,Europe,True
+Monaco,131,,4,,112,Europe,True
+Mongolia,293,,,,263,Asia,False
+Montenegro,3588,,62,,2407,Europe,True
+Montserrat,13,,1,,12,North America,True
+Morocco,32007,,480,,22190,Africa,True
+Mozambique,2269,28,16,,840,Africa,False
+Myanmar,360,1,6,,312,Asia,True
+Namibia,2802,,16,,575,Africa,True
+Nepal,22972,380,75,2,16353,Asia,True
+Netherlands,58564,577,6157,,N/A,Europe,False
+New Caledonia,23,,,,22,Australia/Oceania,False
+New Zealand,1569,,22,,1524,Australia/Oceania,True
+Nicaragua,3902,,123,,2913,North America,True
+Niger,1157,,69,,1057,Africa,True
+Nigeria,46140,,942,,33044,Africa,True
+North Macedonia,11839,85,527,4,7664,Europe,True
+Norway,9615,16,256,,8857,Europe,True
+Oman,81580,223,513,4,74691,Asia,True
+Pakistan,284121,634,6082,14,260248,Asia,True
+Palestine,14205,277,96,,7945,Asia,True
+Panama,73651,,1609,,47484,North America,True
+Papua New Guinea,214,26,3,,53,Australia/Oceania,True
+Paraguay,6705,,72,,5181,South America,True
+Peru,471012,,20844,,319171,South America,True
+Philippines,129913,3028,2270,61,67673,Asia,True
+Poland,51791,624,1807,7,36691,Europe,True
+Portugal,52668,131,1756,6,38511,Europe,True
+Qatar,112947,297,184,2,109709,Asia,True
+Romania,61768,1145,2700,41,30119,Europe,True
+Russia,887536,5189,14931,77,693422,Europe,True
+Rwanda,2134,,6,,1300,Africa,True
+Réunion,681,,5,,631,Africa,True
+Saint Barthelemy,13,4,,,6,North America,False
+Saint Kitts and Nevis,17,,,,16,North America,False
+Saint Lucia,25,,,,24,North America,False
+Saint Martin,53,,3,,41,North America,True
+Saint Pierre and Miquelon,4,,,,1,North America,False
+Saint Vincent and the Grenadines,56,,,,49,North America,False
+San Marino,699,,42,,657,Europe,True
+Saudi Arabia,288690,1428,3167,37,252039,Asia,True
+Senegal,11175,172,232,3,7352,Africa,True
+Serbia,28099,236,641,9,14047,Europe,True
+Seychelles,126,,,,125,Africa,False
+Sierra Leone,1895,,68,,1442,Africa,True
+Singapore,55104,,27,,48915,Asia,True
+Slovakia,2596,30,31,,1864,Europe,True
+Slovenia,2249,2,127,1,1927,Europe,True
+Somalia,3227,,93,,1728,Africa,True
+South Africa,553188,,10210,,404568,Africa,True
+South Korea,14598,36,305,1,13642,Asia,True
+South Sudan,2463,,47,,1175,Africa,True
+Spain,361442,,28503,,N/A,Europe,False
+Sri Lanka,2841,,11,,2579,Asia,True
+Sudan,11894,,773,,6243,Africa,True
+Suriname,2306,,29,,1558,South America,True
+Sweden,82323,,5763,,N/A,Europe,False
+Switzerland,36603,152,1986,,32000,Europe,True
+Syria,1125,,50,,331,Asia,True
+São Tomé and Príncipe,878,,15,,800,Africa,True
+Taiwan,480,1,7,,443,Asia,True
+Tajikistan,7706,,62,,6484,Asia,True
+Tanzania,509,,21,,183,Africa,True
+Thailand,3351,3,58,,3151,Asia,True
+Timor-Leste,25,,,,24,Asia,False
+Togo,1046,,23,,721,Africa,True
+Trinidad and Tobago,279,4,8,,135,North America,True
+Tunisia,1678,,51,,1259,Africa,True
+Turkey,239622,,5829,,222656,Asia,True
+Turks and Caicos,197,27,2,,39,North America,True
+UAE,62525,225,357,1,56568,Asia,True
+UK,310825,1062,46574,8,N/A,Europe,False
+USA,5164234,14511,165236,166,2639927,North America,False
+Uganda,1267,,6,,1115,Africa,True
+Ukraine,80949,1199,1897,18,43972,Europe,True
+Uruguay,1335,,37,,1112,South America,True
+Uzbekistan,30464,812,192,5,21813,Asia,True
+Vatican City,12,,,,12,Europe,False
+Venezuela,24961,,215,,13356,South America,True
+Vietnam,841,29,11,1,395,Asia,True
+Western Sahara,10,,1,,8,Africa,True
+Yemen,1797,,512,,910,Asia,True
+Zambia,8085,182,235,32,6698,Africa,True
+Zimbabwe,4575,,102,,1416,Africa,True
+World,19894202,103512,731058,2352,12567204,,False
