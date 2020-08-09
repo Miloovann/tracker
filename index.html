@@ -226,18 +226,18 @@ function processData(allText) {
    // alert(lines);
     function lengthof(a){
         for (var k=0; k<10000; k++){
-        if( a[k] === undefined){
-    return k;
-    break;
-    }
-    }
+            if(a[k] === undefined){
+                return k;
+                break;
+            }
+        }
     }
     function splitstring(a){
         var s = "";
         for (var j=0; j<lengthof(a); j++){
-        if (j%3===0){
-            s += ",";
-        }
+            if (j%3===0 && j!==0){
+                s += ",";
+            }
             s+=a[j];
         }
         return s;
