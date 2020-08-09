@@ -234,17 +234,11 @@ function processData(allText) {
     }
     function splitstring(a){
         var s = "";
-        q = lengthof(a);
-        special = q%3;
-        counter = 0;
-        for (var j=0; j<q; j++){
-            if (counter > special){
-                if ((j-special)%3===0){
-                    s += ",";
-                }
+        for (var j=0; j<lengthof(a); j++){
+            if (j%3===0 && j!==0){
+                s += ",";
             }
             s+=a[j];
-            counter +=1;
         }
         return s;
     }
