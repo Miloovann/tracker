@@ -184,121 +184,7 @@
             <div id = "globaltable"></div>
         </div>
         <div class="singapore" style="padding-top: 130px;">
-            <script>
-                var slides = ["slide 1", "slide 2", "slide 3", "slide 4", "slide 5"]
-                var str = '<ul>'
-                slides.forEach(function(slide) {
-                str += '<li>'+ slide + '</li>';
-                }); 
-                str += '</ul>';
-                document.getElementById("slideContainer").innerHTML = str;
-                <div id="slideContainer"></div>
-                var today = new Date();
-                var m = today.getMonth();
-                var d = today.getDate();
-                if(m===0){m = 'January';}
-                else if(m===1){m = 'February';}            
-                else if(m===2){m = 'March';}
-                else if(m===3){m = 'April';}
-                else if(m===4){m = 'May';}
-                else if(m===5){m = 'June';}
-                else if(m===6){m = 'July';}
-                else if(m===7){m = 'August';}
-                else if(m===8){m = 'September';}
-                else if(m===9){m = 'October';}
-                else if(m===10){m = 'November';}
-                else if(m===11){m = 'December';}
-                $(document).ready(function(){
-                    $.ajax({
-                        type: "GET",
-                        url: m+d+"all.csv",
-                        dataType: "text",
-                        success: function(data) {processData(data);}
-                    });
-                });
-                var lines = [];
-                function processData(allText) {
-                var allTextLines = allText.split(/\r\n|\n/);
-                var headers = allTextLines[0].split(',');
-                var i=212;
-                var data = allTextLines[i].split(',');
-                if (data.length == headers.length) {
-                    var tarr = [];
-                    for (var j=0; j<headers.length; j++) {
-                        tarr.push(headers[j]);
-                        tarr.push(data[j]);
-                    }
-                    lines.push(tarr);
-                }
-                //alert(lines);
-                function lengthof(a){
-                    for (var k=0; k<10000; k++){
-                        if(a[k] === undefined){
-                            return k;
-                            break;
-                        }
-                    }
-                }
-                function splitstring(a){
-                    var s = "";
-                    q = lengthof(a);
-                    special = q%3;
-                    counter = 0;
-                    for (var j=0; j<q; j++){
-                    if (counter >= special){
-                    if ((j-special)%3===0&&j!==0){
-                        s += ",";
-                    }
-                    }
-                        s+=a[j];
-                    counter +=1;
-                    }
-                    return s;
-                }
-                document.getElementById('total_cases').innerHTML = splitstring(lines[0][3]);
-                document.getElementById('total_deaths').innerHTML = splitstring(lines[0][7]);
-                document.getElementById('total_recovered').innerHTML = splitstring(lines[0][11]);
-                }
-                function sgdatelink(){
-                    for(var days=0; days<15; days++){
-                        var date = new Date();
-                        var last = new Date(date.getTime() - (days * 24 * 60 * 60 * 1000));
-                        var day =last.getDate();
-                        var month=last.getMonth();
-                        if(month===0){month = 'Jan';}
-                        else if(month===1){month = 'Feb';}            
-                        else if(month===2){month = 'Mar';}
-                        else if(month===3){month = 'Apr';}
-                        else if(month===4){month = 'May';}
-                        else if(month===5){month = 'Jun';}
-                        else if(month===6){month = 'Jul';}
-                        else if(month===7){month = 'Aug';}
-                        else if(month===8){month = 'Sep';}
-                        else if(month===9){month = 'Oct';}
-                        else if(month===10){month = 'Nov';}
-                        else if(month===11){month = 'Dec';}
-                        document.getElementById('minus'+days).setAttribute('src', 'SG '+day+' '+month+' Cases.svg');
-                    }
-                }
-                function filter(a){
-                    inter = document.getElementsByClassName('int');
-                    singapore = document.getElementsByClassName('singapore');
-                    eu = document.getElementsByClassName('eu');
-                    asa = document.getElementsByClassName('asa');
-                    afc = document.getElementsByClassName('afc');
-                    nam = document.getElementsByClassName('nam');
-                    sam = document.getElementsByClassName('sam');
-                    for(var i=0; i<inter.length; i++)       {inter[i].style.display = 'none';}
-                    for(var i=0; i<singapore.length;i++)    {singapore[i].style.display = 'none';}
-                    for(var i=0; i<eu.length; i++)          {eu[i].style.display = 'none';}
-                    for(var i=0; i<asa.length; i++)         {asa[i].style.display = 'none';}
-                    for(var i=0; i<afc.length; i++)         {afc[i].style.display = 'none';}
-                    for(var i=0; i<nam.length; i++)         {nam[i].style.display = 'none';}
-                    for(var i=0; i<sam.length; i++)         {sam[i].style.display = 'none';}
-                    b = document.getElementsByClassName(a);
-                    for(var i=0; i<b.length; i++)       {b[i].style.display = 'inline-block';}
-                }
-            </script>
+            <img id = "minus"+0 style="width: 26%;">
         </div>
         <div class="eu" style="padding-top: 130px;">
             <img src = "europetotal10.svg" style="width: 26%;">
@@ -325,6 +211,126 @@
             <img src = "south Americadeath10.svg" style="width: 26%;">
             <img src = "south Americarecovered10.svg" style="width: 26%;">
         </div>
+        <div id="slideContainer"></div>
+        <script>
+            var slides = ["slide 1", "slide 2", "slide 3", "slide 4", "slide 5"]
+            var str = '<ul>'
+            
+            slides.forEach(function(slide) {
+              str += '<li>'+ slide + '</li>';
+            }); 
+            
+            str += '</ul>';
+            document.getElementById("slideContainer").innerHTML = str;
+        </script>
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script>
+        var today = new Date();
+        var m = today.getMonth();
+        var d = today.getDate();
+        if(m===0){m = 'January';}
+        else if(m===1){m = 'February';}            
+        else if(m===2){m = 'March';}
+        else if(m===3){m = 'April';}
+        else if(m===4){m = 'May';}
+        else if(m===5){m = 'June';}
+        else if(m===6){m = 'July';}
+        else if(m===7){m = 'August';}
+        else if(m===8){m = 'September';}
+        else if(m===9){m = 'October';}
+        else if(m===10){m = 'November';}
+        else if(m===11){m = 'December';}
+        $(document).ready(function(){
+            $.ajax({
+                type: "GET",
+                url: m+d+"all.csv",
+                dataType: "text",
+                success: function(data) {processData(data);}
+            });
+        });
+        var lines = [];
+        function processData(allText) {
+        var allTextLines = allText.split(/\r\n|\n/);
+        var headers = allTextLines[0].split(',');
+        var i=212;
+        var data = allTextLines[i].split(',');
+        if (data.length == headers.length) {
+            var tarr = [];
+            for (var j=0; j<headers.length; j++) {
+                tarr.push(headers[j]);
+                tarr.push(data[j]);
+            }
+            lines.push(tarr);
+        }
+        //alert(lines);
+        function lengthof(a){
+            for (var k=0; k<10000; k++){
+                if(a[k] === undefined){
+                    return k;
+                    break;
+                }
+            }
+        }
+        function splitstring(a){
+            var s = "";
+            q = lengthof(a);
+            special = q%3;
+            counter = 0;
+            for (var j=0; j<q; j++){
+            if (counter >= special){
+            if ((j-special)%3===0&&j!==0){
+                s += ",";
+            }
+            }
+                s+=a[j];
+            counter +=1;
+            }
+            return s;
+        }
+        document.getElementById('total_cases').innerHTML = splitstring(lines[0][3]);
+        document.getElementById('total_deaths').innerHTML = splitstring(lines[0][7]);
+        document.getElementById('total_recovered').innerHTML = splitstring(lines[0][11]);
+        }
+        function sgdatelink(){
+            for(var days=0; days<15; days++){
+                var date = new Date();
+                var last = new Date(date.getTime() - (days * 24 * 60 * 60 * 1000));
+                var day =last.getDate();
+                var month=last.getMonth();
+                if(month===0){month = 'Jan';}
+                else if(month===1){month = 'Feb';}            
+                else if(month===2){month = 'Mar';}
+                else if(month===3){month = 'Apr';}
+                else if(month===4){month = 'May';}
+                else if(month===5){month = 'Jun';}
+                else if(month===6){month = 'Jul';}
+                else if(month===7){month = 'Aug';}
+                else if(month===8){month = 'Sep';}
+                else if(month===9){month = 'Oct';}
+                else if(month===10){month = 'Nov';}
+                else if(month===11){month = 'Dec';}
+                document.getElementById('minus'+days).setAttribute('src', 'SG '+day+' '+month+' Cases.svg');
+            }
+        }
+        function filter(a){
+            inter = document.getElementsByClassName('int');
+            singapore = document.getElementsByClassName('singapore');
+            eu = document.getElementsByClassName('eu');
+            asa = document.getElementsByClassName('asa');
+            afc = document.getElementsByClassName('afc');
+            nam = document.getElementsByClassName('nam');
+            sam = document.getElementsByClassName('sam');
+            for(var i=0; i<inter.length; i++)       {inter[i].style.display = 'none';}
+            for(var i=0; i<singapore.length;i++)    {singapore[i].style.display = 'none';}
+            for(var i=0; i<eu.length; i++)          {eu[i].style.display = 'none';}
+            for(var i=0; i<asa.length; i++)         {asa[i].style.display = 'none';}
+            for(var i=0; i<afc.length; i++)         {afc[i].style.display = 'none';}
+            for(var i=0; i<nam.length; i++)         {nam[i].style.display = 'none';}
+            for(var i=0; i<sam.length; i++)         {sam[i].style.display = 'none';}
+            b = document.getElementsByClassName(a);
+            for(var i=0; i<b.length; i++)       {b[i].style.display = 'inline-block';}
+        }
+    </script>
 </html>

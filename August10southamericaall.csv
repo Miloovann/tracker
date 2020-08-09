@@ -1,7 +1,7 @@
 Country,TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,Continent,Reliable
 Argentina,241811,,4556,33,108242,South America,True
 Bolivia,89055,1164,3587,63,28904,South America,True
-Brazil,3013369,,100543,,2094293,South America,True
+Brazil,3018286,4917,100667,124,2094293,South America,False
 Chile,371023,,10011,,344133,South America,True
 Colombia,376870,,12540,,204591,South America,True
 Ecuador,93572,,5916,,71605,South America,True
