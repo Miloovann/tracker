@@ -238,13 +238,13 @@ function processData(allText) {
         special = q%3;
         counter = 0;
         for (var j=0; j<q; j++){
-            if (counter >= special){
-                if ((j-special)%3===0&&(j-special)!==0){
-                    s += ",";
-                }
-            }
+        if (counter >= special){
+        if ((j-special)%3===0&&j!==0){
+            s += ",";
+        }
+        }
             s+=a[j];
-            counter +=1;
+        counter +=1;
         }
         return s;
     }
