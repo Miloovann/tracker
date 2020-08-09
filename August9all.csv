@@ -9,7 +9,7 @@ Antigua and Barbuda,92,,3,,76,North America,True
 Argentina,241811,,4523,,108242,South America,True
 Armenia,40185,,785,,32395,Asia,True
 Aruba,509,,3,,114,North America,True
-Australia,21084,386,295,17,11561,Australia/Oceania,True
+Australia,21084,386,295,17,11561,Australia/Oceania,False
 Austria,21919,,721,,19812,Europe,True
 Azerbaijan,33481,,488,,30056,Asia,True
 Bahamas,878,,14,,99,North America,True
@@ -72,7 +72,7 @@ French Guiana,8267,,48,,7501,South America,True
 French Polynesia,69,,,,62,Australia/Oceania,False
 Gabon,7923,,51,,5704,Africa,True
 Gambia,1090,,19,,146,Africa,True
-Georgia,1216,,17,,996,Asia,True
+Georgia,1225,9,17,,1000,Asia,True
 Germany,216896,,9261,,197400,Europe,True
 Ghana,40533,,206,,37702,Africa,True
 Gibraltar,197,,,,184,Europe,False
@@ -84,29 +84,29 @@ Guatemala,56189,,2197,,44072,North America,True
 Guinea,7875,,50,,6828,Africa,True
 Guinea-Bissau,2052,,29,,944,Africa,True
 Guyana,554,,22,,189,South America,True
-Haiti,7599,,177,,4893,North America,True
+Haiti,7611,12,182,5,4893,North America,True
 Honduras,46973,608,1476,11,6428,North America,True
-Hong Kong,4008,,47,,2755,Asia,True
-Hungary,4653,,602,,3491,Europe,True
+Hong Kong,4008,,51,4,2755,Asia,True
+Hungary,4696,43,602,,3499,Europe,False
 Iceland,1955,,10,,1833,Europe,True
-India,2152020,,43453,,1479804,Asia,True
+India,2156443,4423,43488,35,1481666,Asia,True
 Indonesia,123503,,5658,,79306,Asia,True
 Iran,324692,,18264,,282122,Asia,True
 Iraq,147389,,5310,,105504,Asia,True
 Ireland,26644,,1772,,23364,Europe,True
 Isle of Man,336,,24,,312,Europe,True
-Israel,82324,,593,,57071,Asia,True
+Israel,82465,141,594,1,57482,Asia,True
 Italy,250103,,35203,,201947,Europe,True
 Ivory Coast,16620,,104,,12893,Africa,True
 Jamaica,1003,16,13,,745,North America,True
 Japan,45439,,1039,,31307,Asia,True
 Jordan,1246,,11,,1178,Asia,True
-Kazakhstan,97829,,1058,,71609,Asia,True
+Kazakhstan,98701,872,1058,,72273,Asia,True
 Kenya,25837,,418,,11899,Africa,True
 Kuwait,71199,,474,,62806,Asia,True
-Kyrgyzstan,39571,,1459,,31062,Asia,True
+Kyrgyzstan,39919,332,1468,8,31822,Asia,True
 Laos,20,,,,19,Asia,False
-Latvia,1288,,32,,1070,Europe,True
+Latvia,1290,2,32,,1070,Europe,True
 Lebanon,6223,,78,,2043,Asia,True
 Lesotho,742,,23,,175,Africa,True
 Liberia,1234,,79,,714,Africa,True
@@ -128,7 +128,7 @@ Mayotte,3068,,39,,2835,Africa,True
 Mexico,475902,6495,52006,695,318638,North America,True
 Moldova,27443,,841,,19100,Europe,True
 Monaco,131,,4,,112,Europe,True
-Mongolia,293,,,,260,Asia,False
+Mongolia,293,,,,263,Asia,False
 Montenegro,3588,,62,,2407,Europe,True
 Montserrat,13,,1,,12,North America,True
 Morocco,32007,,480,,22190,Africa,True
@@ -145,7 +145,7 @@ Nigeria,46140,,942,,33044,Africa,True
 North Macedonia,11754,,523,,7622,Europe,True
 Norway,9599,,256,,8857,Europe,True
 Oman,81357,,509,,73481,Asia,True
-Pakistan,283487,,6068,,259604,Asia,True
+Pakistan,284121,634,6082,14,260248,Asia,True
 Palestine,13928,,96,,7706,Asia,True
 Panama,73651,,1609,,47484,North America,True
 Papua New Guinea,188,,3,,53,Australia/Oceania,True
@@ -183,13 +183,13 @@ Sri Lanka,2841,,11,,2576,Asia,True
 Sudan,11894,,773,,6243,Africa,True
 Suriname,2306,,29,,1558,South America,True
 Sweden,82323,,5763,,N/A,Europe,False
-Switzerland,36451,,1986,,31900,Europe,True
+Switzerland,36451,,1986,,32000,Europe,True
 Syria,1125,,50,,331,Asia,True
 São Tomé and Príncipe,878,,15,,800,Africa,True
-Taiwan,479,,7,,443,Asia,True
+Taiwan,480,1,7,,443,Asia,True
 Tajikistan,7706,,62,,6484,Asia,True
 Tanzania,509,,21,,183,Africa,True
-Thailand,3348,,58,,3150,Asia,True
+Thailand,3351,3,58,,3151,Asia,True
 Timor-Leste,25,,,,24,Asia,False
 Togo,1046,,23,,721,Africa,True
 Trinidad and Tobago,275,,8,,135,North America,True
@@ -198,16 +198,16 @@ Turkey,239622,,5829,,222656,Asia,True
 Turks and Caicos,170,,2,,39,North America,True
 UAE,62300,,356,,56245,Asia,True
 UK,309763,,46566,,N/A,Europe,False
-USA,5149723,,165070,,2638470,North America,True
+USA,5150060,337,165074,4,2638673,North America,True
 Uganda,1267,,6,,1115,Africa,True
 Ukraine,79750,,1879,,43655,Europe,True
 Uruguay,1335,,37,,1112,South America,True
-Uzbekistan,29652,,187,,21006,Asia,True
+Uzbekistan,30197,545,190,3,21316,Asia,True
 Vatican City,12,,,,12,Europe,False
-Venezuela,24961,,215,,13356,South America,False
+Venezuela,24961,,215,,13356,South America,True
 Vietnam,812,,10,,395,Asia,True
 Western Sahara,10,,1,,8,Africa,True
 Yemen,1797,,512,,910,Asia,True
 Zambia,7903,,203,,6431,Africa,True
 Zimbabwe,4575,,102,,1416,Africa,True
-World,19799846,9347,729496,791,12513011,,False
+World,19807216,16701,729571,865,12517981,,False
