@@ -246,6 +246,7 @@ function processData(allText) {
             s+=a[j];
             counter +=1;
         }
+        return s;
     }
     document.getElementById('total_cases').innerHTML = splitstring(lines[0][3]);
     document.getElementById('total_deaths').innerHTML = splitstring(lines[0][7]);
