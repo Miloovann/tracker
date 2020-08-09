@@ -126,6 +126,30 @@
                 <p id="total_recovered"></p>
             </div>
         </div>
+        <script type="text/javascript">
+            $.get('August9all.csv', function(data) {
+            var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="100%">\n';
+            var head = data.split("\n");
+            for (var i = 0; i < 1; i++) {
+                build += "<tr>";
+                currentRow = head[i].split(",");
+                for (let i2 = 0; i2 < currentRow.length; i2++) {
+                    build += `<th>${currentRow[i2]}</th>`;
+                }
+                build += "</tr>";
+            }
+            for (var i = 1; i < head.length; i++) {
+                build += "<tr>";
+                currentRow = head[i].split(",");
+                for (let i2 = 0; i2 < currentRow.length; i2++) {
+                    build += `<td>${currentRow[i2]}</td>`;
+                }
+                build += "</tr>";
+            }
+            build += "</table>";
+            document.write(build);
+            });
+        </script>
         <div class="int" style="padding-top: 130px;">
             <img src = "worldwidetotal10.svg" style="width: 26%;">
             <img src = "worldwidedeath10.svg" style="width: 26%;">
@@ -303,29 +327,5 @@ var month=last.getMonth();
                 b[i].style.display = 'inline-block';
             }
         }
-    </script>
-    <script type="text/javascript">
-        $.get('August9all.csv', function(data) {
-        var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="100%">\n';
-        var head = data.split("\n");
-        for (var i = 0; i < 1; i++) {
-            build += "<tr>";
-            currentRow = head[i].split(",");
-            for (let i2 = 0; i2 < currentRow.length; i2++) {
-                build += `<th>${currentRow[i2]}</th>`;
-            }
-            build += "</tr>";
-        }
-        for (var i = 1; i < head.length; i++) {
-            build += "<tr>";
-            currentRow = head[i].split(",");
-            for (let i2 = 0; i2 < currentRow.length; i2++) {
-                build += `<td>${currentRow[i2]}</td>`;
-            }
-            build += "</tr>";
-        }
-        build += "</table>";
-        document.write(build);
-        });
     </script>
 </html>
