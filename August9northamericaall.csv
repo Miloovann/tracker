@@ -1,0 +1,39 @@
+Country,TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,Continent,Reliable
+Anguilla,3,,,,3,North America,False
+Antigua and Barbuda,92,,3,,76,North America,True
+Aruba,509,,3,,114,North America,True
+Bahamas,878,,14,,99,North America,True
+Barbados,138,,7,,108,North America,True
+Belize,146,,2,,32,North America,True
+Bermuda,157,,9,,144,North America,True
+British Virgin Islands,9,,1,,7,North America,True
+Canada,119221,,8976,,103566,North America,False
+Caribbean Netherlands,13,,,,7,North America,False
+Cayman Islands,203,,1,,202,North America,True
+Costa Rica,22802,,228,,7589,North America,True
+Cuba,2888,,88,,2442,North America,True
+Curaçao,31,,1,,30,North America,True
+Dominica,18,,,,18,North America,False
+Dominican Republic,78778,,1289,,42538,North America,True
+El Salvador,19978,,536,,9515,North America,True
+Greenland,14,,,,14,North America,False
+Grenada,24,,,,23,North America,False
+Guadeloupe,290,,14,,186,North America,True
+Guatemala,56189,,2197,,44072,North America,True
+Haiti,7599,,177,,4893,North America,True
+Honduras,46973,608,1476,11,6428,North America,True
+Jamaica,1003,16,13,,745,North America,True
+Martinique,336,,16,,98,North America,True
+Mexico,475902,6495,52006,695,318638,North America,True
+Montserrat,13,,1,,12,North America,True
+Nicaragua,3902,,123,,2913,North America,True
+Panama,73651,,1609,,47484,North America,True
+Saint Barthelemy,9,,,,6,North America,False
+Saint Kitts and Nevis,17,,,,16,North America,False
+Saint Lucia,25,,,,24,North America,False
+Saint Martin,53,,3,,41,North America,True
+Saint Pierre and Miquelon,4,,,,1,North America,False
+Saint Vincent and the Grenadines,56,,,,49,North America,False
+Trinidad and Tobago,275,,8,,135,North America,True
+Turks and Caicos,170,,2,,39,North America,True
+USA,5149723,,165070,,2638470,North America,True
