@@ -219,7 +219,7 @@ function processData(allText) {
             var tarr = [];
             for (var j=0; j<headers.length; j++) {
                 tarr.push(headers[j]);
-                tarr.push(data[j]);
+                tarr.push(data[j].toLocaleString());
             }
             lines.push(tarr);
         }
