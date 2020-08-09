@@ -224,9 +224,17 @@ function processData(allText) {
             lines.push(tarr);
         }
    // alert(lines);
+    function lengthof(a){
+        for (var k=0; k<10000; k++){
+        if(a[k] === null){
+    return k;
+    break;
+    }
+    }
+    }
     function splitstring(a){
         var s = "";
-        for (var j=0; j<a.length; j++){
+        for (var j=0; j<lengthof(a); j++){
         if (j%3===0){
             s += ",";
         }
@@ -334,7 +342,7 @@ var month=last.getMonth();
             build += "</tr>";
         }
         build += "</table>";
-        document.getElementById(build);
+        document.getElementById;
         });
     </script>
 </html>
