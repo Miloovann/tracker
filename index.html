@@ -106,6 +106,7 @@
         <div id="newsandprotection">
             <div id="navforstats">
                 <p class="hover" onclick="filter('int')">Global</p>
+                <p class="hover" onclick="filter('singapore')">Singapore</p>
                 <p class="hover" onclick="filter('afc')">Africa</p>
                 <p class="hover" onclick="filter('asa')">Asia</p>
                 <p class="hover" onclick="filter('eu')">Europe</p>
@@ -156,6 +157,11 @@
             <img src = "worldwidedeath10.svg" style="width: 26%;">
             <img src = "worldwiderecovered10.svg" style="width: 26%;">
             <div id = "globaltable"></div>
+        </div>
+        <div class="singapore" style="padding-top: 130px;">
+            <img src =  style="width: 26%;">
+            <img src =  style="width: 26%;">
+            <img src =  style="width: 26%;">
         </div>
         <div class="eu" style="padding-top: 130px;">
             <img src = "europetotal10.svg" style="width: 26%;">
@@ -274,17 +280,19 @@
         }
         function filter(a){
             inter = document.getElementsByClassName('int');
+            singapore = document.getElementsByClassName('singapore');
             eu = document.getElementsByClassName('eu');
             asa = document.getElementsByClassName('asa');
             afc = document.getElementsByClassName('afc');
             nam = document.getElementsByClassName('nam');
             sam = document.getElementsByClassName('sam');
-            for(var i=0; i<inter.length; i++)   {inter[i].style.display = 'none';}
-            for(var i=0; i<eu.length; i++)      {eu[i].style.display = 'none';}
-            for(var i=0; i<asa.length; i++)     {asa[i].style.display = 'none';}
-            for(var i=0; i<afc.length; i++)     {afc[i].style.display = 'none';}
-            for(var i=0; i<nam.length; i++)     {nam[i].style.display = 'none';}
-            for(var i=0; i<sam.length; i++)     {sam[i].style.display = 'none';}
+            for(var i=0; i<inter.length; i++)       {inter[i].style.display = 'none';}
+            for(var i=0; i<singapore.length;i++)    {singapore[i].style.display = 'none';}
+            for(var i=0; i<eu.length; i++)          {eu[i].style.display = 'none';}
+            for(var i=0; i<asa.length; i++)         {asa[i].style.display = 'none';}
+            for(var i=0; i<afc.length; i++)         {afc[i].style.display = 'none';}
+            for(var i=0; i<nam.length; i++)         {nam[i].style.display = 'none';}
+            for(var i=0; i<sam.length; i++)         {sam[i].style.display = 'none';}
             b = document.getElementsByClassName(a);
             for(var i=0; i<b.length; i++)       {b[i].style.display = 'inline-block';}
         }
