@@ -239,7 +239,7 @@ function processData(allText) {
         counter = 0;
         for (var j=0; j<q; j++){
             if (counter >= special){
-                if ((j-special)%3===0){
+                if ((j-special)%3===0&&(j-special)!==0){
                     s += ",";
                 }
             }
