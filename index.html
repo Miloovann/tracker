@@ -211,9 +211,8 @@
             <img src = "south Americadeath10.svg" style="width: 26%;">
             <img src = "south Americarecovered10.svg" style="width: 26%;">
         </div>
-        <div id="minus0"></div>
-        <img id = 'minus0'>
         <script>
+            var slides = [];
             for(var days=0; days<15; days++){
                 var date = new Date();
                 var last = new Date(date.getTime() - (days * 24 * 60 * 60 * 1000));
@@ -231,11 +230,18 @@
                 else if(month===9){month = 'Oct';}
                 else if(month===10){month = 'Nov';}
                 else if(month===11){month = 'Dec';}
-                document.getElementById('minus'+0).innerHTML = abc
+                document.getElementById('minus'+days).innerHTML = abc
+                slides.push("minus"+days);
             }
+            var str = '<ul>'
+            
+            slides.forEach(function(slide) {
+              str += '<li>'+ slide + '</li>';
+            }); 
+            
+            str += '</ul>';
+            document.getElementById("slideContainer").innerHTML = str;
         </script>
-        <div id="minus0"></div>
-        <img id = 'minus0'>
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
