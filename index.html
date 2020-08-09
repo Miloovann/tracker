@@ -214,16 +214,28 @@
         <div id="minus0"></div>
         <img id = 'minus0'>
         <script>
-            var slides = ["slide 1", "slide 2", "slide 3", "slide 4", "slide 5"]
-            var str = '<ul>'
-            
-            slides.forEach(function(slide) {
-              str += '<li>'+ slide + '</li>';
-            }); 
-            
-            str += '</ul>';
-            document.getElementById("slideContainer").innerHTML = str;
+            for(var days=0; days<15; days++){
+                var date = new Date();
+                var last = new Date(date.getTime() - (days * 24 * 60 * 60 * 1000));
+                var day =last.getDate();
+                var month=last.getMonth();
+                if(month===0){month = 'Jan';}
+                else if(month===1){month = 'Feb';}            
+                else if(month===2){month = 'Mar';}
+                else if(month===3){month = 'Apr';}
+                else if(month===4){month = 'May';}
+                else if(month===5){month = 'Jun';}
+                else if(month===6){month = 'Jul';}
+                else if(month===7){month = 'Aug';}
+                else if(month===8){month = 'Sep';}
+                else if(month===9){month = 'Oct';}
+                else if(month===10){month = 'Nov';}
+                else if(month===11){month = 'Dec';}
+                document.getElementById('minus'+0).innerHTML = abc
+            }
         </script>
+        <div id="minus0"></div>
+        <img id = 'minus0'>
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
@@ -294,27 +306,7 @@
         document.getElementById('total_deaths').innerHTML = splitstring(lines[0][7]);
         document.getElementById('total_recovered').innerHTML = splitstring(lines[0][11]);
         }
-        function sgdatelink(){
-            for(var days=0; days<15; days++){
-                var date = new Date();
-                var last = new Date(date.getTime() - (days * 24 * 60 * 60 * 1000));
-                var day =last.getDate();
-                var month=last.getMonth();
-                if(month===0){month = 'Jan';}
-                else if(month===1){month = 'Feb';}            
-                else if(month===2){month = 'Mar';}
-                else if(month===3){month = 'Apr';}
-                else if(month===4){month = 'May';}
-                else if(month===5){month = 'Jun';}
-                else if(month===6){month = 'Jul';}
-                else if(month===7){month = 'Aug';}
-                else if(month===8){month = 'Sep';}
-                else if(month===9){month = 'Oct';}
-                else if(month===10){month = 'Nov';}
-                else if(month===11){month = 'Dec';}
-                document.getElementById('minus'+0).innerHTML = abc
-            }
-        }
+
         function filter(a){
             inter = document.getElementsByClassName('int');
             singapore = document.getElementsByClassName('singapore');
