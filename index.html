@@ -219,14 +219,23 @@ function processData(allText) {
             var tarr = [];
             for (var j=0; j<headers.length; j++) {
                 tarr.push(headers[j]);
-                tarr.push(data[j].toLocaleString());
+                tarr.push(data[j]);
             }
             lines.push(tarr);
         }
    // alert(lines);
-    document.getElementById('total_cases').innerHTML = lines[0][3].toLocaleString();
-    document.getElementById('total_deaths').innerHTML = lines[0][7].toLocaleString();
-    document.getElementById('total_recovered').innerHTML = lines[0][11].toLocaleString();
+    function splitstring(a){
+        var s = "";
+        for (var j=0; j<a.length; j++){
+        if (j%3===0){
+            s += ",";
+        }
+            s+=a[j];
+        }
+    }
+    document.getElementById('total_cases').innerHTML = splitstring(lines[0][3]);
+    document.getElementById('total_deaths').innerHTML = splitstring(lines[0][7]);
+    document.getElementById('total_recovered').innerHTML = splitstring(lines[0][11]);
 }
         
         function sgdatelink(){
