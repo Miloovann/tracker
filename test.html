@@ -1,0 +1,9 @@
+var slides = ["slide 1", "slide 2", "slide 3", "slide 4", "slide 5"]
+var str = '<ul>'
+
+slides.forEach(function(slide) {
+    str += '<li>'+ slide + '</li>';
+}); 
+str += '</ul>';
+document.getElementById("slideContainer").innerHTML = str;
+<div id="slideContainer"></div>

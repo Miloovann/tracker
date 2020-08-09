@@ -296,6 +296,14 @@
             <img src = "europetotal10.svg" style="width: 26%;">
             <img src = "europedeath10.svg" style="width: 26%;">
             <img src = "europerecovered10.svg" style="width: 26%;">
+            var slides = ["slide 1", "slide 2", "slide 3", "slide 4", "slide 5"]
+            var str = '<ul>'
+            slides.forEach(function(slide) {
+                str += '<li>'+ slide + '</li>';
+            }); 
+            str += '</ul>';
+            document.getElementById("slideContainer").innerHTML = str;
+            <div id="slideContainer"></div>    
         </div>
         <div class="asa" style="padding-top: 130px;">
             <img src = "asiatotal10.svg" style="width: 26%;">
