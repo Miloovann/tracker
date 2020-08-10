@@ -129,7 +129,7 @@
             .dropdown:hover .dropbtn {background-color: transparent;}
         </style>
         <style>
-            .dropbtncomm {
+            .dropbtncom {
               background-color: #93cff1;
               border-radius: 20px;
               color: black;
@@ -137,11 +137,11 @@
               font-size: 16px;
               border: none;
             }
-            .dropdowncomm {
+            .dropdowncom {
               position: relative;
               display: inline-block;
             }
-            .dropdown-contentcomm {
+            .dropdowncom-content {
               display: none;
               border-radius: 20px;
               position: absolute;
@@ -152,16 +152,16 @@
               box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
               z-index: 1;
             }
-            .dropdown-contentcomm a {
+            .dropdowncom-content a {
               color: black;
               border-radius: 20px;
               padding: 160px;
               text-decoration: none;
               display: block;
             }
-            .dropdown-contentcomm a:hover {background-color: #ddd;}
-            .dropdown:hover .dropdown-contentcomm {display: block;}
-            .dropdown:hover .dropbtncomm {background-color: transparent;}
+            .dropdowncom-content a:hover {background-color: #ddd;}
+            .dropdowncom:hover .dropdowncom-content {display: block;}
+            .dropdowncom:hover .dropbtncom {background-color: transparent;}
         </style>
     </head>
     <body onload='filter("int")'>
@@ -257,9 +257,9 @@
             <div id = "globaltable"></div>
         </div>
         <div class="singapore" style="padding-top: 130px;"  onload='sgfilter("minus1")'>
-            <div class="dropdownsg">
-                <button class="dropbtnsg">Date</button>
-                <div class="dropdown-contentsg">
+            <div class="dropdowncom">
+                <button class="dropbtncom">Date</button>
+                <div class="dropdowncom-contentsg">
                     <p class="hover" onclick="comfilter('communitybarsg')" style="font-size:16px">Bar Graph</p>
                     <p class="hover" onclick="comfilter('communitylinesg')" style="font-size:16px">Line Graph</p>
                 </div>
