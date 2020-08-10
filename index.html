@@ -198,6 +198,41 @@
             .dropdowndorm:hover .dropdowndorm-content {display: block;}
             .dropdowndorm:hover .dropbtndorm {background-color: transparent;}
         </style>
+        <style>
+            .dropbtntotal {
+              background-color: #93cff1;
+              border-radius: 20px;
+              color: black;
+              padding: 16px;
+              font-size: 16px;
+              border: none;
+            }
+            .dropdowntotal {
+              position: relative;
+              display: inline-block;
+            }
+            .dropdowntotal-content {
+              display: none;
+              border-radius: 20px;
+              position: absolute;
+              margin-left: 10px;
+              padding-left: 5px;
+              background-color: #93cff1;
+              min-width: 60px;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+            }
+            .dropdowntotal-content a {
+              color: black;
+              border-radius: 20px;
+              padding: 160px;
+              text-decoration: none;
+              display: block;
+            }
+            .dropdowntotal-content a:hover {background-color: #ddd;}
+            .dropdowntotal:hover .dropdowntotal-content {display: block;}
+            .dropdowntotal:hover .dropbtntotal {background-color: transparent;}
+        </style>
     </head>
     <body onload='filter("int"); sgfilter("minus1"); comfilter("communitylinesg"); dormfilter("dormlinesg"); importedfilter("importedlinesg"); totalfilter("totallinesg")'>
         <div id="navbar">
@@ -236,7 +271,7 @@
             </div>
         </div>
         <script language="JavaScript" type="text/javascript">
-            $.get('August10all.csv', function(data) {
+            $.get('August11all.csv', function(data) {
                 var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="100%">\n';
                 var head = data.split("\n");
                 for (var i = 0; i < 1; i++) {
@@ -292,9 +327,17 @@
             <div id = "globaltable"></div>
         </div>
 
-        <div class="singapore" style="padding-top: 130px;"  onload='sgfilter("minus1")'>
+        <div class="singapore" style="padding-top: 130px;">
+            <div class="dropdowntotal">
+                <button class="dropbtntotal">Graphs</button>
+                <div class="dropdowntotal-content">
+                    <p class="hover" onclick="totalfilter('totalbarsg')" style="font-size:16px">Bar</p>
+                    <p class="hover" onclick="totalfilter('totallinesg')" style="font-size:16px">Line</p>
+                </div>
+            </div>
             <img id = "totalbarsg" src="SGtotalbar14D.svg" style='width:40%'>
             <img id = "totallinesg" src="SGtotalline14D.svg" style='width:40%'>
+
             <p></p>
             <div class="dropdowncom">
                 <button class="dropbtncom">Graphs</button>
@@ -306,6 +349,14 @@
             <img id = "communitybarsg" src="SGcommunitybar14D.svg" style='width:40%'>
             <img id = "communitylinesg" src="SGcommunityline14D.svg" style='width:40%'>
 
+            <p></p>
+            <div class="dropdownimported">
+                <button class="dropbtnimported">Graphs</button>
+                <div class="dropdownimported-content">
+                    <p class="hover" onclick="importedfilter('importedbarsg')" style="font-size:16px">Bar</p>
+                    <p class="hover" onclick="importedfilter('importedlinesg')" style="font-size:16px">Line</p>
+                </div>
+            </div>
             <img id = "importedbarsg" src="SGimportedbar14D.svg" style='width:40%'>
             <img id = "importedlinesg" src="SGimportedline14D.svg" style='width:40%'>
             
@@ -313,8 +364,8 @@
             <div class="dropdowndorm">
                 <button class="dropbtndorm">Graphs</button>
                 <div class="dropdowndorm-content">
-                    <p class="hover" onclick="dormfilter('communitybarsg')" style="font-size:16px">Bar</p>
-                    <p class="hover" onclick="dormfilter('communitylinesg')" style="font-size:16px">Line</p>
+                    <p class="hover" onclick="dormfilter('dormbarsg')" style="font-size:16px">Bar</p>
+                    <p class="hover" onclick="dormfilter('dormlinesg')" style="font-size:16px">Line</p>
                 </div>
             </div>
             <img id = "dormbarsg" src="SGdormbar14D.svg" style='width:40%'>
@@ -328,7 +379,6 @@
                 </div>
             </div>
             <div id="slideContainer"></div>
-
         </div>
         <div class="eu" style="padding-top: 130px;">
             <img src = "europetotal10.svg" style="width: 26%;">
