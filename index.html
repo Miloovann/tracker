@@ -158,9 +158,6 @@
                 <p class="hover" onclick="filter('sam')" style="font-size:25px">South America</p>
             </div>
         </div>
-        <div id = "Singaporestats">
-            <div id="ddown"></div>
-        </div>
         <div id="rightbar">
             <h2>WorldWide Data</h2>
             <div id="infection">
@@ -231,6 +228,9 @@
             <div id = "globaltable"></div>
         </div>
         <div class="singapore" style="padding-top: 130px;">
+            <div id = "Singaporestats">
+                <div id="ddown"></div>
+            </div>
             <div class="dropdown">
                 <button class="dropbtn">Date</button>
                 <div class="dropdown-content">
@@ -400,8 +400,16 @@
         function sgfilter(a){
             minus1 = document.getElementsById('minus1');
             minus2 = document.getElementsById('minus2');
-            for(var i=0; i<minus0.length; i++)       {minus1[i].style.display = 'none';}
-            for(var i=0; i<minus1.length;i++)    {minus2[i].style.display = 'none';}
+            minus3 = document.getElementsById('minus3');
+            minus3 = document.getElementsById('minus4');
+            minus5 = document.getElementsById('minus5');
+            minus6 = document.getElementsById('minus6');
+            for(var i=0; i<minus1.length;i++)       {minus1[i].style.display = 'none';}
+            for(var i=0; i<minus2.length;i++)       {minus2[i].style.display = 'none';}
+            for(var i=0; i<minus3.length;i++)       {minus3[i].style.display = 'none';}
+            for(var i=0; i<minus4.length;i++)       {minus4[i].style.display = 'none';}
+            for(var i=0; i<minus5.length;i++)       {minus5[i].style.display = 'none';}
+            for(var i=0; i<minus6.length;i++)       {minus6[i].style.display = 'none';}
             b = document.getElementsById(a);
             for(var i=0; i<b.length; i++)       {b[i].style.display = 'inline-block';}
         }
