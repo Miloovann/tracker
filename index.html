@@ -297,7 +297,7 @@
         
         var weeks = sgdatelink();
         var drop = ''
-        for(var iter=1; iter<15; iter++){
+        for(var iter=0; iter<14; iter++){
             drop += '<p class="hover" onclick="sgfilter(' + "'" +slides[iter] + "'" + ')" style="font-size:25px">' + weeks[iter] + "</p>"
         }
         document.getElementById("ddown").innerHTML = drop;
