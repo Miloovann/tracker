@@ -231,8 +231,7 @@
             <div class="dropdown">
                 <button class="dropbtn">Dropdown</button>
                 <div class="dropdown-content">
-                  <a href="#">Link 1</a>
-                  <a href="#">Link 2</a>
+                    <div id="ddown"></div>
                 </div>
               </div>
             <div id="slideContainer"></div>
@@ -262,19 +261,48 @@
             <img src = "south Americadeath10.svg" style="width: 26%;">
             <img src = "south Americarecovered10.svg" style="width: 26%;">
         </div>
-        <script>
-            var slides = ["minus1","minus2","minus3", "minus4", "minus5","minus6", "minus7", "minus8","minus9", "minus10", "minus11", "minus12", "minus13","minus14"]
-            var str = ''
-            
-            slides.forEach(function(slide) {
-              str += '<img id ='+ slide + '  style="width: 40%;">';
-            });
-            document.getElementById("slideContainer").innerHTML = str;
-        </script>
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
     <script>
+        function sgdatelink(){
+            for(var days=1; days<15; days++){
+                var fortnight = [];
+                var date = new Date();
+                var last = new Date(date.getTime() - (days * 24 * 60 * 60 * 1000));
+                var day =last.getDate();
+                var month=last.getMonth();
+                if(month===0){month = 'Jan';}
+                else if(month===1){month = 'Feb';}            
+                else if(month===2){month = 'Mar';}
+                else if(month===3){month = 'Apr';}
+                else if(month===4){month = 'May';}
+                else if(month===5){month = 'Jun';}
+                else if(month===6){month = 'Jul';}
+                else if(month===7){month = 'Aug';}
+                else if(month===8){month = 'Sep';}
+                else if(month===9){month = 'Oct';}
+                else if(month===10){month = 'Nov';}
+                else if(month===11){month = 'Dec';}
+                fortnight.push(day+' '+month)
+                document.getElementById('minus'+days).setAttribute('src', 'SG '+day+' '+month+' Cases.svg');
+                return fortnight;
+            }
+        }
+        var slides = ["minus1","minus2","minus3", "minus4", "minus5","minus6", "minus7", "minus8","minus9", "minus10", "minus11", "minus12", "minus13","minus14"]
+        var str = ''
+        slides.forEach(function(slide) {
+            str += '<img id ='+ slide + '  style="width: 40%;">';
+        });
+        document.getElementById("slideContainer").innerHTML = str;
+
+        var weeks = sgdatelink();
+        var drop = ''
+        weeks.forEach(function(iter) {
+            drop += '<a href="#">' + iter + '</a>'
+        });
+        document.getElementById("ddown").innerHTML = drop;
+
+        //Today's date and month
         var today = new Date();
         var m = today.getMonth();
         var d = today.getDate();
@@ -290,6 +318,42 @@
         else if(m===9){m = 'October';}
         else if(m===10){m = 'November';}
         else if(m===11){m = 'December';}
+        //Today's all.csv
+        $(document).ready(function(){
+            $.ajax({
+                type: "GET",
+                url: m+d+"all.csv",
+                dataType: "text",
+                success: function(data) {processData(data);}
+            });
+        });
+        alert(url);
+        // start csv
+        $.get(url, function(data) { //assuming url can be called here
+        var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="100%">\n';
+        var head = data.split("\n");
+        for (var i = 0; i < 1; i++) {
+            build += "<tr>";
+            currentRow = head[i].split(",");
+            for (let i2 = 0; i2 < currentRow.length; i2++) {
+                build += `<th>${currentRow[i2]}</th>`;
+            }
+            build += "</tr>";
+        }
+        for (var i = 1; i < head.length; i++) {
+            build += "<tr>";
+            currentRow = head[i].split(",");
+            for (let i2 = 0; i2 < currentRow.length; i2++) {
+                build += `<td>${currentRow[i2]}</td>`;
+            }
+            build += "</tr>";
+        }
+        build += "</table>";
+        document.write(build);
+    });
+        // end csv
+
+        //
         $(document).ready(function(){
             $.ajax({
                 type: "GET",
@@ -313,6 +377,7 @@
             lines.push(tarr);
         }
         //alert(lines);
+
         function lengthof(a){
             for (var k=0; k<10000; k++){
                 if(a[k] === undefined){
@@ -341,27 +406,6 @@
         document.getElementById('total_deaths').innerHTML = splitstring(lines[0][7]);
         document.getElementById('total_recovered').innerHTML = splitstring(lines[0][11]);
         }
-        function sgdatelink(){
-            for(var days=1; days<15; days++){
-                var date = new Date();
-                var last = new Date(date.getTime() - (days * 24 * 60 * 60 * 1000));
-                var day =last.getDate();
-                var month=last.getMonth();
-                if(month===0){month = 'Jan';}
-                else if(month===1){month = 'Feb';}            
-                else if(month===2){month = 'Mar';}
-                else if(month===3){month = 'Apr';}
-                else if(month===4){month = 'May';}
-                else if(month===5){month = 'Jun';}
-                else if(month===6){month = 'Jul';}
-                else if(month===7){month = 'Aug';}
-                else if(month===8){month = 'Sep';}
-                else if(month===9){month = 'Oct';}
-                else if(month===10){month = 'Nov';}
-                else if(month===11){month = 'Dec';}
-                document.getElementById('minus'+days).setAttribute('src', 'SG '+day+' '+month+' Cases.svg');
-            }
-        }
         function filter(a){
             inter = document.getElementsByClassName('int');
             singapore = document.getElementsByClassName('singapore');
@@ -380,6 +424,5 @@
             b = document.getElementsByClassName(a);
             for(var i=0; i<b.length; i++)       {b[i].style.display = 'inline-block';}
         }
-        sgdatelink();
     </script>
 </html>
