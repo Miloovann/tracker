@@ -128,6 +128,41 @@
             .dropdown:hover .dropdown-content {display: block;}
             .dropdown:hover .dropbtn {background-color: transparent;}
         </style>
+        <style>
+            .dropbtnsg {
+              background-color: #93cff1;
+              border-radius: 20px;
+              color: black;
+              padding: 16px;
+              font-size: 16px;
+              border: none;
+            }
+            .dropdownsg {
+              position: relative;
+              display: inline-block;
+            }
+            .dropdown-contentsg {
+              display: none;
+              border-radius: 20px;
+              position: absolute;
+              margin-left: 10px;
+              padding-left: 5px;
+              background-color: #93cff1;
+              min-width: 60px;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+            }
+            .dropdown-contentsg a {
+              color: black;
+              border-radius: 20px;
+              padding: 160px;
+              text-decoration: none;
+              display: block;
+            }
+            .dropdown-contentsg a:hover {background-color: #ddd;}
+            .dropdown:hover .dropdown-contentsg {display: block;}
+            .dropdown:hover .dropbtnsg {background-color: transparent;}
+        </style>
     </head>
     <body onload='filter("int")'>
         <div id="navbar">
@@ -222,6 +257,13 @@
             <div id = "globaltable"></div>
         </div>
         <div class="singapore" style="padding-top: 130px;"  onload='sgfilter("minus1")'>
+            <div class="dropdownsg">
+                <button class="dropbtnsg">Date</button>
+                <div class="dropdown-contentsg">
+                    <p class="hover" onclick="comfilter('communitybarsg')" style="font-size:16px">Bar Graph</p>
+                    <p class="hover" onclick="comfilter('communitylinesg')" style="font-size:16px">Line Graph</p>
+                </div>
+              </div>
             <img id = "totalbarsg" src="SGtotalbar14D.svg" style='width:40%'>
             <img id = "totallinesg" src="SGtotalline14D.svg" style='width:40%'>
             <img id = "communitybarsg" src="SGcommunitybar14D.svg" style='width:40%'>
@@ -418,9 +460,9 @@
         //End Filter Function 2.0
 
         //Start Comm Filter Function
-        function commfilter(a){
-            minus1 = document.getElementById('minus1').style.display = 'none';
-            minus2 = document.getElementById('minus2').style.display = 'none';
+        function comfilter(a){
+            communitybarsg = document.getElementById('communitybarsg').style.display = 'none';
+            communitylinesg = document.getElementById('communitylinesg').style.display = 'none';
             b = document.getElementById(a).style.display = 'inline-block';
         }
         //End Filter Functiom Comm
