@@ -235,15 +235,12 @@
                 document.getElementById('minus'+days).setAttribute('src', 'SG '+day+' '+month+' Cases.svg');
             }
             var slides = ["minus0", "minus1", "minus2","minus3", "minus4", "minus5","minus6", "minus7", "minus8","minus9", "minus10", "minus11", "minus12", "minus13"]
-            var str = '<div>'
+            var str = '<div>' + alldates
             
-            alldates.forEach(function(slide) {
-              str += ' '+ slide + ' ';
-            }); 
+            
             str+= "</div>"
             document.getElementById("slideContainer").innerHTML = str;
         </script>
-        <img id = "minus0" src = "SG 6 Aug Cases.svg">
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
