@@ -226,6 +226,14 @@
             <div id = "globaltable"></div>
         </div>
         <div class="singapore" style="padding-top: 130px;"  onload='sgfilter("minus1")'>
+            <img src="SGtotalbar14D.svg" style='width:40%'>
+            <img src="SGctotalline14D.svg" style='width:40%'>
+            <img src="SGcommunitybar14D.svg" style='width:40%'>
+            <img src="SGcommunityline14D.svg" style='width:40%'>
+            <img src="SGimportedbar14D.svg" style='width:40%'>
+            <img src="SGimportedline14D.svg" style='width:40%'>
+            <img src="SGdormbar14D.svg" style='width:40%'>
+            <img src="SGdormline14D.svg" style='width:40%'>
             <div class="dropdown">
                 <button class="dropbtn">Date</button>
                 <div class="dropdown-content">
@@ -262,6 +270,7 @@
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
+        //SG Pie
         function sgdatelink(){
             var fortnight = [];
             for(var days=1; days<15; days++){
@@ -299,6 +308,7 @@
             drop += '<p class="hover" onclick="sgfilter(' + "'" +slides[iter] + "'" + ')" style="font-size:16px">' + weeks[iter] + "</p>"
         }
         document.getElementById("ddown").innerHTML = drop;
+        //End SG Pie
 
         //csv location
 
@@ -410,5 +420,13 @@
             b = document.getElementById(a).style.display = 'inline-block';
         }
         //End Filter Function 2.0
+
+        //Start Comm Filter Function
+        function sgfilter(a){
+            minus1 = document.getElementById('minus1').style.display = 'none';
+            minus2 = document.getElementById('minus2').style.display = 'none';
+            b = document.getElementById(a).style.display = 'inline-block';
+        }
+        //End Filter Functiom Comm
     </script>
 </html>
