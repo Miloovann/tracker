@@ -7,7 +7,7 @@ Angola,1672,,75,,567,Africa,True
 Anguilla,3,,,,3,North America,False
 Antigua and Barbuda,92,,3,,76,North America,True
 Argentina,246499,,4606,,108242,South America,True
-Armenia,40410,,791,,32520,Asia,True
+Armenia,40433,23,796,5,32616,Asia,False
 Aruba,563,,3,,114,North America,True
 Australia,21407,323,314,19,11876,Australia/Oceania,True
 Austria,22033,,721,,19923,Europe,True
@@ -49,7 +49,7 @@ Croatia,5604,,157,,4861,Europe,True
 Cuba,2953,,88,,2451,North America,True
 Curaçao,31,,1,,30,North America,True
 Cyprus,1242,,19,,870,Asia,True
-Czechia,18353,,390,,12785,Europe,True
+Czechia,18355,2,390,,12785,Europe,False
 DR Congo,9454,,224,,8324,Africa,True
 Denmark,14442,,617,,12840,Europe,True
 Djibouti,5344,,59,,5106,Africa,True
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,True
 Yemen,1804,,515,,913,Asia,True
 Zambia,8085,,235,,6698,Africa,True
 Zimbabwe,4649,,104,,1437,Africa,True
-World,20021612,9639,733930,413,12692486,,False
+World,20021637,9664,733935,418,12692582,,False
