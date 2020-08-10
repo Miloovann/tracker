@@ -2,30 +2,30 @@ Country,TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,Continent,Relia
 Afghanistan,37162,108,1328,4,26228,Asia,True
 Armenia,40433,23,796,5,32616,Asia,True
 Azerbaijan,33647,79,492,2,30642,Asia,True
-Bahrain,44011,,163,1,40967,Asia,False
+Bahrain,44011,,163,1,40967,Asia,True
 Bangladesh,260507,2907,3438,39,150437,Asia,True
 Bhutan,110,2,,,96,Asia,False
 Brunei,142,,3,,138,Asia,False
 Cambodia,251,3,,,219,Asia,False
 China,84668,49,4634,,79232,Asia,True
-Cyprus,1242,,19,,870,Asia,True
+Cyprus,1252,10,19,,870,Asia,True
 Georgia,1250,25,17,,1010,Asia,True
 Hong Kong,4149,69,55,1,2916,Asia,True
-India,2226229,12092,44597,131,1544646,Asia,True
+India,2266954,52817,45352,886,1580269,Asia,True
 Indonesia,127083,1687,5765,42,82236,Asia,True
 Iran,328844,2132,18616,189,286642,Asia,True
 Iraq,153599,3484,5464,72,109790,Asia,True
-Israel,83540,538,606,6,58934,Asia,True
+Israel,84722,1720,613,13,58998,Asia,True
 Japan,46783,,1040,,32312,Asia,True
-Jordan,1252,,11,,1187,Asia,True
+Jordan,1268,16,11,,1187,Asia,True
 Kazakhstan,99442,741,1058,,72523,Asia,True
 Kuwait,72400,687,482,4,64028,Asia,True
 Kyrgyzstan,40085,166,1474,6,32126,Asia,True
 Laos,20,,,,19,Asia,False
-Lebanon,6517,,78,,2127,Asia,True
+Lebanon,6812,295,80,2,2290,Asia,True
 Macao,46,,,,46,Asia,False
 Malaysia,9094,11,125,,8803,Asia,True
-Maldives,5041,,19,,2804,Asia,True
+Maldives,5157,116,19,,2835,Asia,True
 Mongolia,293,,,,263,Asia,False
 Myanmar,360,,6,,312,Asia,True
 Nepal,23310,338,79,4,16493,Asia,True
@@ -35,16 +35,16 @@ Palestine,14510,302,100,3,8045,Asia,True
 Philippines,136638,6958,2294,24,68159,Asia,True
 Qatar,113262,315,188,4,109993,Asia,True
 Saudi Arabia,289947,1257,3199,32,253478,Asia,True
-Singapore,55292,188,27,,49609,Asia,True
+Singapore,55292,,27,,49609,Asia,True
 South Korea,14626,28,305,,13658,Asia,True
-Sri Lanka,2844,,11,,2593,Asia,True
-Syria,1188,,52,,346,Asia,True
+Sri Lanka,2870,26,11,,2593,Asia,True
+Syria,1255,67,52,,364,Asia,True
 Taiwan,480,,7,,443,Asia,True
 Tajikistan,7827,82,62,,6614,Asia,True
 Thailand,3351,,58,,3160,Asia,True
 Timor-Leste,25,,,,24,Asia,False
-Turkey,240804,,5844,,223759,Asia,True
-UAE,62525,,357,,56568,Asia,True
+Turkey,241997,1193,5858,14,224970,Asia,True
+UAE,62704,179,357,,56766,Asia,True
 Uzbekistan,31068,459,198,4,22559,Asia,True
-Vietnam,847,6,13,2,399,Asia,True
-Yemen,1804,,515,,913,Asia,True
+Vietnam,847,6,15,4,399,Asia,True
+Yemen,1826,22,518,3,915,Asia,True
