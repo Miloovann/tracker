@@ -290,16 +290,17 @@
         }
 
         var slides = ["minus1","minus2","minus3", "minus4", "minus5","minus6", "minus7", "minus8","minus9", "minus10", "minus11", "minus12", "minus13","minus14"]
-        var weeks = sgdatelink();
         var str = ''
-        var drop = ''
         slides.forEach(function(slide) {
             str += '<img id ='+ slide + '  style="width: 40%;">';
         });
+        document.getElementById("slideContainer").innerHTML = str;
+        
+        var weeks = sgdatelink();
+        var drop = ''
         weeks.forEach(function(iter) {
             drop += '<a href="#">' + iter + '</a>'
         });
-        document.getElementById("slideContainer").innerHTML = str;
         document.getElementById("ddown").innerHTML = drop;
 
         //csv location
