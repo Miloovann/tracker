@@ -1,16 +1,16 @@
 Country,TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,Continent,Reliable
-Algeria,35160,,1302,,24506,Africa,True
+Algeria,35214,,1302,,24506,Africa,True
 Angola,1672,,75,,567,Africa,True
 Benin,1936,,38,,1600,Africa,True
 Botswana,804,,2,,63,Africa,True
-Burkina Faso,1175,,54,,974,Africa,True
+Burkina Faso,1204,29,54,,984,Africa,True
 Burundi,408,,1,,315,Africa,True
 Cabo Verde,2858,,32,,2086,Africa,True
 Cameroon,18042,,395,,15320,Africa,True
 Central African Republic,4641,,60,,1721,Africa,True
 Chad,944,,76,,839,Africa,True
 Comoros,399,,7,,369,Africa,True
-DR Congo,9454,,224,,8324,Africa,True
+DR Congo,9489,35,224,,8363,Africa,True
 Djibouti,5344,,59,,5106,Africa,True
 Egypt,95492,,5009,,52678,Africa,True
 Equatorial Guinea,4821,,83,,2182,Africa,True
@@ -40,7 +40,7 @@ Niger,1158,,69,,1057,Africa,True
 Nigeria,46577,,945,,33186,Africa,True
 Rwanda,2140,,7,,1346,Africa,True
 Réunion,687,,5,,631,Africa,True
-Senegal,11175,,232,,7352,Africa,True
+Senegal,11312,137,236,4,7390,Africa,False
 Seychelles,126,,,,125,Africa,False
 Sierra Leone,1916,,68,,1445,Africa,True
 Somalia,3227,,93,,1728,Africa,True

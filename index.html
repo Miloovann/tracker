@@ -265,8 +265,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
         function sgdatelink(){
+            var fortnight = [];
             for(var days=1; days<15; days++){
-                var fortnight = [];
                 var date = new Date();
                 var last = new Date(date.getTime() - (days * 24 * 60 * 60 * 1000));
                 var day =last.getDate();
@@ -285,8 +285,8 @@
                 else if(month===11){month = 'Dec';}
                 fortnight.push(day+' '+month)
                 document.getElementById('minus'+days).setAttribute('src', 'SG '+day+' '+month+' Cases.svg');
-                return fortnight;
             }
+            return fortnight;
         }
         var slides = ["minus1","minus2","minus3", "minus4", "minus5","minus6", "minus7", "minus8","minus9", "minus10", "minus11", "minus12", "minus13","minus14"]
         var str = ''
@@ -302,34 +302,8 @@
         });
         document.getElementById("ddown").innerHTML = drop;
 
-        //Today's date and month
-        var today = new Date();
-        var m = today.getMonth();
-        var d = today.getDate();
-        if(m===0){m = 'January';}
-        else if(m===1){m = 'February';}            
-        else if(m===2){m = 'March';}
-        else if(m===3){m = 'April';}
-        else if(m===4){m = 'May';}
-        else if(m===5){m = 'June';}
-        else if(m===6){m = 'July';}
-        else if(m===7){m = 'August';}
-        else if(m===8){m = 'September';}
-        else if(m===9){m = 'October';}
-        else if(m===10){m = 'November';}
-        else if(m===11){m = 'December';}
-        //Today's all.csv
-        $(document).ready(function(){
-            $.ajax({
-                type: "GET",
-                url: m+d+"all.csv",
-                dataType: "text",
-                success: function(data) {processData(data);}
-            });
-        });
-        alert(url);
         // start csv
-        $.get(url, function(data) { //assuming url can be called here
+        $.get('August9all.csv', function(data) {
         var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="100%">\n';
         var head = data.split("\n");
         for (var i = 0; i < 1; i++) {
@@ -353,7 +327,22 @@
     });
         // end csv
 
-        //
+        //Start Right Bar collection
+        var today = new Date();
+        var m = today.getMonth();
+        var d = today.getDate();
+        if(m===0){m = 'January';}
+        else if(m===1){m = 'February';}            
+        else if(m===2){m = 'March';}
+        else if(m===3){m = 'April';}
+        else if(m===4){m = 'May';}
+        else if(m===5){m = 'June';}
+        else if(m===6){m = 'July';}
+        else if(m===7){m = 'August';}
+        else if(m===8){m = 'September';}
+        else if(m===9){m = 'October';}
+        else if(m===10){m = 'November';}
+        else if(m===11){m = 'December';}
         $(document).ready(function(){
             $.ajax({
                 type: "GET",
@@ -376,8 +365,6 @@
             }
             lines.push(tarr);
         }
-        //alert(lines);
-
         function lengthof(a){
             for (var k=0; k<10000; k++){
                 if(a[k] === undefined){
@@ -406,6 +393,9 @@
         document.getElementById('total_deaths').innerHTML = splitstring(lines[0][7]);
         document.getElementById('total_recovered').innerHTML = splitstring(lines[0][11]);
         }
+        //End Right Bar Collection
+
+        //Start Filter Function to automatically set a initial page 
         function filter(a){
             inter = document.getElementsByClassName('int');
             singapore = document.getElementsByClassName('singapore');
@@ -424,5 +414,6 @@
             b = document.getElementsByClassName(a);
             for(var i=0; i<b.length; i++)       {b[i].style.display = 'inline-block';}
         }
+        //End Filter Function
     </script>
 </html>

@@ -1,21 +1,21 @@
 Country,TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,Continent,Reliable
-Afghanistan,37054,,1312,,25960,Asia,True
-Armenia,40433,23,796,5,32616,Asia,False
+Afghanistan,37162,108,1328,4,26228,Asia,True
+Armenia,40433,23,796,5,32616,Asia,True
 Azerbaijan,33568,,490,,30364,Asia,True
 Bahrain,44011,,162,,40967,Asia,True
-Bangladesh,257600,,3399,,148370,Asia,True
+Bangladesh,260507,2907,3438,39,150437,Asia,True
 Bhutan,110,2,,,96,Asia,False
 Brunei,142,,3,,138,Asia,False
 Cambodia,251,3,,,219,Asia,False
 China,84668,49,4634,,79232,Asia,True
 Cyprus,1242,,19,,870,Asia,True
 Georgia,1250,25,17,,1010,Asia,True
-Hong Kong,4080,,52,1,2847,Asia,True
-India,2215074,937,44466,,1535743,Asia,True
-Indonesia,125396,,5723,,80952,Asia,True
-Iran,326712,,18427,,284371,Asia,True
+Hong Kong,4149,69,55,1,2916,Asia,True
+India,2217645,3508,44499,33,1536259,Asia,True
+Indonesia,127083,1687,5765,42,82236,Asia,True
+Iran,328844,2132,18616,189,286642,Asia,True
 Iraq,150115,,5392,,107775,Asia,True
-Israel,83002,,600,,57533,Asia,True
+Israel,83540,538,606,6,58934,Asia,True
 Japan,46783,,1040,,32312,Asia,True
 Jordan,1252,,11,,1187,Asia,True
 Kazakhstan,99442,741,1058,,72523,Asia,True
@@ -24,20 +24,20 @@ Kyrgyzstan,40085,166,1474,6,32126,Asia,True
 Laos,20,,,,19,Asia,False
 Lebanon,6517,,78,,2127,Asia,True
 Macao,46,,,,46,Asia,False
-Malaysia,9083,,125,,8784,Asia,True
+Malaysia,9094,11,125,,8803,Asia,True
 Maldives,5041,,19,,2804,Asia,True
 Mongolia,293,,,,263,Asia,False
 Myanmar,360,,6,,312,Asia,True
-Nepal,22972,,75,,16353,Asia,True
-Oman,81580,,513,,74691,Asia,True
+Nepal,23310,338,79,4,16493,Asia,True
+Oman,81787,207,521,8,76124,Asia,True
 Pakistan,284660,539,6097,15,260764,Asia,True
 Palestine,14208,,97,,7945,Asia,True
 Philippines,129913,,2270,,67673,Asia,True
 Qatar,112947,,184,,109709,Asia,True
 Saudi Arabia,288690,,3167,,252039,Asia,True
-Singapore,55104,,27,,48915,Asia,True
+Singapore,55292,188,27,,48915,Asia,True
 South Korea,14626,28,305,,13658,Asia,True
-Sri Lanka,2844,,11,,2579,Asia,True
+Sri Lanka,2844,,11,,2593,Asia,True
 Syria,1188,,52,,346,Asia,True
 Taiwan,480,,7,,443,Asia,True
 Tajikistan,7745,,62,,6484,Asia,True
