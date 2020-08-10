@@ -293,17 +293,18 @@
         var str = ''
         var weeks = sgdatelink();
         var drop = ''
+        weeks.forEach(function(iter) {
+            drop += '<a href="#">' + iter + '</a>'
+        });
+        document.getElementById("ddown").innerHTML = drop;
+
         slides.forEach(function(slide) {
             str += '<img id ='+ slide + '  style="width: 40%;">';
         });
         document.getElementById("slideContainer").innerHTML = str;
         
 
-        weeks.forEach(function(iter) {
-            drop += '<a href="#">' + iter + '</a>'
-        });
-        document.getElementById("ddown").innerHTML = drop;
-
+        
         //csv location
 
         //Start Right Bar collection
