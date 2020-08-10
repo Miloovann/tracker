@@ -128,7 +128,7 @@
             </div>
         </div>
         <script type="text/javascript">
-            $.get('August9all.csv', function(data) {
+            $.get('August10all.csv', function(data) {
                 var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="100%">\n';
                 var head = data.split("\n");
                 for (var i = 0; i < 1; i++) {
@@ -211,7 +211,6 @@
             <img src = "south Americadeath10.svg" style="width: 26%;">
             <img src = "south Americarecovered10.svg" style="width: 26%;">
         </div>
-        <script>sgdatelink()</script>
         <div id="slideContainer"></div>
         <script>
             var slides = ["minus0", "minus1", "minus2","minus3", "minus4", "minus5","minus6", "minus7", "minus8","minus9", "minus10", "minus11", "minus12", "minus13"]
@@ -333,5 +332,6 @@
             b = document.getElementsByClassName(a);
             for(var i=0; i<b.length; i++)       {b[i].style.display = 'inline-block';}
         }
+        sgdatelink();
     </script>
 </html>
