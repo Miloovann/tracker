@@ -158,6 +158,9 @@
                 <p class="hover" onclick="filter('sam')" style="font-size:25px">South America</p>
             </div>
         </div>
+        <div id = "Singaporestats">
+            <div id="ddown"></div>
+        </div>
         <div id="rightbar">
             <h2>WorldWide Data</h2>
             <div id="infection">
@@ -288,15 +291,18 @@
             }
             return fortnight;
         }
-        var weeks = sgdatelink();
         var slides = ["minus1","minus2","minus3", "minus4", "minus5","minus6", "minus7", "minus8","minus9", "minus10", "minus11", "minus12", "minus13","minus14"]
-        var drop = ''
         var str = ''
-        for(var iter=1; iter<15; iter++){
-            drop += '<a href="#">' + weeks[iter] + '</a>';
-            str += '<img id ='+ slides[iter] + '  style="width: 40%;">';
-        }
+        slides.forEach(function(slide) {
+            str += '<img id ='+ slide + '  style="width: 40%;">';
+        });
         document.getElementById("slideContainer").innerHTML = str;
+        
+        var weeks = sgdatelink();
+        var drop = ''
+        for(var iter=1; iter<15; iter++){
+            drop += '<p class="hover" onclick="sgfilter(' + "'" +slides[iter] + "'" + ')" style="font-size:25px">' + weeks[iter] + "</p>"
+        }
         document.getElementById("ddown").innerHTML = drop;
 
         //csv location
@@ -388,6 +394,17 @@
             b = document.getElementsByClassName(a);
             for(var i=0; i<b.length; i++)       {b[i].style.display = 'inline-block';}
         }
-        //End Filter Function
+        //End Filter Function 1.0
+
+        //Start Filter Function to set auto sg graph
+        function sgfilter(a){
+            minus1 = document.getElementsById('minus1');
+            minus2 = document.getElementsById('minus2');
+            for(var i=0; i<minus0.length; i++)       {minus1[i].style.display = 'none';}
+            for(var i=0; i<minus1.length;i++)    {minus2[i].style.display = 'none';}
+            b = document.getElementsById(a);
+            for(var i=0; i<b.length; i++)       {b[i].style.display = 'inline-block';}
+        }
+        //End Filter Function 2.0
     </script>
 </html>
