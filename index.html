@@ -226,6 +226,14 @@
             <div id = "globaltable"></div>
         </div>
         <div class="singapore" style="padding-top: 130px;"  onload='sgfilter("minus1")'>
+            <img src="SGtotalbar14D.svg" style='width:40%'>
+            <img src="SGtotalline14D.svg" style='width:40%'>
+            <img src="SGcommunitybar14D.svg" style='width:40%'>
+            <img src="SGcommunityline14D.svg" style='width:40%'>
+            <img src="SGimportedbar14D.svg" style='width:40%'>
+            <img src="SGimportedline14D.svg" style='width:40%'>
+            <img src="SGdormbar14D.svg" style='width:40%'>
+            <img src="SGdormline14D.svg" style='width:40%'>
             <div class="dropdown">
                 <button class="dropbtn">Date</button>
                 <div class="dropdown-content">
@@ -412,6 +420,12 @@
         }
         //End Filter Function 2.0
 
-
+        //Start Comm Filter Function
+        function commfilter(a){
+            minus1 = document.getElementById('minus1').style.display = 'none';
+            minus2 = document.getElementById('minus2').style.display = 'none';
+            b = document.getElementById(a).style.display = 'inline-block';
+        }
+        //End Filter Functiom Comm
     </script>
 </html>
