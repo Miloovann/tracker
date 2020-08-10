@@ -188,7 +188,7 @@
             <div id = "globaltable"></div>
         </div>
         <div class="singapore" style="padding-top: 130px;">
-            <script>slideContainer()</script>
+            <div id="slideContainer"></div>
         </div>
         <div class="eu" style="padding-top: 130px;">
             <img src = "europetotal10.svg" style="width: 26%;">
@@ -220,7 +220,7 @@
             var str = ''
             
             slides.forEach(function(slide) {
-              str += '<img id ='+ slide + '  style="width: 26%;">';
+              str += '<img id ='+ slide + '  style="width: 40%;">';
             });
             document.getElementById("slideContainer").innerHTML = str;
         </script>
