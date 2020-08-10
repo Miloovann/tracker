@@ -163,8 +163,43 @@
             .dropdowncom:hover .dropdowncom-content {display: block;}
             .dropdowncom:hover .dropbtncom {background-color: transparent;}
         </style>
+        <style>
+            .dropbtndorm {
+              background-color: #93cff1;
+              border-radius: 20px;
+              color: black;
+              padding: 16px;
+              font-size: 16px;
+              border: none;
+            }
+            .dropdowndorm {
+              position: relative;
+              display: inline-block;
+            }
+            .dropdowndorm-content {
+              display: none;
+              border-radius: 20px;
+              position: absolute;
+              margin-left: 10px;
+              padding-left: 5px;
+              background-color: #93cff1;
+              min-width: 60px;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+            }
+            .dropdowndorm-content a {
+              color: black;
+              border-radius: 20px;
+              padding: 160px;
+              text-decoration: none;
+              display: block;
+            }
+            .dropdowndorm-content a:hover {background-color: #ddd;}
+            .dropdowndorm:hover .dropdowndorm-content {display: block;}
+            .dropdowndorm:hover .dropbtndorm {background-color: transparent;}
+        </style>
     </head>
-    <body onload='filter("int"); sgfilter("minus1"); comfilter("communitylinesg")' >
+    <body onload='filter("int"); sgfilter("minus1"); comfilter("communitylinesg"); dormfilter("dormlinesg")' >
         <div id="navbar">
             <img id="logo" src="logo.png" onclick="">
 
@@ -260,6 +295,7 @@
         <div class="singapore" style="padding-top: 130px;"  onload='sgfilter("minus1")'>
             <img id = "totalbarsg" src="SGtotalbar14D.svg" style='width:40%'>
             <img id = "totallinesg" src="SGtotalline14D.svg" style='width:40%'>
+            <p></p>
             <div class="dropdowncom">
                 <button class="dropbtncom">Graphs</button>
                 <div class="dropdowncom-content">
@@ -269,10 +305,21 @@
             </div>
             <img id = "communitybarsg" src="SGcommunitybar14D.svg" style='width:40%'>
             <img id = "communitylinesg" src="SGcommunityline14D.svg" style='width:40%'>
+
             <img id = "importedbarsg" src="SGimportedbar14D.svg" style='width:40%'>
             <img id = "importedlinesg" src="SGimportedline14D.svg" style='width:40%'>
+            
+            <p></p>
+            <div class="dropdowndorm">
+                <button class="dropbtndorm">Graphs</button>
+                <div class="dropdowndorm-content">
+                    <p class="hover" onclick="dormfilter('communitybarsg')" style="font-size:16px">Bar</p>
+                    <p class="hover" onclick="dormfilter('communitylinesg')" style="font-size:16px">Line</p>
+                </div>
+            </div>
             <img id = "dormbarsg" src="SGdormbar14D.svg" style='width:40%'>
             <img id = "dormlinesg" src="SGdormline14D.svg" style='width:40%'>
+
             <p></p>
             <div class="dropdown">
                 <button class="dropbtn">Date</button>
@@ -281,6 +328,7 @@
                 </div>
             </div>
             <div id="slideContainer"></div>
+            
         </div>
         <div class="eu" style="padding-top: 130px;">
             <img src = "europetotal10.svg" style="width: 26%;">
@@ -467,5 +515,13 @@
             b = document.getElementById(a).style.display = 'inline-block';
         }
         //End Filter Functiom Comm
+
+        //Start dorm Filter Function
+        function comfilter(a){
+            dormbarsg = document.getElementById('dormbarsg').style.display = 'none';
+            dormlinesg = document.getElementById('dormlinesg').style.display = 'none';
+            b = document.getElementById(a).style.display = 'inline-block';
+        }
+        //End Filter Functiom dorm
     </script>
 </html>
