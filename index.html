@@ -213,25 +213,7 @@
         </div>
         <div id="slideContainer"></div>
         <script>
-            for(var days=0; days<15; days++){
-                var date = new Date();
-                var last = new Date(date.getTime() - (days * 24 * 60 * 60 * 1000));
-                var day =last.getDate();
-                var month=last.getMonth();
-                if(month===0){month = 'Jan';}
-                else if(month===1){month = 'Feb';}            
-                else if(month===2){month = 'Mar';}
-                else if(month===3){month = 'Apr';}
-                else if(month===4){month = 'May';}
-                else if(month===5){month = 'Jun';}
-                else if(month===6){month = 'Jul';}
-                else if(month===7){month = 'Aug';}
-                else if(month===8){month = 'Sep';}
-                else if(month===9){month = 'Oct';}
-                else if(month===10){month = 'Nov';}
-                else if(month===11){month = 'Dec';}
-                document.getElementById('minus'+days).setAttribute('src', 'SG '+day+' '+month+' Cases.svg');
-            }
+            
             var slides = ["slide 1", "slide 2", "slide 3", "slide 4", "slide 5"]
             var str = '<ul>'
             
@@ -242,6 +224,7 @@
             str += '</ul>';
             document.getElementById("slideContainer").innerHTML = str;
         </script>
+        <img id = "minus0">
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
