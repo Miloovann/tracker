@@ -214,16 +214,17 @@
         <div id="slideContainer"></div>
         <script>
             
-            var slides = ["minus0", "minus1", "minus2","minus3", "minus4", "minus5","minus6", "minus7", "minus8","minus9", "minus10", "minus11", "minus12", "minus13"]
-            var str = '<div>'
+            var slides = ["slide 1", "slide 2", "slide 3", "slide 4", "slide 5"]
+            var str = '<ul>'
             
             slides.forEach(function(slide) {
-              str += '<img id = '+ slide + '>';
+              str += '<li>'+ slide + '</li>';
             }); 
             
-            str += '</div>';
+            str += '</ul>';
             document.getElementById("slideContainer").innerHTML = str;
         </script>
+        <img id = "minus0">
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
