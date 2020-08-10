@@ -1,15 +1,15 @@
 Country,TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,Continent,Reliable
-Argentina,246499,,4634,28,108242,South America,True
+Argentina,253868,7369,4764,158,108242,South America,True
 Bolivia,89999,944,3640,53,29808,South America,True
-Brazil,3057470,21888,101752,616,2118460,South America,True
+Brazil,3057470,21888,101857,721,2163812,South America,False
 Chile,375044,1988,10139,62,347342,South America,True
-Colombia,387481,,12842,,212688,South America,True
+Colombia,397623,10142,13154,312,221485,South America,True
 Ecuador,94701,242,5932,10,78608,South America,True
 Falkland Islands,13,,,,13,South America,False
-French Guiana,8267,,48,,7501,South America,True
+French Guiana,8324,57,49,1,7549,South America,True
 Guyana,568,,22,,189,South America,True
 Paraguay,6907,,75,,5222,South America,True
 Peru,478024,,21072,,324020,South America,True
 Suriname,2391,,29,,1635,South America,True
-Uruguay,1353,,37,,1125,South America,True
+Uruguay,1364,11,37,,1146,South America,True
 Venezuela,25805,,223,,13356,South America,True

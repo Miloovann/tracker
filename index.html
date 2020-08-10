@@ -199,7 +199,7 @@
             .dropdowndorm:hover .dropbtndorm {background-color: transparent;}
         </style>
     </head>
-    <body onload='filter("int"); sgfilter("minus1"); comfilter("communitylinesg"); dormfilter("dormlinesg")' >
+    <body onload='filter("int"); sgfilter("minus1"); comfilter("communitylinesg"); dormfilter("dormlinesg"); importedfilter("importedlinesg"); totalfilter("totallinesg")'>
         <div id="navbar">
             <img id="logo" src="logo.png" onclick="">
 
@@ -523,5 +523,21 @@
             b = document.getElementById(a).style.display = 'inline-block';
         }
         //End Filter Functiom dorm
+
+        //Start total Filter Function
+        function totalfilter(a){
+            totalbarsg = document.getElementById('totalbarsg').style.display = 'none';
+            totallinesg = document.getElementById('totallinesg').style.display = 'none';
+            b = document.getElementById(a).style.display = 'inline-block';
+        }
+        //End Filter Functiom total
+
+        //Start imported Filter Function
+        function importedfilter(a){
+            importedbarsg = document.getElementById('importedbarsg').style.display = 'none';
+            importedlinesg = document.getElementById('importedlinesg').style.display = 'none';
+            b = document.getElementById(a).style.display = 'inline-block';
+        }
+        //End Filter Functiom imported
     </script>
 </html>
