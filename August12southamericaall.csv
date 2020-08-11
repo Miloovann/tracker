@@ -1,15 +1,15 @@
 Country,AllCase,NewCase,AllDeath,NewDeath,AllRecovered,Continent,Reliability*
 Argentina,253868,,4785,21,181389,South America,1
 Bolivia,91635,1636,3712,72,30823,South America,1
-Brazil,3112393,54923,103099,1242,2243124,South America,0
+Brazil,3112393,54923,103099,1242,2243124,South America,1
 Chile,376616,1572,10178,39,349541,South America,1
 Colombia,410453,12830,13475,321,230427,South America,1
 Ecuador,95563,862,5951,19,78610,South America,1
 Falkland Islands,13,,,,13,South America,0
 French Guiana,8360,36,49,,7632,South America,1
-Guyana,568,,22,,189,South America,1
+Guyana,602,34,22,,189,South America,0
 Paraguay,7234,,82,,5276,South America,1
 Peru,483133,,21276,,329404,South America,1
-Suriname,2489,,30,,1674,South America,1
-Uruguay,1364,,37,,1146,South America,1
+Suriname,2559,70,39,9,1712,South America,1
+Uruguay,1385,21,37,,1157,South America,1
 Venezuela,26800,,229,,16930,South America,1
