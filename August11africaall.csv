@@ -1,4 +1,4 @@
-Country,AllCase,NewCase,AllDeath,NewDeath,AllRecovered,Continent,Accuracy*
+Country,AllCase,NewCase,AllDeath,NewDeath,AllRecovered,Continent,Reliability*
 Algeria,35712,,1312,,24920,Africa,1
 Angola,1679,,78,,569,Africa,1
 Benin,2001,65,38,,1681,Africa,1
@@ -41,7 +41,7 @@ Nigeria,46867,,950,,33346,Africa,1
 Rwanda,2152,,7,,1392,Africa,1
 Réunion,690,,5,,631,Africa,1
 Senegal,11380,68,238,2,7449,Africa,1
-Seychelles,126,,,,125,Africa,0
+Seychelles,127,1,,,126,Africa,0
 Sierra Leone,1917,,69,,1447,Africa,1
 Somalia,3227,,93,,1728,Africa,1
 South Africa,563598,,10621,,417200,Africa,1
