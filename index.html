@@ -164,6 +164,41 @@
             .dropdowncom:hover .dropbtncom {background-color: transparent;}
         </style>
         <style>
+            .dropbtnimported {
+              background-color: #93cff1;
+              border-radius: 20px;
+              color: black;
+              padding: 16px;
+              font-size: 16px;
+              border: none;
+            }
+            .dropdownimported {
+              position: relative;
+              display: inline-block;
+            }
+            .dropdownimported-content {
+              display: none;
+              border-radius: 20px;
+              position: absolute;
+              margin-left: 10px;
+              padding-left: 5px;
+              background-color: #93cff1;
+              min-width: 60px;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+            }
+            .dropdownimported-content a {
+              color: black;
+              border-radius: 20px;
+              padding: 160px;
+              text-decoration: none;
+              display: block;
+            }
+            .dropdownimported-content a:hover {background-color: #ddd;}
+            .dropdownimported:hover .dropdownimported-content {display: block;}
+            .dropdownimported:hover .dropbtnimported {background-color: transparent;}
+        </style>
+        <style>
             .dropbtndorm {
               background-color: #93cff1;
               border-radius: 20px;
