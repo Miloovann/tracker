@@ -292,8 +292,6 @@
             <span class="navbar-toggler-icon "></span>
         </button>
 
-
-
         <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
             <ul class="navbar-nav">
                 <li class="nav-item">
@@ -307,6 +305,9 @@
                 </li>
                 <li class="nav-item">
                     <p class="hover nav-item nav-link" onclick="filter('asa')" style="font-size:25px">Asia</p>
+                </li>
+                <li class="nav-item">
+                    <p class="hover nav-item nav-link" onclick="filter('aus')" style="font-size:25px">Australia</p>
                 </li>
                 <li class="nav-item">
                     <p class="hover nav-item nav-link" onclick="filter('eu')" style="font-size:25px">Europe</p>
@@ -342,6 +343,7 @@
                 <p class="hover" onclick="filter('singapore')" style="font-size:25px">Singapore</p>
                 <p class="hover" onclick="filter('afc')" style="font-size:25px">Africa</p>
                 <p class="hover" onclick="filter('asa')" style="font-size:25px">Asia</p>
+                <p class="hover" onclick="filter('aus')" style="font-size:25px">Australia/Oceania</p>
                 <p class="hover" onclick="filter('eu')" style="font-size:25px">Europe</p>
                 <p class="hover" onclick="filter('nam')" style="font-size:25px">North America</p>
                 <p class="hover" onclick="filter('sam')" style="font-size:25px">South America</p>
@@ -509,6 +511,13 @@
             <div id = "afrtable"></div>
             <p>*If data is consistent across all sources, accuracy is 1.
                 If data is inconsistent and is retrieved solely from worldometers, accuracy is 0</p>
+        </div>
+        <div class="aus" style="padding-top: 130px;">
+            <img src = "AustraliaOceaniatotal10.svg" style="width: 26%;">
+            <img src = "AustraliaOceaniadeath10.svg" style="width: 26%;">
+            <img src = "AustraliaOceaniarecovered10.svg" style="width: 26%;">
+            <div id = "austable"></div>
+            <p>*True means that data is consistent across all sources, False means that data is inconsistent and is retrieved solely from worldometers</p>
         </div>
         <div class="nam" style="padding-top: 130px;">
             <img src = "north Americatotal10.svg" style="width: 26%;">
@@ -709,6 +718,31 @@
             }
             build += "</table>";
             document.getElementById("asatable").innerHTML = build;
+        });
+
+        $.get(m+d+"AustraliaOceania"+"all.csv", function(data) {
+            var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="80%">\n';
+            var head = data.split("\n");
+            for (var i = 0; i < 1; i++) {
+                build += "<tr>";
+                currentRow = head[i].split(",");
+                for (let i2 = 0; i2 < currentRow.length; i2++) {
+                    build += `<th>${currentRow[i2]}</th>`;
+                }
+                build += "</tr>";
+            }
+            for (var i = 1; i < head.length; i++) {
+                build += "<tr>";
+                currentRow = head[i].split(",");
+                if (currentRow.length === 8){
+                    for (let i2 = 0; i2 < currentRow.length; i2++) {
+                        build += `<td>${currentRow[i2]}</td>`;
+                    }
+                }
+                build += "</tr>";
+            }
+            build += "</table>";
+            document.getElementById("austable").innerHTML = build;
         });
 
         $.get(m+d+"europe"+"all.csv", function(data) {
