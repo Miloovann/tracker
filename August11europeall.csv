@@ -1,49 +1,49 @@
-Country,AllCases,NewCases,AllDeaths,NewDeaths,AllRecovered,Continent,Accuracy*
-Albania,6536,,200,,3379,Europe,True
-Andorra,963,,52,,839,Europe,True
-Austria,22245,139,723,,20123,Europe,True
-Belarus,69005,58,592,3,65219,Europe,False
-Belgium,74620,468,9879,7,17792,Europe,True
-Bosnia and Herzegovina,14498,,425,,8159,Europe,True
-Bulgaria,13512,,459,,7980,Europe,True
-Channel Islands,599,,47,,545,Europe,True
-Croatia,5649,,158,,4906,Europe,True
-Czechia,18494,,390,,12983,Europe,True
-Denmark,14815,,620,,12925,Europe,True
-Estonia,2167,9,63,,1968,Europe,True
-Faroe Islands,318,12,,,225,Europe,False
-Finland,7623,22,333,,6980,Europe,True
-France,202775,,30340,,82836,Europe,False
-Germany,218500,,9265,,198900,Europe,True
-Gibraltar,201,,,,186,Europe,False
-Greece,5749,,213,,3804,Europe,True
-Hungary,4746,15,605,,3527,Europe,True
-Iceland,1962,,10,,1838,Europe,True
-Ireland,26768,,1772,,23364,Europe,True
-Isle of Man,336,,24,,312,Europe,True
-Italy,250825,,35209,,202248,Europe,True
-Latvia,1293,3,32,,1078,Europe,True
-Liechtenstein,89,,1,,85,Europe,True
-Lithuania,2283,18,81,,1679,Europe,True
-Luxembourg,7216,,121,,6170,Europe,True
-Malta,1141,29,9,,692,Europe,True
-Moldova,27841,,850,,19300,Europe,True
-Monaco,133,,4,,113,Europe,True
-Montenegro,3696,,68,,2521,Europe,True
-Netherlands,59194,,6157,,N/A,Europe,False
-North Macedonia,11942,,528,,8087,Europe,True
-Norway,9684,,256,,8857,Europe,True
-Poland,52961,551,1821,12,37150,Europe,True
-Portugal,52825,,1759,,38600,Europe,True
-Romania,63762,1215,2764,35,30585,Europe,True
-Russia,897599,4945,15131,130,703175,Europe,True
-San Marino,699,,42,,657,Europe,True
-Serbia,28262,,646,,18965,Europe,True
-Slovakia,2615,16,31,,1874,Europe,True
-Slovenia,2272,17,129,1,1960,Europe,True
-Spain,370060,,28576,,N/A,Europe,False
-Sweden,82972,,5766,,N/A,Europe,False
-Switzerland,36895,187,1990,3,32400,Europe,True
-UK,311641,,46526,,N/A,Europe,False
-Ukraine,83115,1158,1951,29,44934,Europe,True
-Vatican City,12,,,,12,Europe,False
+Country,AllCase,NewCase,AllDeath,NewDeath,AllRecovered,Continent,Accuracy*
+Albania,6536,,200,,3379,Europe,1
+Andorra,963,,52,,839,Europe,1
+Austria,22245,139,723,,20123,Europe,1
+Belarus,69005,58,592,3,65219,Europe,1
+Belgium,74620,468,9879,7,17792,Europe,1
+Bosnia and Herzegovina,14498,,425,,8159,Europe,1
+Bulgaria,13512,,459,,7980,Europe,1
+Channel Islands,599,,47,,545,Europe,1
+Croatia,5649,,158,,4906,Europe,1
+Czechia,18494,,390,,12983,Europe,1
+Denmark,14815,,620,,12925,Europe,1
+Estonia,2167,9,63,,1968,Europe,1
+Faroe Islands,318,12,,,225,Europe,0
+Finland,7623,22,333,,6980,Europe,1
+France,202775,,30340,,82836,Europe,0
+Germany,218500,,9265,,198900,Europe,1
+Gibraltar,202,1,,,187,Europe,0
+Greece,5749,,213,,3804,Europe,1
+Hungary,4746,15,605,,3527,Europe,1
+Iceland,1962,,10,,1838,Europe,1
+Ireland,26768,,1772,,23364,Europe,1
+Isle of Man,336,,24,,312,Europe,1
+Italy,250825,,35209,,202248,Europe,1
+Latvia,1293,3,32,,1078,Europe,1
+Liechtenstein,89,,1,,85,Europe,1
+Lithuania,2283,18,81,,1679,Europe,1
+Luxembourg,7216,,121,,6170,Europe,1
+Malta,1141,29,9,,692,Europe,1
+Moldova,27841,,850,,19300,Europe,1
+Monaco,133,,4,,113,Europe,1
+Montenegro,3696,,68,,2521,Europe,1
+Netherlands,59194,,6157,,N/A,Europe,0
+North Macedonia,11942,,528,,8087,Europe,1
+Norway,9684,,256,,8857,Europe,1
+Poland,52961,551,1821,12,37150,Europe,1
+Portugal,52825,,1759,,38600,Europe,1
+Romania,63762,1215,2764,35,30585,Europe,1
+Russia,897599,4945,15131,130,703175,Europe,1
+San Marino,699,,42,,657,Europe,1
+Serbia,28262,,646,,18965,Europe,1
+Slovakia,2615,16,31,,1874,Europe,1
+Slovenia,2272,17,129,1,1960,Europe,1
+Spain,370060,,28576,,N/A,Europe,0
+Sweden,82972,,5766,,N/A,Europe,0
+Switzerland,36895,187,1990,3,32400,Europe,1
+UK,311641,,46526,,N/A,Europe,0
+Ukraine,83115,1158,1951,29,44934,Europe,1
+Vatican City,12,,,,12,Europe,0

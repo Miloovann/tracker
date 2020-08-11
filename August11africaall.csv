@@ -1,57 +1,57 @@
-Country,AllCases,NewCases,AllDeaths,NewDeaths,AllRecovered,Continent,Accuracy*
-Algeria,35712,,1312,,24920,Africa,True
-Angola,1679,,78,,569,Africa,True
-Benin,1936,,38,,1600,Africa,True
-Botswana,1066,,2,,80,Africa,True
-Burkina Faso,1204,,54,,984,Africa,True
-Burundi,408,,1,,315,Africa,True
-Cabo Verde,2883,,32,,2128,Africa,True
-Cameroon,18042,,395,,15320,Africa,True
-Central African Republic,4641,,60,,1721,Africa,True
-Chad,945,,76,,843,Africa,True
-Comoros,399,,7,,369,Africa,True
-DR Congo,9499,10,225,1,8375,Africa,False
-Djibouti,5347,,59,,5120,Africa,True
-Egypt,95666,,5035,,53779,Africa,True
-Equatorial Guinea,4821,,83,,2182,Africa,True
-Eritrea,285,,,,248,Africa,False
-Eswatini,3309,,61,,1634,Africa,True
-Ethiopia,23591,,420,,10411,Africa,True
-Gabon,8006,,51,,5823,Africa,True
-Gambia,1235,,23,,221,Africa,True
-Ghana,41212,,215,,38727,Africa,True
-Guinea,7930,,50,,6898,Africa,True
-Guinea-Bissau,2052,,29,,944,Africa,True
-Ivory Coast,16798,,105,,13052,Africa,True
-Kenya,26928,,423,,13495,Africa,True
-Lesotho,781,,24,,175,Africa,True
-Liberia,1240,,79,,725,Africa,True
-Libya,5929,,125,,724,Africa,True
-Madagascar,13317,115,152,1,11276,Africa,False
-Malawi,4674,,146,,2430,Africa,True
-Mali,2573,,125,,1969,Africa,True
-Mauritania,6555,,157,,5570,Africa,True
-Mauritius,344,,10,,334,Africa,True
-Mayotte,3068,,39,,2835,Africa,True
-Morocco,34063,,516,,24524,Africa,True
-Mozambique,2411,,16,,860,Africa,True
-Namibia,3101,,19,,715,Africa,True
-Niger,1158,,69,,1062,Africa,True
-Nigeria,46867,,950,,33346,Africa,True
-Rwanda,2152,,7,,1392,Africa,True
-Réunion,690,,5,,631,Africa,True
-Senegal,11380,68,238,2,7449,Africa,True
-Seychelles,126,,,,125,Africa,False
-Sierra Leone,1917,,69,,1447,Africa,True
-Somalia,3227,,93,,1728,Africa,True
-South Africa,563598,,10621,,417200,Africa,True
-South Sudan,2470,,47,,1175,Africa,True
-Sudan,11956,,781,,6266,Africa,True
-São Tomé and Príncipe,878,,15,,800,Africa,True
-Tanzania,509,,21,,183,Africa,True
-Togo,1067,,25,,729,Africa,True
-Tunisia,1717,,51,,1265,Africa,True
-Uganda,1313,16,9,,1138,Africa,True
-Western Sahara,10,,1,,8,Africa,True
-Zambia,8210,,241,,6802,Africa,True
-Zimbabwe,4748,,104,,1524,Africa,True
+Country,AllCase,NewCase,AllDeath,NewDeath,AllRecovered,Continent,Accuracy*
+Algeria,35712,,1312,,24920,Africa,1
+Angola,1679,,78,,569,Africa,1
+Benin,1936,,38,,1600,Africa,1
+Botswana,1066,,2,,80,Africa,1
+Burkina Faso,1204,,54,,984,Africa,1
+Burundi,408,,1,,315,Africa,1
+Cabo Verde,2883,,32,,2128,Africa,1
+Cameroon,18042,,395,,15320,Africa,1
+Central African Republic,4641,,60,,1721,Africa,1
+Chad,945,,76,,843,Africa,1
+Comoros,399,,7,,369,Africa,1
+DR Congo,9499,10,225,1,8375,Africa,1
+Djibouti,5347,,59,,5120,Africa,1
+Egypt,95666,,5035,,53779,Africa,1
+Equatorial Guinea,4821,,83,,2182,Africa,1
+Eritrea,285,,,,248,Africa,0
+Eswatini,3309,,61,,1634,Africa,1
+Ethiopia,23591,,420,,10411,Africa,1
+Gabon,8006,,51,,5823,Africa,1
+Gambia,1235,,23,,221,Africa,1
+Ghana,41212,,215,,38727,Africa,1
+Guinea,7930,,50,,6898,Africa,1
+Guinea-Bissau,2052,,29,,944,Africa,1
+Ivory Coast,16798,,105,,13052,Africa,1
+Kenya,26928,,423,,13495,Africa,1
+Lesotho,781,,24,,175,Africa,1
+Liberia,1240,,79,,725,Africa,1
+Libya,5929,,125,,724,Africa,1
+Madagascar,13317,115,152,1,11276,Africa,1
+Malawi,4674,,146,,2430,Africa,1
+Mali,2573,,125,,1969,Africa,1
+Mauritania,6555,,157,,5570,Africa,1
+Mauritius,344,,10,,334,Africa,1
+Mayotte,3068,,39,,2835,Africa,1
+Morocco,34063,,516,,24524,Africa,1
+Mozambique,2411,,16,,860,Africa,1
+Namibia,3101,,19,,715,Africa,1
+Niger,1158,,69,,1062,Africa,1
+Nigeria,46867,,950,,33346,Africa,1
+Rwanda,2152,,7,,1392,Africa,1
+Réunion,690,,5,,631,Africa,1
+Senegal,11380,68,238,2,7449,Africa,1
+Seychelles,126,,,,125,Africa,0
+Sierra Leone,1917,,69,,1447,Africa,1
+Somalia,3227,,93,,1728,Africa,1
+South Africa,563598,,10621,,417200,Africa,1
+South Sudan,2470,,47,,1175,Africa,1
+Sudan,12033,77,786,5,6282,Africa,0
+São Tomé and Príncipe,878,,15,,800,Africa,1
+Tanzania,509,,21,,183,Africa,1
+Togo,1067,,25,,729,Africa,1
+Tunisia,1717,,51,,1265,Africa,1
+Uganda,1313,16,9,,1138,Africa,1
+Western Sahara,10,,1,,8,Africa,1
+Zambia,8210,,241,,6802,Africa,1
+Zimbabwe,4748,,104,,1524,Africa,1

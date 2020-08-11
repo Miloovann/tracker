@@ -1,7 +1,7 @@
-Country,AllCases,NewCases,AllDeaths,NewDeaths,AllRecovered,Continent,Accuracy*
-Australia,21713,316,331,18,12144,Australia/Oceania,True
-Fiji,27,,1,,18,Australia/Oceania,True
-French Polynesia,112,,,,62,Australia/Oceania,False
-New Caledonia,23,,,,22,Australia/Oceania,False
-New Zealand,1570,1,22,,1526,Australia/Oceania,True
-Papua New Guinea,214,,3,,53,Australia/Oceania,True
+Country,AllCase,NewCase,AllDeath,NewDeath,AllRecovered,Continent,Accuracy*
+Australia,21713,316,331,18,12144,Australia/Oceania,1
+Fiji,27,,1,,18,Australia/Oceania,1
+French Polynesia,112,,,,62,Australia/Oceania,0
+New Caledonia,23,,,,22,Australia/Oceania,0
+New Zealand,1570,1,22,,1526,Australia/Oceania,1
+Papua New Guinea,214,,3,,53,Australia/Oceania,1

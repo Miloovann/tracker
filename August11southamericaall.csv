@@ -1,15 +1,15 @@
-Country,AllCases,NewCases,AllDeaths,NewDeaths,AllRecovered,Continent,Accuracy*
-Argentina,253868,,4764,,174974,South America,True
-Bolivia,91635,1636,3712,72,30823,South America,True
-Brazil,3057470,,101857,,2163812,South America,True
-Chile,375044,,10139,,347342,South America,True
-Colombia,397623,,13154,,221485,South America,True
-Ecuador,94701,,5932,,78608,South America,True
-Falkland Islands,13,,,,13,South America,False
-French Guiana,8324,,49,,7549,South America,True
-Guyana,568,,22,,189,South America,True
-Paraguay,7234,,82,,5276,South America,True
-Peru,483133,,21276,,329404,South America,True
-Suriname,2489,,30,,1674,South America,True
-Uruguay,1364,,37,,1146,South America,True
-Venezuela,26800,,229,,16930,South America,True
+Country,AllCase,NewCase,AllDeath,NewDeath,AllRecovered,Continent,Accuracy*
+Argentina,253868,,4764,,174974,South America,1
+Bolivia,91635,1636,3712,72,30823,South America,1
+Brazil,3057470,,101857,,2163812,South America,1
+Chile,375044,,10139,,347342,South America,1
+Colombia,397623,,13154,,221485,South America,1
+Ecuador,94701,,5932,,78608,South America,1
+Falkland Islands,13,,,,13,South America,0
+French Guiana,8324,,49,,7549,South America,1
+Guyana,568,,22,,189,South America,1
+Paraguay,7234,,82,,5276,South America,1
+Peru,483133,,21276,,329404,South America,1
+Suriname,2489,,30,,1674,South America,1
+Uruguay,1364,,37,,1146,South America,1
+Venezuela,26800,,229,,16930,South America,1
