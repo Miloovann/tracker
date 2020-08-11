@@ -1,7 +1,7 @@
 Country,AllCase,NewCase,AllDeath,NewDeath,AllRecovered,Continent,Accuracy*
 Algeria,35712,,1312,,24920,Africa,1
 Angola,1679,,78,,569,Africa,1
-Benin,1936,,38,,1600,Africa,1
+Benin,2001,65,38,,1681,Africa,1
 Botswana,1066,,2,,80,Africa,1
 Burkina Faso,1204,,54,,984,Africa,1
 Burundi,408,,1,,315,Africa,1
@@ -18,12 +18,12 @@ Eritrea,285,,,,248,Africa,0
 Eswatini,3309,,61,,1634,Africa,1
 Ethiopia,23591,,420,,10411,Africa,1
 Gabon,8006,,51,,5823,Africa,1
-Gambia,1346,111,32,9,227,Africa,0
+Gambia,1346,111,32,9,227,Africa,1
 Ghana,41212,,215,,38727,Africa,1
 Guinea,7930,,50,,6898,Africa,1
-Guinea-Bissau,2052,,29,,944,Africa,1
+Guinea-Bissau,2088,36,29,,1015,Africa,1
 Ivory Coast,16798,,105,,13052,Africa,1
-Kenya,26928,,423,,13495,Africa,1
+Kenya,27425,497,438,15,13867,Africa,0
 Lesotho,781,,24,,175,Africa,1
 Liberia,1240,,79,,725,Africa,1
 Libya,5929,,125,,724,Africa,1
@@ -46,12 +46,12 @@ Sierra Leone,1917,,69,,1447,Africa,1
 Somalia,3227,,93,,1728,Africa,1
 South Africa,563598,,10621,,417200,Africa,1
 South Sudan,2470,,47,,1175,Africa,1
-Sudan,12033,77,786,5,6282,Africa,0
+Sudan,12033,77,786,5,6282,Africa,1
 São Tomé and Príncipe,878,,15,,800,Africa,1
 Tanzania,509,,21,,183,Africa,1
 Togo,1067,,25,,729,Africa,1
 Tunisia,1717,,51,,1265,Africa,1
 Uganda,1313,16,9,,1138,Africa,1
 Western Sahara,10,,1,,8,Africa,1
-Zambia,8210,,241,,6802,Africa,1
+Zambia,8275,65,241,,7004,Africa,1
 Zimbabwe,4748,,104,,1524,Africa,1
