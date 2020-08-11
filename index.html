@@ -92,6 +92,9 @@
                 display: inline-block;
                 margin: 10px;
             }
+            #globaltable {
+                width: 80%;
+            }
         </style>
         <style>
             .dropbtn {
@@ -483,8 +486,23 @@
         document.getElementById("ddown").innerHTML = drop;
         //End SG Pie
 
+        var today = new Date();
+        var m = today.getMonth();
+        var d = today.getDate();
+        if(m===0){m = 'January';}
+        else if(m===1){m = 'February';}            
+        else if(m===2){m = 'March';}
+        else if(m===3){m = 'April';}
+        else if(m===4){m = 'May';}
+        else if(m===5){m = 'June';}
+        else if(m===6){m = 'July';}
+        else if(m===7){m = 'August';}
+        else if(m===8){m = 'September';}
+        else if(m===9){m = 'October';}
+        else if(m===10){m = 'November';}
+        else if(m===11){m = 'December';}
         // start csv
-        $.get('August10all.csv', function(data) {
+        $.get(m+d+"all.csv", function(data) {
             var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="100%">\n';
             var head = data.split("\n");
             for (var i = 0; i < 1; i++) {
@@ -509,21 +527,6 @@
         // end csv
 
         //Start Right Bar collection
-        var today = new Date();
-        var m = today.getMonth();
-        var d = today.getDate();
-        if(m===0){m = 'January';}
-        else if(m===1){m = 'February';}            
-        else if(m===2){m = 'March';}
-        else if(m===3){m = 'April';}
-        else if(m===4){m = 'May';}
-        else if(m===5){m = 'June';}
-        else if(m===6){m = 'July';}
-        else if(m===7){m = 'August';}
-        else if(m===8){m = 'September';}
-        else if(m===9){m = 'October';}
-        else if(m===10){m = 'November';}
-        else if(m===11){m = 'December';}
         $(document).ready(function(){
             $.ajax({
                 type: "GET",
