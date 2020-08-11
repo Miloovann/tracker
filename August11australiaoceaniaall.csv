@@ -1,4 +1,4 @@
-Country,TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,Continent,Reliable*
+Country,AllCases,NewCases,AllDeaths,NewDeaths,AllRecovered,Continent,Accuracy*
 Australia,21713,316,331,18,12144,Australia/Oceania,True
 Fiji,27,,1,,18,Australia/Oceania,True
 French Polynesia,112,,,,62,Australia/Oceania,False

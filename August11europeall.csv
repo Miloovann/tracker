@@ -1,8 +1,8 @@
-Country,TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,Continent,Reliable*
+Country,AllCases,NewCases,AllDeaths,NewDeaths,AllRecovered,Continent,Accuracy*
 Albania,6536,,200,,3379,Europe,True
 Andorra,963,,52,,839,Europe,True
 Austria,22245,139,723,,20123,Europe,True
-Belarus,68947,,589,,64991,Europe,True
+Belarus,69005,58,592,3,65219,Europe,False
 Belgium,74620,468,9879,7,17792,Europe,True
 Bosnia and Herzegovina,14498,,425,,8159,Europe,True
 Bulgaria,13512,,459,,7980,Europe,True
@@ -26,7 +26,7 @@ Latvia,1293,3,32,,1078,Europe,True
 Liechtenstein,89,,1,,85,Europe,True
 Lithuania,2283,18,81,,1679,Europe,True
 Luxembourg,7216,,121,,6170,Europe,True
-Malta,1112,,9,,688,Europe,True
+Malta,1141,29,9,,692,Europe,True
 Moldova,27841,,850,,19300,Europe,True
 Monaco,133,,4,,113,Europe,True
 Montenegro,3696,,68,,2521,Europe,True
@@ -35,7 +35,7 @@ North Macedonia,11942,,528,,8087,Europe,True
 Norway,9684,,256,,8857,Europe,True
 Poland,52961,551,1821,12,37150,Europe,True
 Portugal,52825,,1759,,38600,Europe,True
-Romania,62547,,2729,,30311,Europe,True
+Romania,63762,1215,2764,35,30585,Europe,True
 Russia,897599,4945,15131,130,703175,Europe,True
 San Marino,699,,42,,657,Europe,True
 Serbia,28262,,646,,18965,Europe,True
@@ -43,7 +43,7 @@ Slovakia,2615,16,31,,1874,Europe,True
 Slovenia,2272,17,129,1,1960,Europe,True
 Spain,370060,,28576,,N/A,Europe,False
 Sweden,82972,,5766,,N/A,Europe,False
-Switzerland,36708,,1987,,32400,Europe,True
+Switzerland,36895,187,1990,3,32400,Europe,True
 UK,311641,,46526,,N/A,Europe,False
 Ukraine,83115,1158,1951,29,44934,Europe,True
 Vatican City,12,,,,12,Europe,False

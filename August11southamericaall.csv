@@ -1,4 +1,4 @@
-Country,TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,Continent,Reliable*
+Country,AllCases,NewCases,AllDeaths,NewDeaths,AllRecovered,Continent,Accuracy*
 Argentina,253868,,4764,,174974,South America,True
 Bolivia,91635,1636,3712,72,30823,South America,True
 Brazil,3057470,,101857,,2163812,South America,True

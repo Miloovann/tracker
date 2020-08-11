@@ -1,4 +1,4 @@
-Country,TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,Continent,Reliable*
+Country,AllCases,NewCases,AllDeaths,NewDeaths,AllRecovered,Continent,Accuracy*
 Anguilla,3,,,,3,North America,False
 Antigua and Barbuda,92,,3,,76,North America,True
 Aruba,630,,3,,114,North America,True
@@ -36,4 +36,4 @@ Saint Pierre and Miquelon,4,,,,1,North America,False
 Saint Vincent and the Grenadines,57,,,,52,North America,False
 Trinidad and Tobago,281,,8,,138,North America,True
 Turks and Caicos,216,,2,,39,North America,True
-USA,5251446,,166192,,2715934,North America,True
+USA,5251997,551,166201,9,2716593,North America,True

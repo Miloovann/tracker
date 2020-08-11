@@ -1,4 +1,4 @@
-Country,TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,Continent,Reliable*
+Country,AllCases,NewCases,AllDeaths,NewDeaths,AllRecovered,Continent,Accuracy*
 Algeria,35712,,1312,,24920,Africa,True
 Angola,1679,,78,,569,Africa,True
 Benin,1936,,38,,1600,Africa,True
@@ -10,7 +10,7 @@ Cameroon,18042,,395,,15320,Africa,True
 Central African Republic,4641,,60,,1721,Africa,True
 Chad,945,,76,,843,Africa,True
 Comoros,399,,7,,369,Africa,True
-DR Congo,9489,,224,,8363,Africa,True
+DR Congo,9499,10,225,1,8375,Africa,False
 Djibouti,5347,,59,,5120,Africa,True
 Egypt,95666,,5035,,53779,Africa,True
 Equatorial Guinea,4821,,83,,2182,Africa,True
@@ -27,7 +27,7 @@ Kenya,26928,,423,,13495,Africa,True
 Lesotho,781,,24,,175,Africa,True
 Liberia,1240,,79,,725,Africa,True
 Libya,5929,,125,,724,Africa,True
-Madagascar,13202,,151,,11011,Africa,True
+Madagascar,13317,115,152,1,11276,Africa,False
 Malawi,4674,,146,,2430,Africa,True
 Mali,2573,,125,,1969,Africa,True
 Mauritania,6555,,157,,5570,Africa,True
@@ -40,7 +40,7 @@ Niger,1158,,69,,1062,Africa,True
 Nigeria,46867,,950,,33346,Africa,True
 Rwanda,2152,,7,,1392,Africa,True
 Réunion,690,,5,,631,Africa,True
-Senegal,11312,,236,,7390,Africa,True
+Senegal,11380,68,238,2,7449,Africa,True
 Seychelles,126,,,,125,Africa,False
 Sierra Leone,1917,,69,,1447,Africa,True
 Somalia,3227,,93,,1728,Africa,True
@@ -51,7 +51,7 @@ São Tomé and Príncipe,878,,15,,800,Africa,True
 Tanzania,509,,21,,183,Africa,True
 Togo,1067,,25,,729,Africa,True
 Tunisia,1717,,51,,1265,Africa,True
-Uganda,1297,,9,,1137,Africa,True
+Uganda,1313,16,9,,1138,Africa,True
 Western Sahara,10,,1,,8,Africa,True
 Zambia,8210,,241,,6802,Africa,True
 Zimbabwe,4748,,104,,1524,Africa,True
