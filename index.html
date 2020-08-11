@@ -617,14 +617,7 @@
                 }
                 build += "</tr>";
             }
-            for (var i = 1; i < head.length; i++) {
-                build += "<tr>";
-                currentRow = head[i].split(",");
-                for (let i2 = 0; i2 < currentRow.length; i2++) {
-                    build += `<td>${currentRow[i2]}</td>`;
-                }
-                build += "</tr>";
-            }
+            
             build += "</table>";
             document.getElementById("asatable").innerHTML = build;
         });
