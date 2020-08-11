@@ -1,4 +1,4 @@
-Country,AllCase,NewCase,AllDeath,NewDeath,AllRecovered,Continent,Reliability*
+Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Afghanistan,37269,107,1344,16,26415,Asia,1
 Armenia,40593,160,803,7,33157,Asia,1
 Azerbaijan,33731,84,495,3,30856,Asia,1
@@ -46,5 +46,5 @@ Timor-Leste,25,,,,24,Asia,0
 Turkey,243180,1183,5873,15,226155,Asia,1
 UAE,62966,262,358,1,56961,Asia,1
 Uzbekistan,31747,443,204,4,23704,Asia,1
-Vietnam,863,16,16,1,399,Asia,1
+Vietnam,866,19,16,1,451,Asia,0
 Yemen,1831,,523,5,915,Asia,0
