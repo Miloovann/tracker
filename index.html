@@ -97,9 +97,6 @@
                 display: inline-block;
                 margin: 10px;
             }
-            /* #globaltable {
-                width: 80%;
-            } */
         </style>
         <style>
             .dropbtn {
@@ -368,7 +365,7 @@
         </div>
         <script language="JavaScript" type="text/javascript">
             $.get('August11all.csv', function(data) {
-                var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="100%">\n';
+                var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="80%">\n';
                 var head = data.split("\n");
                 for (var i = 0; i < 1; i++) {
                     build += "<tr>";
