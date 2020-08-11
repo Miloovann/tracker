@@ -288,7 +288,26 @@
                 <span style="color: whitesmoke;font-size:30px;">Precautions</span>
             </a>
         </div>
-        <div id="newsandprotection">
+        
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+    
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                ul class="navbar-nav">
+              <li class="nav-item">
+                <p class="hover nav-item nav-link" onclick="filter('int')" style="font-size:25px">Global</p>
+              </li>
+              <li class="nav-item">
+                <p class="hover nav-item nav-link" onclick="filter('int')" style="font-size:25px">Global</p>
+              </li>
+              <li class="nav-item">
+                <p class="hover nav-item nav-link" onclick="filter('int')" style="font-size:25px">Global</p>
+              </li>      
+            </ul>
+          </div>
+        <!-- <div id="newsandprotection">
             <div id="navforstats">
                 <p class="hover" onclick="filter('int')" style="font-size:25px">Global</p>
                 <p class="hover" onclick="filter('singapore')" style="font-size:25px">Singapore</p>
@@ -298,7 +317,7 @@
                 <p class="hover" onclick="filter('nam')" style="font-size:25px">North America</p>
                 <p class="hover" onclick="filter('sam')" style="font-size:25px">South America</p>
             </div>
-        </div>
+        </div> -->
         <div id="rightbar">
             <h2>WorldWide Data</h2>
             <div id="infection">
@@ -535,7 +554,7 @@
 
         // start csv
         $.get(m+d+"all.csv", function(data) {
-            var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse; width="30%">\n';
+            var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse; width="80%">\n';
             var head = data.split("\n");
             for (var i = 0; i < 1; i++) {
                 build += "<tr>";
@@ -560,7 +579,7 @@
         });
 
         $.get(m+d+"africa"+"all.csv", function(data) {
-            var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="100%">\n';
+            var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="80%">\n';
             var head = data.split("\n");
             for (var i = 0; i < 1; i++) {
                 build += "<tr>";
@@ -585,7 +604,7 @@
         });
 
         $.get(m+d+"northamerica"+"all.csv", function(data) {
-            var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="100%">\n';
+            var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="80%">\n';
             var head = data.split("\n");
             for (var i = 0; i < 1; i++) {
                 build += "<tr>";
@@ -610,7 +629,7 @@
         });
 
         $.get(m+d+"southamerica"+"all.csv", function(data) {
-            var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="100%">\n';
+            var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="80%">\n';
             var head = data.split("\n");
             for (var i = 0; i < 1; i++) {
                 build += "<tr>";
@@ -635,7 +654,7 @@
         });
 
         $.get(m+d+"asia"+"all.csv", function(data) {
-            var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="100%">\n';
+            var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="80%">\n';
             var head = data.split("\n");
             for (var i = 0; i < 1; i++) {
                 build += "<tr>";
@@ -660,7 +679,7 @@
         });
 
         $.get(m+d+"europe"+"all.csv", function(data) {
-            var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="100%">\n';
+            var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="80%">\n';
             var head = data.split("\n");
             for (var i = 0; i < 1; i++) {
                 build += "<tr>";
