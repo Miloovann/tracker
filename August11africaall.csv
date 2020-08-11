@@ -2,7 +2,7 @@ Country,TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,Continent,Relia
 Algeria,35712,498,1312,10,24920,Africa,True
 Angola,1679,7,78,3,569,Africa,True
 Benin,1936,,38,,1600,Africa,True
-Botswana,804,,2,,63,Africa,True
+Botswana,1066,172,2,,80,Africa,False
 Burkina Faso,1204,29,54,,984,Africa,True
 Burundi,408,,1,,315,Africa,True
 Cabo Verde,2883,25,32,,2128,Africa,True
@@ -15,7 +15,7 @@ Djibouti,5347,3,59,,5120,Africa,True
 Egypt,95666,174,5035,26,53779,Africa,True
 Equatorial Guinea,4821,,83,,2182,Africa,True
 Eritrea,285,,,,245,Africa,False
-Eswatini,3309,73,61,3,1634,Africa,False
+Eswatini,3309,73,61,3,1634,Africa,True
 Ethiopia,23591,773,420,13,10411,Africa,True
 Gabon,8006,83,51,,5823,Africa,True
 Gambia,1235,,23,,221,Africa,True
@@ -24,7 +24,7 @@ Guinea,7930,,50,,6898,Africa,True
 Guinea-Bissau,2052,,29,,944,Africa,True
 Ivory Coast,16798,83,105,,13052,Africa,True
 Kenya,26928,492,423,3,13495,Africa,True
-Lesotho,742,,23,,175,Africa,True
+Lesotho,781,39,24,1,175,Africa,True
 Liberia,1240,3,79,,725,Africa,True
 Libya,5541,90,120,1,710,Africa,True
 Madagascar,13202,116,151,3,11011,Africa,True
@@ -36,7 +36,7 @@ Mayotte,3068,,39,,2835,Africa,True
 Morocco,34063,826,516,18,24524,Africa,True
 Mozambique,2411,142,16,,860,Africa,True
 Namibia,3101,152,19,,715,Africa,True
-Niger,1158,,69,,1057,Africa,True
+Niger,1158,,69,,1062,Africa,True
 Nigeria,46867,290,950,5,33346,Africa,True
 Rwanda,2152,12,7,,1392,Africa,True
 Réunion,690,3,5,,631,Africa,True
