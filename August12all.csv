@@ -66,7 +66,7 @@ Ethiopia,24175,,440,,10696,Africa,1
 Falkland Islands,13,,,,13,South America,0
 Faroe Islands,324,6,,,225,Europe,0
 Fiji,27,,1,,18,Australia/Oceania,1
-Finland,7623,,333,,6980,Europe,1
+Finland,7642,19,333,,6980,Europe,0
 France,204172,,30354,,82836,Europe,0
 French Guiana,8360,,49,,7632,South America,1
 French Polynesia,112,,,,62,Australia/Oceania,0
@@ -86,7 +86,7 @@ Guinea-Bissau,2088,,29,,1015,Africa,1
 Guyana,602,,22,,189,South America,1
 Haiti,7649,,183,,4982,North America,1
 Honduras,48403,531,1515,9,6805,North America,1
-Hong Kong,4182,,61,3,3052,Asia,1
+Hong Kong,4244,62,63,5,3052,Asia,1
 Hungary,4768,22,605,,3529,Europe,1
 Iceland,1968,,10,,1844,Europe,1
 India,2332908,4503,46216,28,1640362,Asia,1
@@ -117,7 +117,7 @@ Luxembourg,7242,,122,,6222,Europe,1
 Macao,46,,,,46,Asia,0
 Madagascar,13317,,152,,11276,Africa,1
 Malawi,4714,,152,,2477,Africa,1
-Malaysia,9103,,125,,8809,Asia,1
+Malaysia,9114,11,125,,8817,Asia,0
 Maldives,5223,,20,,2849,Asia,1
 Mali,2577,,125,,1973,Africa,1
 Malta,1141,,9,,692,Europe,1
@@ -152,7 +152,7 @@ Papua New Guinea,214,,3,,71,Australia/Oceania,1
 Paraguay,7519,,86,,5326,South America,1
 Peru,489680,,21501,,335756,South America,1
 Philippines,143749,4444,2404,93,68997,Asia,1
-Poland,53676,715,1830,9,37611,Europe,0
+Poland,53676,715,1830,9,37611,Europe,1
 Portugal,52945,,1761,,38760,Europe,1
 Qatar,113646,,188,,110324,Asia,1
 Romania,63762,,2764,,30585,Europe,1
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,1831,,523,,919,Asia,1
 Zambia,8275,,241,,7004,Africa,1
 Zimbabwe,4818,,104,,1544,Africa,1
-World,20537981,31194,746243,1420,13252408,,0
+World,20538073,31286,746245,1422,13252416,,0
