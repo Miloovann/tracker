@@ -1,7 +1,7 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Albania,6676,,205,,3480,Europe,1
 Andorra,963,,52,,839,Europe,1
-Austria,22245,,723,,20123,Europe,1
+Austria,22439,194,724,1,20268,Europe,0
 Belarus,69005,,592,,65219,Europe,1
 Belgium,75008,388,9885,6,17841,Europe,1
 Bosnia and Herzegovina,14708,,447,,8411,Europe,1
@@ -10,7 +10,7 @@ Channel Islands,599,,47,,545,Europe,1
 Croatia,5740,,160,,4962,Europe,1
 Czechia,18783,,391,,13222,Europe,1
 Denmark,14959,,621,,12988,Europe,1
-Estonia,2167,,63,,1968,Europe,1
+Estonia,2174,7,63,,1975,Europe,0
 Faroe Islands,324,6,,,225,Europe,0
 Finland,7623,,333,,6980,Europe,1
 France,204172,,30354,,82836,Europe,0
@@ -24,7 +24,7 @@ Isle of Man,336,,24,,312,Europe,1
 Italy,251237,,35215,,202461,Europe,1
 Latvia,1303,10,32,,1078,Europe,1
 Liechtenstein,89,,1,,87,Europe,1
-Lithuania,2309,26,81,,1683,Europe,0
+Lithuania,2309,26,81,,1683,Europe,1
 Luxembourg,7242,,122,,6222,Europe,1
 Malta,1141,,9,,692,Europe,1
 Moldova,28223,,857,,19740,Europe,1
@@ -33,13 +33,13 @@ Montenegro,3748,,71,,2558,Europe,1
 Netherlands,59973,,6159,,N/A,Europe,0
 North Macedonia,12083,,529,,8248,Europe,1
 Norway,9751,,256,,8857,Europe,1
-Poland,52961,,1821,,37150,Europe,1
+Poland,52961,,1821,,37611,Europe,0
 Portugal,52945,,1761,,38760,Europe,1
 Romania,63762,,2764,,30585,Europe,1
 Russia,902701,5102,15260,129,710298,Europe,1
 San Marino,699,,42,,657,Europe,1
 Serbia,28497,,652,,18965,Europe,1
-Slovakia,2615,,31,,1874,Europe,1
+Slovakia,2690,75,31,,1884,Europe,0
 Slovenia,2272,,129,,1960,Europe,1
 Spain,373692,,28581,,N/A,Europe,0
 Sweden,83126,,5770,,N/A,Europe,0
