@@ -2,7 +2,7 @@ Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,
 Anguilla,3,,,,3,North America,0
 Antigua and Barbuda,92,,3,,76,North America,1
 Aruba,798,81,3,,114,North America,1
-Bahamas,989,,15,,116,North America,1
+Bahamas,1036,47,15,,122,North America,0
 Barbados,143,,7,,112,North America,1
 Belize,210,33,2,,32,North America,1
 Bermuda,159,,9,,145,North America,1
@@ -11,7 +11,7 @@ Canada,120844,423,9006,15,107148,North America,0
 Caribbean Netherlands,13,,,,7,North America,0
 Cayman Islands,203,,1,,202,North America,1
 Costa Rica,25057,549,263,8,8189,North America,1
-Cuba,3093,,88,,2472,North America,1
+Cuba,3128,35,88,,2504,North America,0
 Curaçao,32,,1,,30,North America,1
 Dominica,18,,,,18,North America,0
 Dominican Republic,82224,1130,1371,25,47095,North America,1
@@ -36,4 +36,4 @@ Saint Pierre and Miquelon,4,,,,1,North America,0
 Saint Vincent and the Grenadines,57,,,,52,North America,0
 Trinidad and Tobago,326,26,8,,139,North America,0
 Turks and Caicos,224,8,2,,39,North America,1
-USA,5356629,50672,168992,1247,2802208,North America,0
+USA,5359543,53586,169110,1365,2804232,North America,0

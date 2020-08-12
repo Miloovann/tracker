@@ -12,7 +12,7 @@ Aruba,798,81,3,,114,North America,1
 Australia,22127,414,352,21,12393,Australia/Oceania,0
 Austria,22439,194,724,1,20268,Europe,1
 Azerbaijan,33824,93,497,2,31058,Asia,1
-Bahamas,989,,15,,116,North America,1
+Bahamas,1036,47,15,,122,North America,0
 Bahrain,45264,460,166,1,41836,Asia,1
 Bangladesh,266498,2995,3513,42,153089,Asia,1
 Barbados,143,,7,,112,North America,1
@@ -46,10 +46,10 @@ Colombia,422519,12066,13837,362,239785,South America,0
 Comoros,399,,7,,379,Africa,1
 Costa Rica,25057,549,263,8,8189,North America,1
 Croatia,5870,130,160,,5024,Europe,1
-Cuba,3093,,88,,2472,North America,1
+Cuba,3128,35,88,,2504,North America,0
 Curaçao,32,,1,,30,North America,1
 Cyprus,1291,14,20,,870,Asia,1
-Czechia,18984,201,391,,13407,Europe,1
+Czechia,19075,292,391,,13407,Europe,0
 DR Congo,9538,39,225,,8421,Africa,1
 Denmark,15070,111,621,,13066,Europe,1
 Djibouti,5358,10,59,,5150,Africa,0
@@ -83,7 +83,7 @@ Guadeloupe,317,,14,,186,North America,1
 Guatemala,59089,1123,2267,34,47394,North America,0
 Guinea,8116,98,50,,7060,Africa,1
 Guinea-Bissau,2088,,29,,1015,Africa,1
-Guyana,602,,22,,189,South America,1
+Guyana,623,21,22,,191,South America,0
 Haiti,7743,94,187,4,5123,North America,0
 Honduras,48403,531,1515,9,6805,North America,1
 Hong Kong,4244,62,63,5,3189,Asia,1
@@ -129,7 +129,7 @@ Mexico,492522,6686,53929,926,332800,North America,1
 Moldova,28697,474,863,6,19998,Europe,1
 Monaco,141,3,4,,114,Europe,1
 Mongolia,293,,,,269,Asia,0
-Montenegro,3748,,71,,2558,Europe,1
+Montenegro,3813,65,73,2,2638,Europe,0
 Montserrat,13,,1,,12,North America,1
 Morocco,36694,1499,556,23,25677,Africa,1
 Mozambique,2559,78,19,2,951,Africa,1
@@ -140,7 +140,7 @@ Netherlands,60627,654,6161,2,N/A,Europe,0
 New Caledonia,23,,,,22,Australia/Oceania,0
 New Zealand,1579,9,22,,1531,Australia/Oceania,1
 Nicaragua,4115,,128,,2913,North America,1
-Niger,1158,,69,,1065,Africa,1
+Niger,1161,3,69,,1075,Africa,0
 Nigeria,47743,453,956,,33943,Africa,0
 North Macedonia,12217,134,530,1,8487,Europe,1
 Norway,9783,33,256,,8857,Europe,0
@@ -198,7 +198,7 @@ Turkey,244392,1212,5891,18,227089,Asia,1
 Turks and Caicos,224,8,2,,39,North America,1
 UAE,63212,246,358,,57193,Asia,1
 UK,313798,1009,46706,77,N/A,Europe,0
-USA,5356629,50672,168992,1247,2802208,North America,0
+USA,5359543,53586,169110,1365,2804232,North America,0
 Uganda,1332,19,9,,1139,Africa,1
 Ukraine,84548,1433,1970,19,45686,Europe,1
 Uruguay,1393,8,37,,1163,South America,0
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,1841,10,528,5,937,Asia,1
 Zambia,8501,226,246,5,7233,Africa,0
 Zimbabwe,4893,75,122,18,1620,Africa,0
-World,20777826,270669,751327,6510,13471096,,0
+World,20781002,273845,751447,6630,13473250,,0
