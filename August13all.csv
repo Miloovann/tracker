@@ -10,7 +10,7 @@ Argentina,268574,,5213,,187283,South America,1
 Armenia,41023,229,809,3,33897,Asia,1
 Aruba,798,,3,,114,North America,1
 Australia,22358,231,361,9,13001,Australia/Oceania,1
-Austria,22594,155,725,1,20346,Europe,0
+Austria,22594,155,725,1,20346,Europe,1
 Azerbaijan,33824,,497,,31058,Asia,1
 Bahamas,1036,,15,,122,North America,1
 Bahrain,45264,,166,,41836,Asia,1
@@ -66,7 +66,7 @@ Ethiopia,25118,,463,,11034,Africa,1
 Falkland Islands,13,,,,13,South America,0
 Faroe Islands,339,,,,225,Europe,0
 Fiji,28,1,1,,20,Australia/Oceania,1
-Finland,7683,41,333,,7050,Europe,0
+Finland,7683,41,333,,7050,Europe,1
 France,206696,,30371,,83472,Europe,0
 French Guiana,8423,,50,,7713,South America,1
 French Polynesia,139,,,,64,Australia/Oceania,0
@@ -86,7 +86,7 @@ Guinea-Bissau,2088,,29,,1015,Africa,1
 Guyana,623,,22,,191,South America,1
 Haiti,7781,38,192,5,5123,North America,1
 Honduras,48657,254,1533,18,6945,North America,1
-Hong Kong,4313,69,65,2,3295,Asia,0
+Hong Kong,4313,69,65,2,3295,Asia,1
 Hungary,4813,45,607,2,3561,Europe,1
 Iceland,1972,,10,,1847,Europe,1
 India,2399992,4521,47169,31,1697811,Asia,1
@@ -117,7 +117,7 @@ Luxembourg,7300,,122,,6262,Europe,1
 Macao,46,,,,46,Asia,0
 Madagascar,13397,,156,,11529,Africa,1
 Malawi,4752,,152,,2529,Africa,1
-Malaysia,9114,,125,,8817,Asia,1
+Malaysia,9129,15,125,,8821,Asia,1
 Maldives,5366,,21,,2884,Asia,1
 Mali,2582,,125,,1977,Africa,1
 Malta,1190,,9,,695,Europe,1
@@ -152,7 +152,7 @@ Papua New Guinea,287,,3,,78,Australia/Oceania,1
 Paraguay,8018,,93,,5384,South America,1
 Peru,498555,,21713,,341938,South America,1
 Philippines,147526,4002,2426,23,70387,Asia,1
-Poland,54487,811,1844,14,37961,Europe,0
+Poland,54487,811,1844,14,37961,Europe,1
 Portugal,53223,,1764,,38940,Europe,1
 Qatar,113938,,190,,110627,Asia,1
 Romania,65177,,2807,,31048,Europe,1
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,1841,,528,,937,Asia,1
 Zambia,8501,,246,,7233,Africa,1
 Zimbabwe,4893,,122,,1620,Africa,1
-World,20822908,30436,747492,1174,13515247,,0
+World,20822923,30451,747492,1174,13515251,,0
