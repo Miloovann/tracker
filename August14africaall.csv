@@ -2,8 +2,8 @@ Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,
 Algeria,37187,488,1341,8,26004,Africa,1
 Angola,1815,53,80,,577,Africa,1
 Benin,2014,,38,,1681,Africa,1
-Botswana,1214,148,3,1,120,Africa,0
-Burkina Faso,1213,,54,,995,Africa,1
+Botswana,1214,148,3,1,120,Africa,1
+Burkina Faso,1228,15,54,,997,Africa,1
 Burundi,410,1,1,,315,Africa,1
 Cabo Verde,3073,73,33,,2232,Africa,1
 Cameroon,18308,45,401,,15320,Africa,1
@@ -12,10 +12,10 @@ Chad,949,,76,,860,Africa,1
 Comoros,399,,7,,379,Africa,1
 DR Congo,9589,51,234,9,8480,Africa,1
 Djibouti,5358,,59,,5167,Africa,1
-Egypt,95963,,5085,,55901,Africa,1
+Egypt,96108,145,5107,22,56890,Africa,1
 Equatorial Guinea,4821,,83,,2182,Africa,1
 Eritrea,285,,,,248,Africa,0
-Eswatini,3525,,63,,1910,Africa,1
+Eswatini,3599,74,65,2,1991,Africa,0
 Ethiopia,26204,1086,479,16,11428,Africa,1
 Gabon,8077,,51,,5920,Africa,1
 Gambia,1556,79,43,10,267,Africa,1
@@ -30,14 +30,14 @@ Libya,6611,,132,,778,Africa,1
 Madagascar,13522,125,162,6,11780,Africa,1
 Malawi,4912,160,153,1,2550,Africa,1
 Mali,2597,15,125,,1979,Africa,1
-Mauritania,6622,,157,,5741,Africa,1
+Mauritania,6653,31,157,,5843,Africa,1
 Mauritius,344,,10,,334,Africa,1
 Mayotte,3119,28,39,,2940,Africa,1
 Morocco,37935,1241,584,28,26687,Africa,1
 Mozambique,2638,79,19,,1015,Africa,1
 Namibia,3544,138,27,5,848,Africa,1
 Niger,1161,,69,,1075,Africa,1
-Nigeria,47743,,956,,33943,Africa,1
+Nigeria,48116,373,966,10,34309,Africa,1
 Rwanda,2200,11,8,,1558,Africa,1
 Réunion,754,20,5,,631,Africa,1
 Senegal,11740,153,244,2,7572,Africa,1
@@ -45,7 +45,7 @@ Seychelles,127,,,,126,Africa,0
 Sierra Leone,1940,3,69,,1496,Africa,1
 Somalia,3227,,93,,1728,Africa,1
 South Africa,572865,3946,11270,260,437617,Africa,1
-South Sudan,2477,,47,,1175,Africa,1
+South Sudan,2478,1,47,,1175,Africa,0
 Sudan,12115,82,792,6,6305,Africa,1
 São Tomé and Príncipe,882,,15,,807,Africa,1
 Tanzania,509,,21,,183,Africa,1
@@ -54,4 +54,4 @@ Tunisia,1847,67,53,1,1302,Africa,1
 Uganda,1353,21,11,2,1141,Africa,1
 Western Sahara,10,,1,,8,Africa,1
 Zambia,8663,162,246,,7401,Africa,1
-Zimbabwe,4893,,122,,1620,Africa,1
+Zimbabwe,4990,97,128,6,1927,Africa,1
