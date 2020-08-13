@@ -1,7 +1,7 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Anguilla,3,,,,3,North America,0
 Antigua and Barbuda,92,,3,,76,North America,1
-Aruba,798,,3,,114,North America,1
+Aruba,894,96,4,1,114,North America,0
 Bahamas,1036,,15,,122,North America,1
 Barbados,144,,7,,115,North America,1
 Belize,296,86,2,,32,North America,1
@@ -36,4 +36,4 @@ Saint Pierre and Miquelon,4,,,,1,North America,0
 Saint Vincent and the Grenadines,57,,,,52,North America,0
 Trinidad and Tobago,369,43,8,,139,North America,1
 Turks and Caicos,241,17,2,,46,North America,1
-USA,5390890,30588,169789,658,2819134,North America,0
+USA,5392097,31795,169806,675,2819182,North America,0
