@@ -812,7 +812,7 @@
             dormlinesg = document.getElementById('dormlinesg').style.display = 'none';
             b = document.getElementById(a).style.display = 'inline-block';
         }
-        //End Filter Functiom dorm
+        //End Filter Function dorm
 
         //Start total Filter Function
         function totalfilter(a){
@@ -820,7 +820,7 @@
             totallinesg = document.getElementById('totallinesg').style.display = 'none';
             b = document.getElementById(a).style.display = 'inline-block';
         }
-        //End Filter Functiom total
+        //End Filter Function total
 
         //Start imported Filter Function
         function importedfilter(a){
@@ -828,6 +828,13 @@
             importedlinesg = document.getElementById('importedlinesg').style.display = 'none';
             b = document.getElementById(a).style.display = 'inline-block';
         }
-        //End Filter Functiom imported
+        //End Filter Function imported
+
+        function myFunction(){
+    	    var today = new Date();
+    	    var cur = today.getFullYear()+' '+(today.getMonth()+1)+' '+today.getDate() + ' ' + today.getHours() + " " + today.getMinutes();
+      	    document.getElementById("curtime").innerHTML = cur;
+        }
+        myFunction()
     </script>
 </html>
