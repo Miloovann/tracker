@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,37345,,1354,,26694,Asia,1
+Afghanistan,37424,79,1363,9,26714,Asia,0
 Albania,6817,,208,,3552,Europe,1
 Algeria,36699,,1333,,25627,Africa,1
 Andorra,977,,53,,855,Europe,1
@@ -9,7 +9,7 @@ Antigua and Barbuda,92,,3,,76,North America,1
 Argentina,268574,,5213,,187283,South America,1
 Armenia,40794,,806,,33492,Asia,1
 Aruba,798,,3,,114,North America,1
-Australia,22358,231,361,9,12779,Australia/Oceania,0
+Australia,22358,231,361,9,13001,Australia/Oceania,0
 Austria,22439,,724,,20268,Europe,1
 Azerbaijan,33824,,497,,31058,Asia,1
 Bahamas,1036,,15,,122,North America,1
@@ -18,10 +18,10 @@ Bangladesh,266498,,3513,,153089,Asia,1
 Barbados,144,,7,,115,North America,1
 Belarus,69102,,595,,65893,Europe,1
 Belgium,75647,639,9900,15,17883,Europe,1
-Belize,210,,2,,32,North America,1
+Belize,296,86,2,,32,North America,0
 Benin,2014,,38,,1681,Africa,1
 Bermuda,159,,9,,145,North America,1
-Bhutan,116,,,,97,Asia,0
+Bhutan,128,12,,,100,Asia,0
 Bolivia,95071,1743,3827,66,32830,South America,1
 Bosnia and Herzegovina,14961,,453,,8827,Europe,1
 Botswana,1066,,2,,80,Africa,1
@@ -57,7 +57,7 @@ Dominica,18,,,,18,North America,0
 Dominican Republic,82224,,1371,,47095,North America,1
 Ecuador,97110,,5984,,78887,South America,1
 Egypt,95963,,5085,,55901,Africa,1
-El Salvador,21644,,577,,10056,North America,1
+El Salvador,21644,,584,7,10081,North America,0
 Equatorial Guinea,4821,,83,,2182,Africa,1
 Eritrea,285,,,,248,Africa,0
 Estonia,2174,,63,,1975,Europe,1
@@ -72,7 +72,7 @@ French Guiana,8423,,50,,7713,South America,1
 French Polynesia,139,,,,64,Australia/Oceania,0
 Gabon,8077,,51,,5920,Africa,1
 Gambia,1477,,33,,247,Africa,1
-Georgia,1278,,17,,1058,Asia,1
+Georgia,1283,5,17,,1068,Asia,0
 Germany,220850,,9276,,200800,Europe,1
 Ghana,41572,,223,,39320,Africa,1
 Gibraltar,203,,,,187,Europe,0
@@ -84,18 +84,18 @@ Guatemala,59089,,2267,,47394,North America,1
 Guinea,8116,,50,,7060,Africa,1
 Guinea-Bissau,2088,,29,,1015,Africa,1
 Guyana,623,,22,,191,South America,1
-Haiti,7743,,187,,5123,North America,1
+Haiti,7781,38,192,5,5123,North America,0
 Honduras,48657,254,1533,18,6945,North America,1
 Hong Kong,4244,,63,,3189,Asia,1
 Hungary,4768,,605,,3529,Europe,1
 Iceland,1972,,10,,1847,Europe,1
-India,2395471,,47138,,1695860,Asia,1
+India,2397403,1932,47149,11,1697640,Asia,0
 Indonesia,130718,,5903,,85798,Asia,1
 Iran,333699,,18988,,290244,Asia,1
 Iraq,160436,,5588,,114541,Asia,1
 Ireland,26838,,1774,,23364,Europe,1
 Isle of Man,336,,24,,312,Europe,1
-Israel,88151,,639,,62109,Asia,1
+Israel,88554,403,639,,64664,Asia,0
 Italy,251713,,35225,,202697,Europe,1
 Ivory Coast,16847,,105,,13321,Africa,1
 Jamaica,1065,18,14,,753,North America,1
@@ -202,12 +202,12 @@ USA,5360302,,169131,,2812603,North America,1
 Uganda,1332,,9,,1139,Africa,1
 Ukraine,84548,,1970,,45686,Europe,1
 Uruguay,1393,,37,,1163,South America,1
-Uzbekistan,32654,189,211,1,25659,Asia,1
+Uzbekistan,32837,372,213,3,25659,Asia,0
 Vatican City,12,,,,12,Europe,0
 Venezuela,29088,,247,,21042,South America,1
-Vietnam,883,,18,1,409,Asia,0
+Vietnam,883,,18,1,421,Asia,0
 Western Sahara,10,,1,,8,Africa,1
 Yemen,1841,,528,,937,Asia,1
 Zambia,8501,,246,,7233,Africa,1
 Zimbabwe,4893,,122,,1620,Africa,1
-World,20803322,10625,747179,860,13499619,,0
+World,20806060,13363,747213,894,13504246,,0
