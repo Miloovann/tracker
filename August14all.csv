@@ -25,7 +25,7 @@ Bhutan,128,12,,,100,Asia,0
 Bolivia,95071,1743,3827,66,32830,South America,1
 Bosnia and Herzegovina,15184,223,458,5,9156,Europe,1
 Botswana,1066,,2,,80,Africa,1
-Brazil,3180758,10284,104528,265,2309477,South America,1
+Brazil,3224876,54402,105463,1200,2309477,South America,0
 British Virgin Islands,9,,1,,7,North America,1
 Brunei,142,,3,,138,Asia,0
 Bulgaria,13893,,482,,8479,Europe,1
@@ -38,7 +38,7 @@ Canada,121028,184,9012,6,107419,North America,0
 Caribbean Netherlands,13,,,,7,North America,0
 Cayman Islands,203,,1,,202,North America,1
 Central African Republic,4652,,61,,1728,Africa,1
-Chad,949,,76,,859,Africa,1
+Chad,949,,76,,860,Africa,1
 Channel Islands,603,,47,,545,Europe,1
 Chile,380034,1866,10299,94,353131,South America,1
 China,84756,19,4634,,79398,Asia,1
@@ -175,7 +175,7 @@ Singapore,55497,,27,,50736,Asia,1
 Slovakia,2739,49,31,,1939,Europe,1
 Slovenia,2332,29,129,,1960,Europe,1
 Somalia,3227,,93,,1728,Africa,1
-South Africa,568919,,11010,,432029,Africa,1
+South Africa,572865,3946,11270,260,437617,Africa,0
 South Korea,14770,56,305,,13817,Asia,1
 South Sudan,2477,,47,,1175,Africa,1
 Spain,379799,2935,28605,26,N/A,Europe,0
@@ -198,7 +198,7 @@ Turkey,245635,1243,5912,21,228057,Asia,1
 Turks and Caicos,241,17,2,,46,North America,1
 UAE,63489,277,358,,57372,Asia,1
 UK,313798,,41347,18,N/A,Europe,0
-USA,5399117,38815,169901,770,2822342,North America,0
+USA,5400841,40539,169915,784,2822375,North America,0
 Uganda,1353,21,11,2,1141,Africa,1
 Ukraine,86140,1592,1992,22,46216,Europe,1
 Uruguay,1393,,37,,1163,South America,1
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,1841,,528,,937,Asia,1
 Zambia,8663,162,246,,7401,Africa,1
 Zimbabwe,4893,,122,,1620,Africa,1
-World,20971867,178896,750338,4024,13607470,,0
+World,21021655,228684,751547,5233,13613092,,0
