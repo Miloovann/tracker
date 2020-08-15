@@ -839,6 +839,7 @@
                     var units = " second"
                     var upd = data.split(" ");
                     var prev = new Date(upd[0],upd[1],upd[2],upd[3],upd[4],upd[5]);
+                    var a = new Date();
                     var now = new Date(a.getFullYear(), a.getMonth()+1, a.getDate(), a.getHours(), a.getMinutes(), a.getSeconds());
                     var time = (now - prev)/1000;
                     if (time > 1 && time < 60) units = " seconds"
