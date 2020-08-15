@@ -348,7 +348,7 @@
         </div>
 
         <div class="int" style="padding-top: 130px;">
-            <p id = "absc" ></p>
+            <p id = "absc" >swss</p>
             <img src = "worldwidetotal10.svg" style="width: 26%;">
             <img src = "worldwidedeath10.svg" style="width: 26%;">
             <img src = "worldwiderecovered10.svg" style="width: 26%;">
@@ -869,11 +869,10 @@
             }
             document.getElementById("timedif").innerHTML = time + units + " ago";
         }
-        timeFunc()
 
         function extract(){
             var fs = require('fs');
-            var txta = fs.readFileSync('updatetiming.txt').toString().split("\n");
+            var txta = fs.readFileSync('updatetiming.txt').toString().split(" ");
             document.getElementById("absc").innerHTML = txta
         }
         extract()
