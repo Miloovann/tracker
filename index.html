@@ -348,7 +348,6 @@
         </div>
 
         <div class="int" style="padding-top: 130px;">
-            <p id="demo"></p>
             <img src = "worldwidetotal10.svg" style="width: 26%;">
             <img src = "worldwidedeath10.svg" style="width: 26%;">
             <img src = "worldwiderecovered10.svg" style="width: 26%;">
@@ -834,7 +833,7 @@
 
         function timeFunction(){
     	    var today = new Date();
-    	    var cur = today.getFullYear()+' '+(today.getMonth()+1)+' '+today.getDate() + ' ' + today.getHours() + " " + today.getMinutes();
+            var cur = today.getFullYear()+', '+(today.getMonth()+1)+', '+today.getDate() + ', ' + today.getHours() + ", " + today.getMinutes();
             document.getElementById("demo").innerHTML = cur;
         }
         timeFunction()
