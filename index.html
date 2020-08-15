@@ -348,7 +348,7 @@
         </div>
 
         <div class="int" style="padding-top: 130px;">
-            <p id = "absc" >swss</p>
+            <p id = "absc" >swsasass</p>
             <img src = "worldwidetotal10.svg" style="width: 26%;">
             <img src = "worldwidedeath10.svg" style="width: 26%;">
             <img src = "worldwiderecovered10.svg" style="width: 26%;">
@@ -470,7 +470,7 @@
         </div>
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script>
+    <script type="module">
         //SG Pie
         function sgdatelink(){
             var fortnight = [];
@@ -872,7 +872,7 @@
 
         function extract(){
             var fs = require('fs');
-            var txta = fs.readFileSync('updatetiming.txt').toString().split(" ");
+            var txta = fs.readFileSync('/updatetiming.txt').toString().split(" ");
             document.getElementById("absc").innerHTML = txta
         }
         extract()
