@@ -421,7 +421,7 @@
             </div>
         </div>
         <div class="eu" style="padding-top: 130px;">
-            
+            <p id = "timedif">abc</p>
             <img src = "europetotal10.svg" style="width: 26%;">
             <img src = "europedeath10.svg" style="width: 26%;">
             <img src = "europerecovered10.svg" style="width: 26%;">
@@ -832,49 +832,46 @@
         //End Filter Function imported
 
         function timeFunc(){
-            var latestupdate = new Date();
-            var units = " second"
-            var a = new Date();
-            var now = new Date(a.getFullYear(), a.getMonth()+1, a.getDate(), a.getHours(), a.getMinutes(), a.getSeconds());
-            var time = (now - latestupdate)/1000;
-            if (time > 1 && time < 60) units = " seconds"
-            else if (time >= 60){
-                remain = time % 60
-                time -= remain
-                time/=60
-                units=" minute"
-                if (time > 1 && time < 60) units = " minutes"
-                else if (time >= 60){
-                remain = time % 60
-                time -= remain
-                time/=60
-                units=" hour"
-                if (time > 1 && time < 24) units = " hours"
-                else if (time >= 24){
-                    remain = time % 24
-                    time -= remain
-                    time/=24
-                    units=" day"
-                    if (time > 1 && time < 7) units = " days"
-                    else if (time >= 7){
-                        remain = time % 7
+            fetch('/updatetiming.txt')
+                .then(response => response.text())
+                .then(data => {
+                    console.log(data)
+                    var units = " second"
+                    var upd = data.split(" ");
+                    var prev = new Date(upd[0],upd[1],upd[2],upd[3],upd[4],upd[5]);
+                    var now = new Date(a.getFullYear(), a.getMonth()+1, a.getDate(), a.getHours(), a.getMinutes(), a.getSeconds());
+                    var time = (now - prev)/1000;
+                    if (time > 1 && time < 60) units = " seconds"
+                    else if (time >= 60){
+                        remain = time % 60
                         time -= remain
-                        time/=7
-                        units=" week"
-                        if (time > 1) units = " weeks"
+                        time/=60
+                        units=" minute"
+                        if (time > 1 && time < 60) units = " minutes"
+                        else if (time >= 60){
+                            remain = time % 60
+                            time -= remain
+                            time/=60
+                            units=" hour"
+                            if (time > 1 && time < 24) units = " hours"
+                            else if (time >= 24){
+                                remain = time % 24
+                                time -= remain
+                                time/=24
+                                units=" day"
+                                if (time > 1 && time < 7) units = " days"
+                                else if (time >= 7){
+                                    remain = time % 7
+                                    time -= remain
+                                    time/=7
+                                    units=" week"
+                                    if (time > 1) units = " weeks"
+                                }
+                            }
+                        }
                     }
-                }
-            }
-            }
-            document.getElementById("timedif").innerHTML = time + units + " ago";
+                    document.getElementById("timedif").innerHTML = time + units + " ago";
+                });
         }
-    </script>
-    <script type="module">
-        function extract(){
-            var fs = require('fs');
-            var txta = fs.readFileSync('/Users/junyiho/Desktop/PW_Web/updatetiming.txt').toString().split(" ");
-            document.getElementById("absc").innerHTML = txta
-        }
-        extract()
     </script>
 </html>
