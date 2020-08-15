@@ -337,7 +337,6 @@
             <h2>WorldWide Data</h2>
             <div id="infection">
                 <h3>Total Cases: </h3>
-                <p id = "timedif"></p>
                 <p id="total_cases" style = "font-size:20px;"></p>
                 <hr>
                 <h3>Total Deaths: </h3>
@@ -345,6 +344,7 @@
                 <hr>
                 <h3>Total Recovered: </h3>
                 <p id="total_recovered" style = "font-size:20px;"></p>
+                <p id = "timedif"></p>
             </div>
         </div>
 
@@ -871,7 +871,7 @@
                             }
                         }
                     }
-                    document.getElementById("timedif").innerHTML = "last udpated" + time + units + " ago";
+                    document.getElementById("timedif").innerHTML = "Last updated: " + time + units + " ago";
                 });
         }
         timeFunc()
