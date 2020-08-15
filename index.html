@@ -348,6 +348,7 @@
         </div>
 
         <div class="int" style="padding-top: 130px;">
+            <p id="demo"></p>
             <img src = "worldwidetotal10.svg" style="width: 26%;">
             <img src = "worldwidedeath10.svg" style="width: 26%;">
             <img src = "worldwiderecovered10.svg" style="width: 26%;">
@@ -421,7 +422,7 @@
             </div>
         </div>
         <div class="eu" style="padding-top: 130px;">
-            <div id = "curtime"></div>
+            
             <img src = "europetotal10.svg" style="width: 26%;">
             <img src = "europedeath10.svg" style="width: 26%;">
             <img src = "europerecovered10.svg" style="width: 26%;">
@@ -835,8 +836,10 @@
     	    var today = new Date();
     	    var cur = today.getFullYear()+' '+(today.getMonth()+1)+' '+today.getDate() + ' ' + today.getHours() + " " + today.getMinutes();
       	    document.getElementById("curtime").innerHTML = cur;
+            var carName = "Volvo";
+            document.getElementById("demo").innerHTML = carName;
         }
-        myFunction()
+        timeFunction()
 
 
     </script>
