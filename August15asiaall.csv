@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,37431,,1363,,26714,Asia,1
+Afghanistan,37550,119,1369,6,27166,Asia,0
 Armenia,41299,,814,,34164,Asia,1
 Azerbaijan,34018,,504,,31490,Asia,1
 Bahrain,46052,,168,,42469,Asia,1
@@ -11,7 +11,7 @@ China,84808,22,4634,,79519,Asia,1
 Cyprus,1318,,20,,870,Asia,1
 Georgia,1306,,17,,1085,Asia,1
 Hong Kong,4361,,67,,3392,Asia,1
-India,2525222,,49134,,1807556,Asia,1
+India,2527308,2086,49148,14,1809542,Asia,1
 Indonesia,135123,,6021,,89618,Asia,1
 Iran,338825,,19331,,293811,Asia,1
 Iraq,168290,,5709,,120129,Asia,1
@@ -30,7 +30,7 @@ Mongolia,298,1,,,272,Asia,0
 Myanmar,374,,6,,322,Asia,1
 Nepal,25551,,99,,17077,Asia,1
 Oman,82743,,557,,77427,Asia,1
-Pakistan,288047,747,6162,9,265624,Asia,0
+Pakistan,288047,747,6162,9,265624,Asia,1
 Palestine,15834,,106,,9382,Asia,1
 Philippines,153660,,2442,,71405,Asia,1
 Qatar,114532,,190,,111258,Asia,1
@@ -41,10 +41,10 @@ Sri Lanka,2886,,11,,2658,Asia,1
 Syria,1515,,58,,403,Asia,1
 Taiwan,481,,7,,450,Asia,1
 Tajikistan,7989,,63,,6777,Asia,1
-Thailand,3376,,58,,3193,Asia,0
+Thailand,3376,,58,,3193,Asia,1
 Timor-Leste,25,,,,24,Asia,0
 Turkey,246861,,5934,,228980,Asia,1
 UAE,63819,,359,,57473,Asia,1
-Uzbekistan,33821,,220,,27825,Asia,1
+Uzbekistan,34017,196,221,1,28661,Asia,1
 Vietnam,930,,22,,437,Asia,1
 Yemen,1858,,528,,1009,Asia,1
