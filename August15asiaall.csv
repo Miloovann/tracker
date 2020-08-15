@@ -1,6 +1,6 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,37550,119,1369,6,27166,Asia,0
-Armenia,41299,,814,,34164,Asia,1
+Afghanistan,37550,119,1369,6,27166,Asia,1
+Armenia,41495,196,817,3,34484,Asia,1
 Azerbaijan,34018,,504,,31490,Asia,1
 Bahrain,46052,,168,,42469,Asia,1
 Bangladesh,271881,,3591,,156623,Asia,1
@@ -9,9 +9,9 @@ Brunei,142,,3,,138,Asia,0
 Cambodia,273,,,,229,Asia,0
 China,84808,22,4634,,79519,Asia,1
 Cyprus,1318,,20,,870,Asia,1
-Georgia,1306,,17,,1085,Asia,1
+Georgia,1321,15,17,,1088,Asia,1
 Hong Kong,4361,,67,,3392,Asia,1
-India,2527308,2086,49148,14,1809542,Asia,1
+India,2530490,5268,49170,36,1809702,Asia,1
 Indonesia,135123,,6021,,89618,Asia,1
 Iran,338825,,19331,,293811,Asia,1
 Iraq,168290,,5709,,120129,Asia,1
@@ -32,7 +32,7 @@ Nepal,25551,,99,,17077,Asia,1
 Oman,82743,,557,,77427,Asia,1
 Pakistan,288047,747,6162,9,265624,Asia,1
 Palestine,15834,,106,,9382,Asia,1
-Philippines,153660,,2442,,71405,Asia,1
+Philippines,157918,4351,2600,159,72209,Asia,1
 Qatar,114532,,190,,111258,Asia,1
 Saudi Arabia,295902,,3338,,262959,Asia,1
 Singapore,55580,,27,,51049,Asia,1
