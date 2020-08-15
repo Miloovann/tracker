@@ -348,7 +348,7 @@
         </div>
 
         <div class="int" style="padding-top: 130px;">
-            <p id = "absc" >swsasass</p>
+            <p id = "absc" >swssiogeiogneong</p>
             <img src = "worldwidetotal10.svg" style="width: 26%;">
             <img src = "worldwidedeath10.svg" style="width: 26%;">
             <img src = "worldwiderecovered10.svg" style="width: 26%;">
@@ -470,7 +470,7 @@
         </div>
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="module">
+    <script>
         //SG Pie
         function sgdatelink(){
             var fortnight = [];
@@ -869,10 +869,11 @@
             }
             document.getElementById("timedif").innerHTML = time + units + " ago";
         }
-
+    </script>
+    <script type="module">
         function extract(){
             var fs = require('fs');
-            var txta = fs.readFileSync('/updatetiming.txt').toString().split(" ");
+            var txta = fs.readFileSync('/Users/junyiho/Desktop/PW_Web/updatetiming.txt').toString().split(" ");
             document.getElementById("absc").innerHTML = txta
         }
         extract()
