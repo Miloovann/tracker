@@ -102,7 +102,7 @@ Jamaica,1106,24,14,,761,North America,1
 Japan,53577,,1085,,38945,Asia,1
 Jordan,1339,,11,,1229,Asia,1
 Kazakhstan,102696,409,1269,,81558,Asia,1
-Kenya,29849,,472,,15970,Africa,1
+Kenya,30120,271,474,2,16656,Africa,0
 Kuwait,76205,508,501,3,68135,Asia,1
 Kyrgyzstan,41856,211,1495,2,34276,Asia,1
 Laos,22,,,,19,Asia,0
@@ -144,7 +144,7 @@ Niger,1165,,69,,1077,Africa,1
 Nigeria,48770,,974,,36290,Africa,1
 North Macedonia,12739,86,544,5,9174,Europe,1
 Norway,9989,24,261,,8857,Europe,1
-Oman,82924,,562,,77550,Asia,1
+Oman,83086,162,572,10,77680,Asia,0
 Pakistan,288717,670,6168,6,266301,Asia,1
 Palestine,16534,381,110,2,9838,Asia,1
 Panama,80665,,1746,,53857,North America,1
@@ -171,7 +171,7 @@ Senegal,12032,,251,,7637,Africa,1
 Serbia,29682,211,674,4,27061,Europe,1
 Seychelles,127,,,,126,Africa,0
 Sierra Leone,1954,,69,,1505,Africa,1
-Singapore,55747,86,27,,51521,Asia,1
+Singapore,55747,86,27,,51953,Asia,1
 Slovakia,2902,47,31,,1969,Europe,1
 Slovenia,2416,15,129,,2051,Europe,1
 Somalia,3250,,93,,2268,Africa,1
@@ -198,7 +198,7 @@ Turkey,248117,,5955,,229972,Asia,1
 Turks and Caicos,298,24,2,,55,North America,1
 UAE,64312,210,364,3,57694,Asia,1
 UK,317379,,41361,,N/A,Europe,0
-USA,5532270,2481,172630,24,2904245,North America,1
+USA,5533161,3372,172639,33,2904286,North America,0
 Uganda,1434,,13,,1142,Africa,1
 Ukraine,91356,1637,2070,26,47822,Europe,1
 Uruguay,1434,,38,,1194,South America,1
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,1858,,528,,1013,Asia,1
 Zambia,9186,,260,,8065,Africa,1
 Zimbabwe,5176,,130,,2047,Africa,1
-World,21669681,68907,769865,1731,14177149,,0
+World,21671005,70231,769886,1752,14178438,,0
