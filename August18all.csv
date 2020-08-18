@@ -9,7 +9,7 @@ Antigua and Barbuda,93,,3,,88,North America,1
 Argentina,299126,,5814,,217850,South America,1
 Armenia,41846,145,832,8,34982,Asia,1
 Aruba,1121,,4,,212,North America,1
-Australia,23773,214,438,17,14929,Australia/Oceania,0
+Australia,23773,214,438,17,14929,Australia/Oceania,1
 Austria,23829,295,729,,20870,Europe,1
 Azerbaijan,34343,,508,,32042,Asia,1
 Bahamas,1329,,19,,191,North America,1
@@ -73,7 +73,7 @@ French Polynesia,211,,,,68,Australia/Oceania,0
 Gabon,8270,,53,,6404,Africa,1
 Gambia,1872,,63,,401,Africa,1
 Georgia,1351,10,17,,1092,Asia,1
-Germany,227217,531,9300,4,202900,Europe,0
+Germany,227217,531,9300,4,202900,Europe,1
 Ghana,42653,,239,,40567,Africa,1
 Gibraltar,222,5,,,195,Europe,0
 Greece,7222,,230,,3804,Europe,1
@@ -89,7 +89,7 @@ Honduras,50995,493,1583,8,7450,North America,1
 Hong Kong,4561,36,70,1,3677,Asia,1
 Hungary,4970,24,609,1,3631,Europe,1
 Iceland,2014,,10,,1888,Europe,1
-India,2724642,23038,52153,228,1997918,Asia,1
+India,2732218,30614,52280,355,2005215,Asia,0
 Indonesia,143043,1673,6277,70,96306,Asia,1
 Iran,347835,2385,19972,168,300881,Asia,1
 Iraq,180133,,5954,,128945,Asia,1
@@ -102,7 +102,7 @@ Jamaica,1129,16,14,,764,North America,1
 Japan,55667,,1099,,41196,Asia,1
 Jordan,1398,,11,,1241,Asia,1
 Kazakhstan,103300,267,1269,,84445,Asia,1
-Kenya,30636,271,482,,17160,Africa,0
+Kenya,30636,271,482,,17368,Africa,0
 Kuwait,77470,643,505,3,69243,Asia,1
 Kyrgyzstan,42146,155,1498,2,34855,Asia,1
 Laos,22,,,,19,Asia,0
@@ -187,7 +187,7 @@ Switzerland,38449,197,1992,1,33300,Europe,1
 Syria,1764,,68,,425,Asia,1
 São Tomé and Príncipe,885,,15,,821,Africa,1
 Taiwan,486,1,7,,450,Asia,1
-Tajikistan,8131,32,65,1,6935,Asia,0
+Tajikistan,8131,32,65,1,6935,Asia,1
 Tanzania,509,,21,,183,Africa,1
 Thailand,3381,3,58,,3198,Asia,1
 Timor-Leste,25,,,,24,Asia,0
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,1882,,535,,1045,Asia,1
 Zambia,9981,142,264,,8776,Africa,1
 Zimbabwe,5308,,135,,3848,Africa,1
-World,22098666,59975,778265,1300,14632482,,0
+World,22106242,67551,778392,1427,14639987,,0
