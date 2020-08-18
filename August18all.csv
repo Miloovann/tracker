@@ -9,7 +9,7 @@ Antigua and Barbuda,93,,3,,88,North America,1
 Argentina,299126,,5814,,217850,South America,1
 Armenia,41701,,824,,34655,Asia,1
 Aruba,1121,,4,,212,North America,1
-Australia,23772,213,438,17,14539,Australia/Oceania,1
+Australia,23772,213,438,17,14539,Australia/Oceania,0
 Austria,23534,,729,,20765,Europe,1
 Azerbaijan,34343,,508,,32042,Asia,1
 Bahamas,1329,,19,,191,North America,1
@@ -89,7 +89,7 @@ Honduras,50995,493,1583,8,7450,North America,1
 Hong Kong,4525,,69,,3599,Asia,1
 Hungary,4946,,608,,3630,Europe,1
 Iceland,2014,,10,,1888,Europe,1
-India,2701604,,51925,,1976248,Asia,1
+India,2703517,1913,51936,11,1977779,Asia,0
 Indonesia,141370,,6207,,94458,Asia,1
 Iran,345450,,19804,,299157,Asia,1
 Iraq,180133,,5954,,128945,Asia,1
@@ -145,7 +145,7 @@ Nigeria,49485,,977,,36834,Africa,1
 North Macedonia,12840,,547,,9174,Europe,1
 Norway,10060,,261,,8857,Europe,1
 Oman,83226,,588,,77812,Asia,1
-Pakistan,289832,617,6190,15,270009,Asia,0
+Pakistan,289832,617,6190,15,270009,Asia,1
 Palestine,16844,,113,,9906,Asia,1
 Panama,82543,,1788,,55845,North America,1
 Papua New Guinea,333,,3,,110,Australia/Oceania,1
@@ -202,7 +202,7 @@ USA,5612027,,173716,,2973587,North America,1
 Uganda,1560,,15,,1165,Africa,1
 Ukraine,92820,,2089,,48164,Europe,1
 Uruguay,1457,,40,,1205,South America,1
-Uzbekistan,36100,398,240,4,31580,Asia,0
+Uzbekistan,36100,398,240,4,31580,Asia,1
 Vatican City,12,,,,12,Europe,0
 Venezuela,34802,,288,,23575,South America,1
 Vietnam,983,,25,1,467,Asia,1
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,1882,,535,,1045,Asia,1
 Zambia,9839,,264,,8575,Africa,1
 Zimbabwe,5308,,135,,3848,Africa,1
-World,22045594,6980,777351,383,14585166,,0
+World,22047507,8893,777362,394,14586697,,0
