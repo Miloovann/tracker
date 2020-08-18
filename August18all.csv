@@ -102,7 +102,7 @@ Jamaica,1129,16,14,,764,North America,1
 Japan,55667,,1099,,41196,Asia,1
 Jordan,1398,,11,,1241,Asia,1
 Kazakhstan,103300,267,1269,,84445,Asia,1
-Kenya,30636,271,482,,17368,Africa,0
+Kenya,30636,271,487,5,17368,Africa,0
 Kuwait,77470,643,505,3,69243,Asia,1
 Kyrgyzstan,42146,155,1498,2,34855,Asia,1
 Laos,22,,,,19,Asia,0
@@ -183,7 +183,7 @@ Sri Lanka,2900,,11,,2755,Asia,1
 Sudan,12485,75,805,2,6398,Africa,1
 Suriname,3077,,48,,2138,South America,1
 Sweden,85219,,5790,6,N/A,Europe,0
-Switzerland,38449,197,1992,1,33300,Europe,1
+Switzerland,38449,197,1992,1,33500,Europe,0
 Syria,1764,,68,,425,Asia,1
 São Tomé and Príncipe,885,,15,,821,Africa,1
 Taiwan,486,1,7,,450,Asia,1
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,1882,,535,,1045,Asia,1
 Zambia,9981,142,264,,8776,Africa,1
 Zimbabwe,5308,,135,,3848,Africa,1
-World,22106242,67551,778392,1427,14639987,,0
+World,22106242,67551,778397,1432,14640187,,0
