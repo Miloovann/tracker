@@ -1,6 +1,6 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Afghanistan,38054,55,1389,2,28360,Asia,0
-Albania,8427,,250,,4332,Europe,0
+Albania,8605,178,254,4,4413,Europe,0
 Algeria,41460,,1435,,29142,Africa,0
 Andorra,1045,,53,,875,Europe,0
 Angola,2171,,96,,818,Africa,0
@@ -76,7 +76,7 @@ Georgia,1421,10,18,1,1137,Asia,0
 Germany,235367,878,9334,2,209600,Europe,0
 Ghana,43622,117,263,2,41695,Africa,0
 Gibraltar,248,2,,,203,Europe,0
-Greece,8664,,242,,3804,Europe,0
+Greece,8819,155,242,,3804,Europe,0
 Greenland,14,,,,14,North America,0
 Grenada,24,,,,24,North America,0
 Guadeloupe,771,,15,,289,North America,0
@@ -143,7 +143,7 @@ Nicaragua,4311,,133,,2913,North America,0
 Niger,1172,,69,,1083,Africa,0
 Nigeria,52227,,1002,,38945,Africa,0
 North Macedonia,13673,78,568,4,10150,Europe,0
-Norway,10323,,264,,9150,Europe,0
+Norway,10374,51,264,,9150,Europe,0
 Oman,84509,740,637,28,78912,Asia,0
 Pakistan,293261,496,6244,9,276829,Asia,0
 Palestine,19213,411,130,2,11870,Asia,0
@@ -197,7 +197,7 @@ Tunisia,2818,,71,,1443,Africa,0
 Turkey,258249,,6121,,237165,Asia,0
 Turks and Caicos,383,,2,,102,North America,0
 UAE,67282,275,376,1,58582,Asia,0
-UK,325642,,41429,,N/A,Europe,0
+UK,325642,,41433,4,N/A,Europe,0
 USA,5882531,8385,180703,99,3168934,North America,0
 Uganda,2362,99,22,2,1248,Africa,0
 Ukraine,106754,1799,2293,22,54524,Europe,0
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,1911,,553,,1086,Asia,0
 Zambia,11082,,280,,9942,Africa,0
 Zimbabwe,5930,,155,,4872,Africa,0
-World,23642078,68522,813461,1380,15929059,,0
+World,23642462,68906,813469,1388,15929140,,0
