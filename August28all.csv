@@ -67,7 +67,7 @@ Falkland Islands,13,,,,13,South America,0
 Faroe Islands,411,,,,358,Europe,0
 Fiji,28,,2,1,23,Australia/Oceania,1
 Finland,8019,17,335,,7200,Europe,1
-France,259698,6111,30544,,85524,Europe,0
+France,259698,6111,30576,32,85524,Europe,0
 French Guiana,8936,,56,,8461,South America,1
 French Polynesia,415,,,,202,Australia/Oceania,0
 Gabon,8468,,53,,7066,Africa,1
@@ -89,7 +89,7 @@ Honduras,56649,772,1747,44,9169,North America,1
 Hong Kong,4756,20,81,3,4200,Asia,1
 Hungary,5379,91,614,,3757,Europe,1
 Iceland,2087,5,10,,1964,Europe,1
-India,3382152,74403,61675,1046,2582179,Asia,1
+India,3383517,75768,61685,1056,2582812,Asia,0
 Indonesia,162884,2719,7064,120,118575,Asia,1
 Iran,367796,2190,21137,117,316638,Asia,1
 Iraq,219435,3651,6740,72,161009,Asia,1
@@ -119,7 +119,7 @@ Madagascar,14592,38,184,3,13686,Africa,1
 Malawi,5474,,173,,3085,Africa,1
 Malaysia,9296,5,125,,8994,Asia,1
 Maldives,7225,,28,,4561,Asia,1
-Mali,2717,,126,,2052,Africa,1
+Mali,2730,13,126,,2054,Africa,0
 Malta,1788,37,10,,1121,Europe,1
 Martinique,596,,16,,98,North America,1
 Mauritania,6977,,158,,6356,Africa,1
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,1933,3,562,2,1098,Asia,1
 Zambia,11376,,282,,10693,Africa,1
 Zimbabwe,6251,,179,,5001,Africa,1
-World,24483572,167323,832455,3653,16774578,,0
+World,24484950,168701,832497,3695,16775213,,0
