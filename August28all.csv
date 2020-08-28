@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,38129,,1401,,29046,Asia,1
+Afghanistan,38140,11,1402,1,29059,Asia,0
 Albania,9083,,266,,4791,Europe,1
 Algeria,43016,,1475,,30157,Africa,1
 Andorra,1098,,53,,893,Europe,1
@@ -57,7 +57,7 @@ Dominica,20,,,,18,North America,0
 Dominican Republic,92964,,1630,,64347,North America,1
 Ecuador,111219,,6471,,95202,South America,1
 Egypt,98062,,5342,,69612,Africa,1
-El Salvador,25284,,694,,13291,North America,1
+El Salvador,25415,131,702,8,13570,North America,0
 Equatorial Guinea,4928,,83,,3798,Africa,1
 Eritrea,317,,,,284,Africa,0
 Estonia,2343,18,64,,2076,Europe,1
@@ -90,7 +90,7 @@ Hong Kong,4756,,83,2,4200,Asia,1
 Hungary,5511,132,614,,3759,Europe,1
 Iceland,2087,,10,,1964,Europe,1
 India,3392295,7720,61725,31,2585030,Asia,1
-Indonesia,162884,,7064,,118575,Asia,1
+Indonesia,165887,3003,7169,105,120900,Asia,0
 Iran,367796,,21137,,316638,Asia,1
 Iraq,219435,,6740,,161009,Asia,1
 Ireland,28453,,1777,,23364,Europe,1
@@ -152,7 +152,7 @@ Papua New Guinea,424,,4,,232,Australia/Oceania,1
 Paraguay,15290,,265,,8348,South America,1
 Peru,621997,,28277,,429662,South America,1
 Philippines,209544,3999,3325,91,134474,Asia,0
-Poland,64689,,2010,,44097,Europe,1
+Poland,64689,,2010,,44785,Europe,0
 Portugal,56673,,1809,,41357,Europe,1
 Qatar,117988,,195,,114797,Asia,1
 Romania,83150,,3459,,36677,Europe,1
@@ -171,7 +171,7 @@ Senegal,13294,,277,,8974,Africa,1
 Serbia,31099,,707,,29533,Europe,1
 Seychelles,136,,,,127,Africa,0
 Sierra Leone,2013,,70,,1581,Africa,1
-Singapore,56572,,27,,55139,Asia,1
+Singapore,56666,94,27,,55139,Asia,0
 Slovakia,3728,102,33,,2225,Europe,0
 Slovenia,2755,,133,,2199,Europe,1
 Somalia,3275,,95,,2443,Africa,1
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,1933,,562,,1098,Asia,1
 Zambia,11601,,282,,10840,Africa,1
 Zimbabwe,6292,,189,,5010,Africa,1
-World,24642094,31334,835825,965,16895813,,0
+World,24645333,34573,835939,1079,16899118,,0
