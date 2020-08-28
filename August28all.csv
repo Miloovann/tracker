@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,38140,11,1402,1,29059,Asia,0
+Afghanistan,38140,11,1402,1,29059,Asia,1
 Albania,9083,,266,,4791,Europe,1
 Algeria,43016,,1475,,30157,Africa,1
 Andorra,1098,,53,,893,Europe,1
@@ -13,7 +13,7 @@ Australia,25448,126,583,11,20633,Australia/Oceania,1
 Austria,26361,,733,,22317,Europe,1
 Azerbaijan,35844,,524,,33364,Asia,1
 Bahamas,1923,,48,,733,North America,1
-Bahrain,50756,,189,1,47370,Asia,0
+Bahrain,50756,,189,1,47370,Asia,1
 Bangladesh,304583,,4127,,193458,Asia,1
 Barbados,165,,7,,140,North America,1
 Belarus,71165,,662,,69650,Europe,1
@@ -90,7 +90,7 @@ Hong Kong,4756,,83,2,4200,Asia,1
 Hungary,5511,132,614,,3759,Europe,1
 Iceland,2087,,10,,1964,Europe,1
 India,3392295,7720,61725,31,2585030,Asia,1
-Indonesia,165887,3003,7169,105,120900,Asia,0
+Indonesia,165887,3003,7169,105,120900,Asia,1
 Iran,367796,,21137,,316638,Asia,1
 Iraq,219435,,6740,,161009,Asia,1
 Ireland,28453,,1777,,23364,Europe,1
@@ -106,7 +106,7 @@ Kenya,33389,,567,,19368,Africa,1
 Kuwait,82945,,522,,74522,Asia,1
 Kyrgyzstan,43587,128,1057,,37726,Asia,1
 Laos,22,,,,21,Asia,0
-Latvia,1375,9,34,,1163,Europe,0
+Latvia,1375,9,34,,1163,Europe,1
 Lebanon,14937,,146,,4133,Asia,1
 Lesotho,1051,,31,,526,Africa,1
 Liberia,1298,,82,,832,Africa,1
@@ -151,8 +151,8 @@ Panama,89982,,1948,,63996,North America,1
 Papua New Guinea,424,,4,,232,Australia/Oceania,1
 Paraguay,15290,,265,,8348,South America,1
 Peru,621997,,28277,,429662,South America,1
-Philippines,209544,3999,3325,91,134474,Asia,0
-Poland,64689,,2010,,44785,Europe,0
+Philippines,209544,3999,3325,91,134474,Asia,1
+Poland,64689,,2010,,44785,Europe,1
 Portugal,56673,,1809,,41357,Europe,1
 Qatar,117988,,195,,114797,Asia,1
 Romania,83150,,3459,,36677,Europe,1
@@ -171,8 +171,8 @@ Senegal,13294,,277,,8974,Africa,1
 Serbia,31099,,707,,29533,Europe,1
 Seychelles,136,,,,127,Africa,0
 Sierra Leone,2013,,70,,1581,Africa,1
-Singapore,56666,94,27,,55139,Asia,0
-Slovakia,3728,102,33,,2225,Europe,0
+Singapore,56666,94,27,,55139,Asia,1
+Slovakia,3728,102,33,,2225,Europe,1
 Slovenia,2755,,133,,2199,Europe,1
 Somalia,3275,,95,,2443,Africa,1
 South Africa,618286,,13628,,531338,Africa,1
