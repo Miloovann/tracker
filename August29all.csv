@@ -11,7 +11,7 @@ Armenia,43451,181,869,5,37264,Asia,1
 Aruba,1848,,8,,608,North America,1
 Australia,25448,126,583,11,20633,Australia/Oceania,1
 Austria,26590,229,733,,22594,Europe,1
-Azerbaijan,35986,142,527,3,33461,Asia,0
+Azerbaijan,35986,142,527,3,33461,Asia,1
 Bahamas,1923,,48,,733,North America,1
 Bahrain,50756,,189,1,47370,Asia,1
 Bangladesh,306794,2211,4174,47,196836,Asia,1
@@ -39,7 +39,7 @@ Caribbean Netherlands,14,1,,,7,North America,0
 Cayman Islands,205,,1,,202,North America,1
 Central African Republic,4698,,61,,1782,Africa,1
 Chad,1004,,77,,875,Africa,1
-Channel Islands,623,,48,,545,Europe,1
+Channel Islands,625,2,48,,545,Europe,0
 Chile,405972,1870,11132,60,379452,South America,1
 China,85013,9,4634,,80091,Asia,1
 Colombia,582022,,18468,,417793,South America,1
@@ -89,7 +89,7 @@ Honduras,57669,1020,1803,56,9586,North America,1
 Hong Kong,4769,13,84,3,4249,Asia,1
 Hungary,5511,132,614,,3759,Europe,1
 Iceland,2092,5,10,,1964,Europe,1
-India,3454513,69938,62669,975,2640121,Asia,1
+India,3459295,74720,62691,997,2644787,Asia,0
 Indonesia,165887,3003,7169,105,120900,Asia,1
 Iran,369911,2115,21249,112,318270,Asia,1
 Iraq,223612,4177,6814,74,164874,Asia,1
@@ -133,7 +133,7 @@ Montenegro,4558,,89,,3606,Europe,1
 Montserrat,13,,1,,12,North America,1
 Morocco,57085,,1011,,41901,Africa,1
 Mozambique,3651,,21,,1968,Africa,1
-Myanmar,628,26,6,,349,Asia,1
+Myanmar,643,41,6,,349,Asia,0
 Namibia,6712,,60,,2776,Africa,1
 Nepal,36456,927,195,12,20242,Asia,1
 Netherlands,69131,507,6220,2,N/A,Europe,0
@@ -198,7 +198,7 @@ Turkey,265515,1517,6245,36,241809,Asia,1
 Turks and Caicos,482,18,3,,102,North America,1
 UAE,68901,390,379,1,59861,Asia,1
 UK,330368,,41477,,N/A,Europe,0
-USA,6063589,16955,185191,395,3352082,North America,0
+USA,6064354,17720,185228,432,3352104,North America,0
 Uganda,2756,77,28,,1288,Africa,1
 Ukraine,114497,2438,2451,48,55083,Europe,1
 Uruguay,1551,,43,,1333,South America,1
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,1943,10,563,1,1107,Asia,1
 Zambia,11779,178,283,1,10945,Africa,1
 Zimbabwe,6292,,189,,5010,Africa,1
-World,24763870,152958,838168,3312,16986423,,0
+World,24769434,158522,838227,3371,16991111,,0
