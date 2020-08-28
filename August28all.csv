@@ -41,7 +41,7 @@ Central African Republic,4698,,61,,1782,Africa,1
 Chad,1004,,77,,875,Africa,0
 Channel Islands,623,,48,,545,Europe,1
 Chile,404102,,11072,,377922,South America,0
-China,85004,,4634,,80046,Asia,0
+China,85013,9,4634,,80091,Asia,0
 Colombia,582022,,18468,,417793,South America,0
 Comoros,422,,7,,399,Africa,0
 Costa Rica,37292,,397,,14471,North America,0
@@ -98,7 +98,7 @@ Isle of Man,336,,24,,312,Europe,1
 Israel,110403,,884,,87726,Asia,0
 Italy,263949,,35463,,206554,Europe,0
 Ivory Coast,17702,,115,,16139,Africa,0
-Jamaica,1804,,19,,846,North America,0
+Jamaica,1870,66,19,,846,North America,0
 Japan,64668,,1226,,52823,Asia,0
 Jordan,1801,,15,,1364,Asia,0
 Kazakhstan,105243,,1523,,94713,Asia,0
@@ -125,7 +125,7 @@ Martinique,596,,16,,98,North America,1
 Mauritania,6993,,158,,6381,Africa,0
 Mauritius,355,,10,,335,Africa,0
 Mayotte,3301,,40,,2964,Africa,0
-Mexico,573888,,62076,,396758,North America,0
+Mexico,579914,6026,62594,518,400479,North America,0
 Moldova,35546,,977,,24156,Europe,0
 Monaco,125,,1,,86,Europe,0
 Mongolia,301,,,,291,Asia,0
@@ -138,7 +138,7 @@ Namibia,6712,,60,,2776,Africa,0
 Nepal,35529,,183,,20073,Asia,0
 Netherlands,68624,,6218,,N/A,Europe,0
 New Caledonia,23,,,,23,Australia/Oceania,0
-New Zealand,1702,,22,,1554,Australia/Oceania,0
+New Zealand,1714,12,22,,1561,Australia/Oceania,0
 Nicaragua,4494,,137,,2913,North America,1
 Niger,1173,,69,,1084,Africa,1
 Nigeria,53317,,1011,,40726,Africa,0
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,1933,,562,,1098,Asia,0
 Zambia,11601,,282,,10840,Africa,0
 Zimbabwe,6292,,189,,5010,Africa,0
-World,24600734,0,834681,0,16868676,,0
+World,24606847,6113,835199,518,16872449,,0
