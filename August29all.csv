@@ -1,6 +1,6 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Afghanistan,38140,11,1402,1,29059,Asia,1
-Albania,9195,112,271,5,4923,Europe,0
+Albania,9195,112,271,5,4923,Europe,1
 Algeria,43016,,1475,,30157,Africa,1
 Andorra,1098,,53,,893,Europe,1
 Angola,2415,,105,,1335,Africa,1
@@ -48,7 +48,7 @@ Costa Rica,37292,,397,,14471,North America,1
 Croatia,9549,357,180,3,6809,Europe,1
 Cuba,3866,60,92,,3222,North America,1
 Curaçao,55,2,1,,35,North America,1
-Cyprus,1481,14,20,,935,Asia,0
+Cyprus,1481,14,20,,935,Asia,1
 Czechia,23300,131,418,,17190,Europe,1
 DR Congo,9994,79,255,,9035,Africa,1
 Denmark,16700,73,624,,14877,Europe,1
