@@ -25,7 +25,7 @@ Bhutan,184,1,,,119,Asia,0
 Bolivia,113129,1035,4791,65,52521,South America,1
 Bosnia and Herzegovina,19214,294,591,9,12733,Europe,1
 Botswana,1633,,6,,224,Africa,1
-Brazil,3764493,,118726,,2947250,South America,1
+Brazil,3772945,8452,118988,262,2947250,South America,0
 British Virgin Islands,26,,1,,8,North America,1
 Brunei,144,,3,,139,Asia,0
 Bulgaria,15908,,594,,11044,Europe,1
@@ -73,7 +73,7 @@ French Polynesia,415,,,,202,Australia/Oceania,0
 Gabon,8468,,53,,7066,Africa,1
 Gambia,2743,,93,,638,Africa,1
 Georgia,1455,8,19,,1196,Asia,1
-Germany,241257,692,9360,1,215495,Europe,1
+Germany,241609,1044,9360,1,215495,Europe,0
 Ghana,43841,,270,,42246,Africa,1
 Gibraltar,274,2,,,221,Europe,0
 Greece,9800,269,259,5,3804,Europe,1
@@ -96,7 +96,7 @@ Iraq,219435,,6740,,161009,Asia,1
 Ireland,28453,,1777,,23364,Europe,1
 Isle of Man,336,,24,,312,Europe,1
 Israel,111493,1090,891,7,90158,Asia,1
-Italy,263949,,35472,9,206902,Europe,0
+Italy,265409,1462,35472,9,206902,Europe,0
 Ivory Coast,17702,,115,,16139,Africa,1
 Jamaica,1870,66,19,,846,North America,1
 Japan,64668,,1226,,52823,Asia,1
@@ -171,7 +171,7 @@ Senegal,13384,90,279,2,9091,Africa,1
 Serbia,31207,108,709,2,29802,Europe,1
 Seychelles,136,,,,127,Africa,0
 Sierra Leone,2013,,70,,1581,Africa,1
-Singapore,56666,94,27,,55337,Asia,1
+Singapore,56666,,27,,55337,Asia,1
 Slovakia,3728,102,33,,2225,Europe,1
 Slovenia,2797,42,133,,2236,Europe,1
 Somalia,3275,,95,,2443,Africa,1
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,1933,,562,,1098,Asia,1
 Zambia,11779,178,283,1,10945,Africa,1
 Zimbabwe,6292,,189,,5010,Africa,1
-World,24738137,127317,837723,2867,16977899,,0
+World,24748401,137489,837985,3129,16977899,,0
