@@ -73,7 +73,7 @@ French Polynesia,482,,,,202,Australia/Oceania,0
 Gabon,8505,,53,,7187,Africa,1
 Gambia,2895,,96,,751,Africa,1
 Georgia,1469,7,19,,1221,Asia,1
-Germany,242971,146,9363,,217484,Europe,1
+Germany,242975,150,9363,,217484,Europe,0
 Ghana,44205,87,276,6,42777,Africa,1
 Gibraltar,285,10,,,228,Europe,0
 Greece,9977,,260,,3804,Europe,1
@@ -84,12 +84,12 @@ Guatemala,73679,,2728,,61163,North America,1
 Guinea,9251,,59,,8282,Africa,1
 Guinea-Bissau,2205,,34,,1127,Africa,1
 Guyana,1184,,35,,636,South America,1
-Haiti,8174,,201,,5743,North America,1
+Haiti,8209,35,201,,5828,North America,0
 Honduras,59645,835,1842,15,10156,North America,1
 Hong Kong,4802,15,88,2,4320,Asia,1
 Hungary,5961,292,614,,3759,Europe,1
 Iceland,2105,5,10,,1990,Europe,1
-India,3566555,26843,63864,207,2731768,Asia,1
+India,3570733,31021,63893,236,2734783,Asia,0
 Indonesia,172053,2858,7343,82,124185,Asia,1
 Iran,373570,1754,21462,103,321421,Asia,1
 Iraq,227446,,6891,,169020,Asia,1
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,1946,,563,,1113,Asia,1
 Zambia,12025,123,287,3,11454,Africa,1
 Zimbabwe,6406,,196,,5056,Africa,1
-World,25220445,68065,847567,1696,17366519,,0
+World,25224662,72282,847596,1725,17369619,,0
