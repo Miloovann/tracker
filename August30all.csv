@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,38162,19,1402,,29089,Asia,0
+Afghanistan,38162,19,1402,,29089,Asia,1
 Albania,9279,,275,,5020,Europe,1
 Algeria,43781,,1491,,30717,Africa,1
 Andorra,1124,,53,,902,Europe,1
@@ -57,7 +57,7 @@ Dominica,20,,,,18,North America,0
 Dominican Republic,93732,,1673,,66320,North America,1
 Ecuador,112906,,6537,,95429,South America,1
 Egypt,98497,,5376,,71302,Africa,1
-El Salvador,25635,98,713,5,14013,North America,0
+El Salvador,25635,98,713,5,14013,North America,1
 Equatorial Guinea,4941,,83,,3884,Africa,1
 Eritrea,318,,,,284,Africa,0
 Estonia,2363,,64,,2086,Europe,1
@@ -202,7 +202,7 @@ USA,6139078,,186855,,3408799,North America,1
 Uganda,2847,,29,,1288,Africa,1
 Ukraine,116978,,2492,,56138,Europe,1
 Uruguay,1570,,44,,1364,South America,1
-Uzbekistan,41303,143,311,2,38359,Asia,0
+Uzbekistan,41303,143,311,2,38359,Asia,1
 Vatican City,12,,,,12,Europe,0
 Venezuela,44946,,375,,36175,South America,1
 Vietnam,1040,,32,,677,Asia,1
