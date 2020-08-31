@@ -115,12 +115,12 @@ Liechtenstein,107,,1,,97,Europe,1
 Lithuania,2906,32,86,,1840,Europe,1
 Luxembourg,6673,,124,,N/A,Europe,0
 Macao,46,,,,46,Asia,0
-Madagascar,14843,,191,,13802,Africa,1
+Madagascar,14863,20,192,1,13832,Africa,0
 Malawi,5536,,174,,3147,Africa,1
 Malaysia,9340,6,127,1,9054,Asia,1
 Maldives,7667,,28,,5036,Asia,1
 Mali,2773,,126,,2169,Africa,1
-Malta,1862,,12,,1313,Europe,1
+Malta,1883,21,12,,1400,Europe,0
 Martinique,596,,16,,98,North America,1
 Mauritania,7016,,159,,6430,Africa,1
 Mauritius,355,,10,,335,Africa,1
@@ -135,7 +135,7 @@ Morocco,61399,,1111,,46355,Africa,1
 Mozambique,3821,,23,,2100,Africa,1
 Myanmar,775,,6,,352,Asia,1
 Namibia,7365,,72,,2929,Africa,1
-Nepal,38561,,221,,20822,Asia,1
+Nepal,39460,899,228,7,21410,Asia,0
 Netherlands,70140,,6224,,N/A,Europe,0
 New Caledonia,23,,,,23,Australia/Oceania,0
 New Zealand,1738,9,22,,1585,Australia/Oceania,1
@@ -183,7 +183,7 @@ Sri Lanka,3015,3,12,,2868,Asia,1
 Sudan,13189,,823,,6612,Africa,1
 Suriname,4009,,67,,3073,South America,1
 Sweden,83958,,5821,,N/A,Europe,0
-Switzerland,42014,,2005,,35800,Europe,1
+Switzerland,42177,163,2005,,35800,Europe,0
 Syria,2703,,109,,614,Asia,1
 São Tomé and Príncipe,896,,15,,851,Africa,1
 Taiwan,488,,7,,462,Asia,1
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,1953,,564,,1123,Asia,1
 Zambia,12025,,287,,11454,Africa,1
 Zimbabwe,6412,,196,,5061,Africa,1
-World,25408447,35193,850969,913,17457740,,0
+World,25409550,36296,850977,921,17458445,,0
