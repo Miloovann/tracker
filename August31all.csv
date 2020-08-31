@@ -50,7 +50,7 @@ Cuba,3973,,94,,3327,North America,1
 Curaçao,68,1,1,,35,North America,1
 Cyprus,1487,,20,,1139,Asia,1
 Czechia,24367,,423,,17547,Europe,1
-DR Congo,10045,,258,,9103,Africa,1
+DR Congo,10097,52,258,,9133,Africa,0
 Denmark,16985,94,624,,15205,Europe,1
 Djibouti,5385,,60,,5319,Africa,1
 Dominica,20,,,,18,North America,0
@@ -126,7 +126,7 @@ Mauritania,7016,,159,,6430,Africa,1
 Mauritius,355,,10,,335,Africa,1
 Mayotte,3301,,40,,2964,Africa,1
 Mexico,595841,4129,64158,339,412580,North America,1
-Moldova,36700,,992,,25139,Europe,1
+Moldova,36920,220,995,3,25872,Europe,0
 Monaco,131,,1,,89,Europe,0
 Mongolia,301,,,,295,Asia,0
 Montenegro,4790,,98,,3963,Europe,1
@@ -143,7 +143,7 @@ Nicaragua,4494,,137,,2913,North America,1
 Niger,1175,,69,,1085,Africa,1
 Nigeria,53865,,1013,,41513,Africa,1
 North Macedonia,14341,11,603,3,11157,Europe,1
-Norway,10643,,264,,9348,Europe,1
+Norway,10746,103,264,,9348,Europe,0
 Oman,85722,178,685,8,80810,Asia,1
 Pakistan,295849,213,6294,6,280682,Asia,1
 Palestine,22729,525,152,,15056,Asia,1
@@ -187,7 +187,7 @@ Switzerland,42177,163,2005,,35800,Europe,1
 Syria,2703,,109,,614,Asia,1
 São Tomé and Príncipe,896,,15,,851,Africa,1
 Taiwan,488,,7,,462,Asia,1
-Tajikistan,8550,,68,,7341,Asia,1
+Tajikistan,8583,33,68,,7376,Asia,0
 Tanzania,509,,21,,183,Africa,1
 Thailand,3412,1,58,,3252,Asia,1
 Timor-Leste,27,,,,25,Asia,0
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,1953,,564,,1123,Asia,1
 Zambia,12097,72,288,1,11469,Africa,1
 Zimbabwe,6412,,196,,5061,Africa,1
-World,25431341,57666,851236,1198,17484457,,0
+World,25431749,58074,851239,1201,17485255,,0
