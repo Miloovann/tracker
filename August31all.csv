@@ -47,7 +47,7 @@ Comoros,423,,7,,399,Africa,1
 Costa Rica,39699,,418,,15737,North America,1
 Croatia,10123,,184,,7212,Europe,1
 Cuba,3973,,94,,3327,North America,1
-Curaçao,67,,1,,35,North America,1
+Curaçao,68,1,1,,35,North America,0
 Cyprus,1487,,20,,935,Asia,1
 Czechia,24367,,423,,17547,Europe,1
 DR Congo,10045,,258,,9103,Africa,1
@@ -202,7 +202,7 @@ USA,6173236,,187224,,3425723,North America,1
 Uganda,2928,,30,,1288,Africa,1
 Ukraine,119074,,2527,,56734,Europe,1
 Uruguay,1585,,44,,1378,South America,1
-Uzbekistan,41424,,313,,38655,Asia,1
+Uzbekistan,41528,104,315,2,38819,Asia,0
 Vatican City,12,,,,12,Europe,0
 Venezuela,45868,,381,,37091,South America,1
 Vietnam,1040,,32,,695,Asia,1
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,1953,,564,,1123,Asia,1
 Zambia,12025,,287,,11454,Africa,1
 Zimbabwe,6412,,196,,5061,Africa,1
-World,25381982,8739,850488,435,17443293,,0
+World,25382087,8844,850490,437,17443457,,0
