@@ -76,7 +76,7 @@ Georgia,1487,18,19,,1240,Asia,1
 Germany,243774,479,9366,2,217842,Europe,1
 Ghana,44205,,276,,42777,Africa,1
 Gibraltar,288,3,,,232,Europe,0
-Greece,10134,,262,,3804,Europe,1
+Greece,10317,183,266,4,3804,Europe,0
 Greenland,14,,,,14,North America,0
 Grenada,24,,,,24,North America,0
 Guadeloupe,1145,,16,,336,North America,1
@@ -100,7 +100,7 @@ Italy,268218,,35477,,208536,Europe,1
 Ivory Coast,17948,,115,,16553,Africa,1
 Jamaica,2357,244,21,1,890,North America,1
 Japan,67264,,1264,,56164,Asia,1
-Jordan,1966,,15,,1468,Asia,1
+Jordan,2034,68,15,,1508,Asia,0
 Kazakhstan,105795,111,1523,,96297,Asia,1
 Kenya,34201,144,577,3,19893,Africa,1
 Kuwait,85109,473,531,1,77224,Asia,1
@@ -198,7 +198,7 @@ Turkey,268546,,6326,,243839,Asia,1
 Turks and Caicos,507,2,3,,200,North America,1
 UAE,69690,,382,,60600,Asia,1
 UK,335873,1406,41501,2,N/A,Europe,0
-USA,6179374,6138,187345,121,3425938,North America,0
+USA,6180197,6961,187365,141,3425938,North America,0
 Uganda,2928,,30,,1288,Africa,1
 Ukraine,121215,2141,2557,30,57114,Europe,1
 Uruguay,1585,,44,,1378,South America,1
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,1953,,564,,1123,Asia,1
 Zambia,12097,72,288,1,11469,Africa,1
 Zimbabwe,6412,,196,,5061,Africa,1
-World,25445680,72005,851501,1463,17494902,,0
+World,25446754,73079,851525,1487,17494942,,0
