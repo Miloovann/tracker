@@ -49,7 +49,7 @@ Croatia,11094,369,194,3,8266,Europe,1
 Cuba,4126,,98,,3458,North America,1
 Curaçao,75,4,1,,39,North America,1
 Cyprus,1495,,21,,1139,Asia,1
-Czechia,26127,354,425,,18326,Europe,0
+Czechia,26127,354,426,1,18663,Europe,0
 DR Congo,10125,11,259,,9367,Africa,1
 Denmark,17374,179,626,,15499,Europe,1
 Djibouti,5387,,60,,5327,Africa,1
@@ -71,7 +71,7 @@ France,293024,,30686,,86963,Europe,0
 French Guiana,9209,,61,,8739,South America,1
 French Polynesia,622,,,,336,Australia/Oceania,0
 Gabon,8538,,53,,7335,Africa,1
-Gambia,3067,,97,,1032,Africa,1
+Gambia,3101,34,99,2,1075,Africa,0
 Georgia,1568,20,19,,1279,Asia,1
 Germany,248180,789,9395,2,223100,Europe,0
 Ghana,44713,55,280,4,43577,Africa,1
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,1976,,571,,1175,Asia,1
 Zambia,12523,108,292,,11562,Africa,1
 Zimbabwe,6638,,206,,5250,Africa,1
-World,26284042,119072,869115,2630,18266566,,0
+World,26284076,119106,869118,2633,18266946,,0
