@@ -57,10 +57,10 @@ Dominica,20,,,,18,North America,0
 Dominican Republic,96629,,1801,,70871,North America,1
 Ecuador,116360,,6648,,102051,South America,1
 Egypt,99425,,5479,,75415,Africa,1
-El Salvador,26099,99,744,5,15347,North America,0
+El Salvador,26099,99,744,5,15347,North America,1
 Equatorial Guinea,4965,,83,,4390,Africa,1
 Eritrea,330,,,,295,Africa,0
-Estonia,2456,15,64,,2157,Europe,0
+Estonia,2456,15,64,,2157,Europe,1
 Eswatini,4720,,94,,3789,Africa,1
 Ethiopia,55213,,856,,20283,Africa,1
 Falkland Islands,13,,,,13,South America,0
@@ -87,7 +87,7 @@ Guyana,1401,,44,,805,South America,1
 Haiti,8301,,210,,5870,North America,1
 Honduras,63158,632,1954,30,11618,North America,1
 Hong Kong,4839,,94,,4431,Asia,1
-Hungary,7382,459,621,1,3944,Europe,0
+Hungary,7382,459,621,1,3944,Europe,1
 Iceland,2128,,10,,2023,Europe,1
 India,3936747,3623,68569,,3037151,Asia,1
 Indonesia,184268,,7750,,132055,Asia,1
@@ -156,7 +156,7 @@ Poland,69129,,2092,,48593,Europe,1
 Portugal,59051,,1829,,42427,Europe,1
 Qatar,119420,,201,,116313,Asia,1
 Romania,91256,,3765,,39275,Europe,1
-Russia,1009995,,17528,,826935,Europe,1
+Russia,1015105,5110,17649,121,832747,Europe,0
 Rwanda,4255,,18,,2163,Africa,1
 Réunion,1912,,10,,880,Africa,1
 Saint Barthelemy,18,,,,13,North America,0
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,1979,,571,,1180,Asia,1
 Zambia,12523,,292,,11562,Africa,1
 Zimbabwe,6678,,206,,5263,Africa,1
-World,26470478,17285,873154,767,18400681,,0
+World,26475588,22395,873275,888,18406493,,0
