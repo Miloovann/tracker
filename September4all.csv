@@ -126,7 +126,7 @@ Mauritania,7106,,160,,6588,Africa,1
 Mauritius,356,,10,,335,Africa,1
 Mayotte,3374,,40,,2964,Africa,1
 Mexico,616894,5937,66329,513,430287,North America,1
-Moldova,38372,,1036,,27017,Europe,1
+Moldova,38906,534,1047,11,27017,Europe,0
 Monaco,143,,1,,94,Europe,1
 Mongolia,310,4,,,296,Asia,0
 Montenegro,5165,,104,,4164,Europe,1
@@ -143,7 +143,7 @@ Nicaragua,4668,,141,,2913,North America,1
 Niger,1177,,69,,1091,Africa,1
 Nigeria,54588,,1048,,42627,Africa,1
 North Macedonia,14871,109,609,3,12054,Europe,1
-Norway,11120,,264,,9348,Europe,1
+Norway,11160,40,264,,9348,Europe,0
 Oman,86380,,705,,81828,Asia,1
 Pakistan,297512,498,6335,7,282268,Asia,1
 Palestine,25142,671,170,3,16437,Asia,1
@@ -198,7 +198,7 @@ Turkey,274943,,6511,,248087,Asia,1
 Turks and Caicos,577,22,5,1,220,North America,1
 UAE,72766,612,387,,63158,Asia,1
 UK,340411,,41527,,N/A,Europe,0
-USA,6338119,2875,191144,86,3575866,North America,0
+USA,6338119,2875,191144,86,3575866,North America,1
 Uganda,3353,65,35,2,1564,Africa,1
 Ukraine,130951,2723,2761,51,59676,Europe,1
 Uruguay,1636,,44,,1437,South America,1
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,1979,,571,,1180,Asia,1
 Zambia,12639,116,292,,11572,Africa,1
 Zimbabwe,6678,,206,,5263,Africa,1
-World,26541588,88184,874295,1911,18466837,,0
+World,26542162,88758,874306,1922,18466837,,0
