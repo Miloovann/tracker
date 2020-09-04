@@ -106,13 +106,13 @@ Kenya,34705,,585,,20644,Africa,1
 Kuwait,87378,,536,,78791,Asia,1
 Kyrgyzstan,44199,64,1060,1,39389,Asia,1
 Laos,22,,,,21,Asia,0
-Latvia,1416,6,35,1,1187,Europe,0
+Latvia,1416,6,35,1,1187,Europe,1
 Lebanon,18963,,179,,5338,Asia,1
 Lesotho,1085,,31,,528,Africa,1
 Liberia,1306,,82,,1163,Africa,1
 Libya,15773,,254,,1856,Africa,1
 Liechtenstein,107,,1,,97,Europe,1
-Lithuania,3004,26,86,,1920,Europe,0
+Lithuania,3004,26,86,,1920,Europe,1
 Luxembourg,6811,,124,,N/A,Europe,0
 Macao,46,,,,46,Asia,0
 Madagascar,15106,,197,,14031,Africa,1
@@ -151,8 +151,8 @@ Panama,94914,,2046,,68198,North America,1
 Papua New Guinea,471,,5,,232,Australia/Oceania,1
 Paraguay,19959,,373,,10251,South America,1
 Peru,670145,,29405,,489886,South America,1
-Philippines,232072,3714,3737,49,160549,Asia,0
-Poland,69129,,2092,,49820,Europe,0
+Philippines,232072,3714,3737,49,160549,Asia,1
+Poland,69820,691,2100,8,49820,Europe,0
 Portugal,59051,,1829,,42427,Europe,1
 Qatar,119420,,201,,116313,Asia,1
 Romania,91256,,3765,,39275,Europe,1
@@ -163,7 +163,7 @@ Saint Barthelemy,18,,,,13,North America,0
 Saint Kitts and Nevis,17,,,,17,North America,0
 Saint Lucia,26,,,,26,North America,0
 Saint Martin,239,,6,,79,North America,1
-Saint Pierre and Miquelon,5,,,,4,North America,0
+Saint Pierre and Miquelon,5,,,,5,North America,0
 Saint Vincent and the Grenadines,61,,,,57,North America,0
 San Marino,735,,42,,660,Europe,1
 Saudi Arabia,318319,,3982,,293964,Asia,1
@@ -172,14 +172,14 @@ Serbia,31676,,718,,30188,Europe,1
 Seychelles,136,,,,127,Africa,0
 Sierra Leone,2035,,71,,1600,Africa,1
 Singapore,56948,40,27,,6028,Asia,1
-Slovakia,4163,,37,,2617,Europe,1
+Slovakia,4300,137,37,,2693,Europe,0
 Slovenia,3032,,134,,2402,Europe,1
 Somalia,3310,,98,,2481,Africa,1
 South Africa,633015,,14563,,554887,Africa,1
 South Korea,20842,198,331,2,15783,Asia,1
 South Sudan,2533,,47,,1290,Africa,1
 Spain,488513,,29234,,N/A,Europe,0
-Sri Lanka,3111,,12,,2889,Asia,0
+Sri Lanka,3111,,12,,2889,Asia,1
 Sudan,13189,,823,,6612,Africa,1
 Suriname,4215,,73,,3318,South America,1
 Sweden,84729,,5832,,N/A,Europe,0
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,1979,,571,,1180,Asia,1
 Zambia,12523,,292,,11562,Africa,1
 Zimbabwe,6678,,206,,5263,Africa,1
-World,26479663,26515,873326,939,18409083,,0
+World,26480491,27343,873334,947,18409160,,0
