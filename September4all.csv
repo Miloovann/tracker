@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,38304,16,1409,,29713,Asia,0
+Afghanistan,38304,16,1409,,29713,Asia,1
 Albania,9844,,301,,5732,Europe,1
 Algeria,45469,,1529,,32006,Africa,1
 Andorra,1199,,53,,909,Europe,1
@@ -11,7 +11,7 @@ Armenia,44461,190,891,4,39257,Asia,1
 Aruba,2292,,13,,1031,North America,1
 Australia,26136,87,737,59,22169,Australia/Oceania,1
 Austria,28729,357,735,,24513,Europe,1
-Azerbaijan,37031,132,543,2,34419,Asia,0
+Azerbaijan,37031,132,543,2,34419,Asia,1
 Bahamas,2386,,50,,893,North America,1
 Bahrain,53433,,192,2,50013,Asia,1
 Bangladesh,321615,1929,4412,29,216191,Asia,1
@@ -154,7 +154,7 @@ Peru,670145,,29405,,489886,South America,1
 Philippines,232072,3714,3737,49,160549,Asia,1
 Poland,69820,691,2100,8,49820,Europe,1
 Portugal,59457,406,1833,4,42576,Europe,1
-Qatar,119637,217,201,,116538,Asia,0
+Qatar,119637,217,201,,116538,Asia,1
 Romania,92595,1339,3812,47,39626,Europe,1
 Russia,1015105,5110,17649,121,832747,Europe,1
 Rwanda,4255,,18,,2163,Africa,1
@@ -171,7 +171,7 @@ Senegal,13881,55,289,2,9723,Africa,1
 Serbia,31772,96,721,3,30387,Europe,1
 Seychelles,136,,,,127,Africa,0
 Sierra Leone,2035,,71,,1600,Africa,1
-Singapore,56948,40,27,,6028,Asia,1
+Singapore,56948,40,27,,6174,Asia,1
 Slovakia,4300,137,37,,2693,Europe,1
 Slovenia,3079,47,134,,2440,Europe,1
 Somalia,3310,,97,,2481,Africa,0
@@ -208,6 +208,6 @@ Venezuela,49877,,402,,40574,South America,1
 Vietnam,1049,3,35,,772,Asia,1
 Western Sahara,10,,1,,8,Africa,1
 Yemen,1979,,571,,1180,Asia,1
-Zambia,12639,116,292,,11572,Africa,0
+Zambia,12639,116,292,,11572,Africa,1
 Zimbabwe,6678,,206,,5263,Africa,1
-World,26541566,88162,874288,1904,18466476,,0
+World,26541566,88162,874288,1904,18466622,,0
