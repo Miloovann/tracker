@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,38288,,1409,,29390,Asia,1
+Afghanistan,38304,16,1409,,29713,Asia,0
 Albania,9844,,301,,5732,Europe,1
 Algeria,45469,,1529,,32006,Africa,1
 Andorra,1199,,53,,909,Europe,1
@@ -208,6 +208,6 @@ Venezuela,49877,,402,,40574,South America,1
 Vietnam,1049,3,35,,772,Asia,1
 Western Sahara,10,,1,,8,Africa,1
 Yemen,1979,,571,,1180,Asia,1
-Zambia,12523,,292,,11562,Africa,1
+Zambia,12639,116,292,,11572,Africa,0
 Zimbabwe,6678,,206,,5263,Africa,1
-World,26516028,62624,874068,1683,18441636,,0
+World,26516160,62756,874068,1683,18441969,,0
