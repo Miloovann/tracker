@@ -1,6 +1,6 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Afghanistan,38494,96,1415,3,30557,Asia,1
-Albania,10406,151,319,3,6186,Europe,0
+Albania,10406,151,319,3,6186,Europe,1
 Algeria,46364,,1556,,32745,Africa,1
 Andorra,1215,,53,,928,Europe,1
 Angola,2965,,117,,1198,Africa,1
@@ -40,7 +40,7 @@ Cayman Islands,205,,1,,204,North America,1
 Central African Republic,4729,,62,,1818,Africa,1
 Chad,1039,,79,,918,Africa,1
 Channel Islands,626,,48,,575,Europe,1
-Chile,424274,1764,11652,60,395717,South America,0
+Chile,424274,1764,11652,60,395717,South America,1
 China,85134,12,4634,,80320,Asia,1
 Colombia,666521,,21412,,518229,South America,1
 Comoros,452,,7,,410,Africa,1
@@ -68,7 +68,7 @@ Faroe Islands,413,,,,409,Europe,0
 Fiji,31,,2,,24,Australia/Oceania,1
 Finland,8327,36,336,,7350,Europe,1
 France,324777,,30724,,87447,Europe,0
-French Guiana,9322,,62,,8870,South America,1
+French Guiana,9355,33,62,,8902,South America,0
 French Polynesia,694,,,,360,Australia/Oceania,0
 Gabon,8601,,53,,7424,Africa,1
 Gambia,3197,,99,,1315,Africa,1
@@ -89,7 +89,7 @@ Honduras,64764,412,2007,1,13418,North America,1
 Hong Kong,4890,11,98,4,4524,Asia,1
 Hungary,8963,576,625,1,3961,Europe,1
 Iceland,2141,,10,,2050,Europe,1
-India,4224014,21452,71844,157,3267231,Asia,1
+India,4236961,34399,72033,346,3278999,Asia,0
 Indonesia,196989,2880,8130,105,140652,Asia,1
 Iran,388810,2152,22410,117,335572,Asia,1
 Iraq,260370,,7512,,198560,Asia,1
@@ -102,7 +102,7 @@ Jamaica,3103,79,33,1,958,North America,1
 Japan,71419,,1357,,62076,Asia,1
 Jordan,2411,,16,,1756,Asia,1
 Kazakhstan,106361,60,1588,,99654,Asia,1
-Kenya,35205,102,599,2,21310,Africa,0
+Kenya,35205,102,599,2,21310,Africa,1
 Kuwait,90387,805,546,2,81037,Asia,1
 Kyrgyzstan,44458,55,1060,,39960,Asia,1
 Laos,22,,,,21,Asia,0
@@ -158,7 +158,7 @@ Qatar,120095,,203,,116998,Asia,1
 Romania,95897,883,3926,33,40454,Europe,1
 Russia,1030690,5185,17871,51,843277,Europe,1
 Rwanda,4374,,19,,2235,Africa,1
-Réunion,2222,,13,,1313,Africa,1
+Réunion,2277,55,13,,1313,Africa,0
 Saint Barthelemy,18,,,,13,North America,0
 Saint Kitts and Nevis,17,,,,17,North America,0
 Saint Lucia,26,,,,26,North America,0
@@ -198,7 +198,7 @@ Turkey,279806,,6673,,251105,Asia,1
 Turks and Caicos,598,,5,,264,North America,1
 UAE,74454,470,390,2,66533,Asia,1
 UK,347152,,41551,,N/A,Europe,0
-USA,6464064,3814,193266,16,3726119,North America,0
+USA,6465902,5652,193283,33,3726119,North America,0
 Uganda,3776,109,44,3,1741,Africa,1
 Ukraine,138068,2174,2877,31,62606,Europe,1
 Uruguay,1679,,45,,1459,South America,1
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,1987,,572,,1200,Asia,1
 Zambia,12776,,295,,11674,Africa,1
 Zimbabwe,7116,279,208,2,5373,Africa,1
-World,27333345,63196,893663,1127,19139765,,0
+World,27348218,78069,893869,1333,19151565,,0
