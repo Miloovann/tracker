@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,38494,,1415,,30557,Asia,1
+Afghanistan,38520,26,1418,3,30715,Asia,1
 Albania,10406,,319,,6186,Europe,1
 Algeria,46653,,1562,,32985,Africa,1
 Andorra,1261,,53,,934,Europe,1
@@ -64,7 +64,7 @@ Estonia,2564,32,64,,2195,Europe,1
 Eswatini,4884,,94,,4029,Africa,1
 Ethiopia,59648,,933,,21789,Africa,1
 Falkland Islands,13,,,,13,South America,0
-Faroe Islands,413,,,,409,Europe,0
+Faroe Islands,414,1,,,409,Europe,0
 Fiji,31,,2,,24,Australia/Oceania,1
 Finland,8337,10,336,,7350,Europe,1
 France,328980,,30726,,87836,Europe,0
@@ -103,7 +103,7 @@ Japan,71856,,1363,,62536,Asia,1
 Jordan,2478,,17,,1817,Asia,1
 Kazakhstan,106425,64,1588,,99893,Asia,1
 Kenya,35205,,599,,21310,Africa,1
-Kuwait,90387,,546,,81037,Asia,1
+Kuwait,91244,857,548,2,81654,Asia,0
 Kyrgyzstan,44487,29,1060,,40092,Asia,1
 Laos,22,,,,21,Asia,0
 Latvia,1432,3,35,,1187,Europe,1
@@ -120,7 +120,7 @@ Malawi,5621,,176,,3590,Africa,1
 Malaysia,9559,100,128,,9136,Asia,1
 Maldives,8667,,29,,6052,Asia,1
 Mali,2870,,127,,2246,Africa,1
-Malta,2076,,14,,1690,Europe,1
+Malta,2099,23,14,,1729,Europe,0
 Martinique,758,,18,,98,North America,1
 Mauritania,7165,,160,,6681,Africa,1
 Mauritius,356,,10,,335,Africa,1
@@ -135,7 +135,7 @@ Morocco,73780,,1394,,56096,Africa,1
 Mozambique,4557,,27,,2697,Africa,1
 Myanmar,1610,92,8,,388,Asia,1
 Namibia,8810,,91,,3806,Africa,1
-Nepal,47236,,300,,30677,Asia,1
+Nepal,48138,902,306,6,32964,Asia,0
 Netherlands,75584,,6243,,N/A,Europe,0
 New Caledonia,26,,,,23,Australia/Oceania,0
 New Zealand,1782,6,24,,1635,Australia/Oceania,1
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,1989,,573,,1201,Asia,1
 Zambia,12836,,295,,11748,Africa,1
 Zimbabwe,7298,,210,,5455,Africa,1
-World,27504448,29766,897095,672,19330295,,0
+World,27506257,31575,897106,683,19333396,,0
