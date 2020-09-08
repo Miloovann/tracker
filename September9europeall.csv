@@ -1,24 +1,24 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Albania,10553,147,321,2,6239,Europe,0
+Albania,10553,147,321,2,6239,Europe,1
 Andorra,1261,,53,,934,Europe,1
 Austria,30081,520,747,1,25629,Europe,1
 Belarus,73208,177,721,5,71916,Europe,1
 Belgium,88769,402,9909,2,18576,Europe,1
 Bosnia and Herzegovina,21961,301,669,5,15172,Europe,1
 Bulgaria,17146,,677,,12189,Europe,1
-Channel Islands,628,,48,,575,Europe,1
+Channel Islands,629,1,48,,575,Europe,1
 Croatia,12285,204,203,2,9553,Europe,1
 Czechia,29368,652,440,3,20139,Europe,1
 Denmark,18356,243,628,,15907,Europe,1
 Estonia,2564,32,64,,2195,Europe,1
 Faroe Islands,414,1,,,409,Europe,0
 Finland,8337,10,336,,7350,Europe,1
-France,335524,6544,30726,,87836,Europe,0
-Germany,254615,990,9407,2,227000,Europe,1
+France,335524,6544,30764,38,88226,Europe,0
+Germany,254929,1304,9409,4,227000,Europe,1
 Gibraltar,320,5,,,276,Europe,0
 Greece,11832,169,290,1,3804,Europe,1
 Hungary,9304,341,626,1,3972,Europe,1
-Iceland,2143,,10,,2057,Europe,1
+Iceland,2150,7,10,,2060,Europe,1
 Ireland,30080,306,1778,1,23364,Europe,1
 Isle of Man,337,,24,,312,Europe,1
 Italy,280153,1370,35563,10,210801,Europe,1
