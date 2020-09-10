@@ -57,7 +57,7 @@ Dominica,22,,,,18,North America,0
 Dominican Republic,100937,,1914,,74305,North America,1
 Ecuador,112166,,10701,,91242,South America,1
 Egypt,100403,,5577,,80689,Africa,1
-El Salvador,26602,,770,,16786,North America,1
+El Salvador,26602,,774,4,16807,North America,0
 Equatorial Guinea,4990,,83,,4479,Africa,1
 Eritrea,341,,,,295,Africa,0
 Estonia,2585,,64,,2213,Europe,1
@@ -200,7 +200,7 @@ UAE,75981,,393,,67359,Asia,1
 UK,355219,,41594,,N/A,Europe,0
 USA,6549475,,195239,,3846095,North America,1
 Uganda,4101,,46,,1876,Africa,1
-Ukraine,145612,2582,3023,44,65877,Europe,0
+Ukraine,145612,2582,3023,44,65877,Europe,1
 Uruguay,1741,,45,,1478,South America,1
 Uzbekistan,45160,230,368,2,42212,Asia,1
 Vatican City,12,,,,12,Europe,0
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,1999,,576,,1209,Asia,1
 Zambia,13112,,300,,11839,Africa,1
 Zimbabwe,7429,,222,,5542,Africa,1
-World,28023407,14698,907929,742,19831360,,0
+World,28023407,14698,907933,746,19831381,,0
