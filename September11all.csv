@@ -21,7 +21,7 @@ Belgium,90568,877,9917,,18659,Europe,1
 Belize,1365,,18,,326,North America,1
 Benin,2242,,40,,1793,Africa,1
 Bermuda,177,,9,,160,North America,1
-Bhutan,234,,,,155,Asia,0
+Bhutan,238,4,,,155,Asia,0
 Bolivia,124205,860,7193,47,79483,South America,1
 Bosnia and Herzegovina,22544,,680,,15273,Europe,1
 Botswana,2252,,10,,546,Africa,1
@@ -89,7 +89,7 @@ Honduras,65802,205,2049,5,15577,North America,1
 Hong Kong,4914,,99,,4582,Asia,1
 Hungary,10191,,630,,3990,Europe,1
 Iceland,2157,,10,,2072,Europe,1
-India,4559725,,76304,,3539983,Asia,1
+India,4562414,2689,76304,,3542663,Asia,0
 Indonesia,207203,,8456,,147510,Asia,1
 Iran,395488,,22798,,340842,Asia,1
 Iraq,278418,,7814,,213817,Asia,1
@@ -101,7 +101,7 @@ Ivory Coast,18869,,119,,17884,Africa,1
 Jamaica,3511,74,40,2,1019,North America,1
 Japan,73221,,1406,,64835,Asia,1
 Jordan,2739,,20,,1981,Asia,1
-Kazakhstan,106661,77,1634,,100409,Asia,0
+Kazakhstan,106661,77,1634,,100409,Asia,1
 Kenya,35603,,612,,22047,Africa,1
 Kuwait,92822,,556,,83040,Asia,1
 Kyrgyzstan,44684,,1061,,40487,Asia,1
@@ -145,7 +145,7 @@ Nigeria,55829,,1075,,43810,Africa,1
 North Macedonia,15414,,637,,12896,Europe,1
 Norway,11867,,265,,9348,Europe,1
 Oman,88337,,762,,83325,Asia,1
-Pakistan,299855,,6365,,287950,Asia,1
+Pakistan,300371,516,6370,5,288206,Asia,0
 Palestine,28664,,198,,18821,Asia,1
 Panama,99715,,2127,,72203,North America,1
 Papua New Guinea,507,,5,,232,Australia/Oceania,1
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,2003,,580,,1211,Asia,1
 Zambia,13214,,300,,11899,Africa,1
 Zimbabwe,7453,,222,,5635,Africa,1
-World,28318729,7194,913796,621,20065011,,0
+World,28321938,10403,913801,626,20067947,,0
