@@ -45,12 +45,12 @@ China,85174,6,4634,,80386,Asia,1
 Colombia,702088,,22518,,582694,South America,1
 Comoros,456,,7,,415,Africa,1
 Costa Rica,53969,,583,,20710,North America,1
-Croatia,13368,261,218,7,10721,Europe,0
+Croatia,13368,261,218,7,10721,Europe,1
 Cuba,4593,,106,,3844,North America,1
 Curaçao,135,,1,,55,North America,1
 Cyprus,1520,,22,,1237,Asia,1
 Czechia,33860,,450,,21140,Europe,1
-DR Congo,10361,,262,,9622,Africa,1
+DR Congo,10385,24,262,,9719,Africa,0
 Denmark,19216,,629,,16139,Europe,1
 Djibouti,5394,,61,,5327,Africa,1
 Dominica,24,,,,18,North America,0
@@ -90,7 +90,7 @@ Hong Kong,4926,,99,,4597,Asia,0
 Hungary,11825,916,633,2,4058,Europe,1
 Iceland,2161,,10,,2079,Europe,1
 India,4663930,6551,77537,31,3624375,Asia,1
-Indonesia,210940,,8544,,150217,Asia,1
+Indonesia,214746,3806,8650,106,152458,Asia,0
 Iran,397801,,22913,,342539,Asia,1
 Iraq,282672,,7881,,217396,Asia,1
 Ireland,30571,,1781,,23364,Europe,1
@@ -112,12 +112,12 @@ Lesotho,1245,,33,,528,Africa,1
 Liberia,1315,,82,,1199,Africa,1
 Libya,21908,,352,,2506,Africa,1
 Liechtenstein,109,,1,,105,Europe,1
-Lithuania,3243,,86,,2049,Europe,1
+Lithuania,3296,53,86,,2070,Europe,0
 Luxembourg,7159,,124,,6397,Europe,1
 Macao,46,,,,46,Asia,0
 Madagascar,15669,,209,,14320,Africa,1
 Malawi,5669,,177,,3720,Africa,1
-Malaysia,9810,,128,,9181,Asia,1
+Malaysia,9868,58,128,,9189,Asia,0
 Maldives,8990,,31,,6846,Asia,1
 Mali,2912,,128,,2271,Africa,1
 Malta,2247,,15,,1833,Europe,1
@@ -172,8 +172,8 @@ Serbia,32228,,730,,31100,Europe,1
 Seychelles,138,,,,136,Africa,0
 Sierra Leone,2087,,72,,1622,Africa,1
 Singapore,57271,42,27,,6607,Asia,1
-Slovakia,5453,201,38,1,3114,Europe,0
-Slovenia,3497,,135,,2662,Europe,1
+Slovakia,5453,201,38,1,3114,Europe,1
+Slovenia,3603,105,135,,2699,Europe,0
 Somalia,3376,,98,,2791,Africa,1
 South Africa,646398,,15378,,574587,Africa,1
 South Korea,22055,136,355,5,18029,Asia,1
@@ -183,7 +183,7 @@ Sri Lanka,3169,,12,,2969,Asia,1
 Sudan,13470,,834,,6731,Africa,1
 Suriname,4529,,93,,3747,South America,1
 Sweden,86505,,5846,,N/A,Europe,0
-Switzerland,46239,,2020,,38100,Europe,1
+Switzerland,46239,,2020,,38500,Europe,0
 Syria,3476,,150,,812,Asia,1
 São Tomé and Príncipe,906,,15,,866,Africa,1
 Taiwan,498,,7,,475,Asia,1
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,2007,,582,,1211,Asia,1
 Zambia,13323,,306,,11899,Africa,1
 Zimbabwe,7479,,224,,5660,Africa,1
-World,28673730,32023,920036,1061,20320987,,0
+World,28677777,36069,920142,1167,20323791,,0
