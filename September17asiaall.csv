@@ -2,7 +2,7 @@ Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,
 Afghanistan,38855,40,1436,10,32503,Asia,1
 Armenia,46376,257,923,3,42069,Asia,1
 Azerbaijan,38658,141,569,3,36149,Asia,1
-Bahrain,61643,,216,3,54831,Asia,0
+Bahrain,61643,,216,3,54831,Asia,1
 Bangladesh,342671,1615,4823,21,247969,Asia,1
 Bhutan,246,,,,175,Asia,0
 Brunei,145,,3,,139,Asia,0
@@ -17,12 +17,12 @@ Iran,410334,2981,23632,179,352019,Asia,1
 Iraq,298702,,8166,,233346,Asia,1
 Israel,166794,2392,1147,,122785,Asia,1
 Japan,75958,,1451,,67831,Asia,1
-Jordan,3852,175,26,,2349,Asia,0
+Jordan,3852,175,26,,2349,Asia,1
 Kazakhstan,106984,64,1671,,101267,Asia,1
 Kuwait,96999,698,571,3,87187,Asia,1
 Kyrgyzstan,45072,73,1063,,41210,Asia,1
 Laos,23,,,,22,Asia,0
-Lebanon,25449,,252,,9216,Asia,1
+Lebanon,26083,634,259,7,9634,Asia,0
 Macao,46,,,,46,Asia,0
 Malaysia,10031,62,128,,9235,Asia,1
 Maldives,9328,,33,,7729,Asia,1
@@ -47,4 +47,4 @@ Turkey,294620,,7186,,261260,Asia,1
 UAE,81782,842,402,1,71456,Asia,1
 Uzbekistan,49015,586,407,5,45422,Asia,1
 Vietnam,1063,,35,,936,Asia,1
-Yemen,2016,,583,,1219,Asia,1
+Yemen,2019,3,583,,1221,Asia,0
