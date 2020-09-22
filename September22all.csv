@@ -35,7 +35,7 @@ Cabo Verde,5281,,52,,4674,Africa,1
 Cambodia,275,,,,274,Asia,0
 Cameroon,20598,,416,,19124,Africa,1
 Canada,145415,,9228,,125534,North America,0
-Caribbean Netherlands,36,,1,,17,North America,1
+Caribbean Netherlands,54,18,1,,18,North America,0
 Cayman Islands,209,,1,,204,North America,1
 Central African Republic,4786,,62,,1830,Africa,1
 Chad,1153,,81,,967,Africa,1
@@ -89,7 +89,7 @@ Honduras,72075,459,2204,20,22611,North America,1
 Hong Kong,5047,8,103,,4717,Asia,1
 Hungary,19499,633,694,8,4559,Europe,1
 Iceland,2419,42,10,,2130,Europe,1
-India,5574096,13991,89068,103,4503976,Asia,0
+India,5574096,13991,89068,103,4503976,Asia,1
 Indonesia,252923,4071,9837,160,184298,Asia,1
 Iran,429193,3712,24656,178,363737,Asia,1
 Iraq,322856,,8625,,258075,Asia,1
@@ -133,7 +133,7 @@ Montenegro,8842,,138,,5425,Europe,1
 Montserrat,13,,1,,12,North America,1
 Morocco,103119,,1855,,84158,Africa,1
 Mozambique,6912,,44,,3738,Africa,1
-Myanmar,6471,320,100,2,1445,Asia,1
+Myanmar,6743,592,115,17,1951,Asia,0
 Namibia,10526,,113,,8112,Africa,1
 Nepal,66632,1356,429,2,48061,Asia,1
 Netherlands,98240,2245,6291,10,N/A,Europe,0
@@ -142,7 +142,7 @@ New Zealand,1815,,25,,1729,Australia/Oceania,1
 Nicaragua,4961,,147,,2913,North America,1
 Niger,1189,,69,,1104,Africa,1
 Nigeria,57437,,1100,,48674,Africa,1
-North Macedonia,16867,87,705,5,14084,Europe,0
+North Macedonia,16867,87,705,5,14084,Europe,1
 Norway,13005,,267,,10371,Europe,1
 Oman,94711,660,865,12,86195,Asia,1
 Pakistan,306886,582,6424,4,293159,Asia,1
@@ -153,7 +153,7 @@ Paraguay,34260,,676,,18629,South America,1
 Peru,772896,,31474,,622418,South America,1
 Philippines,291789,1635,5049,50,230643,Asia,1
 Poland,80699,711,2316,18,64972,Europe,1
-Portugal,69663,463,1925,5,45974,Europe,0
+Portugal,69663,463,1925,5,45974,Europe,1
 Qatar,123917,313,211,,120766,Asia,1
 Romania,114648,1059,4503,45,92169,Europe,1
 Russia,1115810,6215,19649,160,917949,Europe,1
@@ -208,6 +208,6 @@ Venezuela,67443,,555,,56726,South America,1
 Vietnam,1068,,35,,957,Asia,1
 Western Sahara,10,,1,,8,Africa,1
 Yemen,2028,,586,,1235,Asia,1
-Zambia,14389,214,331,,13629,Africa,0
+Zambia,14389,214,331,,13629,Africa,1
 Zimbabwe,7683,,225,,5924,Africa,1
-World,31530285,59224,970201,1307,22877367,,0
+World,31530575,59514,970216,1322,22877874,,0
