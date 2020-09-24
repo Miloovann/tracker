@@ -1,7 +1,7 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Argentina,678266,13467,14766,390,536589,South America,1
 Bolivia,131990,537,7731,38,91556,South America,1
-Brazil,4657702,29922,139808,743,4023789,South America,1
+Brazil,4659909,32129,139883,818,4023789,South America,0
 Chile,451634,1731,12469,124,426876,South America,1
 Colombia,790823,6555,24924,178,674961,South America,1
 Ecuador,131146,1254,11213,42,102852,South America,1
@@ -11,5 +11,5 @@ Guyana,2579,44,71,2,1483,South America,1
 Paraguay,35571,,727,,19867,South America,1
 Peru,782695,,31870,,636489,South America,1
 Suriname,4779,,101,,4560,South America,1
-Uruguay,1959,13,47,,1679,South America,0
+Uruguay,1959,13,47,,1679,South America,1
 Venezuela,69439,,574,,58759,South America,1
