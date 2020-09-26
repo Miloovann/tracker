@@ -1,6 +1,6 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Afghanistan,39192,6,1453,2,32635,Asia,1
-Albania,13045,,373,,7309,Europe,1
+Albania,13153,108,375,2,7397,Europe,0
 Algeria,50754,,1707,,35654,Africa,1
 Andorra,1836,,53,,1263,Europe,1
 Angola,4590,,167,,1554,Africa,1
@@ -89,7 +89,7 @@ Honduras,73840,647,2271,22,25728,North America,1
 Hong Kong,5060,1,105,,4777,Asia,1
 Hungary,23077,950,730,12,5099,Europe,1
 Iceland,2561,,10,,2151,Europe,1
-India,5915753,14182,93461,51,4852313,Asia,0
+India,5915753,14182,93461,51,4852313,Asia,1
 Indonesia,271339,4494,10308,90,199403,Asia,1
 Iran,443086,3204,25394,172,372051,Asia,1
 Iraq,345969,4270,8935,68,276918,Asia,1
@@ -134,8 +134,8 @@ Montserrat,13,,1,,12,North America,1
 Morocco,112522,,1998,,91932,Africa,1
 Mozambique,7589,,53,,4649,Africa,1
 Myanmar,9112,,174,,2381,Asia,1
-Namibia,10835,,119,,8569,Africa,1
-Nepal,71821,1207,467,8,53013,Asia,0
+Namibia,10918,83,120,1,8749,Africa,0
+Nepal,71821,1207,467,8,53013,Asia,1
 Netherlands,108631,2713,6366,38,N/A,Europe,0
 New Caledonia,27,1,,,26,Australia/Oceania,0
 New Zealand,1831,2,25,,1745,Australia/Oceania,1
@@ -198,7 +198,7 @@ Turkey,311455,,7858,,273282,Asia,1
 Turks and Caicos,680,1,5,,617,North America,1
 UAE,90618,1078,411,2,79676,Asia,1
 UK,423236,,41936,,N/A,Europe,0
-USA,7245952,1768,208483,43,4481029,North America,0
+USA,7247550,3366,208502,62,4481095,North America,0
 Uganda,7218,,71,,3611,Africa,1
 Ukraine,195504,3833,3903,76,85133,Europe,1
 Uruguay,1967,,47,,1710,South America,1
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,2029,,587,,1255,Asia,1
 Zambia,14515,,332,,13643,Africa,1
 Zimbabwe,7787,,227,,6057,Africa,1
-World,32814094,68191,994357,1505,23933934,,0
+World,32815883,69980,994379,1527,23934268,,0
