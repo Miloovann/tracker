@@ -10,7 +10,7 @@ Argentina,736609,,16519,,585857,South America,1
 Armenia,50359,458,959,1,44001,Asia,1
 Aruba,3934,,26,,3181,North America,1
 Australia,27078,15,886,4,24754,Australia/Oceania,1
-Austria,44041,,796,,34916,Europe,1
+Austria,44813,772,799,3,35644,Europe,0
 Azerbaijan,40119,,590,,37827,Asia,1
 Bahamas,3903,,91,,2072,North America,1
 Bahrain,70422,,248,2,64267,Asia,1
@@ -73,7 +73,7 @@ French Polynesia,1728,,7,,1431,Australia/Oceania,1
 Gabon,8752,,54,,7955,Africa,1
 Gambia,3579,,112,,2161,Africa,1
 Georgia,6192,326,37,1,3120,Asia,1
-Germany,290466,,9556,,254200,Europe,1
+Germany,290466,,9556,,256000,Europe,0
 Ghana,46482,,301,,45651,Africa,1
 Gibraltar,391,,,,342,Europe,0
 Greece,18123,,388,,9989,Europe,1
@@ -86,7 +86,7 @@ Guinea-Bissau,2324,,39,,1549,Africa,1
 Guyana,2846,,78,,1644,South America,1
 Haiti,8740,,227,,6757,North America,1
 Honduras,76098,561,2323,22,27383,North America,1
-Hong Kong,5080,,105,,4807,Asia,1
+Hong Kong,5088,8,105,,4827,Asia,0
 Hungary,26461,894,765,8,5890,Europe,1
 Iceland,2695,,10,,2161,Europe,0
 India,6229474,5955,97541,12,5187825,Asia,1
@@ -95,7 +95,7 @@ Iran,453637,,25986,,378727,Asia,1
 Iraq,358290,,9122,,288812,Asia,1
 Ireland,35740,,1803,,23364,Europe,1
 Isle of Man,340,,24,,315,Europe,1
-Israel,239806,2880,1547,19,173109,Asia,0
+Israel,239806,2880,1547,19,173109,Asia,1
 Italy,313011,,35875,,226506,Europe,1
 Ivory Coast,19669,,120,,19241,Africa,1
 Jamaica,6408,,101,,1770,North America,1
@@ -152,7 +152,7 @@ Papua New Guinea,534,,7,,516,Australia/Oceania,1
 Paraguay,40101,,841,,23748,South America,1
 Peru,811768,,32396,,676925,South America,1
 Philippines,311694,2426,5504,58,253488,Asia,1
-Poland,91514,1552,2513,30,69695,Europe,0
+Poland,91514,1552,2513,30,69695,Europe,1
 Portugal,74717,,1963,,48193,Europe,1
 Qatar,125533,,214,,122448,Asia,1
 Romania,125414,,4792,,100636,Europe,1
@@ -210,4 +210,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,2031,,587,,1275,Asia,1
 Zambia,14715,,332,,13937,Africa,1
 Zimbabwe,7837,,228,,6122,Africa,1
-World,33868725,41590,1013069,1183,24895528,,0
+World,33869505,42370,1013072,1186,24898076,,0
