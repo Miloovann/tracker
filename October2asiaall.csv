@@ -1,6 +1,6 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Afghanistan,39285,,1458,,32842,Asia,1
-Armenia,50850,,963,,44219,Asia,1
+Armenia,51382,532,966,3,44406,Asia,0
 Azerbaijan,40309,,593,,38068,Asia,1
 Bahrain,71374,,254,,65550,Asia,1
 Bangladesh,364987,,5272,,277078,Asia,1
@@ -9,9 +9,9 @@ Brunei,146,,3,,142,Asia,0
 Cambodia,278,1,,,275,Asia,0
 China,85424,10,4634,,80601,Asia,1
 Cyprus,1772,,22,,1369,Asia,1
-Georgia,7093,453,43,2,3714,Asia,0
+Georgia,7093,453,43,2,3714,Asia,1
 Hong Kong,5098,,105,,4836,Asia,0
-India,6397896,5936,99833,29,5352078,Asia,0
+India,6397896,5936,99833,29,5352078,Asia,1
 Indonesia,291182,,10856,,218487,Asia,1
 Iran,461044,,26380,,383368,Asia,1
 Iraq,367474,,9231,,295882,Asia,1
