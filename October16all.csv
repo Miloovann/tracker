@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,40026,,1481,,33447,Asia,1
+Afghanistan,40073,47,1485,4,33516,Asia,1
 Albania,16212,,439,,9864,Europe,1
 Algeria,53777,,1827,,37603,Africa,1
 Andorra,3190,,59,,2011,Europe,1
@@ -10,7 +10,7 @@ Argentina,949063,,25342,,764859,South America,1
 Armenia,61460,1465,1056,10,47541,Asia,1
 Aruba,4285,,32,,3910,North America,1
 Australia,27371,9,904,,25062,Australia/Oceania,1
-Austria,60224,,877,,46798,Europe,1
+Austria,61387,1163,882,5,47618,Europe,1
 Azerbaijan,43280,,619,,39671,Asia,1
 Bahamas,5385,,112,,3178,North America,1
 Bahrain,76954,,289,,73013,Asia,1
@@ -95,7 +95,7 @@ Iran,517835,,29605,,418054,Asia,1
 Iraq,416802,,10086,,350752,Asia,1
 Ireland,46429,,1838,,23364,Europe,1
 Isle of Man,348,,24,,319,Europe,1
-Israel,301389,1188,2139,12,261128,Asia,0
+Israel,301389,1188,2139,12,261128,Asia,1
 Italy,381602,,36372,,245964,Europe,1
 Ivory Coast,20257,,120,,19898,Africa,1
 Jamaica,8067,,160,,3481,North America,1
@@ -110,14 +110,14 @@ Latvia,3204,148,42,1,1329,Europe,1
 Lebanon,58745,,501,,25994,Asia,1
 Lesotho,1833,,42,,961,Africa,1
 Liberia,1374,,82,,1254,Africa,1
-Libya,46676,,681,,25685,Africa,1
+Libya,47845,1169,699,18,26062,Africa,0
 Liechtenstein,183,,1,,131,Europe,1
 Lithuania,7041,281,112,2,3035,Europe,1
 Luxembourg,10244,,133,,8384,Europe,1
 Macao,46,,,,46,Asia,0
 Madagascar,16754,,237,,16124,Africa,1
 Malawi,5836,,181,,4728,Africa,1
-Malaysia,18129,,170,,12014,Asia,1
+Malaysia,18758,629,176,6,12259,Asia,0
 Maldives,11113,,35,,9931,Asia,1
 Mali,3368,,132,,2559,Africa,1
 Malta,4160,,45,,3106,Europe,1
@@ -184,7 +184,7 @@ Sri Lanka,5244,,13,,3385,Asia,1
 Sudan,13691,,836,,6764,Africa,1
 Suriname,5094,,109,,4907,South America,1
 Sweden,102407,,5910,,N/A,Europe,0
-Switzerland,71317,,2115,,50500,Europe,1
+Switzerland,74422,3105,2120,5,50500,Europe,1
 Syria,4931,,238,,1425,Asia,1
 São Tomé and Príncipe,929,,15,,896,Africa,1
 Taiwan,535,4,7,,491,Asia,1
@@ -211,4 +211,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,2053,,596,,1329,Asia,1
 Zambia,15659,,346,,14899,Africa,1
 Zimbabwe,8075,,231,,7669,Africa,1
-World,39222387,76270,1103590,1288,28917859,,0
+World,39228500,82383,1103628,1326,28919370,,0
