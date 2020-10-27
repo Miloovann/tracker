@@ -2,9 +2,9 @@ Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,
 Albania,19445,,480,,10705,Europe,1
 Andorra,4325,,72,,2957,Europe,1
 Austria,86102,2835,1005,13,60308,Europe,1
-Belarus,94609,902,965,4,84237,Europe,0
+Belarus,94609,902,965,4,84237,Europe,1
 Belgium,333718,12687,10899,89,23256,Europe,1
-Bosnia and Herzegovina,41596,,1104,,26542,Europe,1
+Bosnia and Herzegovina,43151,1555,1125,21,26903,Europe,1
 Bulgaria,40132,,1136,,18650,Europe,1
 Channel Islands,796,,48,,671,Europe,1
 Croatia,38621,1413,470,18,26840,Europe,1
@@ -18,12 +18,12 @@ Germany,451812,1554,10192,10,326700,Europe,1
 Gibraltar,670,,,,532,Europe,0
 Greece,31496,,581,,9989,Europe,1
 Hungary,63642,2079,1535,63,16646,Europe,1
-Iceland,4504,,11,,3463,Europe,1
+Iceland,4574,70,11,,3515,Europe,1
 Ireland,58067,,1885,,23364,Europe,1
 Isle of Man,351,,24,,321,Europe,1
 Italy,542789,,37479,,268626,Europe,1
 Latvia,4893,136,63,3,1382,Europe,1
-Liechtenstein,402,,1,,210,Europe,1
+Liechtenstein,428,26,1,,210,Europe,1
 Lithuania,11362,413,141,5,4329,Europe,1
 Luxembourg,14399,,147,,9570,Europe,1
 Malta,5685,107,55,2,3715,Europe,1
@@ -40,10 +40,10 @@ Russia,1547774,16550,26589,320,1158940,Europe,1
 San Marino,852,,42,,716,Europe,1
 Serbia,39827,,793,,31536,Europe,1
 Slovakia,46056,901,176,11,11008,Europe,1
-Slovenia,24080,,251,,8582,Europe,1
+Slovenia,25603,1499,251,,8582,Europe,0
 Spain,1156498,,35031,,N/A,Europe,0
 Sweden,110594,,5933,,N/A,Europe,0
-Switzerland,127042,5949,2146,,61700,Europe,1
+Switzerland,127042,5949,2147,1,61700,Europe,1
 UK,894690,,44998,,N/A,Europe,0
 Ukraine,355601,6677,6590,126,145336,Europe,1
 Vatican City,27,,,,15,Europe,0
