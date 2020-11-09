@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,42239,147,1565,7,34463,Asia,1
+Afghanistan,42297,205,1574,16,34721,Asia,0
 Albania,24206,,559,,12092,Europe,1
 Algeria,62051,,2048,,42037,Africa,1
 Andorra,5383,,75,,4248,Europe,1
@@ -14,7 +14,7 @@ Austria,153153,,1411,,91719,Europe,1
 Azerbaijan,65411,,840,,48908,Asia,1
 Bahamas,6947,,152,,4942,North America,1
 Bahrain,83456,,329,,81000,Asia,1
-Bangladesh,420238,,6067,,338145,Asia,1
+Bangladesh,421921,1683,6092,25,339768,Asia,1
 Barbados,242,,7,,228,North America,1
 Belarus,106279,,1007,,90998,Europe,1
 Belgium,500789,6621,13055,148,29651,Europe,1
@@ -60,7 +60,7 @@ Egypt,109201,,6368,,100342,Africa,1
 El Salvador,35145,,1014,4,31172,North America,1
 Equatorial Guinea,5092,,85,,4968,Africa,1
 Eritrea,491,,,,438,Africa,0
-Estonia,6250,125,75,,4205,Europe,0
+Estonia,6250,125,76,1,4205,Europe,1
 Eswatini,6003,,117,,5724,Africa,1
 Ethiopia,99675,,1523,,59766,Africa,1
 Falkland Islands,13,,,,13,South America,0
@@ -86,11 +86,11 @@ Guinea-Bissau,2414,,42,,1862,Africa,1
 Guyana,4514,,134,,3526,South America,1
 Haiti,9127,,232,,7618,North America,1
 Honduras,100508,467,2751,6,42959,North America,1
-Hong Kong,5375,,107,,5144,Asia,1
+Hong Kong,5381,6,107,,5144,Asia,0
 Hungary,114778,5162,2493,55,26161,Europe,1
 Iceland,5078,,20,,4423,Europe,1
 India,8555109,1245,126671,18,7917373,Asia,1
-Indonesia,437716,,14614,,368298,Asia,1
+Indonesia,440569,2853,14689,75,372266,Asia,1
 Iran,682486,,38291,,520329,Asia,1
 Iraq,498549,,11327,,428928,Asia,1
 Ireland,65394,,1947,,23364,Europe,1
@@ -145,7 +145,7 @@ Niger,1243,,69,,1144,Africa,1
 Nigeria,64090,,1154,,59910,Africa,1
 North Macedonia,39760,,1136,,23035,Europe,1
 Norway,24732,,285,,11863,Europe,1
-Oman,118140,,1301,,108681,Asia,1
+Oman,118503,363,1310,9,108968,Asia,1
 Pakistan,344839,1650,6977,9,318881,Asia,1
 Palestine,58158,,515,,50407,Asia,1
 Panama,139527,,2798,,117770,North America,1
@@ -153,7 +153,7 @@ Papua New Guinea,599,,7,,585,Australia/Oceania,1
 Paraguay,67589,,1490,,47822,South America,1
 Peru,922333,,34879,,843600,South America,1
 Philippines,398449,2058,7647,108,361784,Asia,1
-Poland,546425,,7872,,209363,Europe,1
+Poland,568138,21713,8045,173,219371,Europe,1
 Portugal,179324,,2896,,99781,Europe,1
 Qatar,134203,,232,,131276,Asia,1
 Romania,303751,,7879,,204679,Europe,1
@@ -173,7 +173,7 @@ Serbia,62747,,890,,31536,Europe,1
 Seychelles,158,,,,155,Africa,0
 Sierra Leone,2381,,74,,1812,Africa,1
 Singapore,58064,8,28,,57924,Asia,1
-Slovakia,75495,,351,,19481,Europe,1
+Slovakia,76072,577,366,15,19757,Europe,1
 Slovenia,45161,,554,,22443,Europe,1
 Solomon Islands,16,3,,,5,Australia/Oceania,0
 Somalia,4229,,107,,3247,Africa,1
@@ -213,4 +213,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,2070,,602,,1375,Asia,1
 Zambia,16954,,349,,15950,Africa,1
 Zimbabwe,8531,,253,,8005,Africa,1
-World,50775742,59736,1262621,1004,35322004,,0
+World,50802995,86989,1262928,1311,35338424,,0
