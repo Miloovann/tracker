@@ -475,7 +475,7 @@
         //SG Pie
         function sgdatelink(){
             var fortnight = [];
-            for(var days=1; days<15; days++){
+            for(var days=0; days<14; days++){
                 var date = new Date();
                 var last = new Date(date.getTime() - (days * 24 * 60 * 60 * 1000));
                 var day =last.getDate();
@@ -497,7 +497,7 @@
             }
             return fortnight;
         }
-        var slides = ["minus0", "minus1", "minus2", "minus3", "minus4", "minus5","minus6", "minus7", "minus8","minus9", "minus10", "minus11", "minus12", "minus13","minus14"]
+        var slides = ["minus0", "minus1", "minus2", "minus3", "minus4", "minus5","minus6", "minus7", "minus8","minus9", "minus10", "minus11", "minus12", "minus13"]
         var str = ''
         slides.forEach(function(slide) {
             str += '<img id ='+ slide + '>';
@@ -718,7 +718,7 @@
         function processData(allText) {
         var allTextLines = allText.split(/\r\n|\n/);
         var headers = allTextLines[0].split(',');
-        var i=212;
+        var i=216;
         var data = allTextLines[i].split(',');
         if (data.length == headers.length) {
             var tarr = [];
