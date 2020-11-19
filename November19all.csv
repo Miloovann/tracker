@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,44133,282,1650,5,35339,Asia,1
+Afghanistan,44228,377,1650,5,35350,Asia,1
 Albania,29837,,646,,14216,Europe,1
 Algeria,70629,,2206,,46326,Africa,1
 Andorra,6018,,76,,5055,Europe,1
@@ -16,7 +16,7 @@ Bahamas,7323,,163,,5483,North America,1
 Bahrain,85182,,337,,83087,Asia,1
 Bangladesh,441159,2364,6305,30,356722,Asia,1
 Barbados,252,2,7,,239,North America,1
-Belarus,118008,,1067,,98318,Europe,1
+Belarus,119390,1382,1074,7,99584,Europe,1
 Belgium,545787,5182,15025,186,34249,Europe,1
 Belize,4958,38,100,4,2680,North America,1
 Benin,2916,,43,,2579,Africa,1
@@ -45,7 +45,7 @@ China,86381,12,4634,,81433,Asia,1
 Colombia,1218003,,34563,,1125184,South America,1
 Comoros,591,,7,,558,Africa,1
 Costa Rica,127012,,1588,,78238,North America,1
-Croatia,90715,,1151,,72673,Europe,1
+Croatia,93879,3164,1200,49,74865,Europe,1
 Cuba,7704,,131,,7172,North America,1
 Curaçao,1482,,2,,953,North America,1
 Cyprus,7711,,41,,2021,Asia,1
@@ -60,20 +60,20 @@ Egypt,111613,,6495,,101421,Africa,1
 El Salvador,36965,,1056,,33517,North America,1
 Equatorial Guinea,5121,,85,,4975,Africa,1
 Eritrea,518,,,,451,Africa,0
-Estonia,8715,414,85,,5264,Europe,1
+Estonia,8715,414,86,1,5264,Europe,0
 Eswatini,6144,,119,,5826,Africa,1
 Ethiopia,103928,,1601,,64593,Africa,1
 Falkland Islands,16,,,,13,South America,0
 Faroe Islands,498,,,,495,Europe,0
 Fiji,35,,2,,32,Australia/Oceania,1
-Finland,19935,,374,,15300,Europe,1
+Finland,20286,351,374,,15300,Europe,1
 France,2065138,,46698,,145391,Europe,0
 French Guiana,10930,,70,,9995,South America,1
 French Polynesia,12587,,62,,4842,Australia/Oceania,1
 Gabon,9084,,58,,8957,Africa,1
 Gambia,3705,,122,,3578,Africa,1
 Georgia,93092,3697,853,38,73877,Asia,1
-Germany,855575,1042,13496,4,562700,Europe,0
+Germany,855575,1042,13496,4,562700,Europe,1
 Ghana,50457,,323,,48710,Africa,1
 Gibraltar,926,,2,,790,Europe,1
 Greece,82034,,1288,,9989,Europe,0
@@ -117,7 +117,7 @@ Luxembourg,28573,,248,,18504,Europe,1
 Macao,46,,,,46,Asia,0
 Madagascar,17310,,250,,16592,Africa,1
 Malawi,5999,,185,,5434,Africa,1
-Malaysia,50390,,322,,37254,Asia,1
+Malaysia,51680,1290,326,4,38132,Asia,1
 Maldives,12384,,45,,11406,Asia,1
 Mali,4033,,141,,2983,Africa,1
 Malta,8420,,103,,6184,Europe,1
@@ -155,7 +155,7 @@ Peru,941951,,35402,,869165,South America,1
 Philippines,413430,1337,7998,41,374939,Asia,1
 Poland,796798,23975,12088,637,361886,Europe,1
 Portugal,236015,,3632,,153702,Europe,1
-Qatar,136649,208,235,,133691,Asia,0
+Qatar,136649,208,235,,133691,Asia,1
 Romania,383743,,9429,,261387,Europe,1
 Russia,2015608,23610,34850,463,1526656,Europe,1
 Rwanda,5543,,46,,5087,Africa,1
@@ -175,14 +175,14 @@ Seychelles,160,,,,157,Africa,0
 Sierra Leone,2397,,74,,1823,Africa,1
 Singapore,58139,4,28,,58046,Asia,1
 Slovakia,91578,1665,579,,38695,Europe,1
-Slovenia,61028,2064,964,45,40153,Europe,0
+Slovenia,61028,2064,964,45,40153,Europe,1
 Solomon Islands,16,,,,5,Australia/Oceania,0
 Somalia,4382,,108,,3384,Africa,1
 South Africa,757144,,20556,,701534,Africa,1
 South Korea,29654,343,498,2,26098,Asia,1
 South Sudan,3016,,59,,1290,Africa,1
 Spain,1542467,,42039,,N/A,Europe,0
-Sri Lanka,18402,,69,,12587,Asia,1
+Sri Lanka,18402,,69,,12903,Asia,0
 Sudan,15047,,1175,,9609,Africa,1
 Suriname,5282,,116,,5158,South America,1
 Sweden,196446,,6321,,N/A,Europe,0
@@ -201,7 +201,7 @@ Turkey,425628,,11820,,361655,Asia,1
 Turks and Caicos,720,,6,,695,North America,1
 UAE,154101,,542,,145537,Asia,1
 UK,1430341,,53274,,N/A,Europe,0
-USA,11876240,2377,256311,49,7168482,North America,0
+USA,11876240,2377,256311,49,7168482,North America,1
 Uganda,16905,,157,,8394,Africa,1
 Ukraine,583510,13357,10369,257,266479,Europe,1
 Uruguay,4296,,68,,3404,South America,1
@@ -213,6 +213,6 @@ Vietnam,1300,,35,,1124,Asia,1
 Wallis and Futuna,2,,,,1,Australia/Oceania,0
 Western Sahara,10,,1,,8,Africa,1
 Yemen,2083,,607,,1417,Asia,1
-Zambia,17280,,356,,16495,Africa,1
+Zambia,17350,70,356,,16591,Africa,0
 Zimbabwe,8981,,261,,8184,Africa,1
-World,56646909,103431,1356514,2552,38967027,,0
+World,56653261,109783,1356575,2613,38971786,,0
