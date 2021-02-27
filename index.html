@@ -275,7 +275,7 @@
         </style>
     </head>
     
-    <body onload='filter("int"); sgfilter("minus1"); comfilter("communitylinesg"); dormfilter("dormlinesg"); importedfilter("importedlinesg"); totalfilter("totallinesg")'>
+    <body onload='filter("int"); sgfilter("minus1"); communityfilter("communitylinesg"); dormfilter("dormlinesg"); importedfilter("importedlinesg"); totalfilter("totallinesg")'>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
@@ -336,6 +336,7 @@
         
 
         <div class="singapore" style="padding-top: 130px;">
+                    <div>
                         <br>
                         <div class="dropdowntotal">
                             <button class="dropbtntotal">All Cases Graphs</button>
@@ -346,18 +347,22 @@
                         </div>
                         <img id = "totalbarsg" src="SGtotalbar14D.svg" style='width:40%'>
                         <img id = "totallinesg" src="SGtotalline14D.svg" style='width:40%'>
+                    </div>
 
+                    <div>
                         <br>
                         <div class="dropdowncommunity">
                             <button class="dropbtncommunity">Community Graphs</button>
                             <div class="dropdowncommunity-content">
-                                <p class="hover" onclick="comfilter('communitybarsg')" style="font-size:16px">Bar</p>
-                                <p class="hover" onclick="comfilter('communitylinesg')" style="font-size:16px">Line</p>
+                                <p class="hover" onclick="communityfilter('communitybarsg')" style="font-size:16px">Bar</p>
+                                <p class="hover" onclick="communityfilter('communitylinesg')" style="font-size:16px">Line</p>
                             </div>
                         </div>
                         <img id = "communitybarsg" src="SGcommunitybar14D.svg" style='width:40%'>
                         <img id = "communitylinesg" src="SGcommunityline14D.svg" style='width:40%'>
+                    </div>
 
+                    <div>
                         <br>
                         <div class="dropdownimported">
                             <button class="dropbtnimported">Imported Graphs</button>
@@ -368,7 +373,9 @@
                         </div>
                         <img id = "importedbarsg" src="SGimportedbar14D.svg" style='width:40%'>
                         <img id = "importedlinesg" src="SGimportedline14D.svg" style='width:40%'>
+                    </div>
 
+                    <div>
                         <br>
                         <div class="dropdowndorm">
                             <button class="dropbtndorm">Dormitory Graphs</button>
@@ -379,19 +386,21 @@
                         </div>
                         <img id = "dormbarsg" src="SGdormbar14D.svg" style='width:40%'>
                         <img id = "dormlinesg" src="SGdormline14D.svg" style='width:40%'>
+                    </div>
 
+                    <div>
                         <br>
                         <div class="dropdown">
                             <button class="dropbtn">Date</button>
                             <div class="dropdown-content"></div>
                         </div>
                         <div id="slideContainer"></div>
-
+                    </div>
         </div>
 
         <div id = "nonsg"></div>
         <script>
-            var abbrev = [['int', 'worldwide'],['afc', 'africa'],['asa', 'asia'],['aus', 'AustraliaOceania'],['eu', 'europe'],['nam', 'north America'], ['sam', 'south America']];
+            /*var abbrev = [['int', 'worldwide'],['afc', 'africa'],['asa', 'asia'],['aus', 'AustraliaOceania'],['eu', 'europe'],['nam', 'north America'], ['sam', 'south America']];
             var graphtype = ['total', 'death', 'recovered'];
             var continentsdata = '';
             abbrev.forEach(cont=>{
@@ -399,17 +408,24 @@
                 graphtype.forEach(type=>{
                     continentsdata += '<img src = "' + cont[1] + type + '10.svg" style="width: 26%;">';
                 });
-                continentsdata += '<div id = "' + cont[1] + 'table"></div><p>*If data is consistent across all sources, reliability = 1. If data is taken only from Worldometers, reliability = 0</p></div>';
+                continentsdata += '<div id = "' + cont[1] + 'table"></div><p>*If data is consistent across all sources, reliability = 1. If data is taken only from Worldometers, reliability = 0</p></div><div class="singapore" style="padding-top: 130px;">';
+            }); //continentsdata above copied the div for sg, remember to change it
+
+            sgvirus = [['total', 'All Cases'] ['community', 'Community'], ['imported', 'Imported'], ['dorm', 'Dormitory']];
+            charttype = ['Bar', 'Line'];
+
+            sgvirus.forEach(sgcase=>{
+                continentsdata += '<div><br><div class="dropdown' + sgcase[0] + '"><button class="dropbtn' + sgcase[0] + '">' + sgcase[1] + ' Graphs</button><div class="dropdown' + sgcase[0] + '-content">';
+                charttype.forEach(chart=>{
+                    continentsdata += '<p class="hover" onclick="' + sgcase[0] + 'filter(\'' + sgcase[0] + chart.toLowerCase(); + 'sg\')" style="font-size:16px">' + chart + '</p>';
+                });
+                continentsdata += '</div></div>';
+                charttype.forEach(chart=>{
+                    continentsdata += '<img id = "' + sgcase[0] + chart.toLowerCase() + 'sg" src="SG' + sgcase[0] + chart.toLowerCase() + '14D.svg" style="width:40%">';
+                });
+                continentsdata += '</div>';
             });
-
-            /*['total', 'community', 'imported', 'dorm']
-            ['All Cases', 'Community', 'Imported', 'Dormitory']
-            ['bar' 'line']
-
-            graph.forEach(=>{
-
-            });*/
-            document.querySelector("#nonsg").innerHTML = continentsdata;
+            document.querySelector("#nonsg").innerHTML = continentsdata;*/
         </script>
     </body>
     
@@ -745,7 +761,7 @@
         //End Filter Function 2.0
 
         //Start Comm Filter Function
-        function comfilter(a){
+        function communityfilter(a){
             communitybarsg = document.getElementById('communitybarsg').style.display = 'none';
             communitylinesg = document.getElementById('communitylinesg').style.display = 'none';
             b = document.getElementById(a).style.display = 'inline-block';
