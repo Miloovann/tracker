@@ -2,18 +2,18 @@ Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,
 Afghanistan,55707,,2443,,49285,Asia,1
 Armenia,171793,283,3190,7,163309,Asia,0
 Azerbaijan,233989,,3213,,228479,Asia,1
-Bahrain,121127,,442,,113799,Asia,1
-Bangladesh,545424,,8395,,495498,Asia,1
+Bahrain,121127,,444,2,113799,Asia,0
+Bangladesh,545831,407,8400,5,496107,Asia,0
 Bhutan,867,,1,,862,Asia,1
 Brunei,185,,3,,178,Asia,0
 Cambodia,767,26,,,477,Asia,0
 China,89887,10,4636,,85021,Asia,0
 Cyprus,34181,,231,,2057,Asia,1
 Georgia,270510,373,3499,14,264589,Asia,0
-Hong Kong,10951,,198,,10493,Asia,1
+Hong Kong,10984,33,198,,10519,Asia,0
 India,11079979,885,156970,,10763451,Asia,0
 Indonesia,1329074,6208,35981,195,1136054,Asia,0
-Iran,1615184,,59899,,1379922,Asia,1
+Iran,1623159,7975,59980,81,1386534,Asia,0
 Iraq,688698,,13365,,630178,Asia,1
 Israel,770780,,5697,,725953,Asia,1
 Japan,429472,,7722,,406584,Asia,1
@@ -24,16 +24,16 @@ Kyrgyzstan,86185,43,1463,,83127,Asia,0
 Laos,45,,,,42,Asia,0
 Lebanon,369692,,4610,,285050,Asia,1
 Macao,48,,,,47,Asia,0
-Malaysia,295951,,1111,,266846,Asia,1
-Maldives,19479,,60,,17002,Asia,1
+Malaysia,298315,2364,1121,10,270166,Asia,0
+Maldives,19479,,61,1,17002,Asia,0
 Mongolia,2866,35,2,,2183,Asia,0
 Myanmar,141875,,3198,,131435,Asia,1
-Nepal,273984,,2771,,270277,Asia,1
+Nepal,274065,81,2773,2,270325,Asia,0
 Oman,140588,,1562,,131684,Asia,1
 Pakistan,578797,1315,12837,33,544406,Asia,0
-Palestine,180848,,2019,,165205,Asia,1
+Palestine,181909,1061,2025,6,166119,Asia,0
 Philippines,574247,2921,12289,42,524865,Asia,0
-Qatar,162737,,257,,152807,Asia,1
+Qatar,163197,460,257,,153219,Asia,0
 Saudi Arabia,376723,,6483,,367691,Asia,1
 Singapore,59925,12,29,,58771,Asia,1
 South Korea,89321,415,1595,10,80333,Asia,0
@@ -44,7 +44,7 @@ Tajikistan,13308,,90,,13218,Asia,1
 Thailand,25881,72,83,,25022,Asia,0
 Timor-Leste,111,1,,,89,Asia,0
 Turkey,2683971,,28432,,2556785,Asia,1
-UAE,385160,,1198,,377537,Asia,1
+UAE,388594,3434,1213,15,379708,Asia,0
 Uzbekistan,79836,32,622,,78373,Asia,0
-Vietnam,2426,,35,,1839,Asia,1
+Vietnam,2432,6,35,,1844,Asia,0
 Yemen,2267,,627,,1434,Asia,1
