@@ -491,7 +491,7 @@
         for(var iter=0; iter<14; iter++){
             drop += '<p class="hover" onclick="sgfilter(' + "'" +slides[iter] + "'" + ')" style="font-size:16px">' + weeks[iter] + "</p>"
         }
-        document.querySelector("#dropdown-content").innerHTML = drop;
+        document.getElementsByClassName("dropdown-content")[0].innerHTML = drop;
         //End SG Pie
 
         var today = new Date();
