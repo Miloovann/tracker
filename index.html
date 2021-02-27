@@ -306,7 +306,7 @@
             var continents = [['int', 'Global'],['singapore', 'Singapore'],['afc', 'Africa'],['asa', 'Asia'],['aus', 'Australia/Oceania'],['eu', 'Europe'],['nam', 'North America'], ['sam', 'South America']];
             var filterfunctioncode = '';
             continents.forEach(cont=>{
-                filterfunctioncode += '<li class="nav-item"><p class="hover nav-item nav-link" onclick="filter("' + cont[0] + '")" style="font-size:25px; color:white">' + cont[1] + '</p></li>';
+                filterfunctioncode += '<li class="nav-item"><p class="hover nav-item nav-link" onclick="filter(\'' + cont[0] + '\')" style="font-size:25px; color:white">' + cont[1] + '</p></li>';
             });
             document.getElementById("international_hover").innerHTML = filterfunctioncode;
         </script>
@@ -399,7 +399,7 @@
                 <p></p>
                 <div class="dropdown">
                     <button class="dropbtn">Date</button>
-                    <div class="dropdown-content" id="ddown"></div>
+                    <div class="dropdown-content"></div>
                 </div>
                 <div id="slideContainer"></div>
             </div>
@@ -491,7 +491,8 @@
         for(var iter=0; iter<14; iter++){
             drop += '<p class="hover" onclick="sgfilter(' + "'" +slides[iter] + "'" + ')" style="font-size:16px">' + weeks[iter] + "</p>"
         }
-        document.querySelector("#dropdown-content").innerHTML = drop;
+        //document.getElementsByClassName("dropdown-content")[0].innerHTML = drop;
+        document.querySelector(".dropdown-content").innerHTML = drop;
         //End SG Pie
 
         var today = new Date();
