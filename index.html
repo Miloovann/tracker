@@ -480,18 +480,17 @@
             return fortnight;
         }
         var slides = ["minus0", "minus1", "minus2", "minus3", "minus4", "minus5","minus6", "minus7", "minus8","minus9", "minus10", "minus11", "minus12", "minus13"]
-        var str = ''
+        var str = '';
         slides.forEach(function(slide) {
             str += '<img id ='+ slide + '>';
         });
-        document.getElementById("slideContainer").innerHTML = str;
+        document.querySelector("#slideContainer").innerHTML = str;
         
         var weeks = sgdatelink();
-        var drop = ''
+        var drop = '';
         for(var iter=0; iter<14; iter++){
             drop += '<p class="hover" onclick="sgfilter(' + "'" +slides[iter] + "'" + ')" style="font-size:16px">' + weeks[iter] + "</p>"
         }
-        //document.getElementsByClassName("dropdown-content")[0].innerHTML = drop;
         document.querySelector(".dropdown-content").innerHTML = drop;
         //End SG Pie
 
