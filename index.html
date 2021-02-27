@@ -134,7 +134,7 @@
             .dropdown:hover .dropbtn {background-color: transparent;}
         </style>
         <style>
-            .dropbtncom {
+            .dropbtncommunity {
               background-color: #93cff1;
               border-radius: 20px;
               color: black;
@@ -142,11 +142,11 @@
               font-size: 16px;
               border: none;
             }
-            .dropdowncom {
+            .dropdowncommunity {
               position: relative;
               display: inline-block;
             }
-            .dropdowncom-content {
+            .dropdowncommunity-content {
               display: none;
               border-radius: 20px;
               position: absolute;
@@ -157,16 +157,16 @@
               box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
               z-index: 1;
             }
-            .dropdowncom-content a {
+            .dropdowncommunity-content a {
               color: black;
               border-radius: 20px;
               padding: 160px;
               text-decoration: none;
               display: block;
             }
-            .dropdowncom-content a:hover {background-color: #ddd;}
-            .dropdowncom:hover .dropdowncom-content {display: block;}
-            .dropdowncom:hover .dropbtncom {background-color: transparent;}
+            .dropdowncommunity-content a:hover {background-color: #ddd;}
+            .dropdowncommunity:hover .dropdowncommunity-content {display: block;}
+            .dropdowncommunity:hover .dropbtncommunity {background-color: transparent;}
         </style>
         <style>
             .dropbtnimported {
@@ -333,123 +333,84 @@
             </div>
         </div>
 
-        <div class="int" style="padding-top: 130px;">
-            <img src = "worldwidetotal10.svg" style="width: 26%;">
-            <img src = "worldwidedeath10.svg" style="width: 26%;">
-            <img src = "worldwiderecovered10.svg" style="width: 26%;">
-            <div id = "globaltable"></div>
-            <p>*If data is consistent across all sources, reliability is 1.
-                If data is inconsistent and is retrieved solely from worldometers, reliability is 0</p>
-        </div>
+        
 
         <div class="singapore" style="padding-top: 130px;">
+                        <br>
+                        <div class="dropdowntotal">
+                            <button class="dropbtntotal">All Cases Graphs</button>
+                            <div class="dropdowntotal-content">
+                                <p class="hover" onclick="totalfilter('totalbarsg')" style="font-size:16px">Bar</p>
+                                <p class="hover" onclick="totalfilter('totallinesg')" style="font-size:16px">Line</p>
+                            </div>
+                        </div>
+                        <img id = "totalbarsg" src="SGtotalbar14D.svg" style='width:40%'>
+                        <img id = "totallinesg" src="SGtotalline14D.svg" style='width:40%'>
 
-            <div>
-                <div class="dropdowntotal">
-                    <button class="dropbtntotal">All Cases Graphs</button>
-                    <div class="dropdowntotal-content">
-                        <p class="hover" onclick="totalfilter('totalbarsg')" style="font-size:16px">Bar</p>
-                        <p class="hover" onclick="totalfilter('totallinesg')" style="font-size:16px">Line</p>
-                    </div>
-                </div>
-                <img id = "totalbarsg" src="SGtotalbar14D.svg" style='width:40%'>
-                <img id = "totallinesg" src="SGtotalline14D.svg" style='width:40%'>
-            </div>
+                        <br>
+                        <div class="dropdowncommunity">
+                            <button class="dropbtncommunity">Community Graphs</button>
+                            <div class="dropdowncommunity-content">
+                                <p class="hover" onclick="comfilter('communitybarsg')" style="font-size:16px">Bar</p>
+                                <p class="hover" onclick="comfilter('communitylinesg')" style="font-size:16px">Line</p>
+                            </div>
+                        </div>
+                        <img id = "communitybarsg" src="SGcommunitybar14D.svg" style='width:40%'>
+                        <img id = "communitylinesg" src="SGcommunityline14D.svg" style='width:40%'>
 
-            <div>
-                <p></p>
-                <div class="dropdowncom">
-                    <button class="dropbtncom">Community Graphs</button>
-                    <div class="dropdowncom-content">
-                        <p class="hover" onclick="comfilter('communitybarsg')" style="font-size:16px">Bar</p>
-                        <p class="hover" onclick="comfilter('communitylinesg')" style="font-size:16px">Line</p>
-                    </div>
-                </div>
-                <img id = "communitybarsg" src="SGcommunitybar14D.svg" style='width:40%'>
-                <img id = "communitylinesg" src="SGcommunityline14D.svg" style='width:40%'>
-            </div>
+                        <br>
+                        <div class="dropdownimported">
+                            <button class="dropbtnimported">Imported Graphs</button>
+                            <div class="dropdownimported-content">
+                                <p class="hover" onclick="importedfilter('importedbarsg')" style="font-size:16px">Bar</p>
+                                <p class="hover" onclick="importedfilter('importedlinesg')" style="font-size:16px">Line</p>
+                            </div>
+                        </div>
+                        <img id = "importedbarsg" src="SGimportedbar14D.svg" style='width:40%'>
+                        <img id = "importedlinesg" src="SGimportedline14D.svg" style='width:40%'>
 
-            <div>
-                <p></p>
-                <div class="dropdownimported">
-                    <button class="dropbtnimported">Imported Graphs</button>
-                    <div class="dropdownimported-content">
-                        <p class="hover" onclick="importedfilter('importedbarsg')" style="font-size:16px">Bar</p>
-                        <p class="hover" onclick="importedfilter('importedlinesg')" style="font-size:16px">Line</p>
-                    </div>
-                </div>
-                <img id = "importedbarsg" src="SGimportedbar14D.svg" style='width:40%'>
-                <img id = "importedlinesg" src="SGimportedline14D.svg" style='width:40%'>
-            </div>
+                        <br>
+                        <div class="dropdowndorm">
+                            <button class="dropbtndorm">Dormitory Graphs</button>
+                            <div class="dropdowndorm-content">
+                                <p class="hover" onclick="dormfilter('dormbarsg')" style="font-size:16px">Bar</p>
+                                <p class="hover" onclick="dormfilter('dormlinesg')" style="font-size:16px">Line</p>
+                            </div>
+                        </div>
+                        <img id = "dormbarsg" src="SGdormbar14D.svg" style='width:40%'>
+                        <img id = "dormlinesg" src="SGdormline14D.svg" style='width:40%'>
 
-            <div>
-                <p></p>
-                <div class="dropdowndorm">
-                    <button class="dropbtndorm">Dormitory Graphs</button>
-                    <div class="dropdowndorm-content">
-                        <p class="hover" onclick="dormfilter('dormbarsg')" style="font-size:16px">Bar</p>
-                        <p class="hover" onclick="dormfilter('dormlinesg')" style="font-size:16px">Line</p>
-                    </div>
-                </div>
-                <img id = "dormbarsg" src="SGdormbar14D.svg" style='width:40%'>
-                <img id = "dormlinesg" src="SGdormline14D.svg" style='width:40%'>
-            </div>
+                        <br>
+                        <div class="dropdown">
+                            <button class="dropbtn">Date</button>
+                            <div class="dropdown-content"></div>
+                        </div>
+                        <div id="slideContainer"></div>
 
-            <div>
-                <p></p>
-                <div class="dropdown">
-                    <button class="dropbtn">Date</button>
-                    <div class="dropdown-content"></div>
-                </div>
-                <div id="slideContainer"></div>
-            </div>
         </div>
-        <div class="eu" style="padding-top: 130px;">
-            <img src = "europetotal10.svg" style="width: 26%;">
-            <img src = "europedeath10.svg" style="width: 26%;">
-            <img src = "europerecovered10.svg" style="width: 26%;">
-            <div id = "eutable"></div>
-            <p>*True means that data is consistent across all sources, False means that data is inconsistent and is retrieved solely from worldometers</p>
-        </div>
-        <div class="asa" style="padding-top: 130px;">
-            <img src = "asiatotal10.svg" style="width: 26%;">
-            <img src = "asiadeath10.svg" style="width: 26%;">
-            <img src = "asiarecovered10.svg" style="width: 26%;">
-            <div id = "asatable"></div>
-            <p>*If data is consistent across all sources, reliability is 1.
-                If data is inconsistent and is retrieved solely from worldometers, reliability is 0</p>
-        </div>
-        <div class="afc" style="padding-top: 130px;">
-            <img src = "africatotal10.svg" style="width: 26%;">
-            <img src = "africadeath10.svg" style="width: 26%;">
-            <img src = "africarecovered10.svg" style="width: 26%;">
-            <div id = "afrtable"></div>
-            <p>*If data is consistent across all sources, reliability is 1.
-                If data is inconsistent and is retrieved solely from worldometers, reliability is 0</p>
-        </div>
-        <div class="aus" style="padding-top: 130px;">
-            <img src = "AustraliaOceaniatotal10.svg" style="width: 26%;">
-            <img src = "AustraliaOceaniadeath10.svg" style="width: 26%;">
-            <img src = "AustraliaOceaniarecovered10.svg" style="width: 26%;">
-            <div id = "austable"></div>
-            <p>*True means that data is consistent across all sources, False means that data is inconsistent and is retrieved solely from worldometers</p>
-        </div>
-        <div class="nam" style="padding-top: 130px;">
-            <img src = "north Americatotal10.svg" style="width: 26%;">
-            <img src = "north Americadeath10.svg" style="width: 26%;">
-            <img src = "north Americarecovered10.svg" style="width: 26%;">
-            <div id = "namtable"></div>
-            <p>*If data is consistent across all sources, reliability is 1.
-                If data is inconsistent and is retrieved solely from worldometers, reliability is 0</p>
-        </div>
-        <div class="sam" style="padding-top: 130px;">
-            <img src = "south Americatotal10.svg" style="width: 26%;">
-            <img src = "south Americadeath10.svg" style="width: 26%;">
-            <img src = "south Americarecovered10.svg" style="width: 26%;">
-            <div id = "samtable"></div>
-            <p>*If data is consistent across all sources, reliability is 1.
-                If data is inconsistent and is retrieved solely from worldometers, reliability is 0</p>
-        </div>
+
+        <div id = "nonsg"></div>
+        <script>
+            var abbrev = [['int', 'worldwide'],['afc', 'africa'],['asa', 'asia'],['aus', 'AustraliaOceania'],['eu', 'europe'],['nam', 'north America'], ['sam', 'south America']];
+            var graphtype = ['total', 'death', 'recovered'];
+            var continentsdata = '';
+            abbrev.forEach(cont=>{
+                continentsdata += '<div class="' + cont[0] + '" style="padding-top: 130px;">';
+                graphtype.forEach(type=>{
+                    continentsdata += '<img src = "' + cont[1] + type + '10.svg" style="width: 26%;">';
+                });
+                continentsdata += '<div id = "' + cont[1] + 'table"></div><p>*If data is consistent across all sources, reliability = 1. If data is taken only from Worldometers, reliability = 0</p></div>';
+            });
+
+            /*['total', 'community', 'imported', 'dorm']
+            ['All Cases', 'Community', 'Imported', 'Dormitory']
+            ['bar' 'line']
+
+            graph.forEach(=>{
+
+            });*/
+            document.querySelector("#nonsg").innerHTML = continentsdata;
+        </script>
     </body>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -533,7 +494,7 @@
                 build += "</tr>";
             }
             build += "</table>";
-            document.getElementById("globaltable").innerHTML = build;
+            document.getElementById("worldwidetable").innerHTML = build;
         });
 
         $.get(m+d+"africa"+"all.csv", function(data) {
