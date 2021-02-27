@@ -300,33 +300,16 @@
         </button>
 
         <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <p class="hover nav-item nav-link" onclick="filter('int')" style="font-size:25px; color:white">Global</p>
-                </li>
-                <li class="nav-item">
-                    <p class="hover nav-item nav-link" onclick="filter('singapore')" style="font-size:25px; color:white">Singapore</p>
-                </li>
-                <li class="nav-item">
-                    <p class="hover nav-item nav-link" onclick="filter('afc')" style="font-size:25px; color:white">Africa</p>
-                </li>
-                <li class="nav-item">
-                    <p class="hover nav-item nav-link" onclick="filter('asa')" style="font-size:25px; color:white">Asia</p>
-                </li>
-                <li class="nav-item">
-                    <p class="hover nav-item nav-link" onclick="filter('aus')" style="font-size:25px; color:white">Australia/Oceania</p>
-                </li>
-                <li class="nav-item">
-                    <p class="hover nav-item nav-link" onclick="filter('eu')" style="font-size:25px; color:white">Europe</p>
-                </li>
-                <li class="nav-item">
-                    <p class="hover nav-item nav-link" onclick="filter('nam')" style="font-size:25px; color:white">North America</p>
-                </li>
-                <li class="nav-item">
-                    <p class="hover nav-item nav-link" onclick="filter('sam')" style="font-size:25px; color:white">South America</p>
-                </li>
-            </ul>
+            <ul class="navbar-nav" id = "international_hover"></ul>
         </div>
+        <script>
+            var continents = [['int', 'Global'],['singapore', 'Singapore'],['afc', 'Africa'],['asa', 'Asia'],['aus', 'Australia/Oceania'],['eu', 'Europe'],['nam', 'North America'], ['sam', 'South America']];
+            var filterfunctioncode = '';
+            continents.forEach(cont=>{
+                filterfunctioncode += '<li class="nav-item"><p class="hover nav-item nav-link" onclick="filter("' + cont[0] + '")" style="font-size:25px; color:white">' + cont[1] + '</p></li>';
+            });
+            document.getElementById("international_hover").innerHTML = filterfunctioncode;
+        </script>
 
         </nav>
 
@@ -416,9 +399,7 @@
                 <p></p>
                 <div class="dropdown">
                     <button class="dropbtn">Date</button>
-                    <div class="dropdown-content">
-                        <div id="ddown"></div>
-                    </div>
+                    <div class="dropdown-content" id="ddown"></div>
                 </div>
                 <div id="slideContainer"></div>
             </div>
@@ -510,7 +491,7 @@
         for(var iter=0; iter<14; iter++){
             drop += '<p class="hover" onclick="sgfilter(' + "'" +slides[iter] + "'" + ')" style="font-size:16px">' + weeks[iter] + "</p>"
         }
-        document.getElementById("ddown").innerHTML = drop;
+        document.getElementsByClassName("dropdown-content")[0].innerHTML = drop;
         //End SG Pie
 
         var today = new Date();
