@@ -99,7 +99,7 @@
             }
         </style>
         <style>
-            .dropbtn {
+            .dropbtnsgall {
               background-color: #93cff1;
               border-radius: 20px;
               color: black;
@@ -107,11 +107,11 @@
               font-size: 16px;
               border: none;
             }
-            .dropdown {
+            .dropdownsgall {
               position: relative;
               display: inline-block;
             }
-            .dropdown-content {
+            .dropdownsgall-content {
               display: none;
               border-radius: 20px;
               position: absolute;
@@ -122,16 +122,16 @@
               box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
               z-index: 1;
             }
-            .dropdown-content a {
+            .dropdownsgall-content a {
               color: black;
               border-radius: 20px;
               padding: 160px;
               text-decoration: none;
               display: block;
             }
-            .dropdown-content a:hover {background-color: #ddd;}
-            .dropdown:hover .dropdown-content {display: block;}
-            .dropdown:hover .dropbtn {background-color: transparent;}
+            .dropdownsgall-content a:hover {background-color: #ddd;}
+            .dropdownsgall:hover .dropdownsgall-content {display: block;}
+            .dropdownsgall:hover .dropbtnsgall {background-color: transparent;}
         </style>
         <style>
             .dropbtncommunity {
@@ -333,74 +333,10 @@
             </div>
         </div>
 
-        
+        <div id = "Global"></div>
 
-        <div class="singapore" style="padding-top: 130px;">
-                    <div>
-                        <br>
-                        <div class="dropdowntotal">
-                            <button class="dropbtntotal">All Cases Graphs</button>
-                            <div class="dropdowntotal-content">
-                                <p class="hover" onclick="totalfilter('totalbarsg')" style="font-size:16px">Bar</p>
-                                <p class="hover" onclick="totalfilter('totallinesg')" style="font-size:16px">Line</p>
-                            </div>
-                        </div>
-                        <img id = "totalbarsg" src="SGtotalbar14D.svg" style='width:40%'>
-                        <img id = "totallinesg" src="SGtotalline14D.svg" style='width:40%'>
-                    </div>
-
-                    <div>
-                        <br>
-                        <div class="dropdowncommunity">
-                            <button class="dropbtncommunity">Community Graphs</button>
-                            <div class="dropdowncommunity-content">
-                                <p class="hover" onclick="communityfilter('communitybarsg')" style="font-size:16px">Bar</p>
-                                <p class="hover" onclick="communityfilter('communitylinesg')" style="font-size:16px">Line</p>
-                            </div>
-                        </div>
-                        <img id = "communitybarsg" src="SGcommunitybar14D.svg" style='width:40%'>
-                        <img id = "communitylinesg" src="SGcommunityline14D.svg" style='width:40%'>
-                    </div>
-
-                    <div>
-                        <br>
-                        <div class="dropdownimported">
-                            <button class="dropbtnimported">Imported Graphs</button>
-                            <div class="dropdownimported-content">
-                                <p class="hover" onclick="importedfilter('importedbarsg')" style="font-size:16px">Bar</p>
-                                <p class="hover" onclick="importedfilter('importedlinesg')" style="font-size:16px">Line</p>
-                            </div>
-                        </div>
-                        <img id = "importedbarsg" src="SGimportedbar14D.svg" style='width:40%'>
-                        <img id = "importedlinesg" src="SGimportedline14D.svg" style='width:40%'>
-                    </div>
-
-                    <div>
-                        <br>
-                        <div class="dropdowndorm">
-                            <button class="dropbtndorm">Dormitory Graphs</button>
-                            <div class="dropdowndorm-content">
-                                <p class="hover" onclick="dormfilter('dormbarsg')" style="font-size:16px">Bar</p>
-                                <p class="hover" onclick="dormfilter('dormlinesg')" style="font-size:16px">Line</p>
-                            </div>
-                        </div>
-                        <img id = "dormbarsg" src="SGdormbar14D.svg" style='width:40%'>
-                        <img id = "dormlinesg" src="SGdormline14D.svg" style='width:40%'>
-                    </div>
-
-                    <div>
-                        <br>
-                        <div class="dropdown">
-                            <button class="dropbtn">Date</button>
-                            <div class="dropdown-content"></div>
-                        </div>
-                        <div id="slideContainer"></div>
-                    </div>
-        </div>
-
-        <div id = "nonsg"></div>
         <script>
-            /*var abbrev = [['int', 'worldwide'],['afc', 'africa'],['asa', 'asia'],['aus', 'AustraliaOceania'],['eu', 'europe'],['nam', 'north America'], ['sam', 'south America']];
+            var abbrev = [['int', 'worldwide'],['afc', 'africa'],['asa', 'asia'],['aus', 'AustraliaOceania'],['eu', 'europe'],['nam', 'north America'], ['sam', 'south America']];
             var graphtype = ['total', 'death', 'recovered'];
             var continentsdata = '';
             abbrev.forEach(cont=>{
@@ -408,10 +344,14 @@
                 graphtype.forEach(type=>{
                     continentsdata += '<img src = "' + cont[1] + type + '10.svg" style="width: 26%;">';
                 });
-                continentsdata += '<div id = "' + cont[1] + 'table"></div><p>*If data is consistent across all sources, reliability = 1. If data is taken only from Worldometers, reliability = 0</p></div><div class="singapore" style="padding-top: 130px;">';
-            }); //continentsdata above copied the div for sg, remember to change it
+                continentsdata += '<div id = "' + cont[1] + 'table"></div><p>*If data is consistent across all sources, reliability = 1. If data is taken only from Worldometers, reliability = 0</p></div>';
+            });
 
-            sgvirus = [['total', 'All Cases'] ['community', 'Community'], ['imported', 'Imported'], ['dorm', 'Dormitory']];
+            
+            
+            continentsdata += '<div class="singapore" style="padding-top: 130px;">';
+
+            sgvirus = [['total', 'All Cases'], ['community', 'Community'], ['imported', 'Imported'], ['dorm', 'Dormitory']];
             charttype = ['Bar', 'Line'];
 
             sgvirus.forEach(sgcase=>{
@@ -425,52 +365,48 @@
                 });
                 continentsdata += '</div>';
             });
-            document.querySelector("#nonsg").innerHTML = continentsdata;*/
+            continentsdata += '<div><br><div class="dropdownsgall"><button class="dropbtnsgall">Date</button><div class="dropdownsgall-content">';
+            
+            function sgdatelink(){
+                var fortnight = [];
+                for(var days=0; days<14; days++){
+                    var date = new Date();
+                    var last = new Date(date.getTime() - (days * 24 * 60 * 60 * 1000));
+                    var day =last.getDate();
+                    var month=last.getMonth();
+                    if(month===0){month = 'Jan';}
+                    else if(month===1){month = 'Feb';}            
+                    else if(month===2){month = 'Mar';}
+                    else if(month===3){month = 'Apr';}
+                    else if(month===4){month = 'May';}
+                    else if(month===5){month = 'Jun';}
+                    else if(month===6){month = 'Jul';}
+                    else if(month===7){month = 'Aug';}
+                    else if(month===8){month = 'Sep';}
+                    else if(month===9){month = 'Oct';}
+                    else if(month===10){month = 'Nov';}
+                    else if(month===11){month = 'Dec';}
+                    fortnight.push(day+' '+month)
+                    document.getElementById('minus'+days).setAttribute('src', 'SG '+day+' '+month+' Cases.svg');
+                }
+                return fortnight;
+            }
+            var weeks = sgdatelink();
+            for(var iter=0; iter<14; iter++){
+                continentsdata += '<p class="hover" onclick="sgfilter(\'minus' + iter + '\')" style="font-size:16px">' + weeks[iter] + "</p>"
+            }
+            continentsdata += '</div></div>';
+
+            for(var i=0; i<14; i++) continentsdata += '<img id = "minus'+ i + '">'; //double quotation may have error
+            continentsdata += '</div></div>';
+            
+            console.log(continentsdata);
+            document.getElementById('Global').innerHTML = continentsdata;
         </script>
     </body>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
-        //SG Pie
-        function sgdatelink(){
-            var fortnight = [];
-            for(var days=0; days<14; days++){
-                var date = new Date();
-                var last = new Date(date.getTime() - (days * 24 * 60 * 60 * 1000));
-                var day =last.getDate();
-                var month=last.getMonth();
-                if(month===0){month = 'Jan';}
-                else if(month===1){month = 'Feb';}            
-                else if(month===2){month = 'Mar';}
-                else if(month===3){month = 'Apr';}
-                else if(month===4){month = 'May';}
-                else if(month===5){month = 'Jun';}
-                else if(month===6){month = 'Jul';}
-                else if(month===7){month = 'Aug';}
-                else if(month===8){month = 'Sep';}
-                else if(month===9){month = 'Oct';}
-                else if(month===10){month = 'Nov';}
-                else if(month===11){month = 'Dec';}
-                fortnight.push(day+' '+month)
-                document.getElementById('minus'+days).setAttribute('src', 'SG '+day+' '+month+' Cases.svg');
-            }
-            return fortnight;
-        }
-        var slides = ["minus0", "minus1", "minus2", "minus3", "minus4", "minus5","minus6", "minus7", "minus8","minus9", "minus10", "minus11", "minus12", "minus13"]
-        var str = '';
-        slides.forEach(function(slide) {
-            str += '<img id ='+ slide + '>';
-        });
-        document.querySelector("#slideContainer").innerHTML = str;
-        
-        var weeks = sgdatelink();
-        var drop = '';
-        for(var iter=0; iter<14; iter++){
-            drop += '<p class="hover" onclick="sgfilter(' + "'" +slides[iter] + "'" + ')" style="font-size:16px">' + weeks[iter] + "</p>"
-        }
-        document.querySelector(".dropdown-content").innerHTML = drop;
-        //End SG Pie
-
         var today = new Date();
         var m = today.getMonth();
         var d = today.getDate();
