@@ -349,24 +349,35 @@
 
             
             
-            continentsdata += '<div class="singapore" style="padding-top: 130px;">';
+            localsgdata = '<div class="singapore" style="padding-top: 130px;">';
 
             sgvirus = [['total', 'All Cases'], ['community', 'Community'], ['imported', 'Imported'], ['dorm', 'Dormitory']];
             charttype = ['Bar', 'Line'];
 
             sgvirus.forEach(sgcase=>{
-                continentsdata += '<div><br><div class="dropdown' + sgcase[0] + '"><button class="dropbtn' + sgcase[0] + '">' + sgcase[1] + ' Graphs</button><div class="dropdown' + sgcase[0] + '-content">';
+                localsgdata += '<div><br><div class="dropdown' + sgcase[0] + '"><button class="dropbtn' + sgcase[0] + '">' + sgcase[1] + ' Graphs</button><div class="dropdown' + sgcase[0] + '-content">';
                 charttype.forEach(chart=>{
-                    continentsdata += '<p class="hover" onclick="' + sgcase[0] + 'filter(\'' + sgcase[0] + chart.toLowerCase(); + 'sg\')" style="font-size:16px">' + chart + '</p>';
+                    localsgdata += '<p class="hover" onclick="' + sgcase[0] + 'filter(\'' + sgcase[0] + chart.toLowerCase(); + 'sg\')" style="font-size:16px">' + chart + '</p>';
                 });
-                continentsdata += '</div></div>';
+                localsgdata += '</div></div>';
                 charttype.forEach(chart=>{
-                    continentsdata += '<img id = "' + sgcase[0] + chart.toLowerCase() + 'sg" src="SG' + sgcase[0] + chart.toLowerCase() + '14D.svg" style="width:40%">';
+                    localsgdata += '<img id = "' + sgcase[0] + chart.toLowerCase() + 'sg" src="SG' + sgcase[0] + chart.toLowerCase() + '14D.svg" style="width:40%">';
                 });
-                continentsdata += '</div>';
+                localsgdata += '</div>';
             });
-            continentsdata += '<div><br><div class="dropdownsgall"><button class="dropbtnsgall">Date</button><div class="dropdownsgall-content">';
-            
+            localsgdata += '<br><div class="dropdownsgall"><button class="dropbtnsgall">Date</button><div class="dropdownsgall-content">';
+            for(var iter=0; iter<14; iter++){
+                localsgdata += '<p class="hover" id = "label' + iter + '" onclick="sgfilter(\'minus' + iter + '\')" style="font-size:16px"></p>' //innerHTML is weeks[iter]
+            }
+            localsgdata += '</div>';
+
+            for(var i=0; i<14; i++) localsgdata += '<img id = "minus'+ i + '">'; //double quotation may have error
+            localsgdata += '</div>';
+            console.log(localsgdata);
+
+            continentsdata += localsgdata;
+            document.getElementById('Global').innerHTML = continentsdata;
+
             function sgdatelink(){
                 var fortnight = [];
                 for(var days=0; days<14; days++){
@@ -388,20 +399,10 @@
                     else if(month===11){month = 'Dec';}
                     fortnight.push(day+' '+month)
                     document.getElementById('minus'+days).setAttribute('src', 'SG '+day+' '+month+' Cases.svg');
+                    document.getElementById('label'+days).innerHTML = day+' '+month;
                 }
-                return fortnight;
             }
-            var weeks = sgdatelink();
-            for(var iter=0; iter<14; iter++){
-                continentsdata += '<p class="hover" onclick="sgfilter(\'minus' + iter + '\')" style="font-size:16px">' + weeks[iter] + "</p>"
-            }
-            continentsdata += '</div></div>';
-
-            for(var i=0; i<14; i++) continentsdata += '<img id = "minus'+ i + '">'; //double quotation may have error
-            continentsdata += '</div></div>';
-            
-            console.log(continentsdata);
-            document.getElementById('Global').innerHTML = continentsdata;
+            sgdatelink();
         </script>
     </body>
     
