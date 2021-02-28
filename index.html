@@ -336,7 +336,7 @@
         <div id = "Global"></div>
 
         <script>
-            var abbrev = [['int', 'worldwide'],['afc', 'africa'],['asa', 'asia'],['aus', 'AustraliaOceania'],['eu', 'europe'],['nam', 'north America'], ['sam', 'south America']];
+            var abbrev = [['int', 'worldwide'],['afr', 'africa'],['asa', 'asia'],['aus', 'AustraliaOceania'],['eu', 'europe'],['nam', 'north America'], ['sam', 'south America']];
             var graphtype = ['total', 'death', 'recovered'];
             var continentsdata = '';
             abbrev.forEach(cont=>{
@@ -344,7 +344,7 @@
                 graphtype.forEach(type=>{
                     continentsdata += '<img src = "' + cont[1] + type + '10.svg" style="width: 26%;">';
                 });
-                continentsdata += '<div id = "' + cont[1] + 'table"></div><p>*If data is consistent across all sources, reliability = 1. If data is taken only from Worldometers, reliability = 0</p></div>';
+                continentsdata += '<div id = "' + cont[0] + 'table"></div><p>*If data is consistent across all sources, reliability = 1. If data is taken only from Worldometers, reliability = 0</p></div>';
             });
 
             
@@ -373,7 +373,6 @@
 
             for(var i=0; i<14; i++) localsgdata += '<img id = "minus'+ i + '">'; //double quotation may have error
             localsgdata += '</div></div>';
-            console.log(localsgdata);
 
             continentsdata += localsgdata;
             document.getElementById('Global').innerHTML = continentsdata;
@@ -447,7 +446,7 @@
                 build += "</tr>";
             }
             build += "</table>";
-            document.getElementById("worldwidetable").innerHTML = build;
+            document.getElementById("inttable").innerHTML = build;
         });
 
         $.get(m+d+"africa"+"all.csv", function(data) {
