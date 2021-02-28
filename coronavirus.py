@@ -59,7 +59,7 @@ client = TelegramClient('tester', api_id, api_hash)
 
 month = datetime.datetime.now().strftime("%b") ##today's month
 date_num = str(datetime.datetime.now().day)
-mothership_afternoon_key = "[JUST IN] Covid-19 update in S'pore on "+ month + '. ' + date_num + ':'
+mothership_afternoon_key = "[JUST IN] Covid-19 update in S'pore on "
 
 date = month.upper() + ". " + str(datetime.datetime.now().day)
 
