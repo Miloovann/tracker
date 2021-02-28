@@ -62,7 +62,7 @@ date_num = str(datetime.datetime.now().day)
 mothership_afternoon_key = "[JUST IN] Covid-19 update in S'pore on "
 
 date = month.upper() + ". " + str(datetime.datetime.now().day)
-
+print(date)
 def getnum(msg, casetype):
     C = msg.find(casetype) + len(casetype)
     msg = msg[C: len(msg)]
@@ -83,7 +83,12 @@ async def afternoon():
             datadict = {}
             for i in range(5):
                 datadict["{}".format(varcase[i])] = getnum(msg, casetype[i])
-            return list(datadict.values()) #["impo", "comm", "dorm", 'new', "total"]
+            
+            dd = int(msg.find(month + '. ')+len(month)+2)
+            if msg[dd+1].isnumeric() is True:   messageday = msg[dd:dd+2]
+            else:   messageday = msg[dd:dd+1]
+
+            return list(datadict.values() + [messageday == date_num]) #["impo", "comm", "dorm", 'new', "total", msgday == tdy]
 
 def countnumbers(text, title, siz):
     posi = text.find(title) + siz
