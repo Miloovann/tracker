@@ -349,7 +349,7 @@
 
             
             
-            localsgdata = '<div class="singapore" style="padding-top: 130px;">';
+            var localsgdata = '<div class="singapore" style="padding-top: 130px;">';
 
             sgvirus = [['total', 'All Cases'], ['community', 'Community'], ['imported', 'Imported'], ['dorm', 'Dormitory']];
             charttype = ['Bar', 'Line'];
@@ -357,7 +357,7 @@
             sgvirus.forEach(sgcase=>{
                 localsgdata += '<div><br><div class="dropdown' + sgcase[0] + '"><button class="dropbtn' + sgcase[0] + '">' + sgcase[1] + ' Graphs</button><div class="dropdown' + sgcase[0] + '-content">';
                 charttype.forEach(chart=>{
-                    localsgdata += '<p class="hover" onclick="' + sgcase[0] + 'filter(\'' + sgcase[0] + chart.toLowerCase(); + 'sg\')" style="font-size:16px">' + chart + '</p>';
+                    localsgdata += '<p class="hover" onclick="' + sgcase[0] + 'filter(\'' + sgcase[0] + chart.toLowerCase() + 'sg\')" style="font-size:16px">' + chart + '</p>';
                 });
                 localsgdata += '</div></div>';
                 charttype.forEach(chart=>{
@@ -365,14 +365,14 @@
                 });
                 localsgdata += '</div>';
             });
-            localsgdata += '<br><div class="dropdownsgall"><button class="dropbtnsgall">Date</button><div class="dropdownsgall-content">';
+            localsgdata += '<div><br><div class="dropdownsgall"><button class="dropbtnsgall">Date</button><div class="dropdownsgall-content">';
             for(var iter=0; iter<14; iter++){
                 localsgdata += '<p class="hover" id = "label' + iter + '" onclick="sgfilter(\'minus' + iter + '\')" style="font-size:16px"></p>' //innerHTML is weeks[iter]
             }
-            localsgdata += '</div>';
+            localsgdata += '</div></div>';
 
             for(var i=0; i<14; i++) localsgdata += '<img id = "minus'+ i + '">'; //double quotation may have error
-            localsgdata += '</div>';
+            localsgdata += '</div></div>';
             console.log(localsgdata);
 
             continentsdata += localsgdata;
