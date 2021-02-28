@@ -61,8 +61,6 @@ month = datetime.datetime.now().strftime("%b") ##today's month
 date_num = str(datetime.datetime.now().day)
 mothership_afternoon_key = "[JUST IN] Covid-19 update in S'pore on "
 
-date = month.upper() + ". " + str(datetime.datetime.now().day)
-print(date)
 def getnum(msg, casetype):
     C = msg.find(casetype) + len(casetype)
     msg = msg[C: len(msg)]
@@ -77,7 +75,7 @@ async def afternoon():
     async for message in client.iter_messages(-1001123464890):
         msg = str(message.raw_text)
         position = msg.find(mothership_afternoon_key)
-        if position == 0: ##if can find virus update
+        if position == 0: ##if message is virus update
             casetype = ["* Imported cases: ", "* Community cases: ", "* Dorm cases: ","NEW CASES: ", "Total cases: "]
             varcase = ["impo", "comm", "dorm", 'new', "total"]
             datadict = {}
@@ -88,7 +86,7 @@ async def afternoon():
             if msg[dd+1].isnumeric() is True:   messageday = msg[dd:dd+2]
             else:   messageday = msg[dd:dd+1]
 
-            return list(datadict.values() + [messageday == date_num]) #["impo", "comm", "dorm", 'new', "total", msgday == tdy]
+            return list(datadict.values()) + [messageday == date_num] #["impo", "comm", "dorm", 'new', "total", msgday == tdy]
 
 def countnumbers(text, title, siz):
     posi = text.find(title) + siz
@@ -128,9 +126,23 @@ with client:
     ##if today's both msg not out, take yest's totalcases,totaldeaths,totalrecovery, newcases and newdeaths reset become ""
     ##if only morning msg out, take today's totalcases and newcases, totaldeaths and totalrecovery take yest's, newdeaths reset become ""
     ##if both out, take everything from today
+
     work = client.loop.run_until_complete(afternoon())
-    othercases = list([date_num + " "  + month] + work[0:4])
-    work = [work[4],work[3]]
+    if work[5]: ##update local grouped data if latest mothership afternoon data is from today
+        othercases = list([date_num + " "  + month] + work[0:4])
+        with open('/Users/junyiho/Desktop/MOH.csv', 'r+') as f:
+            for i in reversed(list(csv.reader(f))):
+                    date = i[0]
+                    if date != othercases[0]: #update local grouped data if not updated in csv yet
+                        with open('/Users/junyiho/Desktop/MOH.csv', 'a') as f:
+                                f.write('\n')
+                                writer = csv.writer(f)
+                                writer.writerow(othercases)
+                    break
+        
+        work = [work[4],work[3]]
+    else:   work = [work[4], ""]
+
     sleep = client.loop.run_until_complete(night())
     if sleep[2] == True: ##if latest release from mothership is today
             ystd = client.loop.run_until_complete(yesterday())
@@ -139,15 +151,6 @@ with client:
     else:   newdeaths = ""
     sleep.insert(1,newdeaths)
     sgdata = ["Singapore"]+work+sleep[0:3]+["Asia"]
-    with open('/Users/junyiho/Desktop/MOH.csv', 'r+') as f:
-        for i in reversed(list(csv.reader(f))):
-                date = i[0]
-                break
-    if date != othercases[0]:
-        with open('/Users/junyiho/Desktop/MOH.csv', 'a') as f:
-                f.write('\n')
-                writer = csv.writer(f)
-                writer.writerow(othercases)
 
     with open("/Users/junyiho/Desktop/PW_Web/" + "SGCovid.csv","w",newline = '') as f:
         sglog = sgdata[0:6] + [month + " " + date_num]
