@@ -359,7 +359,7 @@ function timeFunc(){
                     }
                 }
             }
-            document.getElementById("timedif").innerHTML = "update: " + time + units + " ago";
+            document.getElementById("timedif").innerHTML = "Updated: " + time + units + " ago";
         });
 }
 timeFunc()
