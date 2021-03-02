@@ -1,3 +1,30 @@
+let width;
+const screenDetect = () =>{
+    width = document.documentElement.clientWidth;
+    if(width<1100){
+        document.getElementById('navbar').style.display = 'none';
+        document.getElementById('mnavbar').style.display = 'block';
+    }
+    else{
+        document.getElementById('navbar').style.display = 'block';
+        document.getElementById('mnavbar').style.display = 'none';
+        closeside();
+    }
+}
+
+const openside = () =>{
+    document.getElementById('msidebar').style.width = '250px';
+    document.querySelector('#mnavbar a').style.display = 'none';
+}
+const closeside = () =>{
+    document.getElementById('msidebar').style.width = '0px';
+    document.querySelector('#mnavbar a').style.display = 'block';
+}
+
+window.addEventListener("resize", screenDetect);
+
+screenDetect();
+
 var today = new Date();
 var m = today.getMonth();
 var d = today.getDate();
@@ -16,7 +43,7 @@ else if(m===11){m = 'December';}
 
 // start csv
 $.get(m+d+"all.csv", function(data) {
-    var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="80%">\n';
+    var build = '<table  cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="80%">\n';
     var head = data.split("\n");
     for (var i = 0; i < 1; i++) {
         build += "<tr>";
@@ -41,7 +68,7 @@ $.get(m+d+"all.csv", function(data) {
 });
 
 $.get(m+d+"africa"+"all.csv", function(data) {
-    var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="80%">\n';
+    var build = '<table  cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="80%">\n';
     var head = data.split("\n");
     for (var i = 0; i < 1; i++) {
         build += "<tr>";
@@ -66,7 +93,7 @@ $.get(m+d+"africa"+"all.csv", function(data) {
 });
 
 $.get(m+d+"northamerica"+"all.csv", function(data) {
-    var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="80%">\n';
+    var build = '<table  cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="80%">\n';
     var head = data.split("\n");
     for (var i = 0; i < 1; i++) {
         build += "<tr>";
@@ -91,7 +118,7 @@ $.get(m+d+"northamerica"+"all.csv", function(data) {
 });
 
 $.get(m+d+"southamerica"+"all.csv", function(data) {
-    var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="80%">\n';
+    var build = '<table  cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="80%">\n';
     var head = data.split("\n");
     for (var i = 0; i < 1; i++) {
         build += "<tr>";
@@ -116,7 +143,7 @@ $.get(m+d+"southamerica"+"all.csv", function(data) {
 });
 
 $.get(m+d+"asia"+"all.csv", function(data) {
-    var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="80%">\n';
+    var build = '<table  cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="80%">\n';
     var head = data.split("\n");
     for (var i = 0; i < 1; i++) {
         build += "<tr>";
@@ -141,7 +168,7 @@ $.get(m+d+"asia"+"all.csv", function(data) {
 });
 
 $.get(m+d+"AustraliaOceania"+"all.csv", function(data) {
-    var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="80%">\n';
+    var build = '<table  cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="80%">\n';
     var head = data.split("\n");
     for (var i = 0; i < 1; i++) {
         build += "<tr>";
@@ -166,7 +193,7 @@ $.get(m+d+"AustraliaOceania"+"all.csv", function(data) {
 });
 
 $.get(m+d+"europe"+"all.csv", function(data) {
-    var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="80%">\n';
+    var build = '<table  cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="80%">\n';
     var head = data.split("\n");
     for (var i = 0; i < 1; i++) {
         build += "<tr>";
