@@ -1,7 +1,7 @@
 let width;
 const screenDetect = () =>{
     width = document.documentElement.clientWidth;
-    if(width<1100){ //change width
+    if(width<1365){ //change width
         document.getElementById('navbar').style.display = 'none'; //foreword to award chunk
         document.getElementById('mnavbar').style.display = 'block'; //hamburger icon
     }
