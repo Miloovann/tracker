@@ -310,11 +310,7 @@ with open("/Users/junyiho/Desktop/PW_Web/" + filedate + "all.csv","w",newline = 
                     second = readertwo[check]
                     third = readerthree[check]
                     if second == third[0:6] == first:   third.append(1)
-                    else:   
-                        print(first)
-                        print(second)
-                        print(third[0:6])                    
-                        third.append(0)
+                    else:   third.append(0)
                     third = [int(third[i]) if type(third[i]) == str and third[i].isdigit() else third[i] for i in range(len(third))]
                     w.writerow(third)
 
