@@ -172,7 +172,7 @@ with open("/Users/junyiho/Desktop/PW_Web/" + 'livencov.csv','w',newline='',encod
         emptybuffer = False
         for a in row.find_all('td'):
             check += 1
-            if check not in [2,4,5,7,9,10,11,13,14]:
+            if check not in [2,4,5,6,8,9,10,11,13,14]:
                 buffer = a.text.strip()
                 if(check==0):
                     if(buffer[0]=="★"): buffer = buffer[1:len(buffer)].strip()
@@ -301,7 +301,11 @@ with open("/Users/junyiho/Desktop/PW_Web/" + filedate + "all.csv","w",newline = 
                     second = readertwo[check]
                     third = readerthree[check]
                     if second == third[0:6] == first:   third.append(1)
-                    else:   third.append(0)
+                    else:   
+                        print(first)
+                        print(second)
+                        print(third[0:6])                    
+                        third.append(0)
                     third = [int(third[i]) if type(third[i]) == str and third[i].isdigit() else third[i] for i in range(len(third))]
                     w.writerow(third)
 
@@ -317,7 +321,7 @@ with open("/Users/junyiho/Desktop/PW_Web/" + filedate + "all.csv","w",newline = 
         ftwo.close()
     fone.close()
 final.close()
-for i in ["/Users/junyiho/Desktop/PW_Web/metersworld.csv","/Users/junyiho/Desktop/PW_Web/livencov.csv","/Users/junyiho/Desktop/PW_Web/tracker.csv"]:    os.remove(i)
+#for i in ["/Users/junyiho/Desktop/PW_Web/metersworld.csv","/Users/junyiho/Desktop/PW_Web/livencov.csv","/Users/junyiho/Desktop/PW_Web/tracker.csv"]:    os.remove(i)
 #End Combining tracker,meters and livencov into 1 csv
 
 #Start analysis of final.csv
