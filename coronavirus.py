@@ -172,7 +172,7 @@ with open("/Users/junyiho/Desktop/PW_Web/" + 'livencov.csv','w',newline='',encod
         emptybuffer = False
         for a in row.find_all('td'):
             check += 1
-            if check not in [2,4,5,6,8,9,10,11,13,14]:
+            if check in [0,1,3,7]:
                 buffer = a.text.strip()
                 if(check==0):
                     if(buffer[0]=="★"): buffer = buffer[1:len(buffer)].strip()
@@ -184,7 +184,16 @@ with open("/Users/junyiho/Desktop/PW_Web/" + 'livencov.csv','w',newline='',encod
                 elif buffer == "Unknown": buffer = "N/A"
                 elif buffer == '0':   buffer = ''
                 buffer = buffer.replace(",","")
-                csvrow.append(buffer)
+
+                crazyvar = ''
+                if check==1 or check==3:
+                    plus = buffer.find("+")
+                    if plus != -1:
+                        crazyvar = buffer[plus+1:]
+                        buffer = buffer[0:plus]
+                    csvrow += [buffer,crazyvar]
+                else:
+                    csvrow += [buffer]
         if emptybuffer ==  False:
             if csvrow[0] == "Singapore":
                 writer.writerow(sgdata[0:6])
@@ -321,7 +330,7 @@ with open("/Users/junyiho/Desktop/PW_Web/" + filedate + "all.csv","w",newline = 
         ftwo.close()
     fone.close()
 final.close()
-#for i in ["/Users/junyiho/Desktop/PW_Web/metersworld.csv","/Users/junyiho/Desktop/PW_Web/livencov.csv","/Users/junyiho/Desktop/PW_Web/tracker.csv"]:    os.remove(i)
+for i in ["/Users/junyiho/Desktop/PW_Web/metersworld.csv","/Users/junyiho/Desktop/PW_Web/livencov.csv","/Users/junyiho/Desktop/PW_Web/tracker.csv"]:    os.remove(i)
 #End Combining tracker,meters and livencov into 1 csv
 
 #Start analysis of final.csv
