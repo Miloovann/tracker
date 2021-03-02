@@ -618,17 +618,17 @@
         });
         var lines = [];
         function processData(allText) {
-        var allTextLines = allText.split(/\r\n|\n/);
-        var headers = allTextLines[0].split(',');
-        var i=216;
-        var data = allTextLines[i].split(',');
-        if (data.length == headers.length) {
-            var tarr = [];
-            for (var j=0; j<headers.length; j++) {
-                tarr.push(headers[j]);
-                tarr.push(data[j]);
-            }
-            lines.push(tarr);
+            var allTextLines = allText.split(/\r\n|\n/);
+            var headers = allTextLines[0].split(',');
+            var i=218;
+            var data = allTextLines[i].split(',');
+            if (data.length == headers.length) {
+                var tarr = [];
+                for (var j=0; j<headers.length; j++) {
+                    tarr.push(headers[j]);
+                    tarr.push(data[j]);
+                }
+                lines.push(tarr);
         }
         function lengthof(a){
             for (var k=0; k<10000; k++){
