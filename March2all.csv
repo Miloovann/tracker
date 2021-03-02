@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,55759,,2446,,49344,Asia,0
+Afghanistan,55770,11,2446,,49347,Asia,0
 Albania,107931,,1816,,70413,Europe,0
 Algeria,113255,,2987,,78234,Africa,0
 Andorra,10889,,110,,10475,Europe,0
@@ -20,14 +20,14 @@ Belarus,289136,869,1993,7,279450,Europe,0
 Belgium,772294,783,22106,29,52585,Europe,0
 Belize,12313,,315,,11860,North America,0
 Benin,5434,,70,,4248,Africa,0
-Bermuda,707,,12,,682,North America,0
+Bermuda,713,6,12,,682,North America,0
 Bhutan,867,,1,,865,Asia,0
 Bolivia,249767,757,11666,17,193652,South America,0
 Bosnia and Herzegovina,130979,,5071,,115847,Europe,0
 Botswana,30727,,332,,24884,Africa,0
 Brazil,10589608,,255836,,9457100,South America,0
 British Virgin Islands,153,,1,,131,North America,0
-Brunei,186,,3,,181,Asia,0
+Brunei,187,,3,,181,Asia,0
 Bulgaria,249626,,10308,,206630,Europe,0
 Burkina Faso,12030,,143,,11588,Africa,0
 Burundi,2217,,3,,773,Africa,0
@@ -51,7 +51,7 @@ Curaçao,4731,,22,,4645,North America,0
 Cyprus,35009,,231,,2057,Asia,0
 Czechia,1252242,12150,20701,96,1082617,Europe,0
 DR Congo,26050,88,711,4,20466,Africa,0
-Denmark,211692,,2365,,202517,Europe,0
+Denmark,212224,532,2367,2,202914,Europe,0
 Djibouti,6087,,63,,5898,Africa,0
 Dominica,144,,,,130,North America,0
 Dominican Republic,239998,,3106,,192078,North America,0
@@ -73,7 +73,7 @@ French Polynesia,18414,,139,,4842,Australia/Oceania,0
 Gabon,14849,,87,,13288,Africa,0
 Gambia,4712,,150,,4089,Africa,0
 Georgia,271379,461,3532,12,265686,Asia,0
-Germany,2455569,,70924,,2264600,Europe,0
+Germany,2456287,718,70985,61,2264600,Europe,0
 Ghana,84023,,607,,77972,Africa,0
 Gibraltar,4239,,93,,4125,Europe,0
 Greece,192270,,6534,,165718,Europe,0
@@ -92,7 +92,7 @@ Iceland,6055,1,29,,6017,Europe,0
 India,11124527,908,157275,,10798921,Asia,0
 Indonesia,1347026,5712,36518,193,1160863,Asia,0
 Iran,1648174,8495,60267,86,1406845,Asia,0
-Iraq,699088,,13428,,639639,Asia,0
+Iraq,703778,4690,13458,30,643156,Asia,0
 Ireland,220273,,4319,,23364,Europe,0
 Isle of Man,486,,25,,411,Europe,0
 Israel,781857,1899,5779,19,736888,Asia,0
@@ -111,7 +111,7 @@ Lebanon,376938,,4743,,294270,Asia,0
 Lesotho,10495,,295,,3768,Africa,0
 Liberia,2014,,85,,1884,Africa,0
 Libya,134967,840,2216,6,122079,Africa,0
-Liechtenstein,2575,,54,,2484,Europe,0
+Liechtenstein,2576,1,54,,2484,Europe,0
 Lithuania,199825,426,3263,7,185770,Europe,0
 Luxembourg,55480,,639,,52019,Europe,0
 Macao,48,,,,47,Asia,0
@@ -168,8 +168,8 @@ Saint Martin,1544,,12,,1399,North America,0
 Saint Pierre and Miquelon,24,,,,16,North America,0
 Saint Vincent and the Grenadines,1628,,8,,938,North America,0
 Samoa,3,,,,2,Australia/Oceania,0
-San Marino,3746,,74,,3276,Europe,0
-Saudi Arabia,377700,,6500,,368640,Asia,0
+San Marino,3791,45,74,,3325,Europe,0
+Saudi Arabia,378002,302,6505,5,368926,Asia,0
 Senegal,34832,100,888,8,29402,Africa,0
 Serbia,462728,,4459,,400347,Europe,0
 Seychelles,2688,,11,,2365,Africa,0
@@ -183,11 +183,11 @@ South Africa,1513959,,50077,,1431336,Africa,0
 South Korea,90372,344,1606,1,81338,Asia,0
 South Sudan,8144,134,95,1,4217,Africa,0
 Spain,3204531,,69609,,2722304,Europe,0
-Sri Lanka,83552,,476,,79422,Asia,0
+Sri Lanka,83552,,476,,80020,Asia,0
 Sudan,28406,,1890,,22975,Africa,0
 Suriname,8933,,173,,8413,South America,0
-Sweden,657309,,12826,,N/A,Europe,0
-Switzerland,557492,,9988,,511437,Europe,0
+Sweden,669113,,12882,37,N/A,Europe,0
+Switzerland,558622,1130,9999,11,511437,Europe,0
 Syria,15642,,1032,,9880,Asia,0
 São Tomé and Príncipe,1828,,30,,1413,Africa,0
 Taiwan,955,,9,,919,Asia,0
@@ -210,10 +210,10 @@ Uzbekistan,79961,35,622,,78513,Asia,0
 Vanuatu,1,,,,1,Australia/Oceania,0
 Vatican City,27,,,,15,Europe,0
 Venezuela,139545,,1348,,131647,South America,0
-Vietnam,2472,24,35,,1892,Asia,0
+Vietnam,2472,24,35,,1898,Asia,0
 Wallis and Futuna,9,,,,7,Australia/Oceania,0
 Western Sahara,10,,1,,8,Africa,0
 Yemen,2310,,634,,1435,Asia,0
-Zambia,79002,,1098,,75087,Africa,0
+Zambia,79557,555,1104,6,75563,Africa,0
 Zimbabwe,36115,,1468,,32905,Africa,0
-World,115065362,87322,2552064,2340,90763783,,0
+World,115085157,95312,2552235,2492,90769115,,0

@@ -1,9 +1,9 @@
 let width;
 const screenDetect = () =>{
     width = document.documentElement.clientWidth;
-    if(width<1100){
-        document.getElementById('navbar').style.display = 'none';
-        document.getElementById('mnavbar').style.display = 'block';
+    if(width<1100){ //change width
+        document.getElementById('navbar').style.display = 'none'; //foreword to award chunk
+        document.getElementById('mnavbar').style.display = 'block'; //hamburger icon
     }
     else{
         document.getElementById('navbar').style.display = 'block';
@@ -13,7 +13,7 @@ const screenDetect = () =>{
 }
 
 const openside = () =>{
-    document.getElementById('msidebar').style.width = '250px';
+    document.getElementById('msidebar').style.width = '250px'; //actual sidebar when click hamburger
     document.querySelector('#mnavbar a').style.display = 'none';
 }
 const closeside = () =>{
