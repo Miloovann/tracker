@@ -1,6 +1,7 @@
 /*let width;
 const screenDetect = () =>{
     width = document.documentElement.clientWidth;
+    console.log(width);
     if(width<1365){ //change width
         document.getElementById('navbar').style.display = 'none'; //foreword to award chunk
         document.getElementById('mnavbar').style.display = 'block'; //hamburger icon
@@ -23,7 +24,7 @@ const closeside = () =>{
 
 window.addEventListener("resize", screenDetect);
 
-screenDetect();*/
+//screenDetect();*/
 
 var today = new Date();
 var m = today.getMonth();

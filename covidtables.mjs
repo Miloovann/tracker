@@ -37,9 +37,21 @@ localsgdata += '</div></div>';
 continentsdata += localsgdata;
 document.getElementById('Global').innerHTML = continentsdata;
 
+const checkfileexists = (url) =>{
+    var http = new XMLHttpRequest(); 
+    http.open('HEAD', url, false); 
+    http.send(); 
+    if (http.status === 200) {
+        console.log('exists');
+        return true;
+    }
+    else return false;
+
+}
+
 function sgdatelink(){
     var fortnight = [];
-    for(var days=0; days<14; days++){
+    for(var days=0; days<=14; days++){
         var date = new Date();
         var last = new Date(date.getTime() - (days * 24 * 60 * 60 * 1000));
         var day =last.getDate();
@@ -56,9 +68,16 @@ function sgdatelink(){
         else if(month===9){month = 'Oct';}
         else if(month===10){month = 'Nov';}
         else if(month===11){month = 'Dec';}
-        fortnight.push(day+' '+month)
-        document.getElementById('minus'+days).setAttribute('src', 'SG '+day+' '+month+' Cases.svg');
-        document.getElementById('label'+days).innerHTML = day+' '+month;
+
+        date = day+' '+month;
+        filename = 'http://127.0.0.1:5500/';
+        filename += 'SG\ ' + day+'\ '+month + '\ Cases.svg';
+        console.log(filename);
+        if(checkfileexists(filename)){
+            fortnight.push(date)
+            document.getElementById('minus'+days).setAttribute('src', filename);
+            document.getElementById('label'+days).innerHTML = date;
+        }
     }
 }
 sgdatelink();
