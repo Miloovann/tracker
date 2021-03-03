@@ -1,10 +1,10 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Anguilla,18,,,,18,North America,0
 Antigua and Barbuda,769,,14,,307,North America,1
-Aruba,7908,,74,,7655,North America,1
+Aruba,7938,30,74,,7695,North America,0
 Bahamas,8519,,179,,7309,North America,1
 Barbados,3115,,36,,2443,North America,1
-Belize,12313,,315,,11860,North America,1
+Belize,12320,7,315,,11870,North America,0
 Bermuda,713,6,12,,682,North America,0
 British Virgin Islands,153,,1,,131,North America,1
 Canada,872747,2714,22045,28,820450,North America,0
@@ -23,10 +23,10 @@ Guatemala,174653,,6402,,161816,North America,1
 Haiti,12531,38,250,,9828,North America,0
 Honduras,170985,681,4174,23,66709,North America,0
 Jamaica,23838,239,432,7,13625,North America,0
-Martinique,6687,,45,,98,North America,1
+Martinique,6818,131,46,1,98,North America,0
 Mexico,2089281,2343,186152,437,1639943,North America,0
 Montserrat,20,,1,,13,North America,1
-Nicaragua,6445,,173,,4225,North America,1
+Nicaragua,6489,44,174,1,4225,North America,0
 Panama,341420,,5858,,327317,North America,1
 Saint Barthelemy,573,,1,,462,North America,1
 Saint Kitts and Nevis,41,,,,40,North America,0
@@ -36,4 +36,4 @@ Saint Pierre and Miquelon,24,,,,16,North America,0
 Saint Vincent and the Grenadines,1628,,8,,938,North America,1
 Trinidad and Tobago,7717,1,139,,7481,North America,0
 Turks and Caicos,2114,,14,,1873,North America,1
-USA,29367591,53776,529049,1821,19896851,North America,0
+USA,29369953,56138,529192,1964,19905219,North America,0
