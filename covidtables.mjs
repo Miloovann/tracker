@@ -43,7 +43,6 @@ const checkfileexists = (url) =>{
     http.send(); 
     if (http.status === 200)    return true;
     else    return false;
-
 }
 
 function sgdatelink(){
