@@ -42,7 +42,7 @@ const checkfileexists = (url) =>{
     http.open('HEAD', url, false); 
     http.send(); 
     if (http.status === 200) {
-        console.log('exists');
+        //console.log('exists');
         return true;
     }
     else return false;
@@ -72,7 +72,7 @@ function sgdatelink(){
         date = day+' '+month;
         filename = 'http://127.0.0.1:5500/';
         filename += 'SG\ ' + day+'\ '+month + '\ Cases.svg';
-        console.log(filename);
+        //console.log(filename);
         if(checkfileexists(filename)){
             fortnight.push(date)
             document.getElementById('minus'+days).setAttribute('src', filename);
