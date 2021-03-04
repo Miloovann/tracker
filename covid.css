@@ -1,6 +1,6 @@
 html, body{
     margin: 5;
-    padding: 10px;
+    padding: 0px 10px 10px;
     font-family: 'Roboto', sans-serif;
     background-color: whitesmoke;
 }
@@ -55,6 +55,7 @@ tr{
 #extralinks{
   width: 20%;
   background-color: #000;
+  padding: 30px;
   display: inline-block;
   position: fixed;
   bottom: 0;
