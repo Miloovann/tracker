@@ -14,6 +14,50 @@ else if(m===9){m = 'October';}
 else if(m===10){m = 'November';}
 else if(m===11){m = 'December';}
 
+$("#menubar").on('click','.navbar-collapse',function(e) {
+    if( $(e.target).is('a:not(".dropdown-toggle")') ) {
+        $(this).collapse('hide');
+    }
+});
+
+function detectMob() {
+    const toMatch = [
+        /Android/i,
+        /webOS/i,
+        /iPhone/i,
+        /iPod/i,
+        /BlackBerry/i,
+        /Windows Phone/i
+    ];
+    if(window.innerHeight>window.innerWidth){
+        return true;
+    }
+    else{
+    return toMatch.some((toMatchItem) => {
+        return navigator.userAgent.match(toMatchItem);
+    });
+    }
+}
+
+const hideSidebar=()=>{
+    var x =detectMob();
+    if(x==true){
+        console.log(x);
+        document.getElementById('rightbar').style.position='static';
+        document.getElementById('rightbar').style.display='none';
+        document.getElementById('extralinks').style.position='static';
+        document.getElementById('extralinks').style.display='none';
+
+    }
+    else{
+        document.getElementById('rightbar').style.position='fixed';
+        document.getElementById('rightbar').style.display='block';
+        document.getElementById('extralinks').style.position='fixed';
+        document.getElementById('extralinks').style.display='block';
+    }
+}
+hideSidebar();
+
 // start csv
 $.get(m+d+"all.csv", function(data) {
     var build = '<table cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="80%">\n';
