@@ -20,22 +20,21 @@
                 <img src="logo.png" alt="" class="img-logo" style="width:50px; color:whitesmoke">
                     Covid Hunter
             </a>
-            <a href="https://www.cdc.gov/coronavirus/2019-ncov/if-you-are-sick/steps-when-sick.html" target="_blank" style="text-decoration: none;">
-                <span style="color: white;font-size:30px;">Precautions  </span>
-            </a>
-            &emsp;
-            <a href="https://www.instagram.com/miloovann/" target="_blank" style="text-decoration: none;">
-                <span style="color: whitesmoke;font-size:30px;">Developer</span> 
-            </a>
+            
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+            <div class="container-fluid collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                 <ul class="navbar-nav" id = "international_hover"></ul>
             </div>
             <script src="HeaderSelector.mjs"></script>
+            <script>
+                $('.navbar-toggler').click(function(){
+                    $(".navbar-collapse").collapse('hide');
+                });
+            </script>
         </nav>
 
         <div id="rightbar">
@@ -47,6 +46,15 @@
             <h2>WorldWide Data</h2>
             <div id="infection"></div>
             <script src="RightBarHTML.mjs"></script>
+
+            <div class="position-relative-bottom">
+                <a href="https://www.cdc.gov/coronavirus/2019-ncov/if-you-are-sick/steps-when-sick.html" target="_blank" style="text-decoration: none;">
+                    <span style="color: white;font-size:28px;">Precautions</span>
+                </a>
+                <a href="https://www.instagram.com/miloovann/" target="_blank" style="text-decoration: none;">
+                    <span style="color: whitesmoke;font-size:28px;">Developer</span> 
+                </a>
+            </div>
         </div>
         <div id = "Global"></div>
     </body>
