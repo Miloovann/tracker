@@ -3,12 +3,28 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href='http://getbootstrap.com/dist/css/bootstrap.css'>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
         <link rel="stylesheet" href = "covid.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <title>COVID Hunter</title>
+        <style>
+            .row {
+                position: relative;
+            }
+            #extralinks {
+                position: absolute;
+                bottom: 100px;
+                right: 100px;
+            }
+            .col-sm-7 {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+            }
+        </style>
     </head>
 
     <body onload='filter("int"); sgfilter("minus1"); communityfilter("communitylinesg"); dormfilter("dormlinesg"); importedfilter("importedlinesg"); totalfilter("totallinesg")'>
@@ -40,7 +56,7 @@
             <br>
             <h2 class="d-flex align-items-center flex-column">WorldWide Data</h2>
             <div id="infection"></div>
-            <div>
+            <div id="extralinks">
                 <a href="https://www.cdc.gov/coronavirus/2019-ncov/if-you-are-sick/steps-when-sick.html" target="_blank" style="text-decoration: none;">
                     <span style="color: white;font-size:28px;">Precautions</span>
                 </a>
