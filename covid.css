@@ -43,6 +43,7 @@ tr{
     padding: 0;
     border: none;
     position: fixed;
+    padding-top: 150px;
     top: 0;
     right: 0;
     color: white;
@@ -50,6 +51,15 @@ tr{
 #rightbar * {
     padding-left: 10px;
     padding-right: 10px;
+}
+#extralinks{
+  width: 20%;
+  background-color: #000;
+  display: inline-block;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  color: white;
 }
 @media only screen and (max-width: 992px){
     #rightbar {
