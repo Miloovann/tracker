@@ -1,4 +1,4 @@
-/*let width;
+let width;
 const screenDetect = () =>{
     width = document.documentElement.clientWidth;
     console.log(width);
@@ -24,7 +24,7 @@ const closeside = () =>{
 
 window.addEventListener("resize", screenDetect);
 
-//screenDetect();*/
+//screenDetect();
 
 var today = new Date();
 var m = today.getMonth();
