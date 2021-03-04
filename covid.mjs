@@ -1,31 +1,3 @@
-/*let width;
-const screenDetect = () =>{
-    width = document.documentElement.clientWidth;
-    console.log(width);
-    if(width<1365){ //change width
-        document.getElementById('navbar').style.display = 'none'; //foreword to award chunk
-        document.getElementById('mnavbar').style.display = 'block'; //hamburger icon
-    }
-    else{
-        document.getElementById('navbar').style.display = 'block';
-        document.getElementById('mnavbar').style.display = 'none';
-        closeside();
-    }
-}
-
-const openside = () =>{
-    document.getElementById('msidebar').style.width = '250px'; //actual sidebar when click hamburger
-    document.querySelector('#mnavbar a').style.display = 'none';
-}
-const closeside = () =>{
-    document.getElementById('msidebar').style.width = '0px';
-    document.querySelector('#mnavbar a').style.display = 'block';
-}
-
-window.addEventListener("resize", screenDetect);
-
-//screenDetect();*/
-
 var today = new Date();
 var m = today.getMonth();
 var d = today.getDate();
