@@ -66,7 +66,7 @@ function sgdatelink(){
         else if(month===11){month = 'Dec';}
 
         date = day+' '+month;
-        filename = 'https://covidhunter.netlify.app/; //rmb change url
+        filename = 'https://covidhunter.netlify.app/'; //rmb change url
         filename += 'SG\ ' + day+'\ '+month + '\ Cases.svg';
         console.log(filename);
         if(checkfileexists(filename)){
