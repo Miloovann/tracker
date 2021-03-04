@@ -6,7 +6,7 @@ abbrev.forEach(cont=>{
     graphtype.forEach(type=>{
         continentsdata += '<img src = "' + cont[1] + type + '10.svg" style="width: 26%;">';
     });
-    continentsdata += '<div id = "' + cont[0] + 'table"></div><p>*If data is consistent across all sources, reliability = 1. If data is taken only from Worldometers, reliability = 0</p></div>';
+    continentsdata += '<div class="table-responsive" id = "' + cont[0] + 'table"></div><p>*If data is consistent across all sources, reliability = 1. If data is taken only from Worldometers, reliability = 0</p></div>';
 });
 
 var localsgdata = '<div class="singapore" style="padding-top: 130px;">';
