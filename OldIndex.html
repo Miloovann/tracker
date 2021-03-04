@@ -304,15 +304,15 @@
             </a>
             
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler align-center" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon "></span>
         </button>
 
         <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-            <ul class="navbar-nav" id = "international_hover"></ul>
+            <ul class="navbar-nav mr-auto" id = "international_hover"></ul>
         </div>
         <script>
-            var continents = [['int', 'Global'],['singapore', 'Singapore'],['afr', 'Africa'],['asa', 'Asia'],['aus', 'Australia/Oceania'],['eu', 'Europe'],['nam', 'North America'], ['sam', 'South America']];
+            var continents = [['int', 'Global'],['singapore', 'Singapore'],['afr', 'Africa'],['asa', 'Asia'],['aus', 'Oceania'],['eu', 'Europe'],['nam', 'N. America'], ['sam', 'S. America']];
             var filterfunctioncode = '';
             continents.forEach(cont=>{
                 filterfunctioncode += '<li class="nav-item"><p class="hover nav-item nav-link" onclick="filter(\'' + cont[0] + '\')" style="font-size:25px; color:white">' + cont[1] + '</p></li>';
