@@ -39,7 +39,7 @@ function detectMob() {
 }
 
 const hideSidebar=()=>{
-    var x =detectMob();
+    var x = detectMob();
     console.log(x);
     if(x==true){
         document.getElementById('rightbar').style.right='-500px';
