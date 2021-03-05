@@ -29,34 +29,36 @@ function detectMob() {
         /BlackBerry/i,
         /Windows Phone/i
     ];
-    if(window.innerHeight>window.innerWidth){
+    var hei = document.documentElement.clientHeight;
+    var wid = document.documentElement.clientWidth;
+    console.log(hei,wid);
+    if(hei>wid){
+        console.log('portrait');
         return true;
     }
     else{
     return toMatch.some((toMatchItem) => {
-        return navigator.userAgent.match(toMatchItem);
+        console.log("detectingmob");
+        return navigator.userAgent.match(toMatch);
     });
     }
 }
 
 const hideSidebar=()=>{
     var x =detectMob();
+    console.log(x);
     if(x==true){
-        console.log(x);
-        document.getElementById('rightbar').style.position='static';
-        document.getElementById('rightbar').style.display='none';
-        document.getElementById('extralinks').style.position='static';
-        document.getElementById('extralinks').style.display='none';
+        document.getElementById('rightbar').style.right='-500px';
+        document.getElementById('extralinks').style.right='-500px';
 
     }
     else{
-        document.getElementById('rightbar').style.position='fixed';
-        document.getElementById('rightbar').style.display='block';
-        document.getElementById('extralinks').style.position='fixed';
-        document.getElementById('extralinks').style.display='block';
+        document.getElementById('rightbar').style.right='0px';
+        document.getElementById('extralinks').style.right='0px';
     }
 }
 hideSidebar();
+window.addEventListener("resize", hideSidebar);
 
 // start csv
 $.get(m+d+"all.csv", function(data) {
