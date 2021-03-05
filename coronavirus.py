@@ -309,6 +309,9 @@ with open("/Users/junyiho/Desktop/PW_Web/" + filedate + "all.csv","w",newline = 
                     first = readerone[check]
                     second = readertwo[check]
                     third = readerthree[check]
+                    if third[6] == "Australia/Oceania":
+                        third[6] = "Oceania"
+                        
                     if second == third[0:6] == first:   third.append(1)
                     else:   third.append(0)
                     third = [int(third[i]) if type(third[i]) == str and third[i].isdigit() else third[i] for i in range(len(third))]
@@ -384,7 +387,7 @@ def graphbarh(colnum, casetype, casesave):
         hightotal, highall = plt.subplots()
         if x == 3:
             x_axis, y_axis = [data[i][0] for i in range(len(data))], [data[i][1] for i in range(len(data))]
-            specialtitle = "%s countries with most "+ casetype +" in Australia/Oceania"
+            specialtitle = "%s countries with most "+ casetype +" in Oceania"
             highall.set_title(specialtitle %len(x_axis), fontweight='bold') ##Australia has <10 countries
         else:
             x_axis, y_axis = [data[i][0] for i in range(10)], [data[i][1] for i in range(10)]

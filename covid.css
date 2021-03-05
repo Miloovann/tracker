@@ -62,10 +62,16 @@ tr{
   right: 0;
   color: white;
 }
-.row-margin-05 { margin-top: 0.5em;}
 .additionallinks{
-  border: 1px solid white;
-  border-radius: 50px;
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  font-family: arial, sans-serif;
+  text-decoration: underline;
+  cursor: pointer;
+}
+a.hover.nav-item.nav-link{
+  cursor: pointer;
 }
 @media only screen and (max-width: 992px){
     #rightbar {
