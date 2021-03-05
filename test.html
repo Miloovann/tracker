@@ -13,10 +13,40 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav">
+      <!--<div class="container-fluid collapse navbar-collapse justify-content-center" id="navbarText">-->
+
+      <div class="container-fluid collapse navbar-collapse justify-content-center" id="navbarText">
+        <ul class="navbar-nav" id="international_hover">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="hover nav-item nav-link" onclick="filter('int')" style="font-size:25px; color:white">World</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="hover nav-item nav-link" onclick="filter('singapore')" style="font-size:25px; color:white">Singapore</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="hover nav-item nav-link" onclick="filter('afr')" style="font-size:25px; color:white">Africa</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="hover nav-item nav-link" onclick="filter('asa')" style="font-size:25px; color:white">Asia</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="hover nav-item nav-link" onclick="filter('aus')" style="font-size:25px; color:white">Oceania</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="hover nav-item nav-link" onclick="filter('eu')" style="font-size:25px; color:white">Europe</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="hover nav-item nav-link" onclick="filter('nam')" style="font-size:25px; color:white">N. America</a>
+          </li>
+            
+          <li class="nav-item">
+            <a class="hover nav-item nav-link" onclick="filter('sam')" style="font-size:25px; color:white">S. America</a>
           </li>
         </ul>
       </div>
