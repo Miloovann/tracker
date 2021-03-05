@@ -14,12 +14,6 @@ else if(m===9){m = 'October';}
 else if(m===10){m = 'November';}
 else if(m===11){m = 'December';}
 
-$("#menubar").on('click','.navbar-collapse',function(e) {
-    if( $(e.target).is('a:not(".dropdown-toggle")') ) {
-        $(this).collapse('hide');
-    }
-});
-
 function detectMob() {
     const toMatch = [
         /Android/i,
