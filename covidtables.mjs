@@ -45,7 +45,6 @@ const checkfileexists = (url) =>{
     else    return false;
 }
 function sgdatelink(days, boole){
-    var fortnight = [];
     var date = new Date();
     var last = new Date(date.getTime() - (days * 24 * 60 * 60 * 1000));
     var day =last.getDate();
@@ -56,7 +55,6 @@ function sgdatelink(days, boole){
     filename += 'SG\ ' + day+'\ '+month + '\ Cases.svg';
     var check = checkfileexists(filename);
     if(check){
-        fortnight.push(date)
         if(boole) days--;
         document.getElementById('minus'+days).setAttribute('src', filename);
         document.getElementById('label'+days).innerHTML = date;

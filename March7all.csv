@@ -1,7 +1,7 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Afghanistan,55847,7,2449,,49369,Asia,0
-Albania,111301,,1897,,73610,Europe,1
-Algeria,113948,,3007,,78824,Africa,1
+Albania,112078,777,1918,21,74352,Europe,0
+Algeria,114104,156,3010,3,78946,Africa,0
 Andorra,10998,,112,,10584,Europe,1
 Angola,21026,,511,,19624,Africa,1
 Anguilla,18,,,,18,North America,0
@@ -130,7 +130,7 @@ Mexico,2119305,6797,189578,712,1660786,North America,0
 Micronesia,1,,,,1,Australia/Oceania,0
 Moldova,194605,1620,4091,20,170468,Europe,0
 Monaco,2009,,26,,1810,Europe,1
-Mongolia,3161,8,2,,2442,Asia,0
+Mongolia,3161,8,2,,2481,Asia,0
 Montenegro,79237,603,1059,11,69209,Europe,0
 Montserrat,20,,1,,14,North America,0
 Morocco,485567,,8673,,471410,Africa,1
@@ -216,4 +216,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,2411,,648,,1439,Asia,1
 Zambia,82011,670,1116,3,77609,Africa,0
 Zimbabwe,36248,,1484,,33759,Africa,1
-World,116860233,211424,2595051,3765,92443657,,0
+World,116861166,212357,2595075,3789,92444560,,0
