@@ -38,6 +38,17 @@ continentsdata += localsgdata;
 document.getElementById('Global').innerHTML = continentsdata;
 
 const checkfileexists = (url) =>{
+
+    const fs = require('fs')
+    const path = './file.txt'
+    fs.access(path, fs.F_OK, (err) => {
+    if (err) {
+        console.error(err)
+        return
+    }
+    });
+    console.log(url);
+
     var http = new XMLHttpRequest(); 
     http.open('HEAD', url, false); 
     http.send(); 
