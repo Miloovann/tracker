@@ -47,20 +47,23 @@ const checkfileexists = (url) =>{
 
 function sgdatelink(){
     var fortnight = [];
-    for(var days=0; days<=14; days++){
+    var days=0;
+    while(days<=14){
+        console.log(days);
         var date = new Date();
         var last = new Date(date.getTime() - (days * 24 * 60 * 60 * 1000));
         var day =last.getDate();
         var month=last.toLocaleString("default", {month: 'short'});
 
         date = day+' '+month;
-        filename = 'https://covidhunter.netlify.app/'; //rmb change url
+        filename = 'http://127.0.0.1:5500/'; //rmb change url
         filename += 'SG\ ' + day+'\ '+month + '\ Cases.svg';
         if(checkfileexists(filename)){
             fortnight.push(date)
             document.getElementById('minus'+days).setAttribute('src', filename);
             document.getElementById('label'+days).innerHTML = date;
         }
+        days++;
     }
 }
 sgdatelink();
