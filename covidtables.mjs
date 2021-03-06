@@ -31,7 +31,7 @@ for(var iter=0; iter<14; iter++){
 }
 localsgdata += '</div></div>';
 
-for(var i=0; i<14; i++) localsgdata += '<img id = "minus'+ i + '">'; //double quotation may have error
+for(var i=0; i<14; i++) localsgdata += '<img id = "minus'+ i + '">';
 localsgdata += '</div></div>';
 
 continentsdata += localsgdata;
@@ -51,26 +51,12 @@ function sgdatelink(){
         var date = new Date();
         var last = new Date(date.getTime() - (days * 24 * 60 * 60 * 1000));
         var day =last.getDate();
-        var month=last.getMonth();
-        if(month===0){month = 'Jan';}
-        else if(month===1){month = 'Feb';}            
-        else if(month===2){month = 'Mar';}
-        else if(month===3){month = 'Apr';}
-        else if(month===4){month = 'May';}
-        else if(month===5){month = 'Jun';}
-        else if(month===6){month = 'Jul';}
-        else if(month===7){month = 'Aug';}
-        else if(month===8){month = 'Sep';}
-        else if(month===9){month = 'Oct';}
-        else if(month===10){month = 'Nov';}
-        else if(month===11){month = 'Dec';}
+        var month=last.toLocaleString("default", {month: 'short'});
 
         date = day+' '+month;
         filename = 'https://covidhunter.netlify.app/'; //rmb change url
         filename += 'SG\ ' + day+'\ '+month + '\ Cases.svg';
-        console.log(filename);
         if(checkfileexists(filename)){
-            console.log("exists");
             fortnight.push(date)
             document.getElementById('minus'+days).setAttribute('src', filename);
             document.getElementById('label'+days).innerHTML = date;

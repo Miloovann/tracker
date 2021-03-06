@@ -1,18 +1,6 @@
 var today = new Date();
-var m = today.getMonth();
+var m = today.toLocaleString('Default', {month: "long"});
 var d = today.getDate();
-if(m===0){m = 'January';}
-else if(m===1){m = 'February';}            
-else if(m===2){m = 'March';}
-else if(m===3){m = 'April';}
-else if(m===4){m = 'May';}
-else if(m===5){m = 'June';}
-else if(m===6){m = 'July';}
-else if(m===7){m = 'August';}
-else if(m===8){m = 'September';}
-else if(m===9){m = 'October';}
-else if(m===10){m = 'November';}
-else if(m===11){m = 'December';}
 
 function detectMob() {
     const toMatch = [
@@ -25,14 +13,11 @@ function detectMob() {
     ];
     var hei = document.documentElement.clientHeight;
     var wid = document.documentElement.clientWidth;
-    console.log(hei,wid);
     if(hei>wid){
-        console.log('portrait');
         return true;
     }
     else{
     return toMatch.some((toMatchItem) => {
-        console.log("detectingmob");
         return navigator.userAgent.match(toMatch);
     });
     }
@@ -40,11 +25,9 @@ function detectMob() {
 
 const hideSidebar=()=>{
     var x = detectMob();
-    console.log(x);
     if(x==true){
         document.getElementById('rightbar').style.right='-500px';
         document.getElementById('extralinks').style.right='-500px';
-
     }
     else{
         document.getElementById('rightbar').style.right='0px';
@@ -363,7 +346,6 @@ function timeFunc(){
     fetch('/updatetiming.txt')
         .then(response => response.text())
         .then(data => {
-            console.log(data)
             var units = " second"
             var upd = data.split(" ");
             var prev = new Date(upd[0],upd[1],upd[2],upd[3],upd[4],upd[5]);
