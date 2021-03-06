@@ -44,26 +44,33 @@ const checkfileexists = (url) =>{
     if (http.status === 200)    return true;
     else    return false;
 }
-
-function sgdatelink(){
+function sgdatelink(days, boole){
     var fortnight = [];
-    var days=0;
-    while(days<=14){
-        console.log(days);
-        var date = new Date();
-        var last = new Date(date.getTime() - (days * 24 * 60 * 60 * 1000));
-        var day =last.getDate();
-        var month=last.toLocaleString("default", {month: 'short'});
+    var date = new Date();
+    var last = new Date(date.getTime() - (days * 24 * 60 * 60 * 1000));
+    var day =last.getDate();
+    var month=last.toLocaleString("default", {month: 'short'});
 
-        date = day+' '+month;
-        filename = 'http://127.0.0.1:5500/'; //rmb change url
-        filename += 'SG\ ' + day+'\ '+month + '\ Cases.svg';
-        if(checkfileexists(filename)){
-            fortnight.push(date)
-            document.getElementById('minus'+days).setAttribute('src', filename);
-            document.getElementById('label'+days).innerHTML = date;
-        }
-        days++;
+    date = day+' '+month;
+    filename = 'https://covidhunter.netlify.app/'; //rmb change url
+    filename += 'SG\ ' + day+'\ '+month + '\ Cases.svg';
+    var check = checkfileexists(filename);
+    if(check){
+        fortnight.push(date)
+        if(boole) days--;
+        document.getElementById('minus'+days).setAttribute('src', filename);
+        document.getElementById('label'+days).innerHTML = date;
     }
+    return check;
 }
-sgdatelink();
+var countbackDays=0;
+var minus = false;
+var limit = 13;
+while(countbackDays <= limit){
+    var run = sgdatelink(countbackDays, minus);
+    if(!run){
+        minus = true;
+        limit = 14;
+    }
+    countbackDays++;
+}
