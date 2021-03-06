@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+        <link rel="stylesheet" href = "covid.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <title>COVID Hunter</title>
+    </head>
+
+    <body onload='filter("int"); sgfilter("minus1"); communityfilter("communitylinesg"); dormfilter("dormlinesg"); importedfilter("importedlinesg"); totalfilter("totallinesg")'>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+            <a class="navbar-brand showdesktop" href="https://covidhunter.netlify.app">
+                <img src="logo.png" alt="" class="img-logo" style="width:50px; color:whitesmoke">
+                    Covid Hunter
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+                <ul class="navbar-nav" id = "international_hover"></ul>
+            </div>
+            <script src="HeaderSelector.mjs"></script>
+        </nav>        
+
+        <div id="rightbar" class="d-flex align-items-center flex-column">
+            <h2 class="d-flex align-items-center flex-column">WorldWide Data</h2>
+            <div id="infection"></div>
+            <script src="RightBarHTML.mjs"></script>
+        </div>
+
+        <div id="extralinks" class="d-flex align-items-left flex-column">
+            <a href="https://www.cdc.gov/coronavirus/2019-ncov/if-you-are-sick/steps-when-sick.html" target="_blank" style="text-decoration: none;">
+                <span style="color: white;font-size:28px;" class="additionallinks">Precautions</span>
+            </a>
+            <a href="https://www.instagram.com/miloovann/" target="_blank" style="text-decoration: none;">
+                <span style="color: whitesmoke;font-size:28px;" class="additionallinks">About Me</span> 
+            </a>
+        </div>
+        <div id = "Global"></div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src = "covidtablesedit.mjs"></script>
+    <script src = "covid.mjs"></script>
+</html>
