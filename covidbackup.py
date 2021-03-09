@@ -12,7 +12,7 @@ dir_name = "/Users/junyiho/Desktop/Scripts/PW_Web"
 test = os.listdir(dir_name)
 
 for item in test:
-    if item.endswith(".csv") or item.endswith(".svg"):
+    if (item.endswith(".csv") or item.endswith(".svg")) and item != "MOH.csv":
         os.remove(os.path.join(dir_name, item))
 
 head = ["Country","Total Cases","New Cases","Total Deaths","New Deaths","Total Recovered","Continent","Reliability*"]
