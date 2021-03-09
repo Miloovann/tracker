@@ -1,57 +1,57 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Algeria,114382,148,3018,5,79187,Africa,0
-Angola,21108,22,515,1,19657,Africa,0
+Algeria,114382,,3018,,79187,Africa,1
+Angola,21108,,515,,19657,Africa,1
 Benin,6338,,81,,5383,Africa,1
-Botswana,32912,1166,413,54,27765,Africa,0
+Botswana,32912,,413,,27765,Africa,1
 Burkina Faso,12181,,143,,11816,Africa,1
-Burundi,2334,15,3,,773,Africa,0
-Cabo Verde,15806,24,154,,15133,Africa,0
-Cameroon,36794,1080,566,15,32936,Africa,0
+Burundi,2334,,3,,773,Africa,1
+Cabo Verde,15806,,154,,15133,Africa,1
+Cameroon,36794,,566,,32936,Africa,1
 Central African Republic,5021,,63,,4920,Africa,1
-Chad,4193,16,146,6,3690,Africa,0
-Comoros,3606,10,146,,3427,Africa,0
-DR Congo,26627,86,712,,22432,Africa,0
-Djibouti,6157,11,63,,5935,Africa,0
-Egypt,187094,591,11038,43,144485,Africa,0
-Equatorial Guinea,6371,42,96,,5739,Africa,0
+Chad,4193,,146,,3690,Africa,1
+Comoros,3606,,146,,3427,Africa,1
+DR Congo,26627,,712,,22432,Africa,1
+Djibouti,6157,,63,,5935,Africa,1
+Egypt,187094,,11038,,144485,Africa,1
+Equatorial Guinea,6371,,96,,5739,Africa,1
 Eritrea,2944,,7,,2436,Africa,1
-Eswatini,17188,4,658,,15343,Africa,0
-Ethiopia,167133,995,2442,13,138639,Africa,0
-Gabon,16015,390,91,1,14047,Africa,0
-Gambia,4792,33,153,1,4203,Africa,0
+Eswatini,17188,,658,,15343,Africa,1
+Ethiopia,167133,,2442,,138639,Africa,1
+Gabon,16015,,91,,14047,Africa,1
+Gambia,4792,,153,,4203,Africa,1
 Ghana,86465,,647,,80952,Africa,1
-Guinea,16912,242,97,2,15236,Africa,0
+Guinea,16912,,97,,15236,Africa,1
 Guinea-Bissau,3312,,49,,2671,Africa,1
-Ivory Coast,35331,144,204,2,32800,Africa,0
-Kenya,109164,337,1879,3,87623,Africa,0
-Lesotho,10523,,308,1,3922,Africa,0
+Ivory Coast,35331,,204,,32800,Africa,1
+Kenya,109164,,1879,,87623,Africa,1
+Lesotho,10523,,308,,3922,Africa,1
 Liberia,2024,,85,,1892,Africa,1
-Libya,139658,1018,2288,15,126878,Africa,0
+Libya,139658,,2288,,126878,Africa,1
 Madagascar,20155,,300,,19543,Africa,1
-Malawi,32469,27,1070,1,23105,Africa,0
-Mali,8613,33,358,,6450,Africa,0
-Mauritania,17340,18,442,,16688,Africa,0
+Malawi,32469,,1070,,23105,Africa,1
+Mali,8613,,358,,6450,Africa,1
+Mauritania,17340,,442,,16688,Africa,1
 Mauritius,641,,10,,588,Africa,1
-Mayotte,18315,175,128,1,2964,Africa,0
-Morocco,486325,102,8683,1,472544,Africa,0
-Mozambique,62703,183,698,5,46594,Africa,0
-Namibia,40187,157,439,1,37578,Africa,0
-Niger,4828,6,177,,4407,Africa,0
-Nigeria,158906,400,1982,13,138502,Africa,0
-Rwanda,19659,108,268,,17911,Africa,0
+Mayotte,18315,,128,,2964,Africa,1
+Morocco,486325,,8683,,472544,Africa,1
+Mozambique,62703,,698,,46594,Africa,1
+Namibia,40187,,439,,37578,Africa,1
+Niger,4828,,177,,4407,Africa,1
+Nigeria,158906,,1982,,138502,Africa,1
+Rwanda,19659,,268,,17911,Africa,1
 Réunion,13125,,59,,11956,Africa,1
-Senegal,35959,102,925,6,30915,Africa,0
-Seychelles,3000,21,15,,2743,Africa,0
-Sierra Leone,3921,1,79,,2721,Africa,0
-Somalia,8438,117,307,5,3932,Africa,0
-South Africa,1521706,638,50803,125,1442045,Africa,0
-South Sudan,8870,104,102,,4914,Africa,0
-Sudan,28766,161,1915,20,23268,Africa,0
-São Tomé and Príncipe,1961,11,32,,1584,Africa,0
+Senegal,35959,,925,,30915,Africa,1
+Seychelles,3000,,15,,2743,Africa,1
+Sierra Leone,3921,,79,,2721,Africa,1
+Somalia,8438,,307,,3932,Africa,1
+South Africa,1521706,,50803,,1442045,Africa,1
+South Sudan,8870,,102,,4914,Africa,1
+Sudan,28766,,1915,,23268,Africa,1
+São Tomé and Príncipe,1961,,32,,1584,Africa,1
 Tanzania,509,,21,,183,Africa,1
-Togo,7598,28,92,,6340,Africa,0
-Tunisia,238017,313,8225,24,202994,Africa,0
-Uganda,40479,15,334,,15065,Africa,0
+Togo,7598,,92,,6340,Africa,1
+Tunisia,238017,,8225,,202994,Africa,1
+Uganda,40479,,334,,15065,Africa,1
 Western Sahara,10,,1,,8,Africa,1
-Zambia,82655,234,1132,8,78721,Africa,0
-Zimbabwe,36289,18,1487,2,33872,Africa,0
+Zambia,82655,,1132,,78721,Africa,1
+Zimbabwe,36289,,1487,,33872,Africa,1
