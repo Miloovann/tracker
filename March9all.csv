@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,55868,,2451,,49402,Asia,1
+Afghanistan,55894,26,2451,,49409,Asia,0
 Albania,113580,,1956,,75887,Europe,1
 Algeria,114382,,3018,,79187,Africa,1
 Andorra,11069,,112,,10661,Europe,1
@@ -60,7 +60,7 @@ Egypt,187094,,11038,,144485,Africa,1
 El Salvador,60800,,1923,8,56807,North America,0
 Equatorial Guinea,6371,,96,,5739,Africa,1
 Eritrea,2944,,7,,2436,Africa,1
-Estonia,76183,,667,,55641,Europe,1
+Estonia,77491,1308,669,2,57206,Europe,0
 Eswatini,17188,,658,,15343,Africa,1
 Ethiopia,167133,,2442,,138639,Africa,1
 Falkland Islands,54,,,,51,South America,0
@@ -87,7 +87,7 @@ Guyana,8814,,203,,8171,South America,1
 Haiti,12536,,250,,9828,North America,1
 Honduras,174243,514,4283,23,68085,North America,0
 Hong Kong,11100,,202,,10636,Asia,1
-Hungary,468713,,15988,,336744,Europe,1
+Hungary,475207,6494,16146,158,338946,Europe,0
 Iceland,6064,,29,,6020,Europe,1
 India,11244786,162,157966,,10899394,Asia,0
 Indonesia,1386556,,37547,,1203381,Asia,1
@@ -139,7 +139,7 @@ Myanmar,142045,,3200,,131679,Asia,1
 Namibia,40187,,439,,37578,Africa,1
 Nepal,274810,,3011,,270927,Asia,1
 Netherlands,1123909,,15861,,N/A,Europe,0
-New Caledonia,67,,,,58,Australia/Oceania,0
+New Caledonia,70,3,,,58,Australia/Oceania,0
 New Zealand,2409,4,26,,2304,Australia/Oceania,0
 Nicaragua,6489,,174,,4225,North America,1
 Niger,4828,,177,,4407,Africa,1
@@ -216,4 +216,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,2545,,653,,1447,Asia,1
 Zambia,82655,,1132,,78721,Africa,1
 Zimbabwe,36289,,1487,,33872,Africa,1
-World,117765806,33366,2612729,1012,93431470,,0
+World,117773637,41197,2612889,1172,93435244,,0
