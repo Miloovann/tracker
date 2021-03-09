@@ -130,11 +130,11 @@ with client:
     work = client.loop.run_until_complete(afternoon())
     if work[5]: ##update local grouped data if latest mothership afternoon data is from today
         othercases = list([date_num + " "  + month] + work[0:4])
-        with open('/Users/junyiho/Desktop/Scripts/MOH.csv', 'r+') as f:
+        with open('/Users/junyiho/Desktop/Scripts/PW_Web/MOH.csv', 'r+') as f:
             for i in reversed(list(csv.reader(f))):
                     date = i[0]
                     if date != othercases[0]: #update local grouped data if not updated in csv yet
-                        with open('/Users/junyiho/Desktop/Scripts/MOH.csv', 'a') as f:
+                        with open('/Users/junyiho/Desktop/Scripts/PW_Web/MOH.csv', 'a') as f:
                                 f.write('\n')
                                 writer = csv.writer(f)
                                 writer.writerow(othercases)
@@ -407,7 +407,7 @@ graphbarh(5, "recovered cases", "recovered10.svg")
 
 ##Start Singapore Graphs
 dates, imported, community, dorm, total = [],[],[],[],[]
-with open('/Users/junyiho/Desktop/Scripts/MOH.csv', 'r') as f:
+with open('/Users/junyiho/Desktop/Scripts/PW_Web/MOH.csv', 'r') as f:
     loop = 0
     for row in reversed(list(csv.reader(f))):
         if len(row) == 0:   continue
