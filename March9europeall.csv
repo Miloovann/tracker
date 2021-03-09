@@ -1,18 +1,18 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Albania,113580,,1956,,75887,Europe,1
 Andorra,11069,,112,,10661,Europe,1
-Austria,476980,,8732,,445032,Europe,1
+Austria,479391,2411,8757,25,447041,Europe,0
 Belarus,296441,,2047,,287197,Europe,1
 Belgium,789008,1117,22292,31,53588,Europe,0
 Bosnia and Herzegovina,137291,,5297,,118720,Europe,1
 Bulgaria,263303,,10764,,214115,Europe,1
 Channel Islands,4042,,86,,3948,Europe,1
-Croatia,246608,,5609,,237645,Europe,1
+Croatia,247099,491,5621,19,238121,Europe,0
 Czechia,1335815,10466,22147,110,1150634,Europe,0
 Denmark,215264,,2381,,205832,Europe,1
 Estonia,77491,1308,669,2,57206,Europe,0
 Faroe Islands,660,,1,,657,Europe,1
-Finland,62522,,774,,46000,Europe,1
+Finland,63110,588,774,,46000,Europe,0
 France,3909560,,88933,,266096,Europe,1
 Germany,2513768,,72698,,2319600,Europe,0
 Gibraltar,4249,,93,,4134,Europe,1
@@ -22,7 +22,7 @@ Iceland,6064,,29,,6020,Europe,1
 Ireland,223651,,4422,,23364,Europe,1
 Isle of Man,865,,25,,417,Europe,1
 Italy,3081368,,100103,,2508732,Europe,1
-Latvia,90525,,1699,,80247,Europe,1
+Latvia,90997,472,1705,6,80247,Europe,0
 Liechtenstein,2592,,54,,2519,Europe,1
 Lithuania,202900,462,3341,4,189070,Europe,0
 Luxembourg,56677,,663,,53240,Europe,1
@@ -33,14 +33,14 @@ Montenegro,80191,,1085,,70137,Europe,1
 Netherlands,1123909,,15861,,N/A,Europe,0
 North Macedonia,107479,,3206,,95410,Europe,1
 Norway,75770,,632,,66014,Europe,1
-Poland,1801083,,45317,,1494083,Europe,1
+Poland,1811036,9954,45599,282,1503353,Europe,0
 Portugal,810459,,16565,,732346,Europe,1
 Romania,830563,,20963,,761631,Europe,1
 Russia,4342474,9445,89809,336,3932177,Europe,0
 San Marino,3935,,76,,3434,Europe,1
 Serbia,489530,,4579,,400347,Europe,1
 Slovakia,323786,,7921,,255300,Europe,1
-Slovenia,195678,,3897,,181023,Europe,1
+Slovenia,196421,740,3904,7,181915,Europe,0
 Spain,3160970,,71436,,2810929,Europe,0
 Sweden,684961,,13003,,N/A,Europe,0
 Switzerland,565034,,10056,,521912,Europe,1
