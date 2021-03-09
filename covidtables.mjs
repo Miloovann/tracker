@@ -2,7 +2,7 @@ var abbrev = [['int', 'worldwide'],['afr', 'africa'],['asa', 'asia'],['aus', 'Au
 var graphtype = ['total', 'death', 'recovered'];
 var continentsdata = '';
 abbrev.forEach(cont=>{
-    continentsdata += '<div class="' + cont[0] + '" style="padding-top: 130px;">';
+    continentsdata += '<div class="' + cont[0] + '" style="padding: 130px 40px 0px 20px;">';
     graphtype.forEach(type=>{
         continentsdata += '<img src = "' + cont[1] + type + '10.svg" style="width: 26%;">';
     });

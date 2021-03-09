@@ -46,7 +46,7 @@ tr{
     padding-top: 120px;
     top: 0;
     right: 0;
-    color: white;
+    color: black;
 }
 #rightbar * {
     padding-left: 10px;
@@ -54,7 +54,7 @@ tr{
 }
 #extralinks{
   width: 20%;
-  background-color: #000;
+  background-color: #bff2f0;
   padding: 30px;
   display: inline-block;
   position: fixed;
