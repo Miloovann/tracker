@@ -81,7 +81,6 @@ async def afternoon():
             datadict = {}
             for i in range(5):
                 datadict["{}".format(varcase[i])] = getnum(msg, casetype[i])
-            
             dd = int(msg.find(month + '. ')+len(month)+2)
             if msg[dd+1].isnumeric() is True:   messageday = msg[dd:dd+2]
             else:   messageday = msg[dd:dd+1]
@@ -152,9 +151,6 @@ with client:
     sleep.insert(1,newdeaths)
     sgdata = ["Singapore"]+work+sleep[0:3]+["Asia"]
 
-    with open("/Users/junyiho/Desktop/Scripts/PW_Web/" + "SGCovid.csv","w",newline = '') as f:
-        sglog = sgdata[0:6] + [month + " " + date_num]
-        csv.writer(f).writerow(sglog)
 #End mothership scraping
 
 #Scrape NCOV2019.live
