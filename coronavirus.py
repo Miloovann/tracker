@@ -151,6 +151,9 @@ with client:
     sleep.insert(1,newdeaths)
     sgdata = ["Singapore"]+work+sleep[0:3]+["Asia"]
 
+# with open("/Users/junyiho/Desktop/Scripts/PW_Web/" + "SGCovid.csv","w",newline = '') as f:
+#     sglog = sgdata[0:6] + [month + " " + date_num]
+#     csv.writer(f).writerow(sglog)
 #End mothership scraping
 
 #Scrape NCOV2019.live
@@ -326,7 +329,7 @@ final.close()
 for i in ["/Users/junyiho/Desktop/Scripts/PW_Web/metersworld.csv","/Users/junyiho/Desktop/Scripts/PW_Web/livencov.csv","/Users/junyiho/Desktop/Scripts/PW_Web/tracker.csv"]:    os.remove(i)
 #End Combining tracker,meters and livencov into 1 csv
 
-#Start analysis of final.csv
+#Start analysis of all.csv
 #Start Logarithm analysis of all data
 with open("/Users/junyiho/Desktop/Scripts/PW_Web/" + filedate + "logall.csv","w",newline='')as flog:
     writer = csv.writer(flog)
