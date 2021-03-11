@@ -384,10 +384,10 @@ def graphbarh(colnum, casetype, casesave):
         if x == 3:
             x_axis, y_axis = [data[i][0] for i in range(len(data))], [data[i][1] for i in range(len(data))]
             specialtitle = "%s countries with most "+ casetype +" in Australia/Oceania"
-            highall.set_title(specialtitle %len(x_axis), fontweight='bold') ##Australia has <10 countries
+            highall.set_title(specialtitle %len(x_axis), fontweight='bold') ##Australia has ~10 countries
         else:
             x_axis, y_axis = [data[i][0] for i in range(10)], [data[i][1] for i in range(10)]
-            if x == 1:  highall.set_title("10 countries with most " + casetype + " " + countrynames[x], fontweight='bold') ##worldwide cause "in worldwide" sounds weird
+            if x == 1:  highall.set_title("10 countries with most " + casetype + " " + countrynames[x], fontweight='bold') ##worldwide
             else:   highall.set_title("10 countries with most " + casetype+ " in " + countrynames[x], fontweight='bold') ##rest of the continents
 
         if len(str(y_axis[0])) >= 7:
