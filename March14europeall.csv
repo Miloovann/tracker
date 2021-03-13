@@ -1,6 +1,6 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Albania,116123,,2018,,79131,Europe,1
-Andorra,11199,,112,,10754,Europe,1
+Andorra,11228,29,112,,10775,Europe,0
 Austria,491065,3023,8856,25,455271,Europe,0
 Belarus,301328,1182,2087,9,292186,Europe,0
 Belgium,801723,3615,22397,27,54210,Europe,0
@@ -14,14 +14,14 @@ Estonia,83872,1586,710,15,59385,Europe,0
 Faroe Islands,660,,1,,657,Europe,1
 Finland,66006,691,786,,46000,Europe,0
 France,4015560,,90146,,271678,Europe,1
-Germany,2559296,,73790,,2352600,Europe,0
+Germany,2561842,2546,73815,25,2352600,Europe,0
 Gibraltar,4263,,94,1,4142,Europe,0
-Greece,217018,,6986,,182945,Europe,1
+Greece,219521,2503,7038,52,182945,Europe,0
 Hungary,507627,9444,16790,163,349530,Europe,0
 Iceland,6072,,29,,6023,Europe,1
 Ireland,225820,,4518,,23364,Europe,1
 Isle of Man,1157,,26,,424,Europe,1
-Italy,3175807,,101564,,2564926,Europe,1
+Italy,3201838,26062,101881,317,2579896,Europe,0
 Latvia,93484,578,1757,11,84196,Europe,0
 Liechtenstein,2602,1,55,,2519,Europe,0
 Lithuania,204954,589,3389,13,191197,Europe,0
@@ -29,18 +29,18 @@ Luxembourg,57503,,681,,53941,Europe,1
 Malta,26267,298,350,4,22773,Europe,0
 Moldova,201909,,4258,,176150,Europe,1
 Monaco,2097,,27,,1895,Europe,1
-Montenegro,82610,,1117,,72490,Europe,1
-Netherlands,1144822,,16024,,N/A,Europe,0
+Montenegro,83165,555,1122,5,72944,Europe,0
+Netherlands,1151218,6396,16046,22,N/A,Europe,0
 North Macedonia,111077,,3280,,96925,Europe,1
-Norway,78946,,639,,66014,Europe,1
+Norway,79358,412,639,,66014,Europe,0
 Poland,1889360,21049,47068,343,1546151,Europe,0
-Portugal,813152,,16650,,749770,Europe,1
+Portugal,813716,564,16669,19,756259,Europe,0
 Romania,855326,4964,21439,79,781154,Europe,0
 Russia,4380525,9908,91695,475,3985897,Europe,0
-San Marino,4096,,77,,3550,Europe,1
-Serbia,507959,,4670,,400347,Europe,1
+San Marino,4126,30,77,,3594,Europe,0
+Serbia,512051,4092,4694,24,400347,Europe,0
 Slovakia,336235,2363,8440,94,255300,Europe,0
-Slovenia,199004,,3926,,184753,Europe,1
+Slovenia,199854,850,3929,3,185698,Europe,0
 Spain,3183704,,72258,,2857714,Europe,0
 Sweden,712527,,13146,,N/A,Europe,0
 Switzerland,570645,,10108,4,529452,Europe,0
