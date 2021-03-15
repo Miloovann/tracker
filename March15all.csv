@@ -17,7 +17,7 @@ Bahrain,131001,,484,,124367,Asia,1
 Bangladesh,557395,,8545,,511695,Asia,1
 Barbados,3421,,37,,3174,North America,1
 Belarus,302323,,2095,,293485,Europe,1
-Belgium,805321,,22421,,54382,Europe,1
+Belgium,808283,2962,22441,20,54577,Europe,0
 Belize,12370,,316,,11987,North America,1
 Benin,6501,,81,,5552,Africa,1
 Bermuda,735,,12,,692,North America,1
@@ -73,7 +73,7 @@ French Polynesia,18527,,141,,4842,Australia/Oceania,1
 Gabon,16660,,96,,14583,Africa,1
 Gambia,4985,,153,,4437,Africa,1
 Georgia,274989,,3648,,268237,Asia,1
-Germany,2578835,,73959,,2358000,Europe,1
+Germany,2578835,,73959,,2365100,Europe,0
 Ghana,87762,,685,,83169,Africa,1
 Gibraltar,4263,,94,,4143,Europe,1
 Greece,221147,,7091,,187544,Europe,1
@@ -89,7 +89,7 @@ Honduras,178277,445,4334,3,68678,North America,0
 Hong Kong,11282,,203,,10754,Asia,1
 Hungary,516490,,16952,,351891,Europe,1
 Iceland,6072,,29,,6023,Europe,1
-India,11385158,,158762,,11005445,Asia,1
+India,11385339,181,158762,,11007352,Asia,0
 Indonesia,1419455,,38426,,1243117,Asia,1
 Iran,1746953,,61230,,1492488,Asia,1
 Iraq,758184,,13751,,685770,Asia,1
@@ -104,7 +104,7 @@ Jordan,477053,,5346,,396195,Asia,1
 Kazakhstan,224731,1011,2851,,206832,Asia,0
 Kenya,113236,,1913,,88405,Africa,1
 Kuwait,209523,,1172,,194172,Asia,1
-Kyrgyzstan,86850,,1481,,83836,Asia,1
+Kyrgyzstan,86917,67,1483,2,83875,Asia,0
 Laos,48,,,,42,Asia,0
 Latvia,93781,,1767,,84568,Europe,1
 Lebanon,418448,,5380,,328706,Asia,1
@@ -193,7 +193,7 @@ São Tomé and Príncipe,2078,,32,,1817,Africa,1
 Taiwan,985,,10,,950,Asia,1
 Tajikistan,13308,,90,,13218,Asia,1
 Tanzania,509,,21,,183,Africa,1
-Thailand,26927,,86,,26154,Asia,1
+Thailand,27005,78,87,1,26154,Asia,0
 Timor-Leste,196,,,,99,Asia,0
 Togo,8070,,95,,6694,Africa,1
 Trinidad and Tobago,7783,,140,,7531,North America,1
@@ -206,7 +206,7 @@ USA,30081657,,547234,,22169237,North America,1
 Uganda,40581,,334,,15095,Africa,1
 Ukraine,1460756,,28303,,1222516,Europe,1
 Uruguay,71691,,712,,60517,South America,1
-Uzbekistan,80567,,622,,79242,Asia,1
+Uzbekistan,80678,111,622,,79331,Asia,0
 Vanuatu,3,,,,1,Australia/Oceania,0
 Vatican City,27,,,,15,Europe,0
 Venezuela,145379,,1430,,137141,South America,1
@@ -216,4 +216,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,2836,,689,,1491,Asia,1
 Zambia,84797,,1158,,81756,Africa,1
 Zimbabwe,36484,,1503,,34043,Africa,1
-World,120401754,7144,2665052,272,96928914,,0
+World,120405153,10543,2665075,295,96938244,,0
