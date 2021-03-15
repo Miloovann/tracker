@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,55972,,2459,,49477,Asia,1
+Afghanistan,55995,23,2460,1,49481,Asia,0
 Albania,117474,,2045,,80483,Europe,1
 Algeria,115265,,3036,,79887,Africa,1
 Andorra,11266,,113,,10796,Europe,1
@@ -95,7 +95,7 @@ Iran,1746953,,61230,,1492488,Asia,1
 Iraq,758184,,13751,,685770,Asia,1
 Ireland,226741,,4534,,23364,Europe,1
 Isle of Man,1278,,26,,430,Europe,1
-Israel,818548,,6008,,784566,Asia,1
+Israel,819987,1439,6025,17,786369,Asia,0
 Italy,3223142,,102145,,2589731,Europe,1
 Ivory Coast,37653,,211,,34088,Africa,1
 Jamaica,30499,,485,,15139,North America,1
@@ -106,13 +106,13 @@ Kenya,113236,,1913,,88405,Africa,1
 Kuwait,209523,,1172,,194172,Asia,1
 Kyrgyzstan,86917,67,1483,2,83875,Asia,0
 Laos,48,,,,42,Asia,0
-Latvia,93781,,1767,,84568,Europe,1
+Latvia,93959,178,1769,2,84568,Europe,0
 Lebanon,418448,,5380,,328706,Asia,1
 Lesotho,10530,,309,,3922,Africa,1
 Liberia,2030,,85,,1899,Africa,1
 Libya,144993,,2386,,131778,Africa,1
 Liechtenstein,2612,,55,,2519,Europe,1
-Lithuania,205385,,3396,,191277,Europe,1
+Lithuania,205644,249,3410,12,191324,Europe,0
 Luxembourg,57877,,689,,53941,Europe,1
 Macao,48,,,,47,Asia,0
 Madagascar,21356,,326,,20380,Africa,1
@@ -153,12 +153,12 @@ Panama,347919,,5994,,335850,North America,1
 Papua New Guinea,2173,90,21,,846,Australia/Oceania,0
 Paraguay,180014,,3476,,149429,South America,1
 Peru,1412406,,49003,,1322685,South America,1
-Philippines,621498,,12829,,560512,Asia,1
+Philippines,626893,5404,12837,8,560577,Asia,0
 Poland,1906632,,47178,,1560227,Europe,1
 Portugal,814257,,16684,,759417,Europe,1
 Qatar,170252,,266,,158197,Asia,1
 Romania,859709,,21483,,783642,Europe,1
-Russia,4390608,,92090,,3995309,Europe,1
+Russia,4400045,9437,92494,404,4003576,Europe,0
 Rwanda,20186,,280,,18566,Africa,1
 Réunion,13801,,71,,12389,Africa,1
 Saint Barthelemy,712,,1,,462,North America,1
@@ -174,7 +174,7 @@ Senegal,36892,,963,,32525,Africa,1
 Serbia,516277,,4719,,400347,Europe,1
 Seychelles,3315,,16,,2868,Africa,1
 Sierra Leone,3937,,79,,2779,Africa,1
-Singapore,60105,,29,,58771,Asia,1
+Singapore,60117,12,29,,58771,Asia,1
 Slovakia,337503,,8528,,255300,Europe,1
 Slovenia,200374,,3934,,186147,Europe,1
 Solomon Islands,18,,,,16,Australia/Oceania,0
@@ -216,4 +216,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,2836,,689,,1491,Asia,1
 Zambia,84797,,1158,,81756,Africa,1
 Zimbabwe,36484,,1503,,34043,Africa,1
-World,120423773,28969,2665505,660,96949921,,0
+World,120440516,45711,2665951,1104,96960107,,0
