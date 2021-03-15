@@ -25,7 +25,6 @@ sgvirus.forEach(sgcase=>{
     });
     localsgdata += '</div>';
 });
-console.log(localsgdata);
 localsgdata += '<div><br><div class="dropdownsgall"><button class="dropbtnsgall">Date</button><div class="dropdownsgall-content">';
 for(var iter=0; iter<14; iter++){
     localsgdata += '<p class="hover" id = "label' + iter + '" onclick="sgfilter(\'minus' + iter + '\')" style="font-size:16px"></p>' //innerHTML is weeks[iter]
