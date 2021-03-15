@@ -1,13 +1,13 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Anguilla,21,,,,18,North America,0
-Antigua and Barbuda,962,,27,,592,North America,1
-Aruba,8376,,78,,8028,North America,1
+Antigua and Barbuda,963,1,27,,598,North America,0
+Aruba,8395,19,79,1,8045,North America,0
 Bahamas,8658,,185,,7513,North America,1
-Barbados,3404,,37,,3147,North America,1
+Barbados,3421,17,37,,3174,North America,0
 Belize,12370,,316,,11987,North America,1
 Bermuda,735,,12,,692,North America,1
 British Virgin Islands,153,,1,,131,North America,1
-Canada,906201,,22434,,852543,North America,0
+Canada,909157,2956,22463,29,855020,North America,0
 Caribbean Netherlands,732,,6,,520,North America,1
 Cayman Islands,468,,2,,430,North America,1
 Costa Rica,209093,,2862,,188967,North America,1
@@ -19,8 +19,8 @@ El Salvador,62086,,1950,5,58895,North America,0
 Greenland,31,,,,31,North America,0
 Grenada,148,,1,,147,North America,1
 Guadeloupe,10614,,162,,2242,North America,1
-Guatemala,182679,,6571,,167895,North America,1
-Haiti,12632,,250,,10034,North America,1
+Guatemala,182881,202,6568,,168338,North America,0
+Haiti,12664,32,250,,10177,North America,0
 Honduras,177832,664,4331,6,68652,North America,0
 Jamaica,30499,587,485,1,15139,North America,0
 Martinique,6928,,47,,98,North America,1
@@ -30,10 +30,10 @@ Nicaragua,6537,,175,,4225,North America,1
 Panama,347641,,5987,,335402,North America,1
 Saint Barthelemy,712,,1,,462,North America,1
 Saint Kitts and Nevis,43,,,,41,North America,0
-Saint Lucia,3989,,48,,3753,North America,1
+Saint Lucia,4031,42,51,3,3771,North America,0
 Saint Martin,1602,,12,,1399,North America,1
 Saint Pierre and Miquelon,24,,,,24,North America,0
-Saint Vincent and the Grenadines,1680,,8,,1127,North America,1
-Trinidad and Tobago,7769,,140,,7527,North America,1
+Saint Vincent and the Grenadines,1680,,9,1,1129,North America,0
+Trinidad and Tobago,7783,14,140,,7531,North America,0
 Turks and Caicos,2233,28,15,,2097,North America,0
-USA,30046127,2465,546661,56,22108944,North America,0
+USA,30081142,36381,547220,615,22168542,North America,0
