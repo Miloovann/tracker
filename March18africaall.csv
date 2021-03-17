@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Algeria,115540,,3045,,80103,Africa,1
+Algeria,115688,148,3048,3,80219,Africa,0
 Angola,21446,,522,,19971,Africa,1
 Benin,6501,,81,,5552,Africa,1
 Botswana,34999,,447,,29916,Africa,1
@@ -14,10 +14,10 @@ DR Congo,27252,152,722,,23759,Africa,0
 Djibouti,6336,,63,,5998,Africa,1
 Egypt,192195,,11384,,148089,Africa,1
 Equatorial Guinea,6603,,100,,5994,Africa,1
-Eritrea,3062,,7,,2731,Africa,1
+Eritrea,3078,16,7,,2770,Africa,0
 Eswatini,17243,,663,,15841,Africa,1
 Ethiopia,178108,,2573,,144488,Africa,1
-Gabon,16945,,101,,14780,Africa,1
+Gabon,17297,352,105,4,15102,Africa,0
 Gambia,5019,,153,,4525,Africa,1
 Ghana,88228,,698,,83829,Africa,1
 Guinea,17982,,104,,15719,Africa,1
@@ -25,7 +25,7 @@ Guinea-Bissau,3469,,52,,2776,Africa,1
 Ivory Coast,38120,,214,,35111,Africa,1
 Kenya,116310,1279,1937,12,89061,Africa,0
 Lesotho,10530,,309,,3922,Africa,1
-Liberia,2030,,85,,1899,Africa,1
+Liberia,2042,2,85,,1899,Africa,0
 Libya,148175,1054,2422,16,134923,Africa,0
 Madagascar,21688,,335,,20614,Africa,1
 Malawi,32894,,1088,,26890,Africa,1
@@ -33,21 +33,21 @@ Mali,9018,,364,,6526,Africa,1
 Mauritania,17487,,444,,16806,Africa,1
 Mauritius,758,,10,,592,Africa,1
 Mayotte,18845,,137,,2964,Africa,1
-Morocco,489622,,8737,,476727,Africa,1
+Morocco,490088,466,8745,8,477305,Africa,0
 Mozambique,65197,268,733,1,51376,Africa,0
-Namibia,41466,,474,,38793,Africa,1
+Namibia,41546,80,477,3,38942,Africa,0
 Niger,4870,,183,,4516,Africa,1
 Nigeria,161074,,2018,,146072,Africa,1
 Rwanda,20412,,282,,18804,Africa,1
 Réunion,13801,,71,,12389,Africa,1
 Senegal,37254,192,990,9,33326,Africa,0
-Seychelles,3354,,16,,2940,Africa,1
+Seychelles,3486,132,16,,2957,Africa,0
 Sierra Leone,3939,,79,,2782,Africa,1
 Somalia,9437,,385,,4306,Africa,1
 South Africa,1530966,,51560,,1458001,Africa,1
 South Sudan,9613,,106,,7906,Africa,1
 Sudan,29135,,1959,,23583,Africa,1
-São Tomé and Príncipe,2085,,32,,1880,Africa,1
+São Tomé and Príncipe,2107,22,33,1,1893,Africa,0
 Tanzania,509,,21,,183,Africa,1
 Togo,8322,,97,,6940,Africa,1
 Tunisia,242673,,8429,,209755,Africa,1
