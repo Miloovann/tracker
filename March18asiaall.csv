@@ -1,50 +1,50 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,56044,,2462,,49536,Asia,0
-Armenia,180141,,3282,,166913,Asia,0
-Azerbaijan,242491,,3307,,231638,Asia,0
-Bahrain,133137,,489,,126080,Asia,0
-Bangladesh,562752,,8608,,515989,Asia,0
+Afghanistan,56044,,2462,,49536,Asia,1
+Armenia,180141,,3282,,166913,Asia,1
+Azerbaijan,242491,,3307,,231638,Asia,1
+Bahrain,133137,,489,,126080,Asia,1
+Bangladesh,562752,,8608,,515989,Asia,1
 Bhutan,868,,1,,866,Asia,1
 Brunei,203,,3,,186,Asia,0
-Cambodia,1505,,1,,840,Asia,0
+Cambodia,1541,36,1,,898,Asia,0
 China,90072,6,4636,,85267,Asia,0
-Cyprus,40726,,241,,2057,Asia,0
-Georgia,276067,,3665,,269006,Asia,0
-Hong Kong,11341,,203,,10809,Asia,0
-India,11474302,,159250,,11061170,Asia,0
-Indonesia,1437283,,38915,,1266673,Asia,0
-Iran,1771115,,61492,,1514061,Asia,0
-Iraq,774015,,13860,,698775,Asia,0
-Israel,824178,,6057,,793940,Asia,0
-Japan,449713,,8678,,428783,Asia,0
-Jordan,504915,,5553,,412387,Asia,0
-Kazakhstan,226767,,2873,,208074,Asia,0
-Kuwait,213673,,1194,,198273,Asia,0
-Kyrgyzstan,87045,,1485,,83980,Asia,0
+Cyprus,40726,,241,,2057,Asia,1
+Georgia,276067,,3665,,269006,Asia,1
+Hong Kong,11341,,203,,10809,Asia,1
+India,11474302,,159250,,11061170,Asia,1
+Indonesia,1437283,,38915,,1266673,Asia,1
+Iran,1771115,,61492,,1514061,Asia,1
+Iraq,774015,,13860,,698775,Asia,1
+Israel,824178,,6057,,793940,Asia,1
+Japan,449713,,8678,,428783,Asia,1
+Jordan,504915,,5553,,412387,Asia,1
+Kazakhstan,227953,1186,2873,,208881,Asia,0
+Kuwait,213673,,1194,,198273,Asia,1
+Kyrgyzstan,87045,,1485,,83980,Asia,1
 Laos,49,,,,45,Asia,0
-Lebanon,426977,,5536,,335333,Asia,0
+Lebanon,426977,,5536,,335333,Asia,1
 Macao,48,,,,47,Asia,0
-Malaysia,327253,,1220,,310958,Asia,0
-Maldives,21961,,64,,19519,Asia,0
-Mongolia,4340,,4,,3131,Asia,0
-Myanmar,142190,,3203,,131751,Asia,0
-Nepal,275518,,3014,,271550,Asia,0
-Oman,148558,,1617,,137544,Asia,0
-Pakistan,612315,,13656,,575867,Asia,0
-Palestine,215984,,2343,,191839,Asia,0
-Philippines,635698,,12866,,561099,Asia,0
-Qatar,171701,,270,,159141,Asia,0
-Saudi Arabia,383499,,6585,,373361,Asia,0
+Malaysia,327253,,1220,,310958,Asia,1
+Maldives,21961,,64,,19519,Asia,1
+Mongolia,4498,158,4,,3212,Asia,0
+Myanmar,142190,,3203,,131751,Asia,1
+Nepal,275518,,3014,,271550,Asia,1
+Oman,148558,,1617,,137544,Asia,1
+Pakistan,615810,3495,13717,61,577501,Asia,0
+Palestine,215984,,2343,,191839,Asia,1
+Philippines,635698,,12866,,561099,Asia,1
+Qatar,171701,,270,,159141,Asia,1
+Saudi Arabia,383499,,6585,,373361,Asia,1
 Singapore,60137,,29,,58771,Asia,1
 South Korea,97294,445,1688,2,89178,Asia,0
-Sri Lanka,88862,,537,,85725,Asia,0
-Syria,16776,,1120,,11231,Asia,0
+Sri Lanka,88862,,537,,85725,Asia,1
+Syria,16776,,1120,,11231,Asia,1
 Taiwan,990,,10,,956,Asia,1
 Tajikistan,13308,,90,,13218,Asia,1
-Thailand,27402,,88,,26339,Asia,0
+Thailand,27402,,88,,26339,Asia,1
 Timor-Leste,216,,,,109,Asia,0
-Turkey,2930554,,29696,,2752023,Asia,0
-UAE,432364,,1414,,413477,Asia,0
-Uzbekistan,80858,,622,,79450,Asia,0
-Vietnam,2567,,35,,2198,Asia,0
-Yemen,3037,,713,,1508,Asia,0
+Turkey,2930554,,29696,,2752023,Asia,1
+UAE,432364,,1414,,413477,Asia,1
+Uzbekistan,80858,,622,,79450,Asia,1
+Vietnam,2567,,35,,2198,Asia,1
+Yemen,3037,,713,,1508,Asia,1
