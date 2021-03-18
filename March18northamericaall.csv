@@ -1,25 +1,25 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Anguilla,21,,,,18,North America,0
 Antigua and Barbuda,992,,27,,598,North America,1
-Aruba,8482,,80,,8094,North America,1
-Bahamas,8776,,186,,7652,North America,1
-Barbados,3458,,39,,3254,North America,1
+Aruba,8551,69,81,1,8143,North America,0
+Bahamas,8800,24,186,,7676,North America,0
+Barbados,3471,13,39,,3285,North America,0
 Belize,12389,,316,,12010,North America,1
 Bermuda,740,,12,,699,North America,1
 British Virgin Islands,153,,1,,131,North America,1
-Canada,915868,,22519,,861832,North America,0
+Canada,918175,2307,22545,26,863991,North America,0
 Caribbean Netherlands,866,,6,,562,North America,1
 Cayman Islands,474,,2,,441,North America,1
 Costa Rica,210447,,2886,,189682,North America,1
 Cuba,63725,727,380,4,59550,North America,0
-Curaçao,5238,,22,,4730,North America,1
+Curaçao,5380,142,22,,4747,North America,0
 Dominica,156,,,,141,North America,0
 Dominican Republic,247364,570,3248,11,203656,North America,0
 El Salvador,62531,,1962,4,59576,North America,0
 Greenland,31,,,,31,North America,0
 Grenada,154,,1,,151,North America,1
 Guadeloupe,10614,,162,,2242,North America,1
-Guatemala,183985,,6599,,169149,North America,1
+Guatemala,184934,949,6619,20,169624,North America,0
 Haiti,12669,,250,,10204,North America,1
 Honduras,179515,590,4373,13,68892,North America,0
 Jamaica,32728,821,507,13,15473,North America,0
@@ -30,10 +30,10 @@ Nicaragua,6582,,176,,4225,North America,1
 Panama,348580,,6009,,337010,North America,1
 Saint Barthelemy,712,,1,,462,North America,1
 Saint Kitts and Nevis,43,,,,41,North America,0
-Saint Lucia,4069,,55,,3848,North America,1
+Saint Lucia,4083,14,55,,3865,North America,0
 Saint Martin,1602,,12,,1399,North America,1
 Saint Pierre and Miquelon,24,,,,24,North America,0
 Saint Vincent and the Grenadines,1681,,9,,1129,North America,1
-Trinidad and Tobago,7790,,140,,7544,North America,1
+Trinidad and Tobago,7807,17,140,,7546,North America,0
 Turks and Caicos,2250,,15,,2109,North America,1
-USA,30241108,9558,549609,242,22366551,North America,0
+USA,30291246,59151,550552,1184,22444792,North America,0
