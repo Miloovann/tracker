@@ -1,18 +1,18 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Albania,119528,,2106,,83264,Europe,1
 Andorra,11393,,113,,10904,Europe,1
-Austria,504581,,8982,,465984,Europe,1
+Austria,508096,3515,9024,42,468275,Europe,0
 Belarus,306524,,2130,,297502,Europe,1
 Belgium,822801,4659,22624,24,55125,Europe,0
 Bosnia and Herzegovina,149891,,5729,,122680,Europe,1
 Bulgaria,295777,,11817,,232041,Europe,1
 Channel Islands,4045,,86,,3965,Europe,1
-Croatia,254507,,5726,,242665,Europe,1
+Croatia,255619,1112,5743,17,243450,Europe,0
 Czechia,1449696,10576,24331,101,1216950,Europe,0
 Denmark,223415,,2397,,211962,Europe,1
 Estonia,92780,1751,758,,65039,Europe,0
 Faroe Islands,661,,1,,657,Europe,1
-Finland,69497,,805,,46000,Europe,1
+Finland,70267,770,805,,46000,Europe,0
 France,4181607,,91679,,278263,Europe,1
 Germany,2628629,,74878,,2401700,Europe,0
 Gibraltar,4270,,94,,4148,Europe,1
@@ -22,7 +22,7 @@ Iceland,6091,,29,,6030,Europe,1
 Ireland,228796,,4566,,23364,Europe,1
 Isle of Man,1411,,26,,497,Europe,1
 Italy,3306711,,103855,,2655346,Europe,1
-Latvia,95902,,1801,,85465,Europe,1
+Latvia,96524,622,1811,10,85465,Europe,0
 Liechtenstein,2620,,56,,2526,Europe,1
 Lithuania,208048,534,3452,8,193313,Europe,0
 Luxembourg,58674,,705,,54935,Europe,1
@@ -33,14 +33,14 @@ Montenegro,85774,,1178,,76200,Europe,1
 Netherlands,1179612,,16198,,N/A,Europe,0
 North Macedonia,116438,,3403,,99126,Europe,1
 Norway,84553,,648,,70224,Europe,1
-Poland,1984248,,48388,,1603832,Europe,1
+Poland,2010244,25998,48807,419,1620272,Europe,0
 Portugal,816055,,16743,,764599,Europe,1
 Romania,881159,,21877,,794950,Europe,1
 Russia,4437938,9699,94267,443,4049373,Europe,0
 San Marino,4292,,78,,3758,Europe,1
 Serbia,536904,,4840,,454449,Europe,1
-Slovakia,344470,,8814,,255300,Europe,1
-Slovenia,203544,,3951,,189333,Europe,1
+Slovakia,346149,1679,8894,80,255300,Europe,0
+Slovenia,204482,937,3961,10,190206,Europe,0
 Spain,3212332,,72910,,2945446,Europe,0
 Sweden,738537,,13236,,N/A,Europe,0
 Switzerland,578861,,10183,,534217,Europe,1
