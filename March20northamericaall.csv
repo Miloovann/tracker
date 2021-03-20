@@ -1,18 +1,18 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Anguilla,21,,,,18,North America,0
+Anguilla,22,1,,,20,North America,0
 Antigua and Barbuda,1011,3,27,,598,North America,0
-Aruba,8624,,81,,8164,North America,1
+Aruba,8664,40,82,1,8188,North America,0
 Bahamas,8800,,186,,7676,North America,1
 Barbados,3492,,39,,3285,North America,1
 Belize,12399,,316,,12024,North America,1
-Bermuda,740,,12,,699,North America,1
+Bermuda,767,27,12,,707,North America,0
 British Virgin Islands,153,,1,,131,North America,1
-Canada,922848,,22590,,870978,North America,0
+Canada,927064,4216,22617,27,871048,North America,0
 Caribbean Netherlands,945,,6,,580,North America,1
 Cayman Islands,475,,2,,442,North America,1
-Costa Rica,210447,,2886,,189682,North America,1
+Costa Rica,211903,470,2896,2,190236,North America,0
 Cuba,65149,735,387,3,61131,North America,0
-Curaçao,5520,,23,,4761,North America,1
+Curaçao,5676,156,23,,4774,North America,0
 Dominica,156,,,,141,North America,0
 Dominican Republic,248502,523,3262,5,204735,North America,0
 El Salvador,62531,,1971,4,59576,North America,0
@@ -30,10 +30,10 @@ Nicaragua,6582,,176,,4225,North America,1
 Panama,349505,,6025,,338181,North America,1
 Saint Barthelemy,712,,1,,462,North America,1
 Saint Kitts and Nevis,44,,,,42,North America,0
-Saint Lucia,4097,,55,,3880,North America,1
+Saint Lucia,4113,16,55,,3887,North America,0
 Saint Martin,1602,,12,,1399,North America,1
 Saint Pierre and Miquelon,24,,,,24,North America,0
 Saint Vincent and the Grenadines,1692,8,9,,1512,North America,0
-Trinidad and Tobago,7812,,140,,7549,North America,1
+Trinidad and Tobago,7821,9,140,,7552,North America,0
 Turks and Caicos,2274,21,15,,2118,North America,0
-USA,30365645,6765,552564,94,22524157,North America,0
+USA,30422962,63156,553917,1141,22606584,North America,0
