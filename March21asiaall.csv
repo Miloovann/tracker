@@ -1,7 +1,7 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Afghanistan,56153,50,2464,1,49737,Asia,0
 Armenia,183713,586,3348,16,168289,Asia,0
-Azerbaijan,245490,,3339,,232534,Asia,1
+Azerbaijan,246304,814,3351,12,232876,Asia,0
 Bahrain,135326,,498,,127806,Asia,1
 Bangladesh,570878,2172,8690,22,522105,Asia,0
 Bhutan,869,,1,,867,Asia,1
@@ -12,8 +12,8 @@ Cyprus,41882,,242,,2057,Asia,1
 Georgia,277480,262,3700,9,269973,Asia,0
 Hong Kong,11380,8,203,,10875,Asia,0
 India,11599130,420,159790,,11130288,Asia,0
-Indonesia,1455788,,39447,,1284725,Asia,1
-Iran,1793805,,61724,,1536606,Asia,1
+Indonesia,1460184,4396,39550,103,1290790,Asia,0
+Iran,1801065,7260,61797,73,1543119,Asia,0
 Iraq,789390,,13969,,710699,Asia,1
 Israel,827428,208,6085,3,803034,Asia,0
 Japan,454158,,8790,,432128,Asia,1
@@ -24,20 +24,20 @@ Kyrgyzstan,87389,68,1490,2,84185,Asia,0
 Laos,49,,,,45,Asia,0
 Lebanon,436575,,5715,,343099,Asia,1
 Macao,48,,,,47,Asia,0
-Malaysia,331713,,1229,,316042,Asia,1
-Maldives,22373,,65,,19897,Asia,1
+Malaysia,333040,1327,1233,4,317289,Asia,0
+Maldives,22373,,66,1,19897,Asia,0
 Mongolia,4976,170,5,,3477,Asia,0
 Myanmar,142212,,3204,,131754,Asia,1
-Nepal,275829,,3016,,271815,Asia,1
+Nepal,275906,77,3016,,271921,Asia,0
 Oman,150800,1665,1622,2,139100,Asia,0
 Pakistan,626802,3667,13843,44,581852,Asia,0
-Palestine,221391,,2406,,196678,Asia,1
+Palestine,223638,2247,2427,21,198431,Asia,0
 Philippines,663794,7757,12968,39,577754,Asia,0
-Qatar,173206,,272,,160115,Asia,1
-Saudi Arabia,384653,,6602,,374135,Asia,1
+Qatar,173709,503,273,1,160451,Asia,0
+Saudi Arabia,385020,367,6609,7,374412,Asia,0
 Singapore,60196,12,29,,58771,Asia,1
 South Korea,98665,456,1696,3,90328,Asia,0
-Sri Lanka,89846,,545,,86466,Asia,0
+Sri Lanka,89846,,545,,86466,Asia,1
 Syria,17240,,1153,,11503,Asia,1
 Taiwan,1006,1,10,,963,Asia,0
 Tajikistan,13308,,90,,13218,Asia,1
