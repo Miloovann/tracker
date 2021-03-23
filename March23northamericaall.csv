@@ -1,18 +1,18 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Anguilla,22,,,,20,North America,0
-Antigua and Barbuda,1033,,28,,685,North America,1
-Aruba,8771,,82,,8252,North America,1
-Bahamas,8800,,186,,7676,North America,1
-Barbados,3551,,39,,3330,North America,1
-Belize,12400,,316,,12026,North America,1
-Bermuda,789,,12,,709,North America,1
+Antigua and Barbuda,1072,39,28,,701,North America,0
+Aruba,8800,29,82,,8292,North America,0
+Bahamas,8923,123,188,2,7734,North America,0
+Barbados,3559,8,40,1,3358,North America,0
+Belize,12407,7,316,,12031,North America,0
+Bermuda,830,41,12,,712,North America,0
 British Virgin Islands,153,,1,,131,North America,1
-Canada,933785,,22676,,876100,North America,0
+Canada,938719,4934,22716,40,880159,North America,0
 Caribbean Netherlands,1118,47,9,1,6445,North America,0
-Cayman Islands,475,,2,,442,North America,1
+Cayman Islands,482,7,2,,448,North America,0
 Costa Rica,211903,,2896,,190236,North America,1
 Cuba,67476,718,397,3,63639,North America,0
-Curaçao,5997,,24,,4824,North America,1
+Curaçao,6041,44,24,,4857,North America,0
 Dominica,156,,,,141,North America,0
 Dominican Republic,249776,313,3275,3,206293,North America,0
 El Salvador,63344,,1983,4,60681,North America,0
@@ -27,13 +27,13 @@ Martinique,7309,,47,,98,North America,1
 Mexico,2195772,2133,198036,209,1736159,North America,0
 Montserrat,20,,1,,19,North America,1
 Nicaragua,6582,,176,,4225,North America,1
-Panama,350991,,6044,,339565,North America,1
+Panama,351213,222,6052,8,339961,North America,0
 Saint Barthelemy,775,,1,,462,North America,1
 Saint Kitts and Nevis,44,,,,42,North America,0
 Saint Lucia,4132,11,55,,3950,North America,0
 Saint Martin,1619,,12,,1399,North America,1
 Saint Pierre and Miquelon,24,,,,24,North America,0
 Saint Vincent and the Grenadines,1700,4,10,1,1523,North America,0
-Trinidad and Tobago,7855,,140,,7561,North America,1
-Turks and Caicos,2294,,16,,2127,North America,1
-USA,30526030,4256,555339,25,22754337,North America,0
+Trinidad and Tobago,7861,6,140,,7571,North America,0
+Turks and Caicos,2294,,17,1,2127,North America,0
+USA,30575906,44692,555944,635,22844564,North America,0
