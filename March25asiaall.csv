@@ -1,6 +1,6 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,56226,,2467,,49802,Asia,1
-Armenia,186184,,3398,,169485,Asia,1
+Afghanistan,56254,28,2469,2,49937,Asia,0
+Armenia,187441,1257,3416,18,169727,Asia,0
 Azerbaijan,249492,,3404,,233834,Asia,1
 Bahrain,138283,,507,,130397,Asia,1
 Bangladesh,580808,,8763,,527609,Asia,1
@@ -9,13 +9,13 @@ Brunei,206,,3,,188,Asia,0
 Cambodia,1872,55,5,,1056,Asia,0
 China,90136,11,4636,,85335,Asia,0
 Cyprus,43286,,248,,2057,Asia,1
-Georgia,278628,,3722,,270922,Asia,1
-Hong Kong,11420,,204,,10963,Asia,1
+Georgia,279027,399,3732,10,271278,Asia,0
+Hong Kong,11429,9,204,,10963,Asia,0
 India,11787534,521,160726,,11231650,Asia,0
 Indonesia,1476452,,39983,,1312543,Asia,1
 Iran,1823317,,62045,,1562709,Asia,1
 Iraq,809092,,14095,,727471,Asia,1
-Israel,830028,,6154,,811008,Asia,1
+Israel,830515,487,6157,3,811452,Asia,0
 Japan,459043,,8908,,436463,Asia,1
 Jordan,562857,,6181,,456188,Asia,1
 Kazakhstan,236200,1105,2941,,213743,Asia,0
@@ -23,28 +23,28 @@ Kuwait,223042,,1256,,207392,Asia,1
 Kyrgyzstan,87758,106,1494,2,84407,Asia,0
 Laos,49,,,,45,Asia,0
 Lebanon,448721,,5903,,350694,Asia,1
-Macao,48,,,,47,Asia,0
-Malaysia,336808,,1246,,320925,Asia,1
+Macao,48,,,,48,Asia,0
+Malaysia,338168,1360,1248,2,322416,Asia,0
 Maldives,22929,,66,,20359,Asia,1
 Mongolia,5895,285,5,,4044,Asia,0
-Myanmar,142292,,3204,,131772,Asia,1
+Myanmar,142315,23,3204,,131774,Asia,0
 Nepal,276389,,3020,,272187,Asia,1
-Oman,153105,,1644,,140220,Asia,1
+Oman,153838,733,1650,6,140766,Asia,0
 Pakistan,640988,3946,14028,63,588975,Asia,0
 Palestine,230076,,2501,,203340,Asia,1
-Philippines,684311,,13039,,579518,Asia,1
+Philippines,693048,8773,13095,56,580062,Asia,0
 Qatar,175332,,278,,161488,Asia,1
 Saudi Arabia,386300,,6624,,375471,Asia,1
-Singapore,60236,,29,,58771,Asia,1
+Singapore,60253,17,29,,58771,Asia,1
 South Korea,100276,430,1709,2,92068,Asia,0
 Sri Lanka,91018,,552,,87630,Asia,1
 Syria,17896,,1195,,11907,Asia,1
-Taiwan,1009,,10,,969,Asia,1
+Taiwan,1012,3,10,,971,Asia,0
 Tajikistan,13308,,90,,13218,Asia,1
 Thailand,28443,97,92,,26946,Asia,0
-Timor-Leste,372,,,,125,Asia,0
+Timor-Leste,394,22,,,137,Asia,0
 Turkey,3091282,,30462,,2881643,Asia,1
-UAE,446594,,1456,,429573,Asia,1
-Uzbekistan,81678,,623,,80045,Asia,1
+UAE,448637,2043,1466,10,431773,Asia,0
+Uzbekistan,81816,138,624,1,80143,Asia,0
 Vietnam,2576,,35,,2265,Asia,1
 Yemen,3703,,800,,1577,Asia,1
