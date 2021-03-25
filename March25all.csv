@@ -17,7 +17,7 @@ Bahrain,138283,,507,,130397,Asia,1
 Bangladesh,580808,,8763,,527609,Asia,1
 Barbados,3582,,40,,3401,North America,1
 Belarus,313852,,2184,,304477,Europe,1
-Belgium,842775,,22763,,55692,Europe,1
+Belgium,849090,6315,22786,23,55928,Europe,0
 Belize,12410,,317,,12047,North America,1
 Benin,7100,,90,,5552,Africa,1
 Bermuda,840,,12,,715,North America,1
@@ -73,7 +73,7 @@ French Polynesia,18598,,141,,4842,Australia/Oceania,1
 Gabon,18426,,109,,15863,Africa,1
 Gambia,5303,,161,,4926,Africa,1
 Georgia,278628,,3722,,270922,Asia,1
-Germany,2709872,,75911,,2445300,Europe,1
+Germany,2709872,,75911,,2456200,Europe,0
 Ghana,89893,,734,,86248,Africa,1
 Gibraltar,4271,,94,,4160,Europe,1
 Greece,245405,,7649,,209436,Europe,1
@@ -89,7 +89,7 @@ Honduras,184821,790,4506,17,69935,North America,0
 Hong Kong,11420,,204,,10963,Asia,1
 Hungary,593710,,18952,,381807,Europe,1
 Iceland,6144,,29,,6040,Europe,1
-India,11787013,,160726,,11229591,Asia,1
+India,11787534,521,160726,,11231650,Asia,0
 Indonesia,1476452,,39983,,1312543,Asia,1
 Iran,1823317,,62045,,1562709,Asia,1
 Iraq,809092,,14095,,727471,Asia,1
@@ -104,7 +104,7 @@ Jordan,562857,,6181,,456188,Asia,1
 Kazakhstan,236200,1105,2941,,213743,Asia,0
 Kenya,124707,,2066,,90770,Africa,1
 Kuwait,223042,,1256,,207392,Asia,1
-Kyrgyzstan,87652,,1492,,84339,Asia,1
+Kyrgyzstan,87758,106,1494,2,84407,Asia,0
 Laos,49,,,,45,Asia,0
 Latvia,98870,,1851,,89910,Europe,1
 Lebanon,448721,,5903,,350694,Asia,1
@@ -147,7 +147,7 @@ Nigeria,162178,,2031,,148726,Africa,1
 North Macedonia,122227,,3545,,102652,Europe,1
 Norway,90104,,656,,74332,Europe,1
 Oman,153105,,1644,,140220,Asia,1
-Pakistan,637042,,13965,,586228,Asia,1
+Pakistan,640988,3946,14028,63,588975,Asia,0
 Palestine,230076,,2501,,203340,Asia,1
 Panama,352082,,6065,,340974,North America,1
 Papua New Guinea,4109,,39,,846,Australia/Oceania,1
@@ -193,7 +193,7 @@ São Tomé and Príncipe,2174,,34,,2015,Africa,1
 Taiwan,1009,,10,,969,Asia,1
 Tajikistan,13308,,90,,13218,Asia,1
 Tanzania,509,,21,,183,Africa,1
-Thailand,28346,,92,,26873,Asia,1
+Thailand,28443,97,92,,26946,Asia,0
 Timor-Leste,372,,,,125,Asia,0
 Togo,9147,,105,,7341,Africa,1
 Trinidad and Tobago,7903,,141,,7575,North America,1
@@ -216,4 +216,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,3703,,800,,1577,Asia,1
 Zambia,86993,,1187,,83617,Africa,1
 Zimbabwe,36749,,1516,,34476,Africa,1
-World,125412754,9383,2756501,612,101254581,,0
+World,125423739,20368,2756589,700,101270664,,0
