@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Algeria,116543,,3071,,81065,Africa,1
+Algeria,116657,114,3074,3,81160,Africa,0
 Angola,21914,,532,,20190,Africa,1
 Benin,7100,,90,,6452,Africa,1
 Botswana,38466,,506,,33903,Africa,1
@@ -10,11 +10,11 @@ Cameroon,40622,,601,,35261,Africa,1
 Central African Republic,5088,,64,,4957,Africa,1
 Chad,4465,,158,,4080,Africa,1
 Comoros,3687,,146,,3492,Africa,1
-DR Congo,27729,,726,,25355,Africa,1
-Djibouti,7016,,64,,6207,Africa,1
+DR Congo,27794,65,726,,25355,Africa,0
+Djibouti,7169,153,66,2,6235,Africa,0
 Egypt,198011,,11768,,151765,Africa,1
 Equatorial Guinea,6851,,102,,6335,Africa,1
-Eritrea,3192,,9,,2962,Africa,1
+Eritrea,3208,16,9,,2970,Africa,0
 Eswatini,17306,,666,,16250,Africa,1
 Ethiopia,194524,,2741,,151172,Africa,1
 Gabon,18426,,109,,15863,Africa,1
@@ -23,7 +23,7 @@ Ghana,90094,95,740,3,86749,Africa,0
 Guinea,19403,171,116,3,16270,Africa,0
 Guinea-Bissau,3607,,61,,2911,Africa,1
 Ivory Coast,42074,,229,,37797,Africa,1
-Kenya,126170,,2092,,91268,Africa,1
+Kenya,128178,2008,2098,6,91513,Africa,0
 Lesotho,10686,,315,,4438,Africa,1
 Liberia,2042,,85,,1899,Africa,1
 Libya,156116,884,2602,11,143697,Africa,0
@@ -47,11 +47,11 @@ Somalia,10664,,471,,4634,Africa,1
 South Africa,1541563,,52535,,1467254,Africa,1
 South Sudan,10048,,108,,9330,Africa,1
 Sudan,29661,,2028,,23990,Africa,1
-São Tomé and Príncipe,2177,,34,,2026,Africa,1
+São Tomé and Príncipe,2196,19,34,,2041,Africa,0
 Tanzania,509,,21,,183,Africa,1
 Togo,9506,,107,,7466,Africa,1
 Tunisia,248037,,8663,,214407,Africa,1
-Uganda,40734,,334,,15147,Africa,1
+Uganda,40751,17,335,1,40379,Africa,0
 Western Sahara,10,,1,,8,Africa,1
 Zambia,87583,265,1194,3,84018,Africa,0
 Zimbabwe,36778,,1518,,34555,Africa,1
