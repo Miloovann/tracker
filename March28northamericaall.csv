@@ -5,13 +5,13 @@ Aruba,9142,,82,,8401,North America,1
 Bahamas,8935,,188,,7757,North America,1
 Barbados,3603,,41,,3419,North America,1
 Belize,12415,,317,,12061,North America,1
-Bermuda,914,,12,,718,North America,1
+Bermuda,947,33,12,,722,North America,0
 British Virgin Islands,153,,1,,131,North America,1
 Canada,956655,,22826,,893469,North America,0
 Caribbean Netherlands,1264,,10,,807,North America,1
 Cayman Islands,487,,2,,462,North America,1
 Costa Rica,215178,,2931,,191707,North America,1
-Cuba,70634,,413,,66847,North America,1
+Cuba,71584,950,414,1,67697,North America,0
 Curaçao,7057,,28,,5008,North America,1
 Dominica,161,,,,153,North America,0
 Dominican Republic,251582,250,3302,4,210551,North America,0
@@ -22,7 +22,7 @@ Guadeloupe,11298,,165,,2242,North America,1
 Guatemala,192133,,6775,,174343,North America,1
 Haiti,12736,,251,,10754,North America,1
 Honduras,186337,853,4536,9,71027,North America,0
-Jamaica,37458,,557,,16848,North America,1
+Jamaica,37747,289,566,9,17016,North America,0
 Martinique,7710,,49,,98,North America,1
 Mexico,2219845,5303,200862,651,1755798,North America,0
 Montserrat,20,,1,,19,North America,1
@@ -36,4 +36,4 @@ Saint Pierre and Miquelon,24,,,,24,North America,0
 Saint Vincent and the Grenadines,1721,,10,,1577,North America,1
 Trinidad and Tobago,7939,,141,,7581,North America,1
 Turks and Caicos,2325,7,17,,2197,North America,0
-USA,30857238,4206,561186,44,23275334,North America,0
+USA,30858924,5892,561199,57,23275549,North America,0
