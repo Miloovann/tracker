@@ -1,39 +1,39 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Anguilla,22,,,,20,North America,0
-Antigua and Barbuda,1103,3,28,,748,North America,0
-Aruba,9142,69,82,,8401,North America,0
+Antigua and Barbuda,1103,,28,,748,North America,1
+Aruba,9142,,82,,8401,North America,1
 Bahamas,8935,,188,,7757,North America,1
-Barbados,3603,10,41,1,3419,North America,0
-Belize,12415,4,317,,12061,North America,0
-Bermuda,914,34,12,,718,North America,0
+Barbados,3603,,41,,3419,North America,1
+Belize,12415,,317,,12061,North America,1
+Bermuda,914,,12,,718,North America,1
 British Virgin Islands,153,,1,,131,North America,1
-Canada,956655,5093,22826,36,893469,North America,0
-Caribbean Netherlands,1264,17,10,,807,North America,0
-Cayman Islands,487,4,2,,462,North America,0
-Costa Rica,215178,1740,2931,23,191707,North America,0
-Cuba,70634,832,413,5,66847,North America,0
-Curaçao,7057,409,28,1,5008,North America,0
-Dominica,161,1,,,153,North America,0
-Dominican Republic,251332,364,3298,3,210396,North America,0
-El Salvador,63766,,1996,3,61009,North America,0
+Canada,956655,,22826,,893469,North America,1
+Caribbean Netherlands,1264,,10,,807,North America,1
+Cayman Islands,487,,2,,462,North America,1
+Costa Rica,215178,,2931,,191707,North America,1
+Cuba,70634,,413,,66847,North America,1
+Curaçao,7057,,28,,5008,North America,1
+Dominica,161,,,,153,North America,0
+Dominican Republic,251332,,3298,,210396,North America,1
+El Salvador,63766,,1996,,61009,North America,1
 Greenland,31,,,,31,North America,0
-Grenada,155,1,1,,152,North America,0
+Grenada,155,,1,,152,North America,1
 Guadeloupe,11298,,165,,2242,North America,1
-Guatemala,192133,926,6775,10,174343,North America,0
+Guatemala,192133,,6775,,174343,North America,1
 Haiti,12736,,251,,10754,North America,1
-Honduras,185484,663,4527,21,70427,North America,0
-Jamaica,37458,330,557,11,16848,North America,0
+Honduras,185484,,4527,,70427,North America,1
+Jamaica,37458,,557,,16848,North America,1
 Martinique,7710,,49,,98,North America,1
-Mexico,2214542,5787,200211,584,1752125,North America,0
+Mexico,2214542,,200211,,1752125,North America,1
 Montserrat,20,,1,,19,North America,1
 Nicaragua,6629,,177,,4225,North America,1
-Panama,353017,438,6087,14,341900,North America,0
+Panama,353017,,6087,,341900,North America,1
 Saint Barthelemy,775,,1,,462,North America,1
 Saint Kitts and Nevis,44,,,,42,North America,0
-Saint Lucia,4191,19,58,,4099,North America,0
+Saint Lucia,4191,,58,,4099,North America,1
 Saint Martin,1619,,12,,1399,North America,1
 Saint Pierre and Miquelon,24,,,,24,North America,0
-Saint Vincent and the Grenadines,1721,6,10,,1577,North America,0
-Trinidad and Tobago,7939,15,141,,7581,North America,0
-Turks and Caicos,2318,3,17,,2187,North America,0
-USA,30851049,76576,561119,1266,23272245,North America,0
+Saint Vincent and the Grenadines,1721,,10,,1577,North America,1
+Trinidad and Tobago,7939,,141,,7581,North America,1
+Turks and Caicos,2318,,17,,2187,North America,1
+USA,30853032,,561142,,23275268,North America,1
