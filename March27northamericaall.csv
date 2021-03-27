@@ -1,25 +1,25 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Anguilla,22,,,,20,North America,0
 Antigua and Barbuda,1103,3,28,,748,North America,0
-Aruba,9073,,82,,8373,North America,1
+Aruba,9142,69,82,,8401,North America,0
 Bahamas,8935,,188,,7757,North America,1
-Barbados,3593,,40,,3404,North America,1
-Belize,12411,,317,,12052,North America,1
+Barbados,3603,10,41,1,3419,North America,0
+Belize,12415,4,317,,12061,North America,0
 Bermuda,914,34,12,,718,North America,0
 British Virgin Islands,153,,1,,131,North America,1
-Canada,954687,3125,22809,19,892280,North America,0
-Caribbean Netherlands,1247,,10,,791,North America,1
-Cayman Islands,483,,2,,462,North America,1
-Costa Rica,213438,,2908,,190950,North America,1
+Canada,956655,5093,22826,36,893469,North America,0
+Caribbean Netherlands,1264,17,10,,807,North America,0
+Cayman Islands,487,4,2,,462,North America,0
+Costa Rica,215178,1740,2931,23,191707,North America,0
 Cuba,70634,832,413,5,66847,North America,0
-Curaçao,6648,,27,,4979,North America,1
+Curaçao,7057,409,28,1,5008,North America,0
 Dominica,161,1,,,153,North America,0
 Dominican Republic,251332,364,3298,3,210396,North America,0
 El Salvador,63766,,1996,3,61009,North America,0
 Greenland,31,,,,31,North America,0
-Grenada,154,,1,,151,North America,1
+Grenada,155,1,1,,152,North America,0
 Guadeloupe,11298,,165,,2242,North America,1
-Guatemala,191207,,6765,,173765,North America,1
+Guatemala,192133,926,6775,10,174343,North America,0
 Haiti,12736,,251,,10754,North America,1
 Honduras,185484,663,4527,21,70427,North America,0
 Jamaica,37458,330,557,11,16848,North America,0
@@ -27,13 +27,13 @@ Martinique,7710,,49,,98,North America,1
 Mexico,2214542,5787,200211,584,1752125,North America,0
 Montserrat,20,,1,,19,North America,1
 Nicaragua,6629,,177,,4225,North America,1
-Panama,352579,,6073,,341476,North America,1
+Panama,353017,438,6087,14,341900,North America,0
 Saint Barthelemy,775,,1,,462,North America,1
 Saint Kitts and Nevis,44,,,,42,North America,0
-Saint Lucia,4172,,58,,4085,North America,1
+Saint Lucia,4191,19,58,,4099,North America,0
 Saint Martin,1619,,12,,1399,North America,1
 Saint Pierre and Miquelon,24,,,,24,North America,0
 Saint Vincent and the Grenadines,1721,6,10,,1577,North America,0
-Trinidad and Tobago,7924,,141,,7576,North America,1
+Trinidad and Tobago,7939,15,141,,7581,North America,0
 Turks and Caicos,2318,3,17,,2187,North America,0
-USA,30785572,11539,559945,201,23196809,North America,0
+USA,30851049,76576,561119,1266,23272245,North America,0
