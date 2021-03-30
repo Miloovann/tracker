@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,56384,,2476,,50666,Asia,1
+Afghanistan,56454,70,2484,8,51473,Asia,0
 Armenia,191491,750,3497,21,172605,Asia,0
 Azerbaijan,257330,,3513,,236500,Asia,1
 Bahrain,142669,,515,,133753,Asia,1
@@ -10,10 +10,10 @@ Cambodia,2378,105,11,,1176,Asia,0
 China,90190,8,4636,,85381,Asia,0
 Cyprus,44991,,254,,2057,Asia,1
 Georgia,281145,673,3773,8,272899,Asia,0
-Hong Kong,11455,,205,,11040,Asia,1
+Hong Kong,11462,7,205,,11075,Asia,0
 India,12095855,526,162147,,11393021,Asia,0
-Indonesia,1501093,,40581,,1336818,Asia,1
-Iran,1864984,,62478,,1600488,Asia,1
+Indonesia,1505775,4682,40754,173,1342695,Asia,0
+Iran,1875234,10250,62569,91,1608807,Asia,0
 Iraq,838265,,14249,,750435,Asia,1
 Israel,832125,,6197,,817698,Asia,1
 Japan,468614,,9061,,442369,Asia,1
@@ -24,18 +24,18 @@ Kyrgyzstan,88276,113,1498,1,84723,Asia,0
 Laos,49,,,,45,Asia,0
 Lebanon,462339,,6136,,366639,Asia,1
 Macao,48,,,,48,Asia,0
-Malaysia,342885,,1260,,327406,Asia,1
+Malaysia,344018,1133,1265,5,328554,Asia,0
 Maldives,23671,,66,,20839,Asia,1
 Mongolia,8070,481,6,,4835,Asia,0
 Myanmar,142393,,3206,,131790,Asia,1
 Nepal,276980,,3027,,272612,Asia,1
-Oman,156883,,1662,,142944,Asia,1
+Oman,158056,1173,1669,7,143398,Asia,0
 Pakistan,663200,4084,14356,100,600278,Asia,0
 Palestine,238248,,2599,,211521,Asia,1
-Philippines,731894,,13186,,603213,Asia,1
+Philippines,741181,9296,13191,5,603310,Asia,0
 Qatar,178464,,286,,163272,Asia,1
 Saudi Arabia,388866,,6656,,377304,Asia,1
-Singapore,60321,,29,,58771,Asia,1
+Singapore,60347,26,29,,58771,Asia,1
 South Korea,102582,441,1729,3,94563,Asia,0
 Sri Lanka,92303,,566,,88914,Asia,1
 Syria,18638,,1247,,12492,Asia,1
@@ -44,7 +44,7 @@ Tajikistan,13308,,90,,13218,Asia,1
 Thailand,28821,48,94,,27379,Asia,0
 Timor-Leste,512,,,,170,Asia,0
 Turkey,3240577,,31230,,2975108,Asia,1
-UAE,457071,,1486,,440731,Asia,1
+UAE,459360,2289,1492,6,443153,Asia,0
 Uzbekistan,82682,146,628,2,80799,Asia,0
 Vietnam,2594,,35,,2308,Asia,1
 Yemen,4115,,863,,1657,Asia,1
