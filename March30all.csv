@@ -7,7 +7,7 @@ Angola,22132,,534,,20380,Africa,1
 Anguilla,22,,,,20,North America,0
 Antigua and Barbuda,1136,,28,,820,North America,1
 Argentina,2322611,,55611,,2088256,South America,1
-Armenia,190741,,3476,,172096,Asia,1
+Armenia,191491,750,3497,21,172605,Asia,0
 Aruba,9294,,82,,8608,North America,1
 Australia,29293,20,909,,26277,Australia/Oceania,0
 Austria,539541,,9275,,494377,Europe,1
@@ -72,7 +72,7 @@ French Guiana,16922,,89,,9995,South America,1
 French Polynesia,18612,,141,,4842,Australia/Oceania,1
 Gabon,19140,,114,,16311,Africa,1
 Gambia,5420,,164,,5050,Africa,1
-Georgia,280472,,3765,,272601,Asia,1
+Georgia,281145,673,3773,8,272899,Asia,0
 Germany,2796400,,76599,,2507900,Europe,0
 Ghana,90287,,740,,87137,Africa,1
 Gibraltar,4273,,94,,4167,Europe,1
@@ -101,7 +101,7 @@ Ivory Coast,43422,,239,,39295,Africa,1
 Jamaica,38514,,586,,17334,North America,1
 Japan,468614,,9061,,442369,Asia,1
 Jordan,597256,,6651,,494417,Asia,1
-Kazakhstan,243318,1445,3014,,218031,Asia,0
+Kazakhstan,243318,1445,3029,15,218031,Asia,0
 Kenya,131116,,2135,,92161,Africa,1
 Kuwait,229550,,1298,,213942,Asia,1
 Kyrgyzstan,88276,113,1498,1,84723,Asia,0
@@ -177,7 +177,7 @@ Sierra Leone,3970,,79,,2801,Africa,1
 Singapore,60321,,29,,58771,Asia,1
 Slovakia,358115,,9542,,255300,Europe,1
 Slovenia,212966,,4024,,196518,Europe,1
-Solomon Islands,18,,,,16,Australia/Oceania,0
+Solomon Islands,19,1,,,18,Australia/Oceania,0
 Somalia,11164,,510,,4759,Africa,1
 South Africa,1545979,,52710,,1472645,Africa,1
 South Korea,102582,441,1729,3,94563,Asia,0
@@ -190,7 +190,7 @@ Sweden,780018,,13402,,N/A,Europe,0
 Switzerland,596790,,10305,,544729,Europe,1
 Syria,18638,,1247,,12492,Asia,1
 São Tomé and Príncipe,2215,,34,,2064,Africa,1
-Taiwan,1023,,10,,979,Asia,1
+Taiwan,1024,1,10,,981,Asia,0
 Tajikistan,13308,,90,,13218,Asia,1
 Tanzania,509,,21,,183,Africa,1
 Thailand,28821,48,94,,27379,Asia,0
@@ -216,4 +216,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,4115,,863,,1657,Asia,1
 Zambia,88012,,1200,,84464,Africa,1
 Zimbabwe,36839,,1520,,34617,Africa,1
-World,128240744,22657,2804484,674,103430968,,0
+World,128242169,24082,2804528,718,103431779,,0
