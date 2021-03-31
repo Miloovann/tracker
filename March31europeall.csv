@@ -1,20 +1,20 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Albania,124419,,2216,,90024,Europe,1
+Albania,124723,304,2227,11,90617,Europe,0
 Andorra,11944,56,115,,11276,Europe,0
 Austria,542542,3001,9308,33,497816,Europe,0
 Belarus,320594,995,2237,10,310983,Europe,0
 Belgium,872936,2179,22921,24,56720,Europe,0
 Bosnia and Herzegovina,167654,1867,6519,92,129918,Europe,0
-Bulgaria,333250,,12913,,252473,Europe,1
-Channel Islands,4046,,86,,3956,Europe,1
+Bulgaria,338426,5176,13068,155,255692,Europe,0
+Channel Islands,4049,3,86,,3956,Europe,0
 Croatia,269009,1487,5928,17,253459,Europe,0
 Czechia,1523668,6865,26222,85,1354424,Europe,0
 Denmark,229902,1210,2417,2,218246,Europe,0
 Estonia,105416,1202,896,17,80092,Europe,0
 Faroe Islands,661,,1,,660,Europe,1
 Finland,76845,420,826,4,46000,Europe,0
-France,4554683,,94956,,290810,Europe,1
-Germany,2800917,4517,76664,65,2507900,Europe,0
+France,4585385,30702,95337,348,292796,Europe,0
+Germany,2809510,13110,76833,234,2507900,Europe,0
 Gibraltar,4274,1,94,,4167,Europe,0
 Greece,260077,4322,8017,72,219367,Europe,0
 Hungary,645733,4609,20435,274,402964,Europe,0
@@ -28,11 +28,11 @@ Lithuania,215216,835,3566,5,198588,Europe,0
 Luxembourg,61255,182,743,2,56903,Europe,0
 Malta,28993,55,390,2,27704,Europe,0
 Moldova,228370,917,4915,46,205759,Europe,0
-Monaco,2265,,28,,2090,Europe,1
+Monaco,2282,17,28,,2110,Europe,0
 Montenegro,90832,414,1266,10,82946,Europe,0
 Netherlands,1264983,5828,16509,36,N/A,Europe,0
-North Macedonia,127240,,3716,,105524,Europe,1
-Norway,94622,989,661,1,80023,Europe,0
+North Macedonia,128511,1271,3749,33,106392,Europe,0
+Norway,95208,1575,661,1,80023,Europe,0
 Poland,2288826,20870,52392,461,1848199,Europe,0
 Portugal,821104,388,16845,2,777503,Europe,0
 Romania,946647,6204,23409,175,845357,Europe,0
@@ -43,7 +43,7 @@ Slovakia,359330,1215,9624,82,255300,Europe,0
 Slovenia,214045,1080,4040,16,197420,Europe,0
 Spain,3275819,4994,75305,106,3042352,Europe,0
 Sweden,796445,,13430,32,N/A,Europe,0
-Switzerland,598713,1923,10310,5,544729,Europe,0
+Switzerland,598713,1923,10322,17,544729,Europe,0
 UK,4341736,4040,126670,56,3835218,Europe,0
 Ukraine,1662942,10533,32418,286,1307076,Europe,0
 Vatican City,27,,,,15,Europe,0
