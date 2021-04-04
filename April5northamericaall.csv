@@ -1,28 +1,28 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Anguilla,25,,,,22,North America,0
-Antigua and Barbuda,1170,,28,,882,North America,1
-Aruba,9607,,86,,8898,North America,1
+Antigua and Barbuda,1170,,29,1,882,North America,0
+Aruba,9638,31,90,4,8984,North America,0
 Bahamas,9171,,188,,8676,North America,1
 Barbados,3668,,43,,3526,North America,1
 Belize,12456,,317,,12090,North America,1
 Bermuda,1400,108,12,,758,North America,0
 British Virgin Islands,166,,1,,131,North America,1
-Canada,1001645,,23050,,921459,North America,0
-Caribbean Netherlands,1453,,12,,1194,North America,1
+Canada,1002806,1161,23059,9,922357,North America,0
+Caribbean Netherlands,1462,9,12,,1268,North America,0
 Cayman Islands,501,,2,,477,North America,1
 Costa Rica,216764,,2957,,192699,North America,1
-Cuba,78382,,431,,73089,North America,1
+Cuba,79544,1162,436,5,74246,North America,0
 Curaçao,9635,,44,,5401,North America,1
 Dominica,165,,,,159,North America,0
-Dominican Republic,254136,,3341,,213725,North America,1
+Dominican Republic,254295,159,3346,5,214177,North America,0
 El Salvador,64431,,2025,4,61640,North America,0
 Greenland,31,,,,31,North America,0
 Grenada,155,,1,,152,North America,1
 Guadeloupe,11681,,170,,2242,North America,1
-Guatemala,195239,,6884,,179398,North America,1
+Guatemala,195471,232,6891,7,179988,North America,0
 Haiti,12788,,251,,11126,North America,1
 Honduras,190478,336,4640,7,73308,North America,0
-Jamaica,40449,,613,,18014,North America,1
+Jamaica,40663,214,615,2,18149,North America,0
 Martinique,8304,,51,,98,North America,1
 Mexico,2249195,1838,204011,157,1785643,North America,0
 Montserrat,20,,1,,19,North America,1
@@ -34,6 +34,6 @@ Saint Lucia,4273,,61,,4142,North America,1
 Saint Martin,1659,,12,,1399,North America,1
 Saint Pierre and Miquelon,24,,,,24,North America,0
 Saint Vincent and the Grenadines,1758,3,10,,1614,North America,0
-Trinidad and Tobago,8136,,145,,7640,North America,1
+Trinidad and Tobago,8178,42,145,,7648,North America,0
 Turks and Caicos,2344,,17,,2271,North America,1
-USA,31383126,,568513,,23894632,North America,1
+USA,31418498,35150,568764,257,23946427,North America,0
