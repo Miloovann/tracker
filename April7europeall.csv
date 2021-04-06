@@ -1,10 +1,10 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Albania,126795,,2274,,94431,Europe,1
-Andorra,12286,,117,,11523,Europe,1
+Andorra,12328,42,117,,11570,Europe,0
 Austria,562907,1935,9517,35,519202,Europe,0
 Belarus,329258,968,2304,10,319601,Europe,0
 Belgium,902964,1968,23202,33,58369,Europe,0
-Bosnia and Herzegovina,176413,,6953,,133262,Europe,1
+Bosnia and Herzegovina,177506,1093,7052,99,134700,Europe,0
 Bulgaria,356859,,13786,,273429,Europe,1
 Channel Islands,4050,,86,,3956,Europe,1
 Croatia,280899,735,6113,30,263758,Europe,0
@@ -14,20 +14,20 @@ Estonia,110680,899,964,14,89105,Europe,0
 Faroe Islands,661,,1,,660,Europe,1
 Finland,80068,331,860,14,46000,Europe,0
 France,4833263,,96875,,300064,Europe,1
-Germany,2906509,3473,77719,89,2597100,Europe,0
+Germany,2908118,5082,77759,129,2597100,Europe,0
 Gibraltar,4275,,94,,4171,Europe,1
-Greece,277277,,8453,,237025,Europe,1
+Greece,281570,4293,8532,79,237025,Europe,0
 Hungary,691743,1890,22098,170,418568,Europe,0
 Iceland,6241,16,29,,6089,Europe,0
 Ireland,238466,,4718,,23364,Europe,1
-Isle of Man,1571,,29,,1392,Europe,1
-Italy,3678944,,111326,,2997522,Europe,1
+Isle of Man,1572,1,29,,1409,Europe,0
+Italy,3686707,7767,111747,421,3019255,Europe,0
 Latvia,104533,309,1937,3,95758,Europe,0
 Liechtenstein,2697,,56,,2571,Europe,1
 Lithuania,220900,686,3623,6,201845,Europe,0
-Luxembourg,62414,,760,,57596,Europe,1
+Luxembourg,62625,211,761,1,58381,Europe,0
 Malta,29343,64,399,,28416,Europe,0
-Moldova,235790,,5178,,216478,Europe,1
+Moldova,236563,773,5224,46,217606,Europe,0
 Monaco,2334,,30,,2190,Europe,1
 Montenegro,93030,290,1326,9,86512,Europe,0
 Netherlands,1313007,5541,16649,20,N/A,Europe,0
@@ -44,6 +44,6 @@ Slovenia,220698,273,4089,7,203214,Europe,0
 Spain,3311325,,75783,,3077296,Europe,0
 Sweden,834993,,13533,32,N/A,Europe,0
 Switzerland,610274,4932,10398,21,551991,Europe,0
-UK,4362150,,126862,,3912562,Europe,1
+UK,4364529,2379,126882,20,3922263,Europe,0
 Ukraine,1769164,13276,35017,430,1362379,Europe,0
 Vatican City,27,,,,15,Europe,0
