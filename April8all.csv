@@ -17,7 +17,7 @@ Bahrain,151931,,547,,141119,Asia,1
 Bangladesh,659278,,9447,,561639,Asia,1
 Barbados,3691,,43,,3557,North America,1
 Belarus,330536,,2314,,320844,Europe,1
-Belgium,904673,,23247,,58458,Europe,1
+Belgium,908212,3539,23301,54,58568,Europe,0
 Belize,12485,,318,,12106,North America,1
 Benin,7313,,93,,6452,Africa,1
 Bermuda,1497,,14,,813,North America,1
@@ -73,7 +73,7 @@ French Polynesia,18643,,141,,4842,Australia/Oceania,1
 Gabon,20265,,124,,17227,Africa,1
 Gambia,5564,,166,,5111,Africa,1
 Georgia,285645,,3840,,275547,Asia,1
-Germany,2927572,,78174,,2614500,Europe,1
+Germany,2927572,,78174,,2631400,Europe,0
 Ghana,91009,,752,,88810,Africa,1
 Gibraltar,4275,,94,,4171,Europe,1
 Greece,285015,,8607,,240926,Europe,1
@@ -85,7 +85,7 @@ Guinea,20554,,131,,18302,Africa,1
 Guinea-Bissau,3663,,66,,3032,Africa,1
 Guyana,10718,,250,,9473,South America,1
 Haiti,12803,,251,,11317,North America,1
-Honduras,192413,,4686,,73688,North America,1
+Honduras,193029,616,4703,17,74299,North America,0
 Hong Kong,11540,,205,,11163,Asia,1
 Hungary,693676,,22409,,419152,Europe,1
 Iceland,6251,,29,,6090,Europe,1
@@ -101,7 +101,7 @@ Ivory Coast,44880,,257,,43446,Africa,1
 Jamaica,41400,,631,,18444,North America,1
 Japan,489576,,9279,,455382,Asia,1
 Jordan,650681,,7469,,570327,Asia,1
-Kazakhstan,258917,,3156,,228089,Asia,1
+Kazakhstan,261503,2586,3171,15,229538,Asia,0
 Kenya,141365,,2276,,97194,Africa,1
 Kuwait,241469,,1379,,226026,Asia,1
 Kyrgyzstan,89438,,1512,,85496,Asia,1
@@ -130,7 +130,7 @@ Mexico,2261879,5499,205598,596,1798657,North America,0
 Micronesia,1,,,,1,Australia/Oceania,0
 Moldova,237718,,5268,,218711,Europe,1
 Monaco,2353,,30,,2205,Europe,1
-Mongolia,12226,,17,,6912,Asia,1
+Mongolia,12780,554,17,,8140,Asia,0
 Montenegro,93309,,1334,,86945,Europe,1
 Montserrat,20,,1,,19,North America,1
 Morocco,499688,,8867,,486349,Africa,1
@@ -216,4 +216,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,5047,,986,,1886,Asia,1
 Zambia,89386,,1224,,85409,Africa,1
 Zimbabwe,36984,,1531,,34803,Africa,1
-World,133675147,12657,2900858,715,107770589,,0
+World,133682442,19952,2900944,801,107790887,,0
