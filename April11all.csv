@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,57160,,2521,,51962,Asia,1
+Afghanistan,57242,82,2529,8,51989,Asia,0
 Albania,128155,,2310,,97206,Europe,1
 Algeria,118378,,3126,,82493,Africa,1
 Andorra,12497,,120,,11770,Europe,1
@@ -7,7 +7,7 @@ Angola,23331,,550,,21890,Africa,1
 Anguilla,25,,,,22,North America,0
 Antigua and Barbuda,1197,,30,,936,North America,1
 Argentina,2517300,,57647,,2217783,South America,1
-Armenia,202167,,3720,,181180,Asia,1
+Armenia,202817,650,3735,15,181963,Asia,0
 Aruba,10016,,92,,9351,North America,1
 Australia,29402,6,909,,26356,Australia/Oceania,0
 Austria,574755,,9662,,532539,Europe,1
@@ -87,7 +87,7 @@ Guyana,11044,,252,,9688,South America,1
 Haiti,12840,,251,,11447,North America,1
 Honduras,195525,977,4770,4,75553,North America,0
 Hong Kong,11569,,207,,11193,Asia,1
-Hungary,713868,,23211,,423366,Europe,1
+Hungary,720164,6296,23417,206,426394,Europe,0
 Iceland,6258,,29,,6126,Europe,1
 India,13358805,3340,169305,,12081443,Asia,0
 Indonesia,1562868,,42443,,1409288,Asia,1
@@ -95,7 +95,7 @@ Iran,2049078,,64232,,1702062,Asia,1
 Iraq,918155,,14678,,809663,Asia,1
 Ireland,240643,,4783,,23364,Europe,1
 Isle of Man,1574,,29,,1445,Europe,1
-Israel,835811,,6292,,825515,Asia,1
+Israel,835871,60,6294,2,825687,Asia,0
 Italy,3754077,,113923,,3107069,Europe,1
 Ivory Coast,45089,,260,,44197,Africa,1
 Jamaica,42119,,669,,18785,North America,1
@@ -112,7 +112,7 @@ Lesotho,10707,,315,,4471,Africa,1
 Liberia,2042,,85,,1899,Africa,1
 Libya,166888,,2807,,152328,Africa,1
 Liechtenstein,2738,,56,,2606,Europe,1
-Lithuania,225308,,3671,,205768,Europe,1
+Lithuania,226173,839,3687,12,205897,Europe,0
 Luxembourg,63650,,768,,58874,Europe,1
 Macao,49,,,,48,Asia,0
 Madagascar,27548,,493,,23481,Africa,1
@@ -174,7 +174,7 @@ Senegal,39364,,1077,,38101,Africa,1
 Serbia,639476,,5700,,550238,Europe,1
 Seychelles,4395,,24,,4091,Africa,1
 Sierra Leone,3995,,79,,2828,Africa,1
-Singapore,60633,,29,,58771,Asia,1
+Singapore,60653,20,29,,58771,Asia,1
 Slovakia,370473,,10487,,255300,Europe,1
 Slovenia,225950,,4112,,207927,Europe,1
 Solomon Islands,19,,,,18,Australia/Oceania,0
@@ -216,4 +216,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,5276,,1031,,2027,Asia,1
 Zambia,89918,,1226,,86813,Africa,1
 Zimbabwe,37273,,1538,,34862,Africa,1
-World,136023237,41859,2939374,480,109352905,,0
+World,136031210,49806,2939621,723,109357044,,0
