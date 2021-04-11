@@ -1,49 +1,49 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Albania,128155,360,2310,6,97206,Europe,0
-Andorra,12497,41,120,,11770,Europe,0
-Austria,574755,3139,9662,38,532539,Europe,0
-Belarus,334863,1433,2344,10,325108,Europe,0
-Belgium,917917,4860,23390,42,59165,Europe,0
+Albania,128155,,2310,,97206,Europe,1
+Andorra,12497,,120,,11770,Europe,1
+Austria,574755,,9662,,532539,Europe,1
+Belarus,334863,,2344,,325108,Europe,1
+Belgium,917917,,23390,,59165,Europe,1
 Bosnia and Herzegovina,181927,,7298,,139419,Europe,1
-Bulgaria,370179,,14308,,284869,Europe,1
+Bulgaria,371531,,14351,,285799,Europe,1
 Channel Islands,4051,,86,,3956,Europe,1
-Croatia,290899,2535,6269,34,270964,Europe,0
-Czechia,1577972,4791,27734,52,1448843,Europe,0
-Denmark,237101,755,2439,3,225968,Europe,0
-Estonia,113736,639,1020,14,94206,Europe,0
+Croatia,290899,,6269,,270964,Europe,1
+Czechia,1577972,,27734,,1448843,Europe,1
+Denmark,237101,,2439,,225968,Europe,1
+Estonia,113736,,1020,,94206,Europe,1
 Faroe Islands,661,,1,,660,Europe,1
-Finland,81707,446,868,,46000,Europe,0
-France,4980501,,98395,,303639,Europe,1
-Germany,2983278,9168,78796,107,2661500,Europe,0
-Gibraltar,4277,,94,,4180,Europe,0
-Greece,293763,2799,8833,75,246997,Europe,0
-Hungary,713868,8053,23211,245,423366,Europe,0
+Finland,81707,,868,,46000,Europe,1
+France,5023785,,98602,,303639,Europe,1
+Germany,2992803,,78858,,2661500,Europe,1
+Gibraltar,4277,,94,,4180,Europe,1
+Greece,293763,,8833,,246997,Europe,1
+Hungary,713868,,23211,,423366,Europe,1
 Iceland,6258,,29,,6126,Europe,1
-Ireland,240643,451,4783,14,23364,Europe,0
+Ireland,240643,,4783,,23364,Europe,1
 Isle of Man,1574,,29,,1445,Europe,1
-Italy,3754077,17567,113923,344,3107069,Europe,0
-Latvia,107240,666,1986,5,98247,Europe,0
-Liechtenstein,2738,16,56,,2606,Europe,0
-Lithuania,225308,995,3671,9,205768,Europe,0
-Luxembourg,63650,183,768,5,58874,Europe,0
-Malta,29548,37,402,1,28610,Europe,0
-Moldova,240886,830,5369,30,221968,Europe,0
-Monaco,2369,,31,,2220,Europe,1
-Montenegro,94035,232,1365,11,88144,Europe,0
-Netherlands,1342447,7676,16754,23,N/A,Europe,0
-North Macedonia,141157,1092,4182,32,115433,Europe,0
-Norway,102974,255,684,,88952,Europe,0
-Poland,2552898,24856,58176,749,2143065,Europe,0
-Portugal,826928,601,16910,6,784208,Europe,0
-Romania,1002865,4310,25006,139,902239,Europe,0
-Russia,4632688,8704,102649,402,4258279,Europe,0
-San Marino,4944,,85,,4419,Europe,1
-Serbia,639476,3058,5700,41,550238,Europe,0
-Slovakia,370473,1080,10487,76,255300,Europe,0
-Slovenia,225950,1250,4112,12,207927,Europe,0
+Italy,3754077,,113923,,3107069,Europe,1
+Latvia,107240,,1986,,98247,Europe,1
+Liechtenstein,2738,,56,,2606,Europe,1
+Lithuania,225308,,3671,,205768,Europe,1
+Luxembourg,63650,,768,,58874,Europe,1
+Malta,29548,,402,,28610,Europe,1
+Moldova,240886,,5369,,221968,Europe,1
+Monaco,2374,,31,,2230,Europe,1
+Montenegro,94035,,1365,,88144,Europe,1
+Netherlands,1342447,,16754,,N/A,Europe,0
+North Macedonia,141157,,4182,,115433,Europe,1
+Norway,102974,,684,,88952,Europe,1
+Poland,2552898,,58176,,2143065,Europe,1
+Portugal,826928,,16910,,784208,Europe,1
+Romania,1002865,,25006,,902239,Europe,1
+Russia,4632688,,102649,,4258279,Europe,1
+San Marino,4956,,85,,4477,Europe,1
+Serbia,639476,,5700,,550238,Europe,1
+Slovakia,370473,,10487,,255300,Europe,1
+Slovenia,225950,,4112,,207927,Europe,1
 Spain,3347512,,76328,,3095922,Europe,0
 Sweden,857401,,13621,,N/A,Europe,0
-Switzerland,617543,,10450,,557566,Europe,1
-UK,4368045,2589,127080,40,3961738,Europe,0
-Ukraine,1841137,17463,36779,398,1405826,Europe,0
+Switzerland,617543,,10452,,557566,Europe,1
+UK,4368045,,127080,,3961738,Europe,1
+Ukraine,1841137,,36779,,1405826,Europe,1
 Vatican City,27,,,,15,Europe,0
