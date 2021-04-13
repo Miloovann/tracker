@@ -16,11 +16,11 @@ Bahamas,9460,,190,,8865,North America,1
 Bahrain,157729,,562,,145953,Asia,1
 Bangladesh,691957,,9822,,581113,Asia,1
 Barbados,3734,,44,,3613,North America,1
-Belarus,336881,,2363,,327087,Europe,1
+Belarus,337635,754,2373,10,327848,Europe,0
 Belgium,927229,1753,23503,30,59873,Europe,0
 Belize,12503,,318,,12134,North America,1
 Benin,7515,,93,,6452,Africa,1
-Bermuda,1891,,16,,998,North America,1
+Bermuda,1912,21,16,,1037,North America,0
 Bhutan,921,,1,,875,Asia,1
 Bolivia,283084,989,12469,18,232422,South America,0
 Bosnia and Herzegovina,184698,,7487,,141602,Europe,1
@@ -51,7 +51,7 @@ Curaçao,11385,,68,,6845,North America,1
 Cyprus,52033,,273,,39061,Asia,1
 Czechia,1585037,3843,28038,42,1473483,Europe,0
 DR Congo,28542,,745,,25841,Africa,1
-Denmark,238306,,2443,,227244,Europe,1
+Denmark,238869,563,2446,3,228007,Europe,0
 Djibouti,9975,,100,,8184,Africa,1
 Dominica,165,,,,159,North America,0
 Dominican Republic,258039,,3392,,216780,North America,1
@@ -172,7 +172,7 @@ San Marino,4962,,86,,4510,Europe,1
 Saudi Arabia,399277,,6765,,384027,Asia,1
 Senegal,39495,30,1081,2,38241,Africa,0
 Serbia,645173,,5773,,560934,Europe,1
-Seychelles,4444,,25,,4161,Africa,1
+Seychelles,4633,189,25,,4310,Africa,0
 Sierra Leone,4008,,79,,2831,Africa,1
 Singapore,60692,14,29,,58771,Asia,1
 Slovakia,372038,870,10716,86,255300,Europe,0
@@ -186,8 +186,8 @@ Spain,3370256,,76525,,3111026,Europe,0
 Sri Lanka,95394,,602,4,91926,Asia,0
 Sudan,30111,,2063,,24214,Africa,1
 Suriname,9316,,182,,8700,South America,1
-Sweden,857401,,13621,,N/A,Europe,0
-Switzerland,625367,2241,10466,,560294,Europe,0
+Sweden,876506,,13660,36,N/A,Europe,0
+Switzerland,625367,2241,10469,3,560294,Europe,0
 Syria,20331,,1385,,14122,Asia,1
 São Tomé and Príncipe,2267,,35,,2188,Africa,1
 Taiwan,1062,4,11,,1027,Asia,0
@@ -216,4 +216,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,5446,,1068,,2059,Asia,1
 Zambia,90064,,1227,,88077,Africa,1
 Zimbabwe,37307,,1542,,34901,Africa,1
-World,137360138,123694,2961588,3444,110515567,,0
+World,137380770,125221,2961643,3496,110517279,,0
