@@ -10,28 +10,28 @@ Cameroon,61731,,919,,56926,Africa,1
 Central African Republic,5682,,75,,5112,Africa,1
 Chad,4652,,167,,4306,Africa,1
 Comoros,3796,,146,,3582,Africa,1
-DR Congo,28665,,745,,25841,Africa,1
+DR Congo,28714,49,745,,25841,Africa,0
 Djibouti,10077,,102,,8394,Africa,1
 Egypt,212130,,12526,,160431,Africa,1
-Equatorial Guinea,7219,,106,,6799,Africa,1
+Equatorial Guinea,7259,40,106,,6885,Africa,0
 Eritrea,3469,,10,,3231,Africa,1
 Eswatini,18402,,669,,17682,Africa,1
 Ethiopia,232512,,3230,,173818,Africa,1
 Gabon,20971,,129,,17762,Africa,1
 Gambia,5602,,168,,5145,Africa,1
-Ghana,91410,,761,,89219,Africa,1
+Ghana,91477,67,763,2,89301,Africa,0
 Guinea,21106,,136,,18686,Africa,1
 Guinea-Bissau,3693,,66,,3083,Africa,1
 Ivory Coast,45265,,269,,44771,Africa,1
 Kenya,147147,,2394,,99580,Africa,1
 Lesotho,10709,,315,,5028,Africa,1
 Liberia,2042,,85,,1899,Africa,1
-Libya,169504,,2830,,154220,Africa,1
-Madagascar,28765,,512,,24410,Africa,1
+Libya,170045,541,2834,4,155117,Africa,0
+Madagascar,29348,583,520,8,24695,Africa,0
 Malawi,33872,,1133,,31572,Africa,1
 Mali,12179,,417,,7194,Africa,1
 Mauritania,18052,,451,,17398,Africa,1
-Mauritius,1198,,15,,797,Africa,1
+Mauritius,1200,2,15,,825,Africa,0
 Mayotte,19706,,167,,2964,Africa,1
 Morocco,502961,,8915,,489288,Africa,1
 Mozambique,68871,,794,,59901,Africa,1
@@ -45,7 +45,7 @@ Seychelles,4633,,25,,4310,Africa,1
 Sierra Leone,4009,,79,,2832,Africa,1
 Somalia,12566,,618,,5270,Africa,1
 South Africa,1559960,,53423,,1485315,Africa,1
-South Sudan,10387,,114,,10148,Africa,1
+South Sudan,10403,16,114,,10148,Africa,0
 Sudan,31700,,2194,,25451,Africa,1
 São Tomé and Príncipe,2268,,35,,2192,Africa,1
 Tanzania,509,,21,,183,Africa,1
@@ -53,5 +53,5 @@ Togo,12034,,116,,9303,Africa,1
 Tunisia,274604,,9396,,228267,Africa,1
 Uganda,41204,,337,,40779,Africa,1
 Western Sahara,10,,1,,8,Africa,1
-Zambia,90218,,1229,,88144,Africa,1
+Zambia,90389,171,1229,,88241,Africa,0
 Zimbabwe,37330,,1543,,34932,Africa,1
