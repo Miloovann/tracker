@@ -1,6 +1,6 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Albania,128752,,2326,,98903,Europe,1
-Andorra,12614,,121,,11932,Europe,1
+Andorra,12641,27,121,,11989,Europe,0
 Austria,584205,2942,9779,31,544989,Europe,0
 Belarus,338801,1166,2383,10,329135,Europe,0
 Belgium,930603,3374,23566,63,59964,Europe,0
@@ -14,14 +14,14 @@ Estonia,115629,549,1057,8,97889,Europe,0
 Faroe Islands,661,,1,,660,Europe,1
 Finland,82964,400,881,4,46000,Europe,0
 France,5106329,,99480,,313051,Europe,1
-Germany,3052516,20680,79713,305,2718700,Europe,0
-Gibraltar,4277,,94,,4181,Europe,1
+Germany,3055750,23914,79735,327,2718700,Europe,0
+Gibraltar,4290,13,94,,4181,Europe,0
 Greece,301103,,9054,,254804,Europe,1
 Hungary,731675,3597,24265,285,435344,Europe,0
 Iceland,6274,,29,,6152,Europe,1
 Ireland,241684,,4803,,23364,Europe,1
 Isle of Man,1575,,29,,1445,Europe,1
-Italy,3793033,,115088,,3158725,Europe,1
+Italy,3809193,16168,115557,469,3178976,Europe,0
 Latvia,109088,733,2019,17,99840,Europe,0
 Liechtenstein,2770,2,56,,2646,Europe,0
 Lithuania,229260,1284,3718,4,208123,Europe,0
@@ -31,8 +31,8 @@ Moldova,242364,,5438,,225036,Europe,1
 Monaco,2378,,31,,2260,Europe,1
 Montenegro,94643,,1391,,89235,Europe,1
 Netherlands,1369411,5386,16848,28,N/A,Europe,0
-North Macedonia,143162,,4289,,118946,Europe,1
-Norway,105008,,706,18,88952,Europe,0
+North Macedonia,144111,949,4322,33,119683,Europe,0
+Norway,105330,322,706,18,88952,Europe,0
 Poland,2621116,21283,59930,803,2229801,Europe,0
 Portugal,828857,684,16931,8,786469,Europe,0
 Romania,1016449,4076,25605,164,920653,Europe,0
@@ -44,6 +44,6 @@ Slovenia,229076,1233,4135,5,211485,Europe,0
 Spain,3376548,,76625,,3114053,Europe,0
 Sweden,885385,,13720,36,N/A,Europe,0
 Switzerland,627968,2601,10485,13,563438,Europe,0
-UK,4375814,,127123,,3992416,Europe,1
+UK,4378305,2491,127161,38,4000777,Europe,0
 Ukraine,1887338,14553,38225,467,1442618,Europe,0
 Vatican City,27,,,,15,Europe,0
