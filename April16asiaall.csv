@@ -1,6 +1,6 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,57612,,2535,,52083,Asia,1
-Armenia,206142,,3817,,185125,Asia,1
+Afghanistan,57721,109,2539,4,52105,Asia,0
+Armenia,207103,961,3835,18,186200,Asia,0
 Azerbaijan,294211,,4045,,257942,Asia,1
 Bahrain,160934,,574,,149159,Asia,1
 Bangladesh,707362,,10081,,597214,Asia,1
@@ -9,25 +9,25 @@ Brunei,221,,3,,206,Asia,0
 Cambodia,5480,262,38,2,2393,Asia,0
 China,90468,11,4636,,85533,Asia,0
 Cyprus,53944,,283,,39061,Asia,1
-Georgia,292244,,3908,,279389,Asia,1
+Georgia,293321,1077,3916,8,279831,Asia,0
 Hong Kong,11619,,209,,11246,Asia,1
 India,14291917,4177,174335,,12547866,Asia,0
 Indonesia,1589359,,43073,,1438254,Asia,1
 Iran,2168872,,65680,,1749041,Asia,1
 Iraq,956860,,14885,,837336,Asia,1
-Israel,836706,,6314,,827447,Asia,1
+Israel,836726,20,6315,1,827555,Asia,0
 Japan,516121,,9500,,473570,Asia,1
 Jordan,679138,,8057,,621870,Asia,1
 Kazakhstan,281351,2656,3333,27,241625,Asia,0
 Kuwait,253066,,1428,,236384,Asia,1
 Kyrgyzstan,91374,230,1544,4,86621,Asia,0
-Laos,53,,,,49,Asia,0
+Laos,54,1,,,49,Asia,0
 Lebanon,504800,,6809,,416624,Asia,1
 Macao,49,,,,48,Asia,0
 Malaysia,367977,,1363,,349039,Asia,1
 Maldives,25939,,67,,23242,Asia,1
 Mongolia,19672,1107,37,6,11044,Asia,0
-Myanmar,142610,,3206,,131879,Asia,1
+Myanmar,142617,7,3206,,131884,Asia,0
 Nepal,282054,,3066,,274604,Asia,1
 Oman,176668,,1821,,156845,Asia,1
 Pakistan,745182,5364,15982,110,650775,Asia,0
@@ -35,7 +35,7 @@ Palestine,276407,,2937,,241343,Asia,1
 Philippines,904285,,15594,,705164,Asia,1
 Qatar,193952,,357,,171985,Asia,1
 Saudi Arabia,402142,,6791,,386102,Asia,1
-Singapore,60735,,29,,58771,Asia,1
+Singapore,60769,34,29,,58771,Asia,1
 South Korea,112789,672,1790,2,103062,Asia,0
 Sri Lanka,95949,,608,,92308,Asia,1
 Syria,20713,,1414,,14469,Asia,1
