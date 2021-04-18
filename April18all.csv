@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,57793,,2540,,52116,Asia,1
+Afghanistan,57898,105,2546,6,52168,Asia,0
 Albania,129456,,2340,,101142,Europe,1
 Algeria,119486,,3152,,83286,Africa,1
 Andorra,12771,,123,,12159,Europe,1
@@ -10,7 +10,7 @@ Argentina,2677747,,59164,,2343808,South America,1
 Armenia,208520,547,3878,19,187466,Asia,0
 Aruba,10305,,92,,9725,North America,1
 Australia,29513,19,910,,26435,Australia/Oceania,0
-Austria,591347,,9870,,552619,Europe,1
+Austria,593423,2076,9898,28,555218,Europe,0
 Azerbaijan,298522,,4107,,262480,Asia,1
 Bahamas,9634,,194,,8984,North America,1
 Bahrain,163113,,588,,151286,Asia,1
@@ -45,7 +45,7 @@ China,90499,16,4636,,85549,Asia,0
 Colombia,2636076,,67931,,2457888,South America,1
 Comoros,3815,,146,,3589,Africa,1
 Costa Rica,228577,,3071,,196974,North America,1
-Croatia,306225,,6523,,283418,Europe,1
+Croatia,307790,1565,6562,39,285560,Europe,0
 Cuba,92474,,512,,87061,North America,1
 Curaçao,11837,,88,,9011,North America,1
 Cyprus,55407,,288,,39061,Asia,1
@@ -66,7 +66,7 @@ Ethiopia,240236,,3328,,178705,Africa,1
 Falkland Islands,62,,,,55,South America,0
 Faroe Islands,662,,1,,660,Europe,1
 Fiji,72,,2,,65,Australia/Oceania,1
-Finland,83633,,887,,46000,Europe,1
+Finland,84131,,887,,46000,Europe,1
 France,5260182,,100593,,4081014,Europe,1
 French Guiana,18081,,95,,9995,South America,1
 French Polynesia,18696,,141,,4842,Australia/Oceania,1
@@ -90,7 +90,7 @@ Hong Kong,11654,,209,,11258,Asia,1
 Hungary,750508,3706,25184,205,455029,Europe,0
 Iceland,6286,,29,,6184,Europe,1
 India,14788109,5648,177168,,12809643,Asia,0
-Indonesia,1599763,,43328,,1450192,Asia,1
+Indonesia,1604348,4585,43424,96,1455065,Asia,0
 Iran,2215445,,66327,,1772688,Asia,1
 Iraq,970987,,14948,,849718,Asia,1
 Ireland,243238,,4835,,223961,Europe,1
@@ -117,7 +117,7 @@ Luxembourg,64746,,785,,60627,Europe,1
 Macao,49,,,,48,Asia,0
 Madagascar,31617,,538,,25471,Africa,1
 Malawi,33919,,1136,,31717,Africa,1
-Malaysia,372859,,1370,,352395,Asia,1
+Malaysia,375054,2195,1378,8,353822,Asia,0
 Maldives,26145,,69,,23482,Asia,1
 Mali,12980,,429,,7385,Africa,1
 Malta,29927,,409,,28910,Europe,1
@@ -216,4 +216,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,5770,,1119,,2209,Asia,1
 Zambia,90844,,1234,,88555,Africa,1
 Zimbabwe,37699,,1552,,35005,Africa,1
-World,141351930,78579,3025265,2132,120170249,,0
+World,141362954,89105,3025442,2309,120181342,,0
