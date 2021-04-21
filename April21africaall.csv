@@ -1,27 +1,27 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Algeria,119992,187,3165,5,83636,Africa,0
 Angola,24661,143,565,2,22647,Africa,0
-Benin,7611,,95,,6728,Africa,1
+Benin,7720,109,97,2,7510,Africa,0
 Botswana,44702,,684,,39733,Africa,1
-Burkina Faso,13148,,154,,12773,Africa,1
+Burkina Faso,13167,19,155,1,12812,Africa,0
 Burundi,3643,31,6,,773,Africa,0
 Cabo Verde,20781,154,194,1,18350,Africa,0
 Cameroon,64809,,939,,57821,Africa,1
-Central African Republic,5787,,75,,5112,Africa,1
-Chad,4708,,169,,4353,Africa,1
+Central African Republic,5929,142,79,4,5112,Africa,0
+Chad,4723,15,169,,4353,Africa,0
 Comoros,3820,1,146,,3626,Africa,0
 DR Congo,29084,79,748,3,26108,Africa,0
 Djibouti,10557,47,123,4,9607,Africa,0
 Egypt,218041,855,12820,42,164368,Africa,0
 Equatorial Guinea,7259,,106,,6885,Africa,1
 Eritrea,3537,,10,,3334,Africa,1
-Eswatini,18417,,671,,17715,Africa,1
+Eswatini,18417,,671,,17718,Africa,1
 Ethiopia,245155,1524,3439,47,181935,Africa,0
 Gabon,22032,,136,,18706,Africa,1
 Gambia,5784,64,170,,5225,Africa,0
 Ghana,91709,,771,,89604,Africa,1
 Guinea,21633,21,139,1,18991,Africa,0
-Guinea-Bissau,3712,,66,,3142,Africa,1
+Guinea-Bissau,3713,1,66,,3170,Africa,0
 Ivory Coast,45614,44,275,1,45199,Africa,0
 Kenya,152523,629,2519,18,103838,Africa,0
 Lesotho,10720,,316,,5868,Africa,1
@@ -41,7 +41,7 @@ Nigeria,164423,120,2061,,154406,Africa,0
 Rwanda,24005,71,327,1,22560,Africa,0
 Réunion,19343,918,141,6,17653,Africa,0
 Senegal,39836,15,1095,4,38600,Africa,0
-Seychelles,4976,,25,,4501,Africa,1
+Seychelles,5012,36,25,,4535,Africa,0
 Sierra Leone,4041,3,79,,2857,Africa,0
 Somalia,13324,,678,,5518,Africa,1
 South Africa,1568366,853,53887,130,1494630,Africa,0
