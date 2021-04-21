@@ -1,15 +1,15 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Argentina,2743620,29145,59792,316,2407853,South America,0
-Bolivia,290362,1296,12666,18,239194,South America,0
-Brazil,14050885,73172,378530,3481,12561689,South America,0
-Chile,1136435,5095,25317,40,1067662,South America,0
-Colombia,2684101,16965,69177,429,2505738,South America,0
-Ecuador,361154,591,17744,41,309541,South America,0
+Argentina,2743620,,59792,,2407853,South America,1
+Bolivia,291675,1313,12695,29,240336,South America,0
+Brazil,14050885,,378530,,12561689,South America,1
+Chile,1136435,,25317,,1067662,South America,1
+Colombia,2684101,,69177,,2505738,South America,1
+Ecuador,361154,,17744,,309541,South America,1
 Falkland Islands,62,,,,55,South America,0
 French Guiana,18261,,96,,9995,South America,1
-Guyana,11972,71,273,2,10297,South America,0
-Paraguay,255046,2603,5470,86,209754,South America,0
-Peru,1719088,11301,57954,417,1645100,South America,0
-Suriname,9687,70,188,,8900,South America,0
-Uruguay,167033,,1971,,136304,South America,1
-Venezuela,184595,,1925,,166826,South America,1
+Guyana,11972,,273,,10297,South America,1
+Paraguay,255046,,5470,,209754,South America,1
+Peru,1719088,,57954,,1645100,South America,1
+Suriname,9687,,188,,8900,South America,1
+Uruguay,169327,,2022,,139590,South America,1
+Venezuela,185736,,1944,,168418,South America,1
