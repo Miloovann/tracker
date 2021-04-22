@@ -2,7 +2,7 @@ Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,
 Afghanistan,58542,196,2565,4,52348,Asia,0
 Albania,129980,,2358,,103066,Europe,1
 Algeria,120174,,3172,,83765,Africa,1
-Andorra,12917,,123,,12334,Europe,1
+Andorra,12942,25,123,,12375,Europe,0
 Angola,24883,,570,,22882,Africa,1
 Anguilla,29,,,,25,North America,0
 Antigua and Barbuda,1217,,31,,995,North America,1
@@ -23,7 +23,7 @@ Benin,7720,,97,,7510,Africa,1
 Bermuda,2261,35,22,2,1394,North America,0
 Bhutan,992,6,1,,906,Asia,0
 Bolivia,293061,1386,12731,36,241563,South America,0
-Bosnia and Herzegovina,193115,,8082,,150458,Europe,1
+Bosnia and Herzegovina,194371,1256,8164,82,152007,Europe,0
 Botswana,44702,,684,,39733,Africa,1
 Brazil,14122795,,381687,,12646132,South America,1
 British Virgin Islands,194,,1,,183,North America,1
@@ -92,7 +92,7 @@ Iceland,6379,17,29,,6223,Europe,0
 India,15930965,6159,184672,,13454880,Asia,0
 Indonesia,1626812,6243,44172,165,1481449,Asia,0
 Iran,2335905,24092,68366,453,1837590,Asia,0
-Iraq,1001854,,15098,,877309,Asia,1
+Iraq,1010304,8450,15128,30,884181,Asia,0
 Ireland,244695,,4856,,226263,Europe,1
 Isle of Man,1582,,29,,1543,Europe,1
 Israel,837492,,6346,,829127,Asia,1
@@ -138,14 +138,14 @@ Mozambique,69437,,805,,62342,Africa,1
 Myanmar,142674,13,3206,,131914,Asia,0
 Namibia,46954,,609,,45039,Africa,1
 Nepal,292152,2365,3117,5,276345,Asia,0
-Netherlands,1426243,,16983,,1190823,Europe,1
+Netherlands,1435854,9611,17002,20,1196384,Europe,0
 New Caledonia,124,,,,58,Australia/Oceania,0
 New Zealand,2600,1,26,,2494,Australia/Oceania,0
 Nicaragua,6835,,181,,4225,North America,1
 Niger,5141,,191,,4812,Africa,1
 Nigeria,164488,,2061,,154441,Africa,1
 North Macedonia,148618,,4556,,125593,Europe,1
-Norway,109137,,735,1,88952,Europe,0
+Norway,109408,271,735,1,88952,Europe,0
 Oman,185278,1508,1942,16,165051,Asia,0
 Pakistan,778238,5857,16698,98,676605,Asia,0
 Palestine,287680,1652,3115,19,256559,Asia,0
@@ -171,12 +171,12 @@ Samoa,3,,,,2,Australia/Oceania,0
 San Marino,5045,1,88,,4822,Europe,0
 Saudi Arabia,409093,1055,6869,11,392448,Asia,0
 Senegal,39975,65,1097,1,38719,Africa,0
-Serbia,670801,,6095,,604174,Europe,1
+Serbia,673520,2719,6130,35,608270,Europe,0
 Seychelles,5016,,25,,4551,Africa,1
 Sierra Leone,4042,,79,,2883,Africa,1
 Singapore,60904,24,29,,58771,Asia,1
 Slovakia,378150,677,11357,53,255300,Europe,0
-Slovenia,234067,,4176,,217715,Europe,1
+Slovenia,234811,745,4187,11,219232,Europe,0
 Solomon Islands,20,,,,18,Australia/Oceania,0
 Somalia,13459,,689,,5593,Africa,1
 South Africa,1569935,,53940,,1495864,Africa,1
@@ -194,7 +194,7 @@ Taiwan,1086,4,11,,1041,Asia,0
 Tajikistan,13308,,90,,13218,Asia,1
 Tanzania,509,,21,,183,Africa,1
 Thailand,48113,1470,117,7,29848,Asia,0
-Timor-Leste,1657,148,2,,795,Asia,0
+Timor-Leste,1657,148,3,1,795,Asia,0
 Togo,12657,,121,,10431,Africa,1
 Trinidad and Tobago,9216,,157,,8036,North America,1
 Tunisia,291833,,9993,,242238,Africa,1
@@ -216,4 +216,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,5960,,1147,,2309,Asia,1
 Zambia,91189,70,1240,2,89117,Africa,0
 Zimbabwe,37980,,1555,,35065,Africa,1
-World,144575576,156017,3074838,3940,123052418,,0
+World,144598652,179094,3075016,4119,123072054,,0
