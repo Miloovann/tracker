@@ -330,20 +330,21 @@ for i in ["/Users/junyiho/Desktop/Scripts/PW_Web/metersworld.csv","/Users/junyih
 #End Combining tracker,meters and livencov into 1 csv
 
 #Start analysis of all.csv
-#Start Logarithm analysis of all data
-with open("/Users/junyiho/Desktop/Scripts/PW_Web/" + filedate + "logall.csv","w",newline='')as flog:
-    writer = csv.writer(flog)
-    with open("/Users/junyiho/Desktop/Scripts/PW_Web/" + filedate + "all.csv",'r')as foriginal:
-        reader = list(csv.reader(foriginal))
-        for row in reader:
-            logrow = []
-            for i in range(len(row)):
-                if row[i].isnumeric() and i != len(row)-1:
-                    logrow.append(math.log10(int(row[i])))  ##need int(i) because isnumeric doesnt mean is in int format
-                else:
-                    logrow.append(row[i])
-            writer.writerow(logrow)
-#End Logarithm analysis of all data
+###Start Logarithm analysis of all data
+##with open("/Users/junyiho/Desktop/Scripts/PW_Web/" + filedate + "logall.csv","w",newline='')as flog:
+##    writer = csv.writer(flog)
+##    with open("/Users/junyiho/Desktop/Scripts/PW_Web/" + filedate + "all.csv",'r')as foriginal:
+##        reader = list(csv.reader(foriginal))
+##        for row in reader:
+##            logrow = []
+##            for i in range(len(row)):
+##                if row[i].isnumeric() and i != len(row)-1:
+##                    print(row, i)
+##                    logrow.append(math.log10(int(row[i])))  ##need int(i) because isnumeric doesnt mean is in int format
+##                else:
+##                    logrow.append(row[i])
+##            writer.writerow(logrow)
+###End Logarithm analysis of all data
 
 #Start splitting function of data into continents
 def SortSplitContinents(csvname):
@@ -360,7 +361,7 @@ def SortSplitContinents(csvname):
         if dataname in cont:    csv.writer(names[cont.index(dataname)]).writerow(data[i])
 
 SortSplitContinents("all.csv")
-SortSplitContinents("logall.csv")
+#SortSplitContinents("logall.csv")
 #End splitting function of data into continents
 
 ##Start Global Graphs
@@ -386,6 +387,7 @@ def graphbarh(colnum, casetype, casesave):
             specialtitle = "%s countries with most "+ casetype +" in Australia/Oceania"
             highall.set_title(specialtitle %len(x_axis), fontweight='bold') ##Australia has ~10 countries
         else:
+            print(data)
             x_axis, y_axis = [data[i][0] for i in range(10)], [data[i][1] for i in range(10)]
             if x == 1:  highall.set_title("10 countries with most " + casetype + " " + countrynames[x], fontweight='bold') ##worldwide
             else:   highall.set_title("10 countries with most " + casetype+ " in " + countrynames[x], fontweight='bold') ##rest of the continents
