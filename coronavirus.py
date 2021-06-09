@@ -329,7 +329,7 @@ with open("/Users/junyiho/Desktop/Scripts/PW_Web/" + filedate + "all.csv","w",ne
         ftwo.close()
     fone.close()
 final.close()
-# for i in ["/Users/junyiho/Desktop/Scripts/PW_Web/metersworld.csv","/Users/junyiho/Desktop/Scripts/PW_Web/livencov.csv","/Users/junyiho/Desktop/Scripts/PW_Web/tracker.csv"]:    os.remove(i)
+for i in ["/Users/junyiho/Desktop/Scripts/PW_Web/metersworld.csv","/Users/junyiho/Desktop/Scripts/PW_Web/livencov.csv","/Users/junyiho/Desktop/Scripts/PW_Web/tracker.csv"]:    os.remove(i)
 #End Combining tracker,meters and livencov into 1 csv
 
 #Start analysis of all.csv
@@ -386,20 +386,21 @@ def graphbarh(colnum, casetype, casesave):
         data.sort(key = itemgetter(1), reverse = True)
         hightotal, highall = plt.subplots()
         if x == 3:
-            x_axis, y_axis = [data[i][0] for i in range(len(data))], [data[i][1] for i in range(len(data))]
+            y_axis, barwidth = [data[i][0] for i in range(len(data))], [data[i][1] for i in range(len(data))]
             specialtitle = "%s countries with most "+ casetype +" in Australia/Oceania"
-            highall.set_title(specialtitle %len(x_axis), fontweight='bold') ##Australia has ~10 countries
+            highall.set_title(specialtitle %len(y_axis), fontweight='bold') ##Australia has ~10 countries
         else:
-            x_axis, y_axis = [data[i][0] for i in range(10)], [data[i][1] for i in range(10)]
+            y_axis, barwidth = [data[i][0] for i in range(10)], [data[i][1] for i in range(10)]
             if x == 1:  highall.set_title("10 countries with most " + casetype + " " + countrynames[x], fontweight='bold') ##worldwide
             else:   highall.set_title("10 countries with most " + casetype+ " in " + countrynames[x], fontweight='bold') ##rest of the continents
 
-        if len(str(y_axis[0])) >= 7:
+        if len(str(barwidth[0])) >= 7:
             highall.set_xlabel("Total " + casetype + " in millions")
-            y_axis = [i/1000000 for i in y_axis]
+            barwidth = [i/1000000 for i in barwidth]
         else:   highall.set_xlabel("Total " + casetype)
-        highall.barh(x_axis, y_axis)
-        highall.set_yticklabels(x_axis, fontsize = 10, rotation = 45)
+        highall.barh(y_axis, barwidth)
+        highall.set_yticks(highall.get_yticks())
+        highall.set_yticklabels(y_axis, fontsize = 10, rotation = 45)
         highall.set_xlim(xmin=0)
         hightotal.savefig("/Users/junyiho/Desktop/Scripts/PW_Web/" + countrynames[x] + casesave, format='svg', bbox_inches='tight', transparent=True)
 
@@ -429,7 +430,7 @@ linefigures = [[total,'SG Total Cases over the past 14 days', 'SGtotalline14D.sv
  [imported, 'SG Imported Cases over the past 14 days', 'SGimportedline14D.svg'],
  [community, 'SG Community Cases over the past 14 days', 'SGcommunityline14D.svg'],
  [dorm, 'SG Dormitory Cases over the past 14 days', 'SGdormline14D.svg']]
-print(total, imported, community, dorm)
+
 barfigures = [[total, 'SG Total Cases over the past 14 days', 'SGtotalbar14D.svg'],
  [imported, 'SG Imported Cases over the past 14 days', 'SGimportedbar14D.svg'],
  [community, 'SG Community Cases over the past 14 days', 'SGcommunitybar14D.svg'],
@@ -439,6 +440,7 @@ def singaporegraphs(ynumb, titlename, figurename):
     ALLSG, SG = plt.subplots()
     SG.plot(dates, ynumb)
     SG.set_title(titlename, fontweight='bold')
+    SG.set_xticks(SG.get_xticks())
     SG.set_xticklabels(dates, rotation=45)
     SG.set_ylim(ymin=0)
     ALLSG.savefig("/Users/junyiho/Desktop/Scripts/PW_Web/" + figurename, format='svg', bbox_inches='tight', transparent=True)
@@ -447,6 +449,7 @@ def singaporebargraphs(ynumb,titlename,figurename):
     ALLSG, SG = plt.subplots()
     SG.bar(dates, ynumb)
     SG.set_title(titlename, fontweight='bold')
+    SG.set_xticks(SG.get_xticks())
     SG.set_xticklabels(dates, rotation=45)
     SG.set_ylim(ymin=0)
     ALLSG.savefig("/Users/junyiho/Desktop/Scripts/PW_Web/" + figurename, format='svg', bbox_inches='tight', transparent=True)
