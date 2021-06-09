@@ -24,7 +24,7 @@ ncovwrong = ["The Bahamas", "The Gambia","United Arab Emirates",
 ncovright = ["Bahamas","Gambia","UAE","UK","USA","Curaçao",
            "Cabo Verde","São Tomé and Príncipe","Réunion","Turks and Caicos","World"]
 
-ncovempty = ['Congo', 'Kosovo', 'Sint Maarten', 'World']
+ncovempty = ['Congo', 'Kosovo', 'Sint Maarten', 'World', 'Kiribati']
 
 worldowrong=["S. Korea","DRC","CAR","St. Barth",
              "St. Vincent Grenadines","Saint Pierre Miquelon",
@@ -99,8 +99,8 @@ def countnumbers(text, title, siz):
 async def night():
     async for message in client.iter_messages(-1001123464890):
         msg = str(message.raw_text)
-        checker = msg.find(" new Covid-19 cases were announced earlier today (")
-        if msg.count("Total") == 3 and msg.find("VIRUS UPDATE: ") == 0 and checker != -1:
+        # checker = msg.find(" new Covid-19 cases were announced earlier today (")
+        if msg.count("Total") == 3 and msg.find("VIRUS UPDATE: ") == 0:
             dd = int(msg.find(month + '. ')+len(month)+2)
             if msg[dd+1].isnumeric() is True:   messageday = msg[dd:dd+2]
             else:   messageday = msg[dd:dd+1]
@@ -112,8 +112,8 @@ async def night():
 async def yesterday():      ##to check new deaths
     async for message in client.iter_messages(-1001123464890):
         msg = str(message.raw_text)
-        checker = msg.find(" new Covid-19 cases were announced earlier today (")
-        if msg.count("Total") == 3 and msg.find("VIRUS UPDATE: ") == 0 and checker != -1:
+        # checker = msg.find(" new Covid-19 cases were announced earlier today (")
+        if msg.count("Total") == 3 and msg.find("VIRUS UPDATE: ") == 0:
             dd = int(msg.find(month + '. ')+len(month)+2)
             if msg[dd+1].isnumeric() is True:   messageday = msg[dd:dd+2]
             else:   messageday = msg[dd:dd+1]
@@ -326,7 +326,7 @@ with open("/Users/junyiho/Desktop/Scripts/PW_Web/" + filedate + "all.csv","w",ne
         ftwo.close()
     fone.close()
 final.close()
-for i in ["/Users/junyiho/Desktop/Scripts/PW_Web/metersworld.csv","/Users/junyiho/Desktop/Scripts/PW_Web/livencov.csv","/Users/junyiho/Desktop/Scripts/PW_Web/tracker.csv"]:    os.remove(i)
+# for i in ["/Users/junyiho/Desktop/Scripts/PW_Web/metersworld.csv","/Users/junyiho/Desktop/Scripts/PW_Web/livencov.csv","/Users/junyiho/Desktop/Scripts/PW_Web/tracker.csv"]:    os.remove(i)
 #End Combining tracker,meters and livencov into 1 csv
 
 #Start analysis of all.csv
