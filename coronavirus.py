@@ -390,7 +390,6 @@ def graphbarh(colnum, casetype, casesave):
             specialtitle = "%s countries with most "+ casetype +" in Australia/Oceania"
             highall.set_title(specialtitle %len(x_axis), fontweight='bold') ##Australia has ~10 countries
         else:
-            # print(data)
             x_axis, y_axis = [data[i][0] for i in range(10)], [data[i][1] for i in range(10)]
             if x == 1:  highall.set_title("10 countries with most " + casetype + " " + countrynames[x], fontweight='bold') ##worldwide
             else:   highall.set_title("10 countries with most " + casetype+ " in " + countrynames[x], fontweight='bold') ##rest of the continents
@@ -430,7 +429,7 @@ linefigures = [[total,'SG Total Cases over the past 14 days', 'SGtotalline14D.sv
  [imported, 'SG Imported Cases over the past 14 days', 'SGimportedline14D.svg'],
  [community, 'SG Community Cases over the past 14 days', 'SGcommunityline14D.svg'],
  [dorm, 'SG Dormitory Cases over the past 14 days', 'SGdormline14D.svg']]
-
+print(total, imported, community, dorm)
 barfigures = [[total, 'SG Total Cases over the past 14 days', 'SGtotalbar14D.svg'],
  [imported, 'SG Imported Cases over the past 14 days', 'SGimportedbar14D.svg'],
  [community, 'SG Community Cases over the past 14 days', 'SGcommunitybar14D.svg'],

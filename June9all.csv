@@ -17,7 +17,7 @@ Bahrain,253879,,1161,,233480,Asia,1
 Bangladesh,815282,,12913,,755302,Asia,1
 Barbados,4032,,47,,3922,North America,1
 Belarus,401019,,2929,,393237,Europe,1
-Belgium,1071271,,25041,,985968,Europe,1
+Belgium,1072175,904,25051,10,985968,Europe,0
 Belize,12909,,325,,12449,North America,1
 Benin,8082,,102,,7893,Africa,1
 Bermuda,2497,,33,,2455,North America,1
@@ -73,7 +73,7 @@ French Polynesia,18902,,142,,18736,Australia/Oceania,1
 Gabon,24651,,154,,23180,Africa,1
 Gambia,6002,,179,,5800,Africa,1
 Georgia,350428,,4951,,335029,Asia,1
-Germany,3712595,,90084,,3549900,Europe,1
+Germany,3712595,,90084,,3557600,Europe,0
 Ghana,94228,,787,,92362,Africa,1
 Gibraltar,4302,,94,,4199,Europe,1
 Greece,411534,,12331,,384669,Europe,1
@@ -85,7 +85,7 @@ Guinea,23312,,164,,21382,Africa,1
 Guinea-Bissau,3790,,68,,3535,Africa,1
 Guyana,17805,,416,,15628,South America,1
 Haiti,15895,,333,,12557,North America,1
-Honduras,242377,,6493,,86381,North America,1
+Honduras,242796,419,6532,39,86418,North America,0
 Hong Kong,11869,,210,,11584,Asia,1
 Hungary,806206,,29883,,718577,Europe,1
 Iceland,6612,,30,,6530,Europe,1
@@ -101,7 +101,7 @@ Ivory Coast,47511,,306,,47037,Africa,1
 Jamaica,49031,,974,,26641,North America,1
 Japan,763891,,13645,,710216,Asia,1
 Jordan,741101,,9549,,722807,Asia,1
-Kazakhstan,395832,,4096,,369024,Asia,1
+Kazakhstan,396832,1000,4111,15,370871,Asia,0
 Kenya,173072,,3326,,118621,Africa,1
 Kuwait,320257,,1801,,303637,Asia,1
 Kyrgyzstan,107714,,1859,,101033,Asia,1
@@ -147,7 +147,7 @@ Nigeria,166918,,2117,,163259,Africa,1
 North Macedonia,155441,,5462,,149528,Europe,1
 Norway,127254,,784,,88952,Europe,1
 Oman,226648,,2434,,206026,Asia,1
-Pakistan,935013,,21376,,867447,Asia,1
+Pakistan,936131,1118,21453,77,869691,Asia,0
 Palestine,310544,,3520,,302357,Asia,1
 Panama,383733,,6408,,369273,North America,1
 Papua New Guinea,16398,,164,,15711,Australia/Oceania,1
@@ -210,11 +210,11 @@ Uruguay,322978,,4749,,283397,South America,1
 Uzbekistan,102163,,699,,98129,Asia,1
 Vanuatu,4,,1,,3,Australia/Oceania,1
 Vatican City,27,,,,27,Europe,0
-Venezuela,243621,,2734,,223788,South America,1
+Venezuela,245300,,2750,,225266,South America,1
 Vietnam,9222,64,55,,3547,Asia,0
 Wallis and Futuna,445,,7,,438,Australia/Oceania,1
 Western Sahara,10,,1,,8,Africa,1
 Yemen,6823,,1336,,3638,Asia,1
 Zambia,101996,,1321,,93992,Africa,1
 Zimbabwe,39321,,1617,,36756,Africa,1
-World,174726501,9801,3762518,394,156705765,,0
+World,174731621,13242,3762675,535,156719071,,0
