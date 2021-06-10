@@ -22,7 +22,7 @@ Belize,12916,,325,,12456,North America,1
 Benin,8109,,102,,7979,Africa,1
 Bermuda,2497,,33,,2455,North America,1
 Bhutan,1739,,1,,1424,Asia,1
-Bolivia,392975,,15177,,311340,South America,1
+Bolivia,396814,3839,15247,70,313445,South America,0
 Bosnia and Herzegovina,204512,,9467,,176881,Europe,1
 Botswana,58095,,885,,53887,Africa,1
 Brazil,17125357,,479791,,15596816,South America,1
@@ -89,7 +89,7 @@ Honduras,243467,671,6559,27,86549,North America,0
 Hong Kong,11873,,210,,11587,Asia,1
 Hungary,806385,,29889,,720400,Europe,1
 Iceland,6616,,30,,6535,Europe,1
-India,29182072,,359695,,27645225,Asia,1
+India,29183121,1049,359695,,27655493,Asia,0
 Indonesia,1877050,,52162,,1723253,Asia,1
 Iran,2990714,,81519,,2590682,Asia,1
 Iraq,1237856,,16614,,1155887,Asia,1
@@ -130,7 +130,7 @@ Mexico,2441866,3855,229353,253,1946477,North America,0
 Micronesia,1,,,,1,Australia/Oceania,0
 Moldova,255601,,6145,,248260,Europe,1
 Monaco,2514,,33,,2469,Europe,1
-Mongolia,69022,,324,,55157,Asia,1
+Mongolia,70482,1460,334,10,55569,Asia,0
 Montenegro,99867,,1596,,97751,Europe,1
 Montserrat,20,,1,,19,North America,1
 Morocco,522389,,9190,,509958,Africa,1
@@ -147,7 +147,7 @@ Nigeria,166982,,2117,,163331,Africa,1
 North Macedonia,155469,,5467,,149551,Europe,1
 Norway,127466,,789,,88952,Europe,1
 Oman,228579,,2448,,206844,Asia,1
-Pakistan,936131,,21453,,869691,Asia,1
+Pakistan,937434,1303,21529,76,871669,Asia,0
 Palestine,310544,,3520,,302357,Asia,1
 Panama,384512,,6413,,369857,North America,1
 Papua New Guinea,16580,,164,,15877,Australia/Oceania,1
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,6832,,1337,,3675,Asia,1
 Zambia,103763,,1324,,94189,Africa,1
 Zimbabwe,39432,,1622,,36917,Africa,1
-World,175158115,9881,3776809,348,157245412,,0
+World,175165766,17532,3776965,504,157260175,,0
