@@ -1,10 +1,10 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Anguilla,109,,,,109,North America,0
 Antigua and Barbuda,1263,,42,,1214,North America,1
-Aruba,11068,,107,,10926,North America,1
-Bahamas,12027,,232,,11081,North America,1
+Aruba,11069,1,107,,10934,North America,0
+Bahamas,12052,25,234,2,11081,North America,0
 Barbados,4033,1,47,,3965,North America,0
-Belize,12916,,325,,12456,North America,1
+Belize,12924,8,325,,12460,North America,0
 Bermuda,2497,,33,,2455,North America,1
 British Virgin Islands,248,,1,,209,North America,1
 Canada,1398275,1477,25873,30,1353147,North America,0
@@ -12,7 +12,7 @@ Caribbean Netherlands,1616,,17,,1580,North America,1
 Cayman Islands,592,,2,,578,North America,0
 Costa Rica,338048,2041,4298,20,259872,North America,0
 Cuba,153578,1158,1057,12,146418,North America,0
-Curaçao,12287,,123,,12139,North America,1
+Curaçao,12291,4,123,,12140,North America,0
 Dominica,188,,,,188,North America,0
 Dominican Republic,305569,1141,3695,9,248966,North America,0
 El Salvador,74983,,2284,5,69867,North America,0
@@ -36,4 +36,4 @@ Saint Pierre and Miquelon,25,,,,25,North America,0
 Saint Vincent and the Grenadines,2092,,12,,1856,North America,1
 Trinidad and Tobago,27806,273,630,14,17566,North America,0
 Turks and Caicos,2421,,18,,2387,North America,1
-USA,34274360,13437,613898,406,28277282,North America,0
+USA,34275783,14880,613920,421,28278394,North America,0
