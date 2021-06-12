@@ -1,7 +1,7 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Albania,132437,,2453,,129807,Europe,1
 Andorra,13813,,127,,13591,Europe,1
-Austria,648187,,10652,,633105,Europe,1
+Austria,648387,200,10652,,633538,Europe,0
 Belarus,403845,,2958,,396650,Europe,1
 Belgium,1074988,784,25075,7,992815,Europe,0
 Bosnia and Herzegovina,204597,,9479,,177122,Europe,1
@@ -23,7 +23,7 @@ Ireland,266073,,4941,,249072,Europe,1
 Isle of Man,1599,,29,,1563,Europe,1
 Italy,4241760,,126924,,3949597,Europe,1
 Latvia,135940,178,2451,2,130548,Europe,0
-Liechtenstein,3024,,59,,2948,Europe,1
+Liechtenstein,3026,2,59,,2948,Europe,0
 Lithuania,277623,155,4335,3,263216,Europe,0
 Luxembourg,70406,,818,,68943,Europe,1
 Malta,30579,,419,,30096,Europe,1
@@ -39,8 +39,8 @@ Romania,1079530,,31681,,1043803,Europe,1
 Russia,5193964,13510,126073,399,4792169,Europe,0
 San Marino,5090,,90,,4998,Europe,1
 Serbia,714634,,6951,,702994,Europe,1
-Slovakia,390893,,12433,,377007,Europe,1
-Slovenia,256224,,4398,,248743,Europe,1
+Slovakia,390984,91,12436,3,377155,Europe,0
+Slovenia,256352,126,4401,3,249098,Europe,0
 Spain,3733600,,80501,,3509730,Europe,0
 Sweden,1083456,,14537,,1018539,Europe,1
 Switzerland,700051,,10859,,666384,Europe,1
