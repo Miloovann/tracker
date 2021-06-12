@@ -77,7 +77,7 @@ Germany,3720811,,90398,,3573600,Europe,0
 Ghana,94444,,789,,92552,Africa,1
 Gibraltar,4308,,94,,4200,Europe,1
 Greece,413954,,12381,,388931,Europe,1
-Greenland,43,,,,40,North America,0
+Greenland,44,1,,,40,North America,0
 Grenada,161,,1,,160,North America,1
 Guadeloupe,16608,,225,,2250,North America,1
 Guatemala,269308,,8416,,244416,North America,1
@@ -112,7 +112,7 @@ Lesotho,10853,,326,,6440,Africa,1
 Liberia,2484,,93,,2065,Africa,1
 Libya,188762,,3158,,174434,Africa,1
 Liechtenstein,3024,,59,,2948,Europe,1
-Lithuania,277379,,4330,,262140,Europe,1
+Lithuania,277623,155,4335,3,263216,Europe,0
 Luxembourg,70406,,818,,68943,Europe,1
 Macao,52,,,,51,Asia,0
 Madagascar,41869,,879,,40190,Africa,1
@@ -124,7 +124,7 @@ Malta,30579,,419,,30096,Europe,1
 Marshall Islands,4,,,,4,Australia/Oceania,0
 Martinique,12110,,98,,98,North America,1
 Mauritania,20005,,473,,19043,Africa,1
-Mauritius,1564,,18,,1233,Africa,1
+Mauritius,1566,,18,,1243,Africa,1
 Mayotte,20176,,173,,2964,Africa,1
 Mexico,2448820,3282,229821,243,1948268,North America,0
 Micronesia,1,,,,1,Australia/Oceania,0
@@ -175,7 +175,7 @@ Senegal,41900,,1150,,40449,Africa,1
 Serbia,714634,,6951,,702994,Europe,1
 Seychelles,12973,,46,,11634,Africa,1
 Sierra Leone,4312,,82,,3169,Africa,1
-Singapore,62245,,34,,61799,Asia,1
+Singapore,62266,,34,,61799,Asia,1
 Slovakia,390893,,12433,,377007,Europe,1
 Slovenia,256224,,4398,,248743,Europe,1
 Solomon Islands,20,,,,20,Australia/Oceania,0
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,6856,,1342,,3697,Asia,1
 Zambia,107974,,1348,,95674,Africa,1
 Zimbabwe,39688,,1629,,36970,Africa,1
-World,176037042,18887,3800692,530,158232156,,0
+World,176037310,19043,3800697,533,158233242,,0
