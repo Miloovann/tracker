@@ -32,7 +32,7 @@ Bulgaria,420213,,17893,,389368,Europe,1
 Burkina Faso,13456,,167,,13268,Africa,1
 Burundi,4975,,8,,773,Africa,1
 Cabo Verde,31512,,272,,30231,Africa,1
-Cambodia,37321,,311,,30617,Asia,1
+Cambodia,37959,638,320,9,31222,Asia,0
 Cameroon,80090,,1310,,77305,Africa,1
 Canada,1399716,,25886,,1355419,North America,1
 Caribbean Netherlands,1618,,17,,1598,North America,1
@@ -73,7 +73,7 @@ French Polynesia,18930,,142,,18749,Australia/Oceania,1
 Gabon,24736,,156,,23741,Africa,1
 Gambia,6008,,180,,5813,Africa,1
 Georgia,352649,,5012,,337820,Asia,1
-Germany,3720811,,90398,,3569000,Europe,1
+Germany,3720811,,90398,,3573600,Europe,0
 Ghana,94444,,789,,92552,Africa,1
 Gibraltar,4308,,94,,4200,Europe,1
 Greece,413954,,12381,,388931,Europe,1
@@ -130,7 +130,7 @@ Mexico,2448820,3282,229821,243,1948268,North America,0
 Micronesia,1,,,,1,Australia/Oceania,0
 Moldova,255715,,6149,,248501,Europe,1
 Monaco,2520,,33,,2473,Europe,1
-Mongolia,72104,,342,,56253,Asia,1
+Mongolia,73896,1792,351,9,56449,Asia,0
 Montenegro,99914,,1597,,97844,Europe,1
 Montserrat,20,,1,,19,North America,1
 Morocco,523165,,9202,,510623,Africa,1
@@ -147,7 +147,7 @@ Nigeria,167051,,2117,,163430,Africa,1
 North Macedonia,155507,,5470,,149612,Europe,1
 Norway,127874,,789,,88952,Europe,1
 Oman,230219,,2467,,207795,Asia,1
-Pakistan,938737,,21576,,873543,Asia,1
+Pakistan,939931,1194,21633,57,875581,Asia,0
 Palestine,311018,,3524,,302944,Asia,1
 Panama,386269,,6427,,371015,North America,1
 Papua New Guinea,16621,,164,,15942,Australia/Oceania,1
@@ -184,7 +184,7 @@ South Africa,1730106,,57592,,1598293,Africa,1
 South Korea,147422,563,1982,1,138037,Asia,0
 South Sudan,10688,,115,,10514,Africa,1
 Spain,3733600,,80501,,3509730,Europe,0
-Sri Lanka,218366,,2011,,184090,Asia,1
+Sri Lanka,218923,,2073,,184090,Asia,0
 Sudan,36203,,2719,,29841,Africa,1
 Suriname,17799,,390,,13664,South America,1
 Sweden,1083456,,14537,,1018539,Europe,1
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,6856,,1342,,3697,Asia,1
 Zambia,107974,,1348,,95674,Africa,1
 Zimbabwe,39688,,1629,,36970,Africa,1
-World,176029254,11655,3800422,326,158217677,,0
+World,176033435,15279,3800559,401,158225116,,0
