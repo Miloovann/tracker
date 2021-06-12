@@ -1,6 +1,6 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Afghanistan,88888,,3460,,60598,Asia,1
-Armenia,223555,,4482,,214998,Asia,1
+Armenia,223643,88,4482,,215118,Asia,0
 Azerbaijan,335065,,4951,,328194,Asia,1
 Bahrain,256921,,1196,,240529,Asia,1
 Bangladesh,822849,,13032,,761916,Asia,1
@@ -9,7 +9,7 @@ Brunei,248,,3,,239,Asia,0
 Cambodia,37959,638,320,9,31222,Asia,0
 China,91394,35,4636,,86312,Asia,0
 Cyprus,73115,,372,,71166,Asia,1
-Georgia,352649,,5012,,337820,Asia,1
+Georgia,353443,794,5034,22,338318,Asia,0
 Hong Kong,11875,,210,,11593,Asia,1
 India,29359155,1122,367097,,27911384,Asia,0
 Indonesia,1894025,,52566,,1735144,Asia,1
@@ -39,12 +39,12 @@ Singapore,62245,,34,,61799,Asia,1
 South Korea,147422,563,1982,1,138037,Asia,0
 Sri Lanka,218923,,2073,,184090,Asia,1
 Syria,24767,,1806,,21663,Asia,1
-Taiwan,12500,,385,,1133,Asia,1
+Taiwan,12746,251,411,26,1133,Asia,0
 Tajikistan,13308,,90,,13218,Asia,1
 Thailand,193105,3277,1431,29,150271,Asia,0
 Timor-Leste,8145,,18,,6511,Asia,1
 Turkey,5319359,,48593,,5192945,Asia,1
 UAE,593894,,1720,,573194,Asia,1
 Uzbekistan,103206,314,705,1,99152,Asia,0
-Vietnam,10048,68,57,,3804,Asia,0
+Vietnam,10137,157,58,1,3804,Asia,0
 Yemen,6856,,1342,,3697,Asia,1
