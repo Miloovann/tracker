@@ -32,7 +32,7 @@ Bulgaria,420336,,17900,,389495,Europe,1
 Burkina Faso,13459,,167,,13272,Africa,1
 Burundi,5013,,8,,773,Africa,1
 Cabo Verde,31571,,273,,30316,Africa,1
-Cambodia,38427,,335,,31858,Asia,1
+Cambodia,38969,542,348,13,32967,Asia,0
 Cameroon,80090,,1310,,77305,Africa,1
 Canada,1402128,,25931,,1359240,North America,1
 Caribbean Netherlands,1619,,17,,1598,North America,1
@@ -89,7 +89,7 @@ Honduras,247728,654,6631,25,88164,North America,0
 Hong Kong,11878,,210,,11598,Asia,1
 Hungary,806790,,29904,,724614,Europe,1
 Iceland,6616,,30,,6543,Europe,1
-India,29507438,,374287,,28148977,Asia,1
+India,29510410,2972,374305,18,28162947,Asia,0
 Indonesia,1911358,,52879,,1745091,Asia,1
 Iran,3028717,,82098,,2652792,Asia,1
 Iraq,1254643,,16705,,1172227,Asia,1
@@ -101,11 +101,11 @@ Ivory Coast,47662,,306,,47178,Africa,1
 Jamaica,49277,,997,,27542,North America,1
 Japan,773822,,14033,,727730,Asia,1
 Jordan,743331,,9592,,726219,Asia,1
-Kazakhstan,401272,,4160,,376831,Asia,1
+Kazakhstan,402239,967,4171,11,377642,Asia,0
 Kenya,175337,,3410,,120208,Africa,1
 Kuwait,327963,,1820,,310095,Asia,1
 Kyrgyzstan,110370,,1890,,102633,Asia,1
-Laos,1996,,3,,1862,Asia,1
+Laos,2010,14,3,,1880,Asia,0
 Latvia,136030,,2456,,130728,Europe,1
 Lebanon,542604,,7798,,527174,Asia,1
 Lesotho,10921,,326,,6443,Africa,1
@@ -130,7 +130,7 @@ Mexico,2454176,1707,230148,53,1954252,North America,0
 Micronesia,1,,,,1,Australia/Oceania,0
 Moldova,255797,,6154,,248671,Europe,1
 Monaco,2525,,33,,2473,Europe,1
-Mongolia,76084,,365,,56947,Asia,1
+Mongolia,78347,2263,369,4,57025,Asia,0
 Montenegro,99956,,1601,,97930,Europe,1
 Montserrat,20,,1,,19,North America,1
 Morocco,523890,,9211,,511126,Africa,1
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,6862,,1349,,3743,Asia,1
 Zambia,111746,,1389,,97756,Africa,1
 Zimbabwe,39959,,1632,,37004,Africa,1
-World,176701691,9444,3819393,196,159018417,,0
+World,176708449,16202,3819439,242,159034403,,0
