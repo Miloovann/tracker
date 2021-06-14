@@ -1,10 +1,10 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Albania,132459,,2453,,129842,Europe,1
-Andorra,13813,,127,,13591,Europe,1
+Albania,132461,2,2453,,129865,Europe,0
+Andorra,13826,13,127,,13618,Europe,0
 Austria,648732,112,10662,1,634123,Europe,0
 Belarus,406360,697,2987,9,399174,Europe,0
 Belgium,1076338,573,25088,7,1003023,Europe,0
-Bosnia and Herzegovina,204597,,9479,,177122,Europe,1
+Bosnia and Herzegovina,204668,6,9495,4,177976,Europe,0
 Bulgaria,420336,,17900,,389495,Europe,1
 Channel Islands,4099,,86,,3956,Europe,1
 Croatia,358581,18,8152,13,349582,Europe,0
@@ -14,27 +14,27 @@ Estonia,130538,28,1266,,125798,Europe,0
 Faroe Islands,757,1,1,,727,Europe,0
 Finland,93850,29,964,,46000,Europe,0
 France,5740665,,110420,,5495475,Europe,1
-Germany,3723294,,90470,,3580600,Europe,0
+Germany,3723569,275,90475,5,3580600,Europe,0
 Gibraltar,4312,,94,,4205,Europe,0
-Greece,414933,,12419,,391761,Europe,1
+Greece,415401,468,12437,18,393123,Europe,0
 Hungary,807045,255,29925,21,730588,Europe,0
 Iceland,6616,,30,,6543,Europe,1
-Ireland,266819,,4941,,249929,Europe,1
+Ireland,267061,242,4941,,250376,Europe,0
 Isle of Man,1599,,29,,1566,Europe,1
-Italy,4244872,,127002,,3957557,Europe,1
+Italy,4245779,907,127038,36,3960951,Europe,0
 Latvia,136104,74,2456,,130823,Europe,0
 Liechtenstein,3026,,59,,2948,Europe,1
 Lithuania,277812,66,4342,3,263442,Europe,0
-Luxembourg,70406,,818,,68943,Europe,1
+Luxembourg,70445,39,818,,69129,Europe,0
 Malta,30582,1,419,,30109,Europe,0
-Moldova,255797,,6154,,248671,Europe,1
+Moldova,255830,33,6154,,248733,Europe,0
 Monaco,2525,,33,,2473,Europe,1
-Montenegro,99956,,1601,,97930,Europe,1
-Netherlands,1672744,,17711,,1571571,Europe,1
-North Macedonia,155536,,5471,,149628,Europe,1
-Norway,128046,,789,,88952,Europe,1
+Montenegro,99964,8,1602,1,97951,Europe,0
+Netherlands,1673596,852,17714,3,1576017,Europe,0
+North Macedonia,155540,4,5472,1,149642,Europe,0
+Norway,128198,116,789,,88952,Europe,0
 Poland,2877608,140,74574,1,2648859,Europe,0
-Portugal,857447,,17047,,815342,Europe,1
+Portugal,858072,625,17047,,815622,Europe,0
 Romania,1079776,50,31861,10,1044404,Europe,0
 Russia,5222408,13721,126801,371,4809647,Europe,0
 San Marino,5090,,90,,4998,Europe,1
