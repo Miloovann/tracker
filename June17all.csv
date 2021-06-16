@@ -1,7 +1,7 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Afghanistan,96531,1722,3842,94,62397,Asia,0
-Albania,132469,,2454,,129879,Europe,1
-Algeria,134115,,3588,,93355,Africa,1
+Albania,132476,7,2454,,129888,Europe,0
+Algeria,134458,343,3598,10,93586,Africa,0
 Andorra,13828,,127,,13626,Europe,1
 Angola,36921,,842,,30775,Africa,1
 Anguilla,109,,,,109,North America,0
@@ -80,7 +80,7 @@ Greece,416741,546,12472,13,395398,Europe,0
 Greenland,49,,,,40,North America,0
 Grenada,161,,1,,160,North America,1
 Guadeloupe,16608,,225,,2250,North America,1
-Guatemala,273730,,8500,,248316,North America,1
+Guatemala,275202,1472,8527,27,249560,North America,0
 Guinea,23398,,167,,21488,Africa,1
 Guinea-Bissau,3809,6,69,,3550,Africa,0
 Guyana,18530,,437,,16401,South America,1
@@ -188,7 +188,7 @@ Sri Lanka,229887,1631,2315,,194145,Asia,0
 Sudan,36304,,2732,,29994,Africa,1
 Suriname,18825,,418,,14423,South America,1
 Sweden,1084636,,14537,,1030414,Europe,1
-Switzerland,701260,282,10867,3,671319,Europe,0
+Switzerland,701260,282,10868,4,671319,Europe,0
 Syria,24904,,1821,,21690,Asia,1
 São Tomé and Príncipe,2358,,37,,2307,Africa,1
 Taiwan,13409,170,478,18,8042,Asia,0
@@ -203,7 +203,7 @@ Turkey,5348249,6221,48950,71,5215654,Asia,0
 Turks and Caicos,2423,,18,,2389,North America,1
 UAE,601950,,1734,,581139,Asia,1
 UK,4581006,,127917,,4292182,Europe,1
-USA,34353431,1246,615780,63,28579157,North America,0
+USA,34353450,1265,615781,64,28579183,North America,0
 Uganda,64521,,459,,48480,Africa,1
 Ukraine,2226037,1045,51847,78,2140978,Europe,0
 Uruguay,343615,,5089,,307189,South America,1
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,6864,,1350,,3775,Asia,1
 Zambia,115824,,1444,,99895,Africa,1
 Zimbabwe,40318,,1637,,37056,Africa,1
-World,177544405,159959,3840320,2402,160297067,,0
+World,177546246,161800,3840359,2441,160298577,,0
