@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,94919,,3761,,61938,Asia,1
+Afghanistan,96531,1722,3842,94,62397,Asia,0
 Albania,132469,,2454,,129879,Europe,1
 Algeria,134115,,3588,,93355,Africa,1
 Andorra,13828,,127,,13626,Europe,1
@@ -11,7 +11,7 @@ Armenia,223904,99,4490,1,215533,Asia,0
 Aruba,11084,,107,,10958,North America,1
 Australia,30285,13,910,,29189,Australia/Oceania,0
 Austria,649002,153,10671,3,634900,Europe,0
-Azerbaijan,335264,,4958,,328876,Asia,1
+Azerbaijan,335291,27,4959,1,329038,Asia,0
 Bahamas,12225,,239,,11174,North America,1
 Bahrain,260334,,1246,,247493,Asia,1
 Bangladesh,837247,3956,13282,60,773752,Asia,0
@@ -23,7 +23,7 @@ Benin,8140,,103,,7979,Africa,1
 Bermuda,2499,,33,,2461,North America,1
 Bhutan,1842,,1,,1496,Asia,1
 Bolivia,411677,2571,15738,124,326484,South America,0
-Bosnia and Herzegovina,204697,,9534,,178136,Europe,1
+Bosnia and Herzegovina,204730,33,9608,74,178319,Europe,0
 Botswana,61457,,926,,56798,Africa,1
 Brazil,17543853,,491164,,15944646,South America,1
 British Virgin Islands,248,,1,,209,North America,1
@@ -92,7 +92,7 @@ Iceland,6622,,30,,6562,Europe,1
 India,29633105,844,379601,,28388100,Asia,0
 Indonesia,1937652,9944,53476,196,1763870,Asia,0
 Iran,3060135,10487,82480,129,2696434,Asia,0
-Iraq,1264301,,16762,,1180713,Asia,1
+Iraq,1269440,5139,16781,19,1184492,Asia,0
 Ireland,267344,,4941,,250731,Europe,1
 Isle of Man,1599,,29,,1566,Europe,1
 Israel,839701,,6428,,833052,Asia,1
@@ -138,7 +138,7 @@ Mozambique,71651,,842,,69937,Africa,1
 Myanmar,146051,,3248,,133104,Asia,1
 Namibia,67021,,1040,,55538,Africa,1
 Nepal,614216,2014,8558,52,543521,Asia,0
-Netherlands,1674628,,17715,,1580449,Europe,1
+Netherlands,1675644,1016,17719,4,1583278,Europe,0
 New Caledonia,128,,,,58,Australia/Oceania,0
 New Zealand,2711,2,26,,2662,Australia/Oceania,0
 Nicaragua,7696,,188,,4225,North America,1
@@ -170,9 +170,9 @@ Saint Pierre and Miquelon,26,,,,25,North America,0
 Saint Vincent and the Grenadines,2158,,12,,1900,North America,1
 Samoa,3,,,,3,Australia/Oceania,0
 San Marino,5090,,90,,4999,Europe,1
-Saudi Arabia,468175,,7606,,450255,Asia,1
+Saudi Arabia,469414,1239,7621,15,451187,Asia,0
 Senegal,42118,68,1156,,40667,Africa,0
-Serbia,715147,,6976,,704472,Europe,1
+Serbia,715307,160,6980,4,704796,Europe,0
 Seychelles,13630,,50,,12173,Africa,1
 Sierra Leone,4449,,82,,3191,Africa,1
 Singapore,62339,,34,,61894,Asia,1
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,1
 Yemen,6864,,1350,,3775,Asia,1
 Zambia,115824,,1444,,99895,Africa,1
 Zimbabwe,40318,,1637,,37056,Africa,1
-World,177462970,78414,3839859,1928,160195157,,0
+World,177472196,87750,3840057,2139,160203825,,0

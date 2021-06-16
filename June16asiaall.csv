@@ -1,7 +1,7 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,94919,,3761,,61938,Asia,1
+Afghanistan,96531,1722,3842,94,62397,Asia,0
 Armenia,223904,99,4490,1,215533,Asia,0
-Azerbaijan,335264,,4958,,328876,Asia,1
+Azerbaijan,335291,27,4959,1,329038,Asia,0
 Bahrain,260334,,1246,,247493,Asia,1
 Bangladesh,837247,3956,13282,60,773752,Asia,0
 Bhutan,1842,,1,,1496,Asia,1
@@ -14,7 +14,7 @@ Hong Kong,11882,1,210,,11600,Asia,0
 India,29633105,844,379601,,28388100,Asia,0
 Indonesia,1937652,9944,53476,196,1763870,Asia,0
 Iran,3060135,10487,82480,129,2696434,Asia,0
-Iraq,1264301,,16762,,1180713,Asia,1
+Iraq,1269440,5139,16781,19,1184492,Asia,0
 Israel,839701,,6428,,833052,Asia,1
 Japan,777643,1418,14187,61,736941,Asia,0
 Jordan,744377,,9614,,727670,Asia,1
@@ -34,7 +34,7 @@ Pakistan,944065,1038,21828,46,882332,Asia,0
 Palestine,311948,,3542,,304390,Asia,1
 Philippines,1332832,5414,23121,158,1253541,Asia,0
 Qatar,220033,,579,,217352,Asia,1
-Saudi Arabia,468175,,7606,,450255,Asia,1
+Saudi Arabia,469414,1239,7621,15,451187,Asia,0
 Singapore,62339,,34,,61894,Asia,1
 South Korea,149191,544,1993,1,140438,Asia,0
 Sri Lanka,228256,,2315,,192478,Asia,1
