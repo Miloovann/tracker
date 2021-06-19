@@ -10,14 +10,14 @@ Argentina,4242763,,88247,,3844329,South America,1
 Armenia,224167,81,4496,4,215999,Asia,0
 Aruba,11103,,107,,10967,North America,1
 Australia,30322,9,910,,29272,Australia/Oceania,0
-Austria,649309,,10677,,635544,Europe,1
+Austria,649445,136,10679,2,635886,Europe,0
 Azerbaijan,335399,,4961,,329339,Asia,1
 Bahamas,12242,,240,,11208,North America,1
 Bahrain,261988,,1286,,251785,Asia,1
 Bangladesh,844970,,13399,,778421,Asia,1
 Barbados,4040,,47,,3980,North America,1
 Belarus,409385,,3025,,402202,Europe,1
-Belgium,1078251,,25117,,1007785,Europe,1
+Belgium,1078679,428,25125,8,1007785,Europe,0
 Belize,13004,,328,,12551,North America,1
 Benin,8140,,103,,7979,Africa,1
 Bermuda,2504,,33,,2461,North America,1
@@ -66,14 +66,14 @@ Ethiopia,274899,,4276,,253634,Africa,1
 Falkland Islands,63,,,,63,South America,0
 Faroe Islands,760,,1,,744,Europe,1
 Fiji,1648,,6,,452,Australia/Oceania,1
-Finland,94154,,967,,46000,Europe,1
+Finland,94269,115,967,,46000,Europe,0
 France,5752872,,110702,,5546870,Europe,1
 French Guiana,26450,,137,,9995,South America,1
 French Polynesia,18963,,142,,18787,Australia/Oceania,1
 Gabon,24832,,157,,24165,Africa,1
 Gambia,6024,,181,,5827,Africa,1
 Georgia,358360,769,5148,17,343837,Asia,0
-Germany,3728559,,90877,,3601200,Europe,0
+Germany,3728583,,90912,,3601200,Europe,0
 Ghana,94913,,793,,92881,Africa,1
 Gibraltar,4318,,94,,4206,Europe,1
 Greece,417706,,12508,,396880,Europe,1
@@ -90,7 +90,7 @@ Hong Kong,11885,,210,,11608,Asia,1
 Hungary,807428,,29950,,734627,Europe,1
 Iceland,6627,,30,,6576,Europe,1
 India,29823546,782,385167,,28678390,Asia,0
-Indonesia,1963266,,54043,,1779127,Asia,1
+Indonesia,1976172,12906,54291,248,1786143,Asia,0
 Iran,3080526,,82746,,2722612,Asia,1
 Iraq,1279697,,16834,,1192285,Asia,1
 Ireland,268367,,4941,,251952,Europe,1
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,6875,,1352,,3846,Asia,0
 Zambia,125157,,1554,,103884,Africa,0
 Zimbabwe,41335,,1656,,37143,Africa,0
-World,178619494,46445,3867597,1141,161421233,,0
+World,178633103,60030,3867890,1399,161428591,,0
