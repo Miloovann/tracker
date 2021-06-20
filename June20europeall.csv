@@ -1,21 +1,21 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Albania,132488,,2454,,129910,Europe,1
 Andorra,13842,,127,,13650,Europe,1
-Austria,649445,,10679,,635886,Europe,1
-Belarus,410096,,3035,,402876,Europe,1
+Austria,649576,131,10680,1,636125,Europe,0
+Belarus,410678,582,3044,9,403758,Europe,0
 Belgium,1079084,405,25132,7,1007785,Europe,0
 Bosnia and Herzegovina,204814,,9630,,179858,Europe,1
 Bulgaria,421005,,17989,,392809,Europe,1
 Channel Islands,4126,,86,,3994,Europe,1
-Croatia,359115,,8169,,350280,Europe,1
+Croatia,359173,58,8174,5,350402,Europe,0
 Czechia,1666025,63,30280,,1632840,Europe,0
 Denmark,291463,,2530,,283587,Europe,1
 Estonia,130806,25,1268,1,126664,Europe,0
 Faroe Islands,761,,1,,755,Europe,1
-Finland,94269,,967,,46000,Europe,1
+Finland,94334,65,967,,46000,Europe,0
 France,5755496,,110724,,5555389,Europe,1
 Germany,3729557,,90953,,3603000,Europe,0
-Gibraltar,4319,,94,,4208,Europe,1
+Gibraltar,4321,2,94,,4209,Europe,0
 Greece,418095,,12528,,397658,Europe,1
 Hungary,807428,,29950,,734627,Europe,1
 Iceland,6627,,30,,6576,Europe,1
@@ -26,7 +26,7 @@ Latvia,136810,74,2496,3,132270,Europe,0
 Liechtenstein,3026,,59,,2955,Europe,1
 Lithuania,278379,50,4366,2,265587,Europe,0
 Luxembourg,70516,,818,,69294,Europe,1
-Malta,30588,,420,,30139,Europe,1
+Malta,30589,1,420,,30142,Europe,0
 Moldova,256103,,6168,,249129,Europe,1
 Monaco,2548,,33,,2474,Europe,1
 Montenegro,100055,,1605,,98147,Europe,1
@@ -35,12 +35,12 @@ North Macedonia,155616,,5475,,149790,Europe,1
 Norway,129225,,790,,88952,Europe,1
 Poland,2878767,133,74828,5,2650476,Europe,0
 Portugal,864109,,17062,,819324,Europe,0
-Romania,1080203,,32308,,1044944,Europe,0
+Romania,1080256,53,32326,2,1045122,Europe,0
 Russia,5316826,17611,129361,450,4869972,Europe,0
 San Marino,5090,,90,,4999,Europe,0
 Serbia,715693,,6997,,705482,Europe,0
 Slovakia,391325,28,12492,6,377950,Europe,0
-Slovenia,256956,,4412,,250813,Europe,0
+Slovenia,256982,26,4412,,250970,Europe,0
 Spain,3757442,,80652,,3544205,Europe,0
 Sweden,1084636,,14537,,1043743,Europe,0
 Switzerland,701627,,10869,,674103,Europe,0
