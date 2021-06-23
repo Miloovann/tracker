@@ -3,25 +3,25 @@ Algeria,136679,385,3650,9,95084,Africa,0
 Angola,37874,126,875,7,32003,Africa,0
 Benin,8170,30,104,1,8000,Africa,0
 Botswana,65808,,1069,,59616,Africa,1
-Burkina Faso,13469,,167,,13293,Africa,1
+Burkina Faso,13469,,168,1,13295,Africa,0
 Burundi,5273,31,8,,773,Africa,0
 Cabo Verde,32111,72,284,1,31138,Africa,0
 Cameroon,80487,159,1320,7,78224,Africa,0
-Central African Republic,7129,,98,,6859,Africa,1
+Central African Republic,7137,8,98,,6859,Africa,0
 Chad,4948,1,174,,4768,Africa,0
 Comoros,3912,,146,,3745,Africa,1
 DR Congo,38330,404,888,8,27969,Africa,0
-Djibouti,11591,,155,,11431,Africa,1
+Djibouti,11595,4,155,,11434,Africa,0
 Egypt,278295,498,15935,37,206852,Africa,0
 Equatorial Guinea,8708,,120,,8489,Africa,1
 Eritrea,5508,87,21,2,5016,Africa,0
-Eswatini,18831,,677,,18039,Africa,1
+Eswatini,18854,23,677,,18048,Africa,0
 Ethiopia,275391,73,4290,4,255962,Africa,0
-Gabon,24864,,158,,24264,Africa,1
+Gabon,24885,21,158,,24407,Africa,0
 Gambia,6045,,181,,5837,Africa,1
 Ghana,95236,177,794,,93141,Africa,0
-Guinea,23535,,168,,22282,Africa,1
-Guinea-Bissau,3825,,69,,3558,Africa,1
+Guinea,23543,8,168,,22340,Africa,0
+Guinea-Bissau,3834,9,69,,3565,Africa,0
 Ivory Coast,48058,11,309,1,47511,Africa,0
 Kenya,179876,583,3484,23,123050,Africa,0
 Lesotho,11128,21,329,,6445,Africa,0
@@ -30,13 +30,13 @@ Libya,191253,215,3181,3,176649,Africa,0
 Madagascar,42137,,903,,40469,Africa,1
 Malawi,34996,82,1173,2,32909,Africa,0
 Mali,14385,,524,,10036,Africa,1
-Mauritania,20365,,481,,19438,Africa,1
+Mauritania,20415,50,482,1,19477,Africa,0
 Mauritius,1701,,18,,1265,Africa,1
 Mayotte,19389,,174,,2964,Africa,1
 Morocco,527174,437,9247,3,514279,Africa,0
 Mozambique,72775,198,852,4,70289,Africa,0
 Namibia,75766,,1179,,60484,Africa,1
-Niger,5469,,193,,5178,Africa,1
+Niger,5469,,193,,5195,Africa,0
 Nigeria,167331,39,2118,,163913,Africa,0
 Rwanda,32296,861,392,4,26712,Africa,0
 Réunion,29502,1061,226,6,27585,Africa,0
@@ -44,7 +44,7 @@ Saint Helena,2,,,,2,Africa,0
 Senegal,42472,35,1159,1,40963,Africa,0
 Seychelles,14620,497,59,4,13323,Africa,0
 Sierra Leone,4963,84,84,2,3279,Africa,0
-Somalia,14867,,775,,7204,Africa,0
+Somalia,14868,1,775,,7216,Africa,0
 South Africa,1843572,11093,59092,297,1665540,Africa,0
 South Sudan,10786,,115,,10514,Africa,0
 Sudan,36522,175,2748,11,30370,Africa,0
