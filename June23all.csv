@@ -7,7 +7,7 @@ Angola,37874,,875,,32003,Africa,1
 Anguilla,109,,,,109,North America,0
 Antigua and Barbuda,1263,,42,,1221,North America,1
 Argentina,4298782,,90281,,3928389,South America,1
-Armenia,224330,,4502,,216182,Asia,1
+Armenia,224430,100,4503,1,216230,Asia,0
 Aruba,11116,,107,,10978,North America,1
 Australia,30380,14,910,,29272,Australia/Oceania,0
 Austria,649728,,10684,,636523,Europe,1
@@ -49,7 +49,7 @@ Croatia,359259,,8188,,350539,Europe,1
 Cuba,170854,,1180,,160956,North America,1
 Curaçao,12321,,125,,12163,North America,1
 Cyprus,73832,,374,,72083,Asia,1
-Czechia,1666192,,30283,,1633482,Europe,1
+Czechia,1666325,131,30289,,1633550,Europe,0
 DR Congo,38330,,888,,27969,Africa,1
 Denmark,291956,,2531,,285375,Europe,1
 Djibouti,11595,,155,,11434,Africa,1
@@ -72,7 +72,7 @@ French Guiana,26799,,142,,9995,South America,1
 French Polynesia,18981,,142,,18814,Australia/Oceania,1
 Gabon,24885,,158,,24407,Africa,1
 Gambia,6045,,181,,5837,Africa,1
-Georgia,360055,,5199,,346217,Asia,1
+Georgia,360828,773,5211,12,346792,Asia,0
 Germany,3731287,,91082,,3611500,Europe,0
 Ghana,95236,,794,,93141,Africa,1
 Gibraltar,4323,,94,,4214,Europe,1
@@ -191,7 +191,7 @@ Sweden,1088014,,14570,,1048547,Europe,0
 Switzerland,702124,,10875,,676494,Europe,0
 Syria,25205,,1851,,21756,Asia,0
 São Tomé and Príncipe,2363,,37,,2315,Africa,0
-Taiwan,14157,,575,,9179,Asia,0
+Taiwan,14260,104,599,24,9179,Asia,0
 Tajikistan,13308,,90,,13218,Asia,0
 Tanzania,509,,21,,183,Africa,0
 Thailand,228539,3174,1744,51,189777,Asia,0
@@ -211,10 +211,10 @@ Uzbekistan,107266,419,722,2,103074,Asia,0
 Vanuatu,4,,1,,3,Australia/Oceania,0
 Vatican City,27,,,,27,Europe,0
 Venezuela,263372,,2989,,243840,South America,0
-Vietnam,13782,55,69,,5546,Asia,0
+Vietnam,13862,135,69,,5546,Asia,0
 Wallis and Futuna,445,,7,,438,Australia/Oceania,0
 Western Sahara,10,,1,,8,Africa,0
 Yemen,6892,,1355,,3980,Asia,0
 Zambia,133659,,1744,,111844,Africa,0
 Zimbabwe,42714,,1691,,37288,Africa,0
-World,179920498,18961,3898050,593,162969599,,0
+World,179921687,20149,3898093,630,162970290,,0
