@@ -16,7 +16,7 @@ Bahamas,12379,,244,,11356,North America,1
 Bahrain,263689,,1326,,256063,Asia,1
 Bangladesh,861150,,13702,,788385,Asia,1
 Barbados,4045,,47,,3988,North America,1
-Belarus,411551,,3063,,404240,Europe,1
+Belarus,412353,802,3072,9,405045,Europe,0
 Belgium,1080035,395,25144,3,1021987,Europe,0
 Belize,13059,,329,,12572,North America,1
 Benin,8170,,104,,8000,Africa,1
@@ -45,7 +45,7 @@ China,91653,24,4636,,86503,Asia,0
 Colombia,3997021,,101302,,3714962,South America,1
 Comoros,3912,,146,,3745,Africa,1
 Costa Rica,355620,,4546,,281042,North America,1
-Croatia,359259,,8188,,350539,Europe,1
+Croatia,359302,43,8190,2,350595,Europe,0
 Cuba,170854,,1180,,160956,North America,1
 Curaçao,12321,,125,,12163,North America,1
 Cyprus,73832,,374,,72083,Asia,1
@@ -66,7 +66,7 @@ Ethiopia,275391,,4290,,255962,Africa,1
 Falkland Islands,63,,,,63,South America,0
 Faroe Islands,769,,1,,755,Europe,1
 Fiji,2270,,9,,618,Australia/Oceania,1
-Finland,94489,,967,,46000,Europe,1
+Finland,94596,107,967,,46000,Europe,0
 France,5760002,,110829,,5575086,Europe,1
 French Guiana,26799,,142,,9995,South America,1
 French Polynesia,18981,,142,,18814,Australia/Oceania,1
@@ -146,7 +146,7 @@ Niger,5469,,193,,5195,Africa,1
 Nigeria,167331,,2118,,163913,Africa,1
 North Macedonia,155640,,5477,,149908,Europe,1
 Norway,129766,,790,,88952,Europe,1
-Oman,252609,,2782,,221250,Asia,1
+Oman,254656,2047,2816,34,222344,Asia,0
 Pakistan,950768,930,22073,39,895690,Asia,0
 Palestine,313015,,3555,,306532,Asia,0
 Panama,395449,,6483,,378109,North America,0
@@ -177,7 +177,7 @@ Seychelles,14620,,59,,13323,Africa,0
 Sierra Leone,4963,,84,,3279,Africa,0
 Singapore,62470,,35,,62098,Asia,0
 Slovakia,391420,35,12502,,378191,Europe,0
-Slovenia,257066,,4416,,251243,Europe,0
+Slovenia,257116,50,4417,1,251496,Europe,0
 Solomon Islands,20,,,,20,Australia/Oceania,0
 Somalia,14868,,775,,7216,Africa,0
 South Africa,1843572,,59092,,1665540,Africa,0
@@ -187,7 +187,7 @@ Spain,3768691,,80719,,3564850,Europe,0
 Sri Lanka,243913,,2704,,209296,Asia,0
 Sudan,36522,,2748,,30370,Africa,0
 Suriname,20298,,477,,15518,South America,0
-Sweden,1088014,,14570,,1048547,Europe,0
+Sweden,1088014,,14570,,1049741,Europe,0
 Switzerland,702124,,10875,,676494,Europe,0
 Syria,25205,,1851,,21756,Asia,0
 São Tomé and Príncipe,2363,,37,,2315,Africa,0
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,6892,,1355,,3980,Asia,0
 Zambia,133659,,1744,,111844,Africa,0
 Zimbabwe,42714,,1691,,37288,Africa,0
-World,179944486,42832,3898805,1342,162992124,,0
+World,179947535,45881,3898851,1388,162995526,,0
