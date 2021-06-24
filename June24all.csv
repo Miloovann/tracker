@@ -57,7 +57,7 @@ Dominica,191,,,,189,North America,0
 Dominican Republic,319254,,3773,,261222,North America,1
 Ecuador,449107,,21367,,415508,South America,1
 Egypt,278761,,15967,,207411,Africa,1
-El Salvador,77484,,2346,,71603,North America,1
+El Salvador,77484,,2351,5,71603,North America,0
 Equatorial Guinea,8708,,120,,8489,Africa,1
 Eritrea,5603,,21,,5078,Africa,1
 Estonia,130880,,1269,,126910,Europe,1
@@ -104,8 +104,8 @@ Jordan,748103,,9693,,732006,Asia,1
 Kazakhstan,413267,1496,4268,7,388171,Asia,0
 Kenya,180498,,3514,,123363,Africa,1
 Kuwait,344799,,1894,,324578,Asia,1
-Kyrgyzstan,117284,,1953,,106383,Asia,1
-Laos,2076,,3,,1960,Asia,1
+Kyrgyzstan,118106,822,1958,5,106858,Asia,0
+Laos,2080,4,3,,1962,Asia,0
 Latvia,137077,,2497,,132721,Europe,1
 Lebanon,543865,,7832,,530689,Asia,1
 Lesotho,11168,,329,,6445,Africa,1
@@ -205,9 +205,9 @@ UAE,618148,,1773,,597008,Asia,0
 UK,4667870,,128027,,4308504,Europe,0
 USA,34449004,,618294,,28846304,North America,0
 Uganda,74260,,752,,50085,Africa,0
-Ukraine,2230977,,52123,,2155261,Europe,0
+Ukraine,2231914,937,52181,58,2157732,Europe,0
 Uruguay,360247,,5374,,332112,South America,0
-Uzbekistan,107266,,722,,103074,Asia,0
+Uzbekistan,107708,442,723,1,103472,Asia,0
 Vanuatu,4,,1,,3,Australia/Oceania,0
 Vatican City,27,,,,27,Europe,0
 Venezuela,264551,,3007,,245519,South America,0
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,6898,,1355,,3990,Asia,0
 Zambia,137026,,1794,,113109,Africa,0
 Zimbabwe,43480,,1692,,37477,Africa,0
-World,180355070,19830,3907381,564,163360214,,0
+World,180357275,22035,3907450,633,163363560,,0
