@@ -2,7 +2,7 @@ Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,
 Afghanistan,109625,,4456,,66102,Asia,1
 Albania,132497,,2455,,129955,Europe,1
 Algeria,137049,,3660,,95331,Africa,1
-Andorra,13873,,127,,13688,Europe,1
+Andorra,13877,4,127,,13694,Europe,0
 Angola,38002,,878,,32322,Africa,1
 Anguilla,109,,,,109,North America,0
 Antigua and Barbuda,1263,,42,,1221,North America,1
@@ -35,7 +35,7 @@ Cabo Verde,32192,,284,,31202,Africa,1
 Cambodia,45366,655,493,18,40010,Asia,0
 Cameroon,80487,,1320,,78224,Africa,1
 Canada,1410927,,26175,,1375107,North America,1
-Caribbean Netherlands,1635,,17,,1609,North America,0
+Caribbean Netherlands,1635,,17,,1609,North America,1
 Cayman Islands,609,,2,,588,North America,1
 Central African Republic,7139,,98,,6859,Africa,1
 Chad,4951,,174,,4769,Africa,1
@@ -86,12 +86,12 @@ Guinea-Bissau,3839,,69,,3567,Africa,1
 Guyana,19234,,452,,17241,South America,1
 Haiti,17902,,398,,12763,North America,1
 Honduras,255663,546,6844,26,92014,North America,0
-Hong Kong,11899,,210,,11619,Asia,1
+Hong Kong,11906,7,210,,11619,Asia,0
 Hungary,807844,69,29972,1,736854,Europe,0
 Iceland,6630,,30,,6576,Europe,1
 India,30082778,609,392014,,29063740,Asia,0
 Indonesia,2033421,,55594,,1817303,Asia,1
-Iran,3128395,,83329,,2784014,Asia,1
+Iran,3140129,11734,83473,144,2797105,Asia,0
 Iraq,1305000,,16968,,1213952,Asia,1
 Ireland,269793,,4989,,254061,Europe,1
 Isle of Man,1603,,29,,1569,Europe,1
@@ -115,12 +115,12 @@ Liechtenstein,3030,,59,,2957,Europe,1
 Lithuania,278590,61,4375,3,267055,Europe,0
 Luxembourg,70547,,818,,69461,Europe,1
 Macao,53,,,,51,Asia,0
-Madagascar,42161,,905,,40500,Africa,1
+Madagascar,42166,5,905,,40524,Africa,0
 Malawi,35115,,1177,,32948,Africa,1
-Malaysia,711006,,4637,,645553,Asia,1
+Malaysia,716847,5841,4721,84,650964,Asia,0
 Maldives,72466,,207,,67886,Asia,1
 Mali,14391,,525,,10041,Africa,1
-Malta,30595,,420,,30149,Europe,1
+Malta,30598,3,420,,30151,Europe,0
 Marshall Islands,4,,,,4,Australia/Oceania,0
 Martinique,12264,,98,,98,North America,1
 Mauritania,20473,,483,,19514,Africa,1
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,6898,,1355,,3990,Asia,0
 Zambia,137026,,1794,,113109,Africa,0
 Zimbabwe,43480,,1692,,37477,Africa,0
-World,180390077,54787,3908289,1469,163389236,,0
+World,180407671,72381,3908517,1697,163407770,,0
