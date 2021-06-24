@@ -73,7 +73,7 @@ French Polynesia,18991,,142,,18820,Australia/Oceania,1
 Gabon,24958,,159,,24509,Africa,1
 Gambia,6045,,181,,5837,Africa,1
 Georgia,361484,656,5228,17,347653,Asia,0
-Germany,3732423,,91146,,3614500,Europe,0
+Germany,3732615,192,91154,8,3614500,Europe,0
 Ghana,95236,,794,,93141,Africa,1
 Gibraltar,4335,3,94,,4216,Europe,0
 Greece,419455,,12589,,401379,Europe,1
@@ -89,7 +89,7 @@ Honduras,255663,546,6844,26,92014,North America,0
 Hong Kong,11906,7,210,,11619,Asia,0
 Hungary,807844,69,29972,1,736854,Europe,0
 Iceland,6630,,30,,6576,Europe,1
-India,30082778,609,392014,,29063740,Asia,0
+India,30092448,10279,392123,109,29064502,Asia,0
 Indonesia,2053995,20574,55949,355,1826504,Asia,0
 Iran,3140129,11734,83473,144,2797105,Asia,0
 Iraq,1311093,6093,16999,31,1217982,Asia,0
@@ -144,8 +144,8 @@ New Zealand,2723,,26,,2673,Australia/Oceania,1
 Nicaragua,7920,,189,,4225,North America,1
 Niger,5472,,193,,5199,Africa,1
 Nigeria,167375,,2118,,163917,Africa,1
-North Macedonia,155645,,5478,,149916,Europe,1
-Norway,129944,,792,,88952,Europe,1
+North Macedonia,155655,10,5481,3,149933,Europe,0
+Norway,130161,217,792,,88952,Europe,0
 Oman,256542,1886,2848,32,224077,Asia,0
 Pakistan,951865,1097,22108,35,896821,Asia,0
 Palestine,313015,,3555,,306532,Asia,0
@@ -175,7 +175,7 @@ Senegal,42677,87,1159,,41058,Africa,0
 Serbia,716096,80,7019,6,706549,Europe,0
 Seychelles,14620,,59,,13323,Africa,0
 Sierra Leone,4963,,84,,3279,Africa,0
-Singapore,62493,,35,,62113,Asia,0
+Singapore,62493,,35,,62140,Asia,0
 Slovakia,391456,36,12502,,378307,Europe,0
 Slovenia,257164,43,4417,,251692,Europe,0
 Solomon Islands,20,,,,20,Australia/Oceania,0
@@ -203,7 +203,7 @@ Turkey,5387545,,49358,,5248862,Asia,0
 Turks and Caicos,2424,,18,,2389,North America,0
 UAE,618148,,1773,,597008,Asia,0
 UK,4667870,,128027,,4308504,Europe,0
-USA,34449016,12,618294,,28846304,North America,0
+USA,34449397,393,618302,8,28846326,North America,0
 Uganda,74260,,752,,50085,Africa,0
 Ukraine,2231914,937,52181,58,2157732,Europe,0
 Uruguay,360247,,5374,,332112,South America,0
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,6898,,1355,,3990,Asia,0
 Zambia,140620,3594,1855,61,115898,Africa,0
 Zimbabwe,43480,,1692,,37477,Africa,0
-World,180450953,115301,3909322,2358,163441094,,0
+World,180461423,125771,3909450,2486,163441922,,0
