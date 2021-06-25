@@ -1,7 +1,7 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Albania,132499,,2455,,129966,Europe,1
 Andorra,13877,,127,,13694,Europe,1
-Austria,649922,,10697,,636923,Europe,1
+Austria,650016,94,10700,3,637051,Europe,0
 Belarus,413139,,3082,,405909,Europe,1
 Belgium,1081908,847,25152,3,1021987,Europe,0
 Bosnia and Herzegovina,204936,,9653,,181199,Europe,1
@@ -40,7 +40,7 @@ Russia,5409088,20393,132064,601,4929639,Europe,0
 San Marino,5090,,90,,5000,Europe,0
 Serbia,716096,,7019,,706549,Europe,0
 Slovakia,391490,34,12505,3,378391,Europe,0
-Slovenia,257164,,4417,,251692,Europe,0
+Slovenia,257210,46,4417,,251815,Europe,0
 Spain,3777539,,80766,,3572254,Europe,0
 Sweden,1088896,,14584,,1052467,Europe,0
 Switzerland,702398,,10878,,679259,Europe,0
