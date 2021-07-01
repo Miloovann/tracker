@@ -1,10 +1,10 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Afghanistan,120216,,4962,,71012,Asia,1
 Armenia,225221,126,4517,3,216882,Asia,0
-Azerbaijan,336047,,4974,,330219,Asia,1
+Azerbaijan,336122,75,4975,1,330275,Asia,0
 Bahrain,265827,,1352,,261287,Asia,1
 Bangladesh,921559,8301,14646,143,820913,Asia,0
-Bhutan,2100,,1,,1773,Asia,1
+Bhutan,2104,4,1,,1811,Asia,0
 Brunei,261,1,3,,248,Asia,0
 Cambodia,51384,999,628,26,44858,Asia,0
 China,91792,12,4636,,86718,Asia,0
@@ -14,7 +14,7 @@ Hong Kong,11928,4,211,,11631,Asia,0
 India,30411634,1057,399475,,29488918,Asia,0
 Indonesia,2203108,24836,58995,504,1890287,Asia,0
 Iran,3218860,14303,84389,125,2889939,Asia,0
-Iraq,1345904,,17186,,1245528,Asia,1
+Iraq,1353458,7554,17216,30,1250121,Asia,0
 Israel,841899,122,6429,,833480,Asia,0
 Japan,798159,,14740,,766616,Asia,1
 Jordan,751404,,9750,,735094,Asia,1
@@ -39,7 +39,7 @@ Singapore,62589,,36,,62212,Asia,0
 South Korea,157723,762,2021,3,148024,Asia,0
 Sri Lanka,259089,,3077,,225952,Asia,0
 Syria,25515,,1876,,21825,Asia,0
-Taiwan,14804,,648,,11554,Asia,0
+Taiwan,14853,50,661,13,11608,Asia,0
 Tajikistan,13499,,90,,13302,Asia,0
 Thailand,264834,5533,2080,57,210702,Asia,0
 Timor-Leste,9278,56,24,1,8425,Asia,0
