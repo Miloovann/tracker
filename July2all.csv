@@ -66,7 +66,7 @@ Ethiopia,276250,,4325,,260737,Africa,1
 Falkland Islands,63,,,,63,South America,0
 Faroe Islands,778,,1,,764,Europe,1
 Fiji,5253,404,25,1,970,Australia/Oceania,0
-Finland,95964,,973,,46000,Europe,1
+Finland,96180,216,973,,46000,Europe,0
 France,5777965,,111111,,5622727,Europe,1
 French Guiana,27628,,146,,9995,South America,1
 French Polynesia,19007,,142,,18851,Australia/Oceania,1
@@ -171,7 +171,7 @@ Saint Vincent and the Grenadines,2229,2,12,,2023,North America,0
 Samoa,3,,,,3,Australia/Oceania,0
 San Marino,5091,,90,,5000,Europe,0
 Saudi Arabia,489126,,7832,,469120,Asia,0
-Senegal,43268,,1168,,41487,Africa,0
+Senegal,43427,164,1170,2,41554,Africa,0
 Serbia,716643,,7047,,707706,Europe,0
 Seychelles,15579,,68,,14365,Africa,0
 Sierra Leone,5652,,102,,3562,Africa,0
@@ -187,11 +187,11 @@ Spain,3821305,,80883,,3603584,Europe,0
 Sri Lanka,260972,,3120,,227840,Asia,0
 Sudan,36709,,2760,,30543,Africa,0
 Suriname,21936,,531,,17832,South America,0
-Sweden,1090553,,14592,,1061185,Europe,0
-Switzerland,703176,,10894,,684621,Europe,0
+Sweden,1090553,,14592,,1062551,Europe,0
+Switzerland,703334,158,10894,,685337,Europe,0
 Syria,25551,,1879,,21831,Asia,0
 São Tomé and Príncipe,2369,,37,,2320,Africa,0
-Taiwan,14853,,661,,11608,Asia,0
+Taiwan,14911,58,676,15,11649,Asia,0
 Tajikistan,13523,,90,,13318,Asia,0
 Tanzania,509,,21,,183,Africa,0
 Thailand,270921,6087,2141,61,214340,Asia,0
@@ -201,7 +201,7 @@ Trinidad and Tobago,33029,,857,,25229,North America,0
 Tunisia,426879,,15065,,356321,Africa,0
 Turkey,5430940,,49774,,5300504,Asia,0
 Turks and Caicos,2425,,18,,2398,North America,0
-UAE,634582,,1819,,612998,Asia,0
+UAE,636245,1663,1825,6,614636,Asia,0
 UK,4828463,,128162,,4327556,Europe,0
 USA,34561403,,620645,,29052087,North America,0
 Uganda,81034,,1061,,53551,Africa,0
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,6923,,1361,,4081,Asia,0
 Zambia,157832,,2271,,134419,Africa,0
 Zimbabwe,51221,,1808,,39411,Africa,0
-World,183496181,111091,3973179,2214,166260796,,0
+World,183498435,113350,3973202,2237,166264624,,0
