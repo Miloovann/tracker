@@ -16,7 +16,7 @@ Bahamas,12735,,246,,11603,North America,1
 Bahrain,266426,,1360,,262814,Asia,1
 Bangladesh,944917,,15065,,833897,Asia,1
 Barbados,4086,,47,,4008,North America,1
-Belarus,421350,,3185,,414460,Europe,1
+Belarus,421964,614,3194,9,414948,Europe,0
 Belgium,1086508,,25185,,1040178,Europe,1
 Belize,13343,,330,,12684,North America,1
 Benin,8199,,104,,8000,Africa,1
@@ -50,7 +50,7 @@ Cuba,204247,,1351,,183520,North America,1
 Curaçao,12349,,126,,12199,North America,1
 Cyprus,78022,,379,,72816,Asia,1
 Czechia,1667935,,30310,,1636178,Europe,1
-DR Congo,42181,,960,,28512,Africa,1
+DR Congo,42617,436,962,2,28523,Africa,0
 Denmark,295317,,2537,,289066,Europe,1
 Djibouti,11605,,155,,11445,Africa,1
 Dominica,194,,,,191,North America,0
@@ -86,12 +86,12 @@ Guinea-Bissau,3881,,69,,3595,Africa,1
 Guyana,20378,,478,,18304,South America,1
 Haiti,19053,,456,,12906,North America,1
 Honduras,267858,940,7089,8,93204,North America,0
-Hong Kong,11943,,211,,11637,Asia,1
+Hong Kong,11944,1,211,,11637,Asia,0
 Hungary,808262,65,29996,4,740195,Europe,0
 Iceland,6654,,30,,6600,Europe,1
 India,30585229,357,402758,,29700430,Asia,0
 Indonesia,2313829,29745,61140,558,1942690,Asia,0
-Iran,3254818,,84792,,2926266,Asia,1
+Iran,3270843,16025,84949,157,2940874,Asia,0
 Iraq,1371475,,17316,,1265455,Asia,1
 Ireland,274306,,5000,,258720,Europe,1
 Isle of Man,1638,,29,,1571,Europe,1
@@ -110,17 +110,17 @@ Latvia,137653,22,2528,,134354,Europe,0
 Lebanon,545570,,7861,,533150,Asia,1
 Lesotho,11568,,329,,6492,Africa,1
 Liberia,4520,,133,,2411,Africa,1
-Libya,195042,,3211,,179095,Africa,1
+Libya,195824,782,3213,2,179398,Africa,0
 Liechtenstein,3042,,59,,2964,Europe,1
 Lithuania,278906,18,4391,1,267958,Europe,0
 Luxembourg,71031,,818,,69750,Europe,1
 Macao,55,,,,51,Asia,0
-Madagascar,42311,,922,,40722,Africa,1
+Madagascar,42329,18,924,2,40736,Africa,0
 Malawi,36926,,1208,,33326,Africa,1
-Malaysia,778652,,5497,,705486,Asia,1
+Malaysia,785039,6387,5574,77,710018,Asia,0
 Maldives,74351,,213,,70889,Asia,1
 Mali,14449,,527,,10082,Africa,1
-Malta,30652,,420,,30164,Europe,1
+Malta,30664,12,420,,30165,Europe,0
 Marshall Islands,4,,,,4,Australia/Oceania,0
 Martinique,12374,,98,,98,North America,1
 Mauritania,21076,,489,,19934,Africa,1
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,6929,,1361,,4104,Asia,0
 Zambia,164282,,2443,,143128,Africa,0
 Zimbabwe,54474,,1878,,40239,Africa,0
-World,184620935,84641,3994695,1562,167226649,,0
+World,184645210,108916,3994944,1811,167246606,,0
