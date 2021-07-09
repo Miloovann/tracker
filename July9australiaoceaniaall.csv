@@ -1,11 +1,11 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Australia,30903,42,910,,29466,Australia/Oceania,0
-Fiji,8661,721,48,6,1456,Australia/Oceania,0
-French Polynesia,19026,4,144,,18867,Australia/Oceania,0
+Australia,30951,46,910,,29466,Australia/Oceania,0
+Fiji,8661,,48,,1456,Australia/Oceania,1
+French Polynesia,19026,,144,,18867,Australia/Oceania,1
 Marshall Islands,4,,,,4,Australia/Oceania,0
 Micronesia,1,,,,1,Australia/Oceania,0
 New Caledonia,129,,,,58,Australia/Oceania,0
-New Zealand,2764,1,26,,2697,Australia/Oceania,0
+New Zealand,2765,1,26,,2707,Australia/Oceania,0
 Papua New Guinea,17292,,177,,16518,Australia/Oceania,0
 Samoa,3,,,,3,Australia/Oceania,0
 Solomon Islands,20,,,,20,Australia/Oceania,0
