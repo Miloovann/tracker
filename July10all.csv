@@ -1,6 +1,6 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Afghanistan,132777,1191,5638,77,79446,Asia,0
-Albania,132565,,2456,,130037,Europe,1
+Albania,132580,15,2456,,130043,Europe,0
 Algeria,144483,831,3811,13,100383,Africa,0
 Andorra,14075,25,127,,13770,Europe,0
 Angola,39593,,925,,34100,Africa,1
@@ -129,7 +129,7 @@ Mayotte,19425,,174,,2964,Africa,1
 Mexico,2567821,9452,234458,266,2031875,North America,0
 Micronesia,1,,,,1,Australia/Oceania,0
 Moldova,257343,71,6207,2,250307,Europe,0
-Monaco,2603,,33,,2542,Europe,1
+Monaco,2611,8,33,,2542,Europe,0
 Mongolia,134270,2308,660,5,96513,Asia,0
 Montenegro,100430,16,1620,1,98491,Europe,0
 Montserrat,20,,1,,19,North America,1
@@ -203,7 +203,7 @@ Turkey,5470764,5670,50155,59,5338885,Asia,0
 Turks and Caicos,2430,5,18,,2398,North America,0
 UAE,647182,1529,1853,4,625332,Asia,0
 UK,5058093,35707,128365,29,4352069,Europe,0
-USA,34689688,8869,622384,104,29213194,North America,0
+USA,34698762,17385,622525,227,29217180,North America,0
 Uganda,86140,559,2062,29,59495,Africa,0
 Ukraine,2240246,655,52572,12,2176110,Europe,0
 Uruguay,375298,,5772,,360438,South America,0
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,6940,4,1366,1,4128,Asia,0
 Zambia,172405,1949,2736,64,154776,Africa,0
 Zimbabwe,62383,,2029,,42855,Africa,0
-World,186660293,352444,4031619,5351,169008596,,0
+World,186669390,360983,4031760,5474,169012588,,0
