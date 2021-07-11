@@ -2,20 +2,20 @@ Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,
 Albania,132587,,2456,,130047,Europe,1
 Andorra,14075,,127,,13770,Europe,1
 Austria,651612,159,10723,,638889,Europe,0
-Belarus,426886,,3247,,420085,Europe,1
+Belarus,427906,1020,3257,10,421305,Europe,0
 Belgium,1093700,,25198,,1048162,Europe,1
 Bosnia and Herzegovina,205145,,9656,,184999,Europe,1
 Bulgaria,422446,,18140,,396315,Europe,1
 Channel Islands,5205,,86,,4078,Europe,1
 Croatia,360826,58,8227,,352007,Europe,0
 Czechia,1669351,159,30331,,1637010,Europe,0
-Denmark,298614,,2539,,290228,Europe,1
+Denmark,299223,609,2539,,290372,Europe,0
 Estonia,131487,27,1270,,127855,Europe,0
 Faroe Islands,845,,1,,771,Europe,1
 Finland,98082,138,976,,46000,Europe,0
 France,5808383,,111321,,5645990,Europe,1
 Germany,3743138,,91759,,3634400,Europe,0
-Gibraltar,4413,,94,,4254,Europe,1
+Gibraltar,4430,16,94,,4254,Europe,0
 Greece,437345,,12763,,408505,Europe,1
 Hungary,808437,,30004,,741083,Europe,1
 Iceland,6675,,30,,6611,Europe,1
@@ -30,7 +30,7 @@ Malta,31061,101,420,,30184,Europe,0
 Moldova,257419,,6208,,250384,Europe,1
 Monaco,2622,,33,,2542,Europe,1
 Montenegro,100459,,1620,,98514,Europe,1
-Netherlands,1719120,,17765,,1651356,Europe,1
+Netherlands,1728438,9318,17765,,1652733,Europe,0
 North Macedonia,155783,,5487,,150124,Europe,1
 Norway,133100,,796,,88952,Europe,1
 Poland,2880821,66,75160,1,2652505,Europe,0
@@ -38,11 +38,11 @@ Portugal,905651,,17148,,844497,Europe,0
 Romania,1081236,26,34217,1,1045351,Europe,0
 Russia,5783333,25033,143002,749,5200219,Europe,0
 San Marino,5092,,90,,5002,Europe,0
-Serbia,717480,,7070,,708774,Europe,0
+Serbia,717549,69,7072,2,708843,Europe,0
 Slovakia,391918,25,12519,,379032,Europe,0
 Slovenia,257863,25,4423,,252875,Europe,0
 Spain,3937192,,81003,,3635907,Europe,0
-Sweden,1092540,,14604,,1068814,Europe,0
+Sweden,1092540,,14604,,1069299,Europe,0
 Switzerland,704943,,10898,,688448,Europe,0
 UK,5089893,,128399,,4355423,Europe,0
 Ukraine,2241043,290,52597,5,2177293,Europe,0
