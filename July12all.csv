@@ -119,7 +119,7 @@ Madagascar,42392,,928,,40798,Africa,1
 Malawi,38946,,1242,,33838,Africa,1
 Malaysia,836296,9105,6158,91,742297,Asia,0
 Maldives,74993,,213,,72118,Asia,1
-Mali,14461,,528,,10100,Africa,1
+Mali,14463,2,528,,10102,Africa,0
 Malta,31061,101,420,,30184,Europe,0
 Marshall Islands,4,,,,4,Australia/Oceania,0
 Martinique,12374,,98,,98,North America,1
@@ -128,13 +128,13 @@ Mauritius,1858,,18,,1534,Africa,1
 Mayotte,19425,,174,,2964,Africa,1
 Mexico,2586721,9581,234907,232,2041418,North America,0
 Micronesia,1,,,,1,Australia/Oceania,0
-Moldova,257419,,6208,,250384,Europe,1
+Moldova,257467,48,6209,1,250447,Europe,0
 Monaco,2622,,33,,2542,Europe,1
 Mongolia,137788,1735,684,11,103666,Asia,0
-Montenegro,100459,,1620,,98514,Europe,1
+Montenegro,100478,19,1620,,98537,Europe,0
 Montserrat,20,,1,,19,North America,1
-Morocco,541405,,9360,,523998,Africa,1
-Mozambique,87935,,962,,72899,Africa,1
+Morocco,542462,1057,9369,9,524826,Africa,0
+Mozambique,88868,933,982,20,73617,Africa,0
 Myanmar,192213,3461,3838,82,146358,Asia,0
 Namibia,105595,1496,1991,80,77957,Africa,0
 Nepal,655449,1237,9382,20,619894,Asia,0
@@ -155,7 +155,7 @@ Paraguay,436624,,13867,,391681,South America,0
 Peru,2078815,,194249,,N/A,South America,0
 Philippines,1473025,5916,25921,105,1397403,Asia,0
 Poland,2880821,66,75160,1,2652505,Europe,0
-Portugal,905651,,17148,,844497,Europe,0
+Portugal,907974,2323,17156,8,845516,Europe,0
 Qatar,223358,86,599,,221295,Asia,0
 Romania,1081236,26,34217,1,1045351,Europe,0
 Russia,5783333,25033,143002,749,5200219,Europe,0
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,6941,,1366,,4135,Asia,0
 Zambia,175729,940,2822,47,160215,Africa,0
 Zimbabwe,66853,,2126,,44580,Africa,0
-World,187470445,239974,4046269,3888,169661725,,0
+World,187474827,244356,4046307,3926,169664378,,0
