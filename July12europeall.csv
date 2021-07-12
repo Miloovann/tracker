@@ -2,20 +2,20 @@ Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,
 Albania,132592,,2456,,130050,Europe,1
 Andorra,14075,,127,,13770,Europe,1
 Austria,651612,,10723,,638889,Europe,1
-Belarus,427906,,3257,,421305,Europe,1
+Belarus,428595,689,3266,9,421842,Europe,0
 Belgium,1093700,,25198,,1048162,Europe,1
 Bosnia and Herzegovina,205145,,9656,,184999,Europe,1
 Bulgaria,422462,,18140,,396316,Europe,1
 Channel Islands,5205,,86,,4078,Europe,1
-Croatia,360826,,8227,,352007,Europe,1
+Croatia,360841,15,8229,2,352101,Europe,0
 Czechia,1669496,147,30331,,1637123,Europe,0
 Denmark,299223,,2539,,290372,Europe,1
 Estonia,131508,21,1270,,127867,Europe,0
 Faroe Islands,868,,1,,773,Europe,1
-Finland,98082,,976,,46000,Europe,1
+Finland,98215,133,976,,46000,Europe,0
 France,5812639,,111325,,5646473,Europe,1
 Germany,3743713,,91767,,3635100,Europe,0
-Gibraltar,4430,,94,,4254,Europe,1
+Gibraltar,4437,7,94,,4254,Europe,0
 Greece,438809,,12768,,409066,Europe,1
 Hungary,808539,102,30007,3,741509,Europe,0
 Iceland,6675,,30,,6611,Europe,1
@@ -26,24 +26,24 @@ Latvia,137917,18,2536,,134673,Europe,0
 Liechtenstein,3057,,59,,2972,Europe,1
 Lithuania,279217,22,4400,2,268166,Europe,0
 Luxembourg,72010,,819,,69836,Europe,1
-Malta,31061,,420,,30184,Europe,1
+Malta,31240,179,420,,30186,Europe,0
 Moldova,257467,,6209,,250447,Europe,1
 Monaco,2622,,33,,2542,Europe,1
 Montenegro,100478,,1620,,98537,Europe,1
 Netherlands,1728438,,17765,,1652733,Europe,1
 North Macedonia,155797,,5487,,150126,Europe,1
 Norway,133197,,796,,88952,Europe,1
-Poland,2880821,,75160,,2652505,Europe,0
+Poland,2880865,44,75160,,2652577,Europe,0
 Portugal,907974,,17156,,845516,Europe,0
-Romania,1081236,,34217,,1045351,Europe,0
+Romania,1081275,39,34219,2,1045390,Europe,0
 Russia,5808473,25140,143712,710,5216648,Europe,0
 San Marino,5092,,90,,5002,Europe,0
 Serbia,717549,,7072,,708843,Europe,0
-Slovakia,391918,,12519,,379032,Europe,0
+Slovakia,391925,7,12521,2,379047,Europe,0
 Slovenia,257875,12,4425,2,252884,Europe,0
 Spain,3937192,,81003,,3635907,Europe,0
-Sweden,1092540,,14604,,1069299,Europe,0
-Switzerland,704943,,10898,,688448,Europe,0
+Sweden,1092540,,14604,,1069824,Europe,0
+Switzerland,705765,822,10899,1,689157,Europe,0
 UK,5121245,,128425,,4358554,Europe,0
 Ukraine,2241217,174,52604,7,2177529,Europe,0
 Vatican City,27,,,,27,Europe,0
