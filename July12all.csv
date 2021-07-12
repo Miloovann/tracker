@@ -14,14 +14,14 @@ Austria,651612,,10723,,638889,Europe,1
 Azerbaijan,337254,,4984,,330762,Asia,1
 Bahamas,13024,,252,,11855,North America,1
 Bahrain,267212,,1377,,264687,Asia,1
-Bangladesh,1021189,,16419,,874501,Asia,1
+Bangladesh,1034957,13768,16639,220,881521,Asia,0
 Barbados,4176,,48,,4036,North America,1
 Belarus,428595,689,3266,9,421842,Europe,0
 Belgium,1093700,,25198,,1048162,Europe,1
 Belize,13518,,330,,12848,North America,1
 Benin,8227,,105,,8000,Africa,1
 Bermuda,2521,,33,,2477,North America,1
-Bhutan,2275,,1,,1973,Asia,1
+Bhutan,2290,15,1,,1986,Asia,0
 Bolivia,454241,646,17219,19,380500,South America,0
 Bosnia and Herzegovina,205145,,9656,,184999,Europe,1
 Botswana,75388,,1202,,69914,Africa,1
@@ -51,7 +51,7 @@ Curaçao,12389,,126,,12218,North America,1
 Cyprus,84272,,380,,73263,Asia,1
 Czechia,1669496,147,30331,,1637123,Europe,0
 DR Congo,44139,,980,,28630,Africa,1
-Denmark,299223,,2539,,290372,Europe,1
+Denmark,300071,848,2539,,290555,Europe,0
 Djibouti,11615,,155,,11451,Africa,1
 Dominica,197,,,,192,North America,0
 Dominican Republic,333681,,3892,,273945,North America,1
@@ -110,7 +110,7 @@ Latvia,137917,18,2536,,134673,Europe,0
 Lebanon,547811,,7875,,534296,Asia,1
 Lesotho,11903,,335,,6593,Africa,1
 Liberia,5102,,144,,2588,Africa,1
-Libya,204090,,3240,,180860,Africa,1
+Libya,206769,2679,3243,3,181203,Africa,0
 Liechtenstein,3057,,59,,2972,Europe,1
 Lithuania,279217,22,4400,2,268166,Europe,0
 Luxembourg,72010,,819,,69836,Europe,1
@@ -191,7 +191,7 @@ Sweden,1092540,,14604,,1069824,Europe,0
 Switzerland,705765,822,10899,1,689157,Europe,0
 Syria,25785,,1898,,21884,Asia,0
 São Tomé and Príncipe,2392,,37,,2327,Africa,0
-Taiwan,15249,,740,,12838,Asia,0
+Taiwan,15273,24,741,1,12838,Asia,0
 Tajikistan,13834,,103,,13535,Asia,0
 Tanzania,509,,21,,183,Africa,0
 Thailand,345027,8656,2791,80,251658,Asia,0
@@ -201,7 +201,7 @@ Trinidad and Tobago,34765,,937,,27788,North America,0
 Tunisia,497613,,16388,,393305,Africa,0
 Turkey,5481555,,50229,,5349344,Asia,0
 Turks and Caicos,2436,,18,,2400,North America,0
-UAE,650220,,1866,,628290,Asia,0
+UAE,651762,1542,1870,4,629809,Asia,0
 UK,5121245,,128425,,4358554,Europe,0
 USA,34732753,,622845,,29244103,North America,0
 Uganda,87277,,2104,,61304,Africa,0
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,6948,,1366,,4141,Asia,0
 Zambia,175729,,2822,,160215,Africa,0
 Zimbabwe,67765,,2185,,45617,Africa,0
-World,187740433,135919,4051199,2318,169953770,,0
+World,187759309,154795,4051427,2546,169962848,,0
