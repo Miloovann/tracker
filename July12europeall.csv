@@ -1,29 +1,29 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Albania,132587,,2456,,130047,Europe,1
+Albania,132592,5,2456,,130050,Europe,0
 Andorra,14075,,127,,13770,Europe,1
 Austria,651612,159,10723,,638889,Europe,0
 Belarus,427906,1020,3257,10,421305,Europe,0
 Belgium,1093700,,25198,,1048162,Europe,1
 Bosnia and Herzegovina,205145,,9656,,184999,Europe,1
-Bulgaria,422446,,18140,,396315,Europe,1
+Bulgaria,422462,16,18140,,396316,Europe,0
 Channel Islands,5205,,86,,4078,Europe,1
 Croatia,360826,58,8227,,352007,Europe,0
 Czechia,1669351,159,30331,,1637010,Europe,0
 Denmark,299223,609,2539,,290372,Europe,0
 Estonia,131487,27,1270,,127855,Europe,0
-Faroe Islands,845,,1,,771,Europe,1
+Faroe Islands,868,23,1,,773,Europe,0
 Finland,98082,138,976,,46000,Europe,0
-France,5808383,,111321,,5645990,Europe,1
-Germany,3743412,274,91764,5,3634400,Europe,0
+France,5812639,4256,111325,4,5646477,Europe,0
+Germany,3743713,575,91767,8,3634400,Europe,0
 Gibraltar,4430,16,94,,4254,Europe,0
-Greece,437345,,12763,,408505,Europe,1
+Greece,438809,1464,12768,5,409066,Europe,0
 Hungary,808437,,30004,,741083,Europe,1
 Iceland,6675,,30,,6611,Europe,1
 Ireland,277892,576,5006,,261067,Europe,0
-Isle of Man,1684,,29,,1571,Europe,1
+Isle of Man,1691,7,29,,1576,Europe,0
 Italy,4271276,1391,127775,7,4102420,Europe,0
 Latvia,137899,36,2536,,134673,Europe,0
-Liechtenstein,3056,,59,,2972,Europe,1
+Liechtenstein,3057,1,59,,2972,Europe,0
 Lithuania,279192,25,4398,,268146,Europe,0
 Luxembourg,72010,,819,,69836,Europe,1
 Malta,31061,101,420,,30184,Europe,0
@@ -32,7 +32,7 @@ Monaco,2622,,33,,2542,Europe,1
 Montenegro,100478,19,1620,,98537,Europe,0
 Netherlands,1728438,9318,17765,,1652733,Europe,0
 North Macedonia,155797,14,5487,,150126,Europe,0
-Norway,133100,,796,,88952,Europe,1
+Norway,133197,97,796,,88952,Europe,0
 Poland,2880821,66,75160,1,2652505,Europe,0
 Portugal,907974,2323,17156,8,845516,Europe,0
 Romania,1081236,26,34217,1,1045351,Europe,0
