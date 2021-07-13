@@ -1,4 +1,4 @@
-USA,34764928,13409,623019,122,29271077,North America
+USA,34766404,14715,623029,129,29274349,North America
 India,30904734,30827,409338,546,30056130,Asia
 Brazil,19106971,17031,534311,765,17666654,South America
 France,5813899,1260,111353,28,5648677,Europe
@@ -95,7 +95,7 @@ Albania,132597,5,2456,,130052,Europe
 Estonia,131508,21,1270,,127867,Europe
 Uzbekistan,116421,458,774,3,111514,Asia
 Namibia,106879,1284,2019,28,78579,Africa
-Montenegro,100478,,1620,,98537,Europe
+Montenegro,100488,10,1621,1,98550,Europe
 Finland,98215,133,976,,46000,Europe
 Ghana,97585,,801,,94537,Africa
 Mozambique,90555,1687,996,14,73880,Africa
@@ -103,51 +103,51 @@ Uganda,87756,479,2129,25,61304,Africa
 Cyprus,85104,832,380,,73263,Asia
 El Salvador,81644,,2453,8,74388,North America
 Cameroon,80858,,1324,,78224,Africa
-Botswana,75388,,1202,,69914,Africa
+Botswana,80153,4765,1253,51,69931,Africa
 Maldives,75162,91,214,,72439,Asia
 Luxembourg,72257,247,819,,69891,Europe
-Zimbabwe,67765,,2185,,45617,Africa
+Zimbabwe,70426,2661,2236,51,46932,Africa
 Singapore,62718,,36,,62212,Asia
 Cambodia,61870,911,925,23,53477,Asia
 Jamaica,50757,37,1131,1,40029,North America
 Rwanda,49016,772,582,22,33356,Africa
-Ivory Coast,48776,,318,,48085,Africa
+Ivory Coast,48869,93,319,1,48242,Africa
 Senegal,46509,334,1196,2,42436,Africa
 DR Congo,44332,193,984,4,28801,Africa
 Madagascar,42392,,928,,40798,Africa
-Angola,39958,,935,,34327,Africa
+Angola,40055,97,939,4,34357,Africa
 Malawi,39418,232,1256,6,33921,Africa
 Sudan,36805,,2760,,30647,Africa
 Trinidad and Tobago,34822,57,941,4,27962,North America
-Cabo Verde,33006,,289,,32179,Africa
+Cabo Verde,33026,20,290,1,32236,Africa
 Vietnam,32199,2383,125,6,9331,Asia
 Réunion,31845,,244,,29597,Africa
 Malta,31240,179,420,,30186,Europe
 Australia,31216,113,911,,29534,Australia/Oceania
 French Guiana,28421,140,161,4,9995,South America
 Syria,25795,10,1899,1,21889,Asia
-Gabon,25164,,162,,24898,Africa
+Gabon,25198,34,162,,24941,Africa
 Guinea,24134,17,179,2,23379,Africa
-Suriname,23383,,582,,19344,South America
-Mauritania,21672,,495,,20254,Africa
-Guyana,20953,,492,,19053,South America
+Suriname,23463,80,587,5,19450,South America
+Mauritania,21765,93,495,,20314,Africa
+Guyana,21002,49,497,5,19100,South America
 Eswatini,20080,162,695,3,18495,Africa
-Mayotte,19425,,174,,2964,Africa
-Haiti,19220,,471,,12961,North America
-French Polynesia,19026,,144,,18867,Australia/Oceania
+Mayotte,19450,25,174,,2964,Africa
+Haiti,19295,75,482,11,12961,North America
+French Polynesia,19034,8,144,,18878,Australia/Oceania
 Papua New Guinea,17340,,179,,16975,Australia/Oceania
 Guadeloupe,17218,,233,,2250,North America
 Seychelles,17005,326,77,3,16072,Africa
 Taiwan,15273,24,741,1,12838,Asia
-Somalia,15036,,777,,7261,Africa
+Somalia,15060,24,779,2,7263,Africa
 Mali,14476,13,528,,10405,Africa
-Togo,14270,,133,,13656,Africa
+Togo,14278,8,133,,13669,Africa
 Andorra,14155,80,127,,13787,Europe
-Tajikistan,13834,,103,,13535,Asia
-Belize,13518,,330,,12848,North America
-Burkina Faso,13509,,168,,13317,Africa
+Tajikistan,13868,34,104,1,13553,Asia
+Belize,13561,43,331,1,12934,North America
+Burkina Faso,13520,11,168,,13324,Africa
 Bahamas,13024,,252,,11855,North America
-Curaçao,12389,,126,,12218,North America
+Curaçao,12395,6,126,,12221,North America
 Martinique,12374,,98,,98,North America
 Hong Kong,11952,,212,,11652,Asia
 Lesotho,11903,,335,,6593,Africa
@@ -162,21 +162,21 @@ Benin,8227,,105,,8000,Africa
 Central African Republic,7142,,98,,6859,Africa
 Yemen,6952,4,1366,,4142,Asia
 Iceland,6675,,30,,6611,Europe
+Gambia,6328,46,185,,5914,Africa
 Eritrea,6284,,29,,5842,Africa
-Gambia,6282,,185,,5906,Africa
-Sierra Leone,6031,,112,,3963,Africa
+Sierra Leone,6046,15,112,,3996,Africa
 Burundi,5686,78,8,,773,Africa
+Channel Islands,5662,457,86,,4162,Europe
 Niger,5538,,194,,5230,Africa
-Saint Lucia,5399,,86,,5188,North America
+Saint Lucia,5416,17,86,,5195,North America
 Liberia,5215,113,144,,2606,Africa
-Channel Islands,5205,,86,,4078,Europe
 San Marino,5092,,90,,5002,Europe
 Chad,4954,,174,,4777,Africa
 Gibraltar,4437,7,94,,4254,Europe
-Barbados,4176,,48,,4036,North America
+Barbados,4186,10,48,,4074,North America
 Comoros,3996,,146,,3798,Africa
 Guinea-Bissau,3947,,70,,3632,Africa
-Liechtenstein,3057,,59,,2972,Europe
+Liechtenstein,3058,1,59,,2977,Europe
 Laos,2825,106,3,,2174,Asia
 New Zealand,2768,1,26,,2709,Australia/Oceania
 Monaco,2624,2,33,,2548,Europe
@@ -185,15 +185,15 @@ Turks and Caicos,2436,,18,,2400,North America
 São Tomé and Príncipe,2392,,37,,2327,Africa
 Saint Martin,2373,,38,,1399,North America
 Bhutan,2290,15,1,,1986,Asia
-Saint Vincent and the Grenadines,2242,,12,,2146,North America
+Saint Vincent and the Grenadines,2245,3,12,,2149,North America
 Mauritius,1858,,18,,1534,Africa
-Isle of Man,1691,,29,,1576,Europe
-Caribbean Netherlands,1659,,17,,1631,North America
+Isle of Man,1709,18,29,,1578,Europe
+Caribbean Netherlands,1660,1,17,,1631,North America
 Antigua and Barbuda,1266,,42,,1222,North America
 British Virgin Islands,1147,326,3,,312,North America
 Saint Barthelemy,1005,,1,,462,North America
 Faroe Islands,880,12,1,,776,Europe
-Cayman Islands,615,,2,,611,North America
+Cayman Islands,619,4,2,,613,North America
 Saint Kitts and Nevis,538,8,3,,400,North America
 Tanzania,509,,21,,183,Africa
 Wallis and Futuna,445,,7,,438,Australia/Oceania
