@@ -1,7 +1,7 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Algeria,147883,,3867,,102594,Africa,1
 Angola,40138,,941,,34500,Africa,1
-Benin,8227,,105,,8000,Africa,1
+Benin,8244,17,107,2,8081,Africa,0
 Botswana,80153,,1253,,69931,Africa,1
 Burkina Faso,13523,,168,,13333,Africa,1
 Burundi,5706,,8,,773,Africa,1
@@ -25,7 +25,7 @@ Guinea-Bissau,3961,,70,,3640,Africa,1
 Ivory Coast,48903,,319,,48278,Africa,1
 Kenya,189703,,3732,,180624,Africa,1
 Lesotho,12151,244,338,3,6601,Africa,0
-Liberia,5215,,144,,2606,Africa,1
+Liberia,5276,21,144,,2622,Africa,0
 Libya,212013,2604,3248,3,181987,Africa,0
 Madagascar,42462,,933,,40845,Africa,1
 Malawi,39932,,1264,,34000,Africa,1
@@ -41,7 +41,7 @@ Nigeria,168867,,2125,,164623,Africa,1
 Rwanda,49808,,598,,34567,Africa,0
 Réunion,33295,,256,,30781,Africa,0
 Saint Helena,2,,,,2,Africa,0
-Senegal,46863,,1201,,42547,Africa,0
+Senegal,47596,733,1203,2,42685,Africa,0
 Seychelles,17005,,77,,16072,Africa,0
 Sierra Leone,6074,,113,,4007,Africa,0
 Somalia,15068,,781,,7266,Africa,0
@@ -54,5 +54,5 @@ Togo,14320,,134,,13721,Africa,0
 Tunisia,510396,,16651,,406349,Africa,0
 Uganda,88194,,2164,,62213,Africa,0
 Western Sahara,10,,1,,8,Africa,0
-Zambia,178748,,2904,,163681,Africa,0
+Zambia,180549,1801,2949,45,164924,Africa,0
 Zimbabwe,73271,,2274,,48102,Africa,0
