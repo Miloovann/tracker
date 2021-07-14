@@ -10,7 +10,7 @@ Argentina,4682960,,99640,,4314593,South America,1
 Armenia,226756,159,4552,3,217896,Asia,0
 Aruba,11180,,108,,11029,North America,1
 Australia,31429,106,912,,29534,Australia/Oceania,0
-Austria,652022,,10724,,639035,Europe,1
+Austria,652354,332,10726,2,639154,Europe,0
 Azerbaijan,337456,,4988,,330873,Asia,1
 Bahamas,13233,,254,,11961,North America,1
 Bahrain,267400,,1378,,265013,Asia,1
@@ -99,7 +99,7 @@ Israel,847969,444,6440,1,836357,Asia,0
 Italy,4273693,,127808,,4105236,Europe,1
 Ivory Coast,48903,,319,,48278,Africa,1
 Jamaica,50793,,1134,,41090,North America,1
-Japan,822280,,14959,,788131,Asia,1
+Japan,824589,2387,14971,12,789905,Asia,0
 Jordan,758291,,9855,,741031,Asia,1
 Kazakhstan,466792,4375,4769,53,418228,Asia,0
 Kenya,189703,,3732,,180624,Africa,1
@@ -153,12 +153,12 @@ Panama,417087,,6654,,397152,North America,0
 Papua New Guinea,17340,,179,,16975,Australia/Oceania,0
 Paraguay,439897,,14016,,396450,South America,0
 Peru,2083567,,194606,,N/A,South America,0
-Philippines,1481660,,26092,,1408634,Asia,0
-Poland,2880959,,75173,,2652604,Europe,0
+Philippines,1485457,3806,26232,140,1414817,Asia,0
+Poland,2881046,86,75179,6,2652604,Europe,0
 Portugal,912406,,17173,,850034,Europe,0
 Qatar,223646,,599,,221549,Asia,0
 Romania,1081326,,34233,,1046447,Europe,0
-Russia,5833175,,144492,,5236214,Europe,0
+Russia,5857002,23827,145278,786,5257483,Europe,0
 Rwanda,49808,,598,,34567,Africa,0
 Réunion,33295,,256,,30781,Africa,0
 Saint Barthelemy,1005,,1,,462,North America,0
@@ -200,7 +200,7 @@ Togo,14320,,134,,13721,Africa,0
 Trinidad and Tobago,35046,,952,,28213,North America,0
 Tunisia,510396,,16651,,406349,Africa,0
 Turkey,5493244,,50324,,5360012,Asia,0
-Turks and Caicos,2436,,18,,2400,North America,0
+Turks and Caicos,2440,4,18,,2400,North America,0
 UAE,653284,,1876,,631294,Asia,0
 UK,5191459,,128481,,4368126,Europe,0
 USA,34807813,,623435,,29304451,North America,0
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,6961,,1366,,4147,Asia,0
 Zambia,178748,,2904,,163681,Africa,0
 Zimbabwe,73271,,2274,,48102,Africa,0
-World,188606874,41577,4065685,558,170704994,,0
+World,188637230,72019,4066631,1504,170734339,,0
