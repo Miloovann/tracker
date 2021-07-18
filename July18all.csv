@@ -16,7 +16,7 @@ Bahamas,13404,,273,,12066,North America,1
 Bahrain,267796,,1380,,265521,Asia,1
 Bangladesh,1092411,,17669,,923163,Asia,1
 Barbados,4251,,48,,4156,North America,1
-Belarus,433409,,3316,,427025,Europe,1
+Belarus,434362,953,3326,10,428202,Europe,0
 Belgium,1103413,,25209,,1051372,Europe,1
 Belize,13683,,332,,13035,North America,1
 Benin,8244,,107,,8081,Africa,1
@@ -64,7 +64,7 @@ Estonia,131848,41,1271,,128110,Europe,0
 Eswatini,21062,,703,,18768,Africa,1
 Ethiopia,277615,,4354,,262265,Africa,1
 Falkland Islands,63,,,,63,South America,0
-Faroe Islands,921,,1,,800,Europe,1
+Faroe Islands,925,4,1,,820,Europe,0
 Fiji,16471,,85,,3377,Australia/Oceania,1
 Finland,100156,180,978,,46000,Europe,0
 France,5855198,,111467,,5658554,Europe,1
@@ -110,7 +110,7 @@ Latvia,138159,33,2543,,135103,Europe,0
 Lebanon,550492,,7884,,535216,Asia,1
 Lesotho,12398,,339,,6601,Africa,1
 Liberia,5315,,148,,2705,Africa,1
-Libya,217434,,3253,,182785,Africa,1
+Libya,221495,4061,3281,28,183436,Africa,0
 Liechtenstein,3061,,59,,2989,Europe,1
 Lithuania,279745,75,4404,,268315,Europe,0
 Luxembourg,72759,,820,,70150,Europe,1
@@ -137,7 +137,7 @@ Morocco,555488,,9434,,530801,Africa,1
 Mozambique,98152,,1099,,76269,Africa,1
 Myanmar,224236,,4769,,158969,Asia,1
 Namibia,111417,,2467,,86666,Africa,1
-Nepal,665886,,9527,,630407,Asia,1
+Nepal,667109,1223,9550,23,632074,Asia,0
 Netherlands,1788435,,17775,,1658933,Europe,1
 New Caledonia,129,,,,58,Australia/Oceania,0
 New Zealand,2814,11,26,,2743,Australia/Oceania,0
@@ -201,7 +201,7 @@ Trinidad and Tobago,35914,,990,,29086,North America,0
 Tunisia,540798,,17354,,429646,Africa,0
 Turkey,5522039,,50488,,5380752,Asia,0
 Turks and Caicos,2446,,18,,2400,North America,0
-UAE,659449,,1896,,637267,Asia,0
+UAE,660978,1529,1898,2,638771,Asia,0
 UK,5386340,,128683,,4390942,Europe,0
 USA,34953937,,624715,,29369181,North America,0
 Uganda,89974,,2324,,66080,Africa,0
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,6977,,1368,,4156,Asia,0
 Zambia,184672,,3052,,169320,Africa,0
 Zimbabwe,82613,,2588,,51923,Africa,0
-World,190898006,159788,4101321,2865,172195206,,0
+World,190905776,167558,4101384,2928,172200225,,0
