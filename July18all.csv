@@ -32,7 +32,7 @@ Bulgaria,422930,,18169,,397170,Europe,1
 Burkina Faso,13536,,169,,13340,Africa,1
 Burundi,5802,,8,,773,Africa,1
 Cabo Verde,33270,,295,,32421,Africa,1
-Cambodia,66336,,1076,,57955,Asia,1
+Cambodia,67181,845,1106,30,58930,Asia,0
 Cameroon,81467,,1330,,78224,Africa,1
 Canada,1422918,,26492,,1391722,North America,1
 Caribbean Netherlands,1668,,17,,1633,North America,1
@@ -73,7 +73,7 @@ French Polynesia,19085,,144,,18887,Australia/Oceania,1
 Gabon,25260,,162,,24973,Africa,1
 Gambia,6610,,188,,5991,Africa,1
 Georgia,386195,,5538,,363318,Asia,1
-Germany,3751234,,91894,,3638800,Europe,1
+Germany,3751234,,91894,,3639300,Europe,0
 Ghana,98435,,810,,95024,Africa,1
 Gibraltar,4586,,94,,4285,Europe,1
 Greece,455754,,12816,,414538,Europe,1
@@ -101,10 +101,10 @@ Ivory Coast,49125,,320,,48405,Africa,1
 Jamaica,51046,,1153,,45282,North America,1
 Japan,834618,,15027,,795388,Asia,1
 Jordan,760550,,9887,,742730,Asia,1
-Kazakhstan,488905,5493,4909,,430060,Asia,0
+Kazakhstan,488905,5493,4956,47,430060,Asia,0
 Kenya,192435,,3760,,181682,Africa,1
 Kuwait,384573,,2211,,365507,Asia,1
-Kyrgyzstan,147656,,2165,,124058,Asia,1
+Kyrgyzstan,149029,1373,2175,10,125161,Asia,0
 Laos,3426,131,5,1,2174,Asia,0
 Latvia,138126,,2543,,135014,Europe,1
 Lebanon,550492,,7884,,535216,Asia,1
@@ -205,9 +205,9 @@ UAE,659449,,1896,,637267,Asia,0
 UK,5386340,,128683,,4390942,Europe,0
 USA,34953937,,624715,,29369181,North America,0
 Uganda,89974,,2324,,66080,Africa,0
-Ukraine,2244196,,52718,,2180957,Europe,0
+Ukraine,2244495,299,52726,8,2181198,Europe,0
 Uruguay,378733,,5879,,367967,South America,0
-Uzbekistan,118881,,793,,113825,Asia,0
+Uzbekistan,119388,507,796,3,114303,Asia,0
 Vanuatu,4,,1,,3,Australia/Oceania,0
 Vatican City,27,,,,27,Europe,0
 Venezuela,291716,,3362,,274522,South America,0
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,6977,,1368,,4156,Asia,0
 Zambia,184672,,3052,,169320,Africa,0
 Zimbabwe,82613,,2588,,51923,Africa,0
-World,190778334,40138,4098851,396,172111506,,0
+World,190781358,43162,4098949,494,172114803,,0
