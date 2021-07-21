@@ -1,4 +1,4 @@
-USA,35078981,42404,625264,229,29434535,North America
+USA,35081719,44232,625363,256,29435171,North America
 India,31215142,42123,418511,489,30383001,Asia
 Brazil,19419741,27896,544302,1425,18124621,South America
 Russia,6006536,23770,149922,784,5382213,Europe
@@ -50,7 +50,7 @@ Bolivia,463125,971,17475,17,392548,South America
 Paraguay,446267,702,14394,54,406280,South America
 Belarus,435620,600,3344,10,429257,Europe
 Thailand,426475,11305,3502,80,296208,Asia
-Panama,423366,,6710,,403208,North America
+Panama,424455,1089,6716,6,404606,North America
 Bulgaria,423223,145,18184,7,397648,Europe
 Costa Rica,394135,1354,4915,9,318436,North America
 Slovakia,392139,35,12531,4,379208,Europe
@@ -97,69 +97,69 @@ Uzbekistan,120631,658,805,4,115514,Asia
 Namibia,113438,614,2557,25,89010,Africa
 Mozambique,102009,1224,1158,20,78337,Africa
 Finland,100773,461,978,,46000,Europe
-Montenegro,100690,,1623,,98686,Europe
+Montenegro,100755,65,1623,,98711,Europe
 Ghana,99160,343,815,3,95221,Africa
-Cyprus,92252,,390,,74714,Asia
+Cyprus,93247,995,391,1,74714,Asia
 Botswana,91902,,1328,,75782,Africa
 Uganda,90910,254,2412,20,69377,Africa
-Zimbabwe,85732,,2697,,55714,Africa
+Zimbabwe,88415,2683,2747,50,58155,Africa
 El Salvador,82852,,2508,9,75136,North America
 Cameroon,81467,,1330,,78224,Africa
 Maldives,76188,169,217,1,73340,Asia
-Luxembourg,72985,,821,,70667,Europe
+Luxembourg,73074,89,821,,70675,Europe
 Cambodia,68796,825,1149,21,61039,Asia
 Singapore,63440,,36,,62212,Asia
 Vietnam,62820,4795,334,,11443,Asia
-Rwanda,58235,,666,,41046,Africa
+Rwanda,59141,906,677,11,41951,Africa
 Senegal,53573,902,1236,9,43802,Africa
 Jamaica,51282,62,1158,1,46724,North America
-Ivory Coast,49219,,322,,48493,Africa
+Ivory Coast,49288,69,322,,48537,Africa
 DR Congo,46725,369,1018,,29205,Africa
-Malawi,43817,,1352,,35087,Africa
+Malawi,44684,867,1363,11,35203,Africa
 Madagascar,42551,13,937,,40951,Africa
-Angola,40906,,969,,34790,Africa
+Angola,41061,155,970,1,34857,Africa
 Sudan,37138,,2776,,30867,Africa
 Trinidad and Tobago,36354,156,1000,2,29663,North America
-Cabo Verde,33317,,295,,32496,Africa
-Réunion,33295,,256,,30781,Africa
+Réunion,34615,1320,266,10,32036,Africa
+Cabo Verde,33356,39,296,1,32525,Africa
 Malta,32833,217,420,,30236,Europe
 Australia,32120,103,915,,29743,Australia/Oceania
 French Guiana,29133,138,169,2,9995,South America
 Syria,25845,5,1905,,21924,Asia
 Gabon,25283,,163,,25005,Africa
-Guinea,24711,,190,,23610,Africa
-Suriname,24312,,614,,20401,South America
-Mauritania,22753,,511,,20802,Africa
-Guyana,21562,,512,,19834,South America
+Guinea,24765,54,194,4,23655,Africa
+Suriname,24435,123,620,6,20581,South America
+Mauritania,22929,176,512,1,20901,Africa
+Guyana,21668,62,514,2,19993,South America
 Eswatini,21496,253,727,8,19086,Africa
-Haiti,19563,,510,,13082,North America
+Haiti,19627,64,512,2,13122,North America
 Mayotte,19460,,174,,2964,Africa
 Fiji,19352,1054,125,12,4233,Australia/Oceania
-French Polynesia,19127,,144,,18887,Australia/Oceania
+French Polynesia,19163,36,144,,18902,Australia/Oceania
+Guadeloupe,17779,406,238,2,2250,North America
 Seychelles,17541,,86,,16814,Africa
 Papua New Guinea,17515,48,191,4,17153,Australia/Oceania
-Guadeloupe,17373,,236,,2250,North America
+Martinique,15612,2241,99,,104,North America
 Taiwan,15453,24,773,4,13650,Asia
-Somalia,15123,,781,,7275,Africa
-Togo,14680,,138,,13852,Africa
+Somalia,15162,39,781,,7277,Africa
+Togo,14769,89,140,2,13895,Africa
 Mali,14522,9,530,,12376,Africa
 Andorra,14379,20,127,,13930,Europe
 Tajikistan,14228,51,114,2,13801,Asia
-Belize,13772,,332,,13090,North America
+Belize,13816,44,332,,13117,North America
 Bahamas,13604,38,274,1,12112,North America
-Burkina Faso,13536,,169,,13340,Africa
-Martinique,13371,,99,,98,North America
-Curaçao,12804,,126,,12249,North America
+Burkina Faso,13537,1,169,,13350,Africa
+Curaçao,12883,79,126,,12261,North America
 Lesotho,12398,,339,,6601,Africa
 Hong Kong,11966,7,212,,11688,Asia
-Djibouti,11627,,155,,11461,Africa
-Aruba,11244,,108,,11049,North America
+Djibouti,11628,1,155,,11466,Africa
+Aruba,11257,13,109,1,11051,North America
 South Sudan,10917,,117,,10514,Africa
 Timor-Leste,10174,32,26,,9390,Asia
 Nicaragua,9108,341,194,1,4225,North America
 Equatorial Guinea,8848,20,123,,8591,Africa
 Benin,8244,,107,,8081,Africa
-Channel Islands,7462,,86,,4448,Europe
+Channel Islands,7766,304,86,,4640,Europe
 Central African Republic,7147,5,98,,6859,Africa
 Yemen,6992,5,1371,1,4162,Asia
 Gambia,6920,,190,,6015,Africa
@@ -167,14 +167,14 @@ Iceland,6832,114,30,,6639,Europe
 Eritrea,6450,8,32,,6158,Africa
 Sierra Leone,6198,7,116,1,4144,Africa
 Burundi,5942,48,8,,773,Africa
-Niger,5590,,194,,5283,Africa
-Saint Lucia,5481,,87,,5284,North America
+Niger,5594,4,194,,5287,Africa
+Saint Lucia,5484,3,87,,5295,North America
 Liberia,5396,,148,,2715,Africa
 San Marino,5099,,90,,5002,Europe
 Chad,4965,1,174,,4777,Africa
 Gibraltar,4671,39,94,,4302,Europe
 Barbados,4292,23,48,,4058,North America
-Guinea-Bissau,4052,,73,,3706,Africa
+Guinea-Bissau,4087,35,73,,3725,Africa
 Comoros,4011,,147,,3837,Africa
 Laos,3710,170,5,,2174,Asia
 Liechtenstein,3069,,59,,2994,Europe
@@ -183,18 +183,18 @@ Isle of Man,2756,211,29,,1623,Europe
 Monaco,2717,24,33,,2587,Europe
 Mauritius,2661,,19,,1854,Africa
 Bermuda,2530,,33,,2482,North America
-Turks and Caicos,2455,,18,,2400,North America
+Turks and Caicos,2458,3,18,,2404,North America
 Bhutan,2455,28,2,,2125,Asia
 Saint Martin,2433,,38,,1399,North America
 São Tomé and Príncipe,2410,,37,,2336,Africa
 Saint Vincent and the Grenadines,2263,,12,,2197,North America
-British Virgin Islands,2024,,17,,420,North America
+British Virgin Islands,2024,,23,6,420,North America
 Caribbean Netherlands,1683,4,17,,1642,North America
 Antigua and Barbuda,1275,,42,,1225,North America
 Saint Barthelemy,1005,,1,,462,North America
 Faroe Islands,941,8,1,,841,Europe
-Cayman Islands,625,,2,,618,North America
-Saint Kitts and Nevis,554,,3,,500,North America
+Cayman Islands,627,2,2,,618,North America
+Saint Kitts and Nevis,557,3,3,,514,North America
 Tanzania,509,,21,,183,Africa
 Wallis and Futuna,445,,7,,438,Australia/Oceania
 Brunei,305,14,3,,261,Asia
