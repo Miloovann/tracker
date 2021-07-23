@@ -60,7 +60,7 @@ Egypt,283906,,16470,,226535,Africa,1
 El Salvador,84144,,2538,9,75608,North America,0
 Equatorial Guinea,8848,,123,,8591,Africa,1
 Eritrea,6480,,32,,6201,Africa,1
-Estonia,132179,,1271,,128271,Europe,1
+Estonia,132262,84,1271,,128314,Europe,0
 Eswatini,21880,,735,,19392,Africa,1
 Ethiopia,278105,,4363,,262692,Africa,1
 Falkland Islands,63,,,,63,South America,0
@@ -153,12 +153,12 @@ Panama,426849,,6730,,407055,North America,0
 Papua New Guinea,17581,,192,,17177,Australia/Oceania,0
 Paraguay,447864,,14501,,408973,South America,0
 Peru,2099522,,195547,,N/A,South America,0
-Philippines,1530266,,26891,,1452813,Asia,0
-Poland,2881840,,75231,,2653088,Europe,0
+Philippines,1537097,6845,26891,,1455137,Asia,0
+Poland,2881948,108,75235,4,2653172,Europe,0
 Portugal,943244,,17248,,873008,Europe,0
 Qatar,224834,,600,,222600,Asia,0
 Romania,1081953,,34264,,1047000,Europe,0
-Russia,6054711,,151501,,5427457,Europe,0
+Russia,6078522,23811,152296,795,5450004,Europe,0
 Rwanda,61375,,704,,43924,Africa,0
 Réunion,34615,,266,,32036,Africa,0
 Saint Barthelemy,1005,,1,,462,North America,0
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,7001,,1372,,4162,Asia,0
 Zambia,189731,,3196,,177419,Africa,0
 Zimbabwe,93421,,2870,,61723,Africa,0
-World,193415932,57500,4151538,776,174006962,,0
+World,193446765,88348,4152337,1575,174031960,,0
