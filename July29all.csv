@@ -7,7 +7,7 @@ Angola,42288,,1000,,35964,Africa,1
 Anguilla,113,,,,111,North America,0
 Antigua and Barbuda,1288,,43,,1229,North America,1
 Argentina,4891810,,104822,,4529259,South America,1
-Armenia,229370,,4597,,219379,Asia,1
+Armenia,229603,233,4604,7,219502,Asia,0
 Aruba,11521,,109,,11110,North America,1
 Australia,33726,252,923,2,29926,Australia/Oceania,0
 Austria,657501,,10737,,641880,Europe,1
@@ -49,7 +49,7 @@ Croatia,363039,,8249,,353748,Europe,1
 Cuba,358378,,2560,,312169,North America,1
 Curaçao,13447,,126,,12659,North America,1
 Cyprus,100129,,412,,80178,Asia,1
-Czechia,1673219,195,30363,,1639698,Europe,0
+Czechia,1673219,195,30363,,1639849,Europe,0
 DR Congo,48970,,1023,,29497,Africa,1
 Denmark,314135,,2547,,300154,Europe,1
 Djibouti,11647,,155,,11480,Africa,1
@@ -112,7 +112,7 @@ Lesotho,12887,,363,,6649,Africa,1
 Liberia,5396,,148,,2715,Africa,1
 Libya,243470,,3453,,188973,Africa,1
 Liechtenstein,3083,,59,,3003,Europe,1
-Lithuania,281629,,4412,,268834,Europe,1
+Lithuania,282039,337,4413,,268947,Europe,0
 Luxembourg,73744,,822,,71631,Europe,1
 Macao,59,,,,53,Asia,0
 Madagascar,42615,,942,,41091,Africa,1
@@ -142,7 +142,7 @@ Netherlands,1854784,,17812,,1666016,Europe,1
 New Caledonia,133,,,,58,Australia/Oceania,0
 New Zealand,2867,3,26,,2795,Australia/Oceania,0
 Nicaragua,9470,,195,,4225,North America,1
-Niger,5604,,195,,5304,Africa,1
+Niger,5607,3,195,,5330,Africa,0
 Nigeria,172263,,2139,,164886,Africa,1
 North Macedonia,156171,,5491,,150321,Europe,1
 Norway,136541,,799,,88952,Europe,1
@@ -200,7 +200,7 @@ Togo,15393,,150,,14272,Africa,0
 Trinidad and Tobago,38014,,1056,,31106,North America,0
 Tunisia,578962,,19027,,491854,Africa,0
 Turkey,5660469,,51124,,5438038,Asia,0
-Turks and Caicos,2473,,18,,2426,North America,0
+Turks and Caicos,2479,6,18,,2431,North America,0
 UAE,676251,,1934,,653675,Asia,0
 UK,5770928,,129430,,4480533,Europe,0
 USA,35487490,,628098,,29603958,North America,0
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,7027,,1374,,4168,Asia,0
 Zambia,193432,,3338,,183957,Africa,0
 Zimbabwe,103567,,3340,,71383,Africa,0
-World,196700166,67963,4203541,957,176391691,,0
+World,196700818,68542,4203549,964,176392109,,0
