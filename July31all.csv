@@ -16,7 +16,7 @@ Bahamas,14677,,286,,12570,North America,1
 Bahrain,269080,,1384,,266705,Asia,1
 Bangladesh,1240115,,20467,,1064195,Asia,1
 Barbados,4379,,48,,4198,North America,1
-Belarus,445048,,3445,,439162,Europe,1
+Belarus,446040,992,3454,9,440200,Europe,0
 Belgium,1124715,1764,25241,6,1058072,Europe,0
 Belize,14163,,337,,13420,North America,1
 Benin,8394,,108,,8136,Africa,1
@@ -64,7 +64,7 @@ Estonia,133557,249,1272,,128898,Europe,0
 Eswatini,25515,,779,,20703,Africa,1
 Ethiopia,280024,,4383,,263425,Africa,1
 Falkland Islands,63,,,,63,South America,0
-Faroe Islands,982,,1,,927,Europe,1
+Faroe Islands,983,1,2,1,943,Europe,0
 Fiji,29781,1121,238,6,7705,Australia/Oceania,0
 Finland,106802,794,982,,46000,Europe,0
 France,6103548,,111824,,5696559,Europe,1
@@ -88,7 +88,7 @@ Haiti,20157,,555,,14248,North America,1
 Honduras,297111,2550,7834,41,100697,North America,0
 Hong Kong,11985,,212,,11712,Asia,1
 Hungary,809491,,30026,,748157,Europe,1
-Iceland,7801,,30,,6699,Europe,1
+Iceland,7959,158,30,,6716,Europe,0
 India,31613993,1199,423842,,30781263,Asia,0
 Indonesia,3409658,37284,94119,1808,2770092,Asia,0
 Iran,3871008,19846,90630,286,3367272,Asia,0
@@ -137,7 +137,7 @@ Morocco,615999,,9732,,557408,Africa,1
 Mozambique,119950,,1407,,88081,Africa,1
 Myanmar,294460,,8942,,205677,Asia,1
 Namibia,118429,,2999,,94556,Africa,1
-Nepal,693109,,9834,,652261,Asia,1
+Nepal,695389,2280,9857,23,654177,Asia,0
 Netherlands,1862586,,17821,,1667179,Europe,1
 New Caledonia,134,,,,58,Australia/Oceania,0
 New Zealand,2870,,26,,2799,Australia/Oceania,1
@@ -191,7 +191,7 @@ Sweden,1100040,,14617,,1076030,Europe,0
 Switzerland,717665,,10906,,692101,Europe,0
 Syria,25954,,1913,,21980,Asia,0
 São Tomé and Príncipe,2446,,37,,2358,Africa,0
-Taiwan,15662,,787,,14071,Asia,0
+Taiwan,15674,12,787,,14110,Asia,0
 Tajikistan,15004,,121,,14470,Asia,0
 Tanzania,1017,,21,,183,Africa,0
 Thailand,597287,18912,4857,178,391920,Asia,0
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,7058,,1375,,4171,Asia,0
 Zambia,195096,,3376,,186211,Africa,0
 Zimbabwe,107490,,3490,,74562,Africa,0
-World,198145784,194260,4227500,4220,177301556,,0
+World,198149227,197703,4227533,4253,177304582,,0
