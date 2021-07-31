@@ -47,7 +47,7 @@ Comoros,4028,2,147,,3865,Africa,0
 Costa Rica,406814,,5030,,329639,North America,1
 Croatia,363615,218,8259,5,354238,Europe,0
 Cuba,375721,,2693,,329811,North America,1
-Curaçao,13567,,126,,12795,North America,1
+Curaçao,13625,58,126,,12853,North America,0
 Cyprus,101419,,419,,80178,Asia,1
 Czechia,1673576,140,30373,,1640314,Europe,0
 DR Congo,49917,355,1038,15,29994,Africa,0
@@ -61,8 +61,8 @@ El Salvador,86620,,2629,16,76265,North America,0
 Equatorial Guinea,8880,,123,,8637,Africa,1
 Eritrea,6547,2,35,1,6444,Africa,0
 Estonia,133557,249,1272,,128898,Europe,0
-Eswatini,25515,,779,,20703,Africa,1
-Ethiopia,280024,,4383,,263425,Africa,1
+Eswatini,25979,464,787,8,20918,Africa,0
+Ethiopia,280365,341,4385,2,263500,Africa,0
 Falkland Islands,63,,,,63,South America,0
 Faroe Islands,983,1,2,1,943,Europe,0
 Fiji,29781,1121,238,6,7705,Australia/Oceania,0
@@ -98,7 +98,7 @@ Isle of Man,4666,,29,,3026,Europe,1
 Israel,873827,2484,6473,4,849081,Asia,0
 Italy,4350028,6513,128063,16,4134680,Europe,0
 Ivory Coast,50004,,328,,49187,Africa,1
-Jamaica,52684,,1187,,46966,North America,1
+Jamaica,52895,211,1190,3,46979,North America,0
 Japan,913755,10744,15184,11,834967,Asia,0
 Jordan,770712,562,10032,12,750518,Asia,0
 Kazakhstan,572576,7691,5866,86,473344,Asia,0
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,7061,3,1375,,4185,Asia,0
 Zambia,195816,720,3389,13,187236,Africa,0
 Zimbabwe,107490,,3490,,74562,Africa,0
-World,198303271,352141,4229509,6229,177409749,,0
+World,198304345,353215,4229522,6242,177410110,,0
