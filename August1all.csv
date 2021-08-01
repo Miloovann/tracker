@@ -7,7 +7,7 @@ Angola,42777,,1011,,37255,Africa,1
 Anguilla,113,,,,111,North America,0
 Antigua and Barbuda,1303,,43,,1235,North America,1
 Argentina,4929764,,105721,,4569552,South America,1
-Armenia,230110,,4614,,219864,Asia,1
+Armenia,230339,229,4619,5,219986,Asia,0
 Aruba,11730,,110,,11160,North America,1
 Australia,34381,251,924,,29926,Australia/Oceania,0
 Austria,659056,,10737,,643027,Europe,1
@@ -57,7 +57,7 @@ Dominica,210,,,,200,North America,0
 Dominican Republic,341905,,3963,,323333,North America,1
 Ecuador,487372,,31631,,443880,South America,1
 Egypt,284262,,16524,,230368,Africa,1
-El Salvador,86620,,2629,,76265,North America,1
+El Salvador,86620,,2641,12,76265,North America,0
 Equatorial Guinea,8880,,123,,8637,Africa,1
 Eritrea,6547,,35,,6444,Africa,1
 Estonia,133557,,1272,,128898,Europe,1
@@ -95,7 +95,7 @@ Iran,3871008,,90630,,3367272,Asia,1
 Iraq,1626599,,18657,,1464273,Asia,1
 Ireland,300976,,5035,,267749,Europe,1
 Isle of Man,4760,,29,,3365,Europe,1
-Israel,874018,,6473,,849081,Asia,1
+Israel,874807,789,6474,1,849558,Asia,0
 Italy,4350028,,128063,,4134680,Europe,1
 Ivory Coast,50135,,329,,49261,Africa,1
 Jamaica,52895,,1190,,46979,North America,1
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,7061,,1375,,4185,Asia,0
 Zambia,195816,,3389,,187236,Africa,0
 Zimbabwe,108860,,3532,,75856,Africa,0
-World,198544572,53930,4232893,713,177554473,,0
+World,198545590,54948,4232911,731,177555072,,0
