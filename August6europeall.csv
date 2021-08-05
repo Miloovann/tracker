@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Albania,133310,,2457,,130314,Europe,1
+Albania,133442,132,2457,,130343,Europe,0
 Andorra,14797,,128,,14380,Europe,1
 Austria,661359,505,10745,1,644840,Europe,0
 Belarus,450445,1143,3503,9,444613,Europe,0
@@ -21,11 +21,11 @@ Hungary,809803,72,30032,,750955,Europe,0
 Iceland,8508,155,30,,7087,Europe,0
 Ireland,305527,,5044,,269597,Europe,1
 Isle of Man,5145,,30,,4019,Europe,1
-Italy,4369964,,128136,,4144608,Europe,1
+Italy,4377188,7230,128163,27,4147979,Europe,0
 Latvia,139204,70,2558,,135795,Europe,0
 Liechtenstein,3092,1,59,,3018,Europe,0
 Lithuania,284432,218,4424,1,270037,Europe,0
-Luxembourg,74144,,824,,72306,Europe,1
+Luxembourg,74212,68,824,,72447,Europe,0
 Malta,34668,78,424,1,32642,Europe,0
 Moldova,260183,159,6270,4,252548,Europe,0
 Monaco,2940,,33,,2759,Europe,1
@@ -44,6 +44,6 @@ Slovenia,259764,138,4429,,254042,Europe,0
 Spain,4545184,,81844,,3760971,Europe,0
 Sweden,1103693,,14620,,1077413,Europe,0
 Switzerland,722801,1024,10909,1,693154,Europe,0
-UK,5952756,,130000,,4567516,Europe,0
+UK,5982581,30215,130086,86,4585415,Europe,0
 Ukraine,2256397,1052,53049,25,2188815,Europe,0
 Vatican City,27,,,,27,Europe,0
