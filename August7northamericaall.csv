@@ -1,25 +1,25 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Anguilla,113,,,,111,North America,0
 Antigua and Barbuda,1320,,43,,1244,North America,1
-Aruba,12000,,111,,11259,North America,1
+Aruba,12262,262,111,,11397,North America,0
 Bahamas,15191,,295,,12782,North America,1
 Barbados,4443,,48,,4251,North America,1
 Belize,14382,,338,,13589,North America,1
 Bermuda,2589,,33,,2503,North America,1
 British Virgin Islands,2500,,31,,1914,North America,1
-Canada,1436182,,26637,,1400582,North America,1
+Canada,1436754,572,26656,19,1400872,North America,0
 Caribbean Netherlands,1713,,17,,1673,North America,1
 Cayman Islands,644,,2,,635,North America,1
 Costa Rica,414745,,5108,,335510,North America,1
-Cuba,431013,,3184,,382141,North America,1
-Curaçao,13907,,130,,13216,North America,1
+Cuba,439899,8886,3259,75,390505,North America,0
+Curaçao,13988,81,131,1,13297,North America,0
 Dominica,218,,,,209,North America,0
-Dominican Republic,343512,,3971,,325177,North America,1
+Dominican Republic,343829,317,3973,2,325873,North America,0
 El Salvador,88371,,2691,10,76952,North America,0
-Greenland,151,,,,90,North America,0
+Greenland,160,9,,,100,North America,0
 Grenada,164,,1,,161,North America,1
 Guadeloupe,23821,,247,,2250,North America,1
-Guatemala,381514,,10578,,333958,North America,1
+Guatemala,385512,3998,10644,66,336444,North America,0
 Haiti,20326,,563,,14802,North America,1
 Honduras,304181,794,8052,38,102866,North America,0
 Jamaica,54165,326,1214,3,47152,North America,0
@@ -36,4 +36,4 @@ Saint Pierre and Miquelon,28,,,,26,North America,0
 Saint Vincent and the Grenadines,2298,,12,,2233,North America,0
 Trinidad and Tobago,39577,,1117,,32637,North America,0
 Turks and Caicos,2499,,18,,2438,North America,0
-USA,36305074,3330,631899,20,29805593,North America,0
+USA,36305346,3602,631901,22,29805741,North America,0
