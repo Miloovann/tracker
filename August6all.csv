@@ -57,7 +57,7 @@ Dominica,218,,,,209,North America,0
 Dominican Republic,343512,,3971,,325177,North America,1
 Ecuador,490356,,31754,,443880,South America,1
 Egypt,284523,,16557,,232280,Africa,1
-El Salvador,88371,,2681,,76952,North America,1
+El Salvador,88371,,2691,10,76952,North America,0
 Equatorial Guinea,8928,,123,,8709,Africa,1
 Eritrea,6573,,35,,6484,Africa,1
 Estonia,134479,,1276,,129312,Europe,1
@@ -72,7 +72,7 @@ French Guiana,30756,,193,,9995,South America,1
 French Polynesia,21805,,155,,19813,Australia/Oceania,1
 Gabon,25440,,165,,25228,Africa,1
 Gambia,8505,,238,,7423,Africa,1
-Georgia,436573,,5986,,393453,Asia,1
+Georgia,440353,3780,6016,30,395505,Asia,0
 Germany,3789441,,92255,,3662700,Europe,0
 Ghana,106434,,854,,98814,Africa,1
 Gibraltar,5089,,95,,4669,Europe,1
@@ -163,7 +163,7 @@ Rwanda,74364,,860,,44923,Africa,0
 Réunion,40245,,288,,35563,Africa,0
 Saint Barthelemy,1195,,1,,462,North America,0
 Saint Helena,2,,,,2,Africa,0
-Saint Kitts and Nevis,600,,3,,549,North America,0
+Saint Kitts and Nevis,603,3,3,,549,North America,0
 Saint Lucia,5688,,90,,5404,North America,0
 Saint Martin,2579,,38,,1399,North America,0
 Saint Pierre and Miquelon,28,,,,26,North America,0
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,7104,,1383,,4271,Asia,0
 Zambia,198455,,3447,,190279,Africa,0
 Zimbabwe,114489,,3754,,84889,Africa,0
-World,201700633,70593,4280387,1133,179735644,,0
+World,201704416,74376,4280427,1173,179737696,,0
