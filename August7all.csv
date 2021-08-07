@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,150240,,6898,,102150,Asia,1
+Afghanistan,150458,218,6908,10,102827,Asia,0
 Albania,133591,,2458,,130370,Europe,1
 Algeria,179216,,4487,,119888,Africa,1
 Andorra,14836,,128,,14444,Europe,1
@@ -10,12 +10,12 @@ Argentina,5002951,,107213,,4645158,South America,1
 Armenia,231923,298,4641,5,221043,Asia,0
 Aruba,12262,,111,,11397,North America,1
 Australia,36051,363,939,6,30462,Australia/Oceania,0
-Austria,661922,,10748,,645272,Europe,1
+Austria,662529,607,10750,2,645694,Europe,0
 Azerbaijan,349316,,5051,,334258,Asia,1
 Bahamas,15419,,295,,12824,North America,1
 Bahrain,269848,,1384,,267406,Asia,1
 Bangladesh,1335260,,22150,,1172437,Asia,1
-Barbados,4455,,48,,4251,North America,1
+Barbados,4455,,48,,4310,North America,0
 Belarus,451740,,3513,,445890,Europe,1
 Belgium,1136726,1819,25268,4,1063847,Europe,0
 Belize,14438,,339,,13622,North America,1
@@ -45,7 +45,7 @@ China,93605,107,4636,,87525,Asia,0
 Colombia,4828583,,122087,,4632801,South America,1
 Comoros,4031,1,147,,3875,Africa,0
 Costa Rica,416677,,5124,,337423,North America,1
-Croatia,364599,,8270,,355190,Europe,1
+Croatia,364832,233,8271,1,355360,Europe,0
 Cuba,439899,,3259,,390505,North America,1
 Curaçao,13988,,131,,13297,North America,1
 Cyprus,104994,,437,,80178,Asia,1
@@ -60,13 +60,13 @@ Egypt,284580,,16562,,232601,Africa,1
 El Salvador,88371,,2691,,76952,North America,1
 Equatorial Guinea,8940,,123,,8730,Africa,1
 Eritrea,6576,,35,,6487,Africa,1
-Estonia,134720,,1277,,129422,Europe,1
+Estonia,134950,246,1277,,129595,Europe,0
 Eswatini,30377,,835,,22796,Africa,1
 Ethiopia,283082,,4415,,264225,Africa,1
 Falkland Islands,66,,,,63,South America,0
 Faroe Islands,987,,2,,963,Europe,1
-Fiji,35640,,290,,11501,Australia/Oceania,1
-Finland,110720,,984,,46000,Europe,1
+Fiji,36322,682,296,6,11798,Australia/Oceania,0
+Finland,110885,165,984,,46000,Europe,0
 France,6258953,,112158,,5743040,Europe,1
 French Guiana,30875,,193,,9995,South America,1
 French Polynesia,22459,,157,,19825,Australia/Oceania,1
@@ -86,7 +86,7 @@ Guinea-Bissau,4702,,79,,4099,Africa,1
 Guyana,22843,,554,,21512,South America,1
 Haiti,20363,,566,,15110,North America,1
 Honduras,305936,1755,8120,68,103110,North America,0
-Hong Kong,12005,,212,,11724,Asia,1
+Hong Kong,12012,7,212,,11725,Asia,0
 Hungary,809855,,30033,,752709,Europe,1
 Iceland,8613,,30,,7162,Europe,1
 India,31895385,902,427401,,31055861,Asia,0
@@ -99,14 +99,14 @@ Israel,893105,,6516,,858260,Asia,1
 Italy,4383787,,128187,,4150915,Europe,1
 Ivory Coast,51028,,338,,49789,Africa,1
 Jamaica,54165,,1214,,47152,North America,1
-Japan,985690,,15240,,864775,Asia,1
+Japan,1001281,15645,15255,15,873519,Asia,0
 Jordan,775782,,10105,,753332,Asia,1
-Kazakhstan,626412,7899,6531,,514299,Asia,0
+Kazakhstan,626412,7899,6659,128,514299,Asia,0
 Kenya,209823,,4088,,195787,Africa,1
 Kuwait,402293,,2361,,390759,Asia,1
 Kyrgyzstan,168415,681,2389,9,155447,Asia,0
 Laos,8132,354,8,1,3946,Asia,0
-Latvia,139284,,2559,,135833,Europe,1
+Latvia,139347,63,2559,,135875,Europe,0
 Lebanon,568505,,7932,,538434,Asia,1
 Lesotho,13603,,377,,6664,Africa,1
 Liberia,5459,,148,,2715,Africa,1
@@ -153,12 +153,12 @@ Panama,440494,,6885,,422467,North America,0
 Papua New Guinea,17774,,192,,17384,Australia/Oceania,0
 Paraguay,454542,,15238,,425858,South America,0
 Peru,2122557,,196818,,N/A,South America,0
-Philippines,1638345,,28673,,1535375,Asia,0
-Poland,2883796,,75281,,2654224,Europe,0
+Philippines,1649341,11021,28835,162,1544443,Asia,0
+Poland,2883976,181,75285,4,2654359,Europe,0
 Portugal,982364,,17440,,920278,Europe,0
 Qatar,227273,,601,,224530,Asia,0
 Romania,1084456,,34305,,1048404,Europe,0
-Russia,6402564,,163301,,5720353,Europe,0
+Russia,6424884,22320,164094,793,5739838,Europe,0
 Rwanda,74993,,874,,44948,Africa,0
 Réunion,40245,,288,,35563,Africa,0
 Saint Barthelemy,1336,,2,,462,North America,0
@@ -175,9 +175,9 @@ Senegal,66250,,1457,,49691,Africa,0
 Serbia,724661,,7133,,711458,Europe,0
 Seychelles,18582,,94,,17992,Africa,0
 Sierra Leone,6310,,120,,4299,Africa,0
-Singapore,65605,,36,,62212,Asia,0
-Slovakia,392963,,12541,,379718,Europe,0
-Slovenia,259909,,4430,,254100,Europe,0
+Singapore,65686,81,36,,62212,Asia,0
+Slovakia,393007,44,12541,,379761,Europe,0
+Slovenia,260041,133,4431,1,254192,Europe,0
 Solomon Islands,20,,,,20,Australia/Oceania,0
 Somalia,15735,,837,,7695,Africa,0
 South Africa,2511178,,74352,,2280490,Africa,0
@@ -198,7 +198,7 @@ Thailand,736522,21838,6066,212,517012,Asia,0
 Timor-Leste,11386,,26,,10095,Asia,0
 Togo,16559,,156,,14785,Africa,0
 Trinidad and Tobago,39577,,1117,,32637,North America,0
-Tunisia,605205,,20679,,535321,Africa,0
+Tunisia,608114,2909,20809,130,539339,Africa,0
 Turkey,5870741,,51976,,5491762,Asia,0
 Turks and Caicos,2514,5,18,,2439,North America,0
 UAE,690009,,1969,,667074,Asia,0
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,7131,,1384,,4305,Asia,0
 Zambia,199135,,3459,,191164,Africa,0
 Zimbabwe,115445,,3805,,86526,Africa,0
-World,202419279,76253,4290536,1053,180197957,,0
+World,202473737,130808,4291788,2305,180241383,,0
