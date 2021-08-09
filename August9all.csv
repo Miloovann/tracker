@@ -48,7 +48,7 @@ Costa Rica,416677,,5124,,337423,North America,1
 Croatia,365045,,8272,,355542,Europe,1
 Cuba,458219,,3438,,407434,North America,1
 Curaçao,14122,,132,,13395,North America,1
-Cyprus,105982,,441,,80178,Asia,1
+Cyprus,105982,,441,,90755,Asia,1
 Czechia,1674906,,30363,,1642165,Europe,1
 DR Congo,51889,,1048,,30189,Africa,1
 Denmark,323786,,2552,,309182,Europe,1
@@ -73,7 +73,7 @@ French Polynesia,22459,,157,,19825,Australia/Oceania,1
 Gabon,25462,,165,,25248,Africa,1
 Gambia,8603,,242,,7536,Africa,1
 Georgia,447913,,6084,,400616,Asia,1
-Germany,3797836,,92281,,3665400,Europe,1
+Germany,3797836,,92281,,3667400,Europe,0
 Ghana,108226,,874,,100383,Africa,1
 Gibraltar,5127,,95,,4792,Europe,1
 Greece,514192,,13048,,469114,Europe,1
@@ -101,7 +101,7 @@ Ivory Coast,51380,,341,,50069,Africa,1
 Jamaica,54859,,1222,,47231,North America,1
 Japan,1016781,,15273,,881608,Asia,1
 Jordan,777164,,10127,,754856,Asia,1
-Kazakhstan,634214,,6764,,520102,Asia,1
+Kazakhstan,641885,7671,6764,,525627,Asia,0
 Kenya,211828,,4149,,197307,Africa,1
 Kuwait,403349,,2369,,392350,Asia,1
 Kyrgyzstan,169017,,2399,,156925,Asia,1
@@ -130,7 +130,7 @@ Mexico,2971817,7573,244420,172,2326466,North America,0
 Micronesia,1,,,,1,Australia/Oceania,0
 Moldova,260630,,6282,,252908,Europe,1
 Monaco,2974,,33,,2828,Europe,1
-Mongolia,173532,,852,,164947,Asia,1
+Mongolia,174603,1071,857,5,166758,Asia,0
 Montenegro,103722,,1635,,99485,Europe,1
 Montserrat,22,,1,,20,North America,1
 Morocco,696282,,10335,,612390,Africa,1
@@ -147,7 +147,7 @@ Nigeria,178086,,2187,,165763,Africa,1
 North Macedonia,158025,,5507,,150524,Europe,1
 Norway,140836,,804,,88952,Europe,1
 Oman,298706,,3936,,285057,Asia,1
-Pakistan,1067580,,23865,,961639,Asia,1
+Pakistan,1071620,4040,23918,53,964404,Asia,0
 Palestine,317999,,3613,,312486,Asia,0
 Panama,442295,,6906,,424161,North America,0
 Papua New Guinea,17774,,192,,17384,Australia/Oceania,0
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,7165,,1386,,4342,Asia,0
 Zambia,200049,,3484,,192479,Africa,0
 Zimbabwe,116327,,3900,,88829,Africa,0
-World,203424270,34247,4307154,325,181001942,,0
+World,203437052,47029,4307212,383,181024620,,0
