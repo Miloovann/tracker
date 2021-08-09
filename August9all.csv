@@ -66,7 +66,7 @@ Ethiopia,284091,,4426,,264617,Africa,1
 Falkland Islands,66,,,,63,South America,0
 Faroe Islands,987,,2,,963,Europe,1
 Fiji,37582,603,317,18,12677,Australia/Oceania,0
-Finland,112207,,984,,46000,Europe,1
+Finland,112656,449,984,,46000,Europe,0
 France,6305158,,112220,,5759661,Europe,1
 French Guiana,30875,,193,,9995,South America,1
 French Polynesia,22459,,157,,19825,Australia/Oceania,1
@@ -81,7 +81,7 @@ Greenland,175,,,,111,North America,0
 Grenada,178,,1,,166,North America,1
 Guadeloupe,23821,,247,,2250,North America,1
 Guatemala,390514,,10771,,341314,North America,1
-Guinea,26847,,257,,24739,Africa,1
+Guinea,26969,122,260,3,24816,Africa,0
 Guinea-Bissau,4788,,79,,4185,Africa,1
 Guyana,22982,,559,,21595,South America,1
 Haiti,20389,,569,,15110,North America,1
@@ -90,7 +90,7 @@ Hong Kong,12016,2,212,,11725,Asia,0
 Hungary,810011,156,30037,4,757247,Europe,0
 Iceland,8793,,30,,7383,Europe,1
 India,31969954,366,428339,,31139457,Asia,0
-Indonesia,3666031,,107096,,3084702,Asia,1
+Indonesia,3686740,20709,108571,1475,3129661,Asia,0
 Iran,4158729,,94015,,3539035,Asia,1
 Iraq,1712709,,19203,,1529053,Asia,1
 Ireland,312465,,5044,,271691,Europe,1
@@ -175,9 +175,9 @@ Senegal,67579,,1482,,50533,Africa,0
 Serbia,725702,,7139,,711871,Europe,0
 Seychelles,18582,,94,,17992,Africa,0
 Sierra Leone,6315,,121,,4310,Africa,0
-Singapore,65764,,36,,62212,Asia,0
-Slovakia,393040,,12541,,379807,Europe,0
-Slovenia,260109,,4433,,254222,Europe,0
+Singapore,65836,72,36,,62212,Asia,0
+Slovakia,393059,19,12541,,379814,Europe,0
+Slovenia,260156,46,4433,,254243,Europe,0
 Solomon Islands,20,,,,20,Australia/Oceania,0
 Somalia,15865,,850,,7759,Africa,0
 South Africa,2533466,,74813,,2297974,Africa,0
@@ -204,7 +204,7 @@ Turks and Caicos,2523,,18,,2440,North America,0
 UAE,692964,,1975,,669953,Asia,0
 UK,6069362,,130320,,4642198,Europe,0
 USA,36543338,,633116,,29859062,North America,0
-Uganda,95723,,2793,,90225,Africa,0
+Uganda,95875,152,2808,15,91028,Africa,0
 Ukraine,2259451,300,53100,5,2191202,Europe,0
 Uruguay,382506,,5986,,374884,South America,0
 Uzbekistan,137491,856,934,6,130906,Asia,0
@@ -215,6 +215,6 @@ Vietnam,215560,5155,3397,,71497,Asia,0
 Wallis and Futuna,445,,7,,438,Australia/Oceania,0
 Western Sahara,10,,1,,8,Africa,0
 Yemen,7165,,1386,,4342,Asia,0
-Zambia,200049,,3484,,192479,Africa,0
+Zambia,200201,152,3491,7,193051,Africa,0
 Zimbabwe,116327,,3900,,88829,Africa,0
-World,203492032,101233,4308311,1471,181077015,,0
+World,203513754,122954,4309811,2971,181123454,,0
