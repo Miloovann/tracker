@@ -99,14 +99,14 @@ Israel,908322,1917,6559,,866297,Asia,0
 Italy,4400617,,128242,,4157520,Europe,1
 Ivory Coast,51399,,341,,50205,Africa,1
 Jamaica,55140,,1231,,47270,North America,1
-Japan,1031296,,15280,,889912,Asia,1
+Japan,1043625,12068,15297,17,899124,Asia,0
 Jordan,778093,,10135,,755979,Asia,1
 Kazakhstan,649120,7235,6973,97,533329,Asia,0
 Kenya,212573,,4179,,197468,Africa,1
 Kuwait,403868,,2372,,393184,Asia,1
 Kyrgyzstan,169971,471,2413,6,159280,Asia,0
 Laos,8561,,8,,4092,Asia,1
-Latvia,139462,,2559,,135931,Europe,1
+Latvia,139587,125,2561,2,135954,Europe,0
 Lebanon,572401,,7948,,538828,Asia,1
 Lesotho,13843,,390,,6685,Africa,1
 Liberia,5459,,148,,2715,Africa,1
@@ -153,12 +153,12 @@ Panama,442818,,6912,,424712,North America,0
 Papua New Guinea,17774,,192,,17384,Australia/Oceania,0
 Paraguay,455389,,15315,,428685,South America,0
 Peru,2125848,,197029,,N/A,South America,0
-Philippines,1667714,,29128,,1560106,Asia,0
-Poland,2884162,,75285,,2654624,Europe,0
+Philippines,1676156,8560,29220,92,1567920,Asia,0
+Poland,2884361,200,75285,,2654677,Europe,0
 Portugal,988061,,17485,,925842,Europe,0
 Qatar,227899,,601,,225033,Asia,0
 Romania,1085100,,34319,,1048620,Europe,0
-Russia,6469910,,165650,,5769981,Europe,0
+Russia,6491288,21378,166442,792,5788710,Europe,0
 Rwanda,76635,,898,,44994,Africa,0
 Réunion,40245,,288,,35563,Africa,0
 Saint Barthelemy,1336,,2,,462,North America,0
@@ -176,8 +176,8 @@ Serbia,726454,,7143,,712095,Europe,0
 Seychelles,18714,132,98,4,18161,Africa,0
 Sierra Leone,6315,,121,,4313,Africa,0
 Singapore,65836,,36,,62212,Asia,0
-Slovakia,393059,,12541,,379814,Europe,0
-Slovenia,260156,,4433,,254243,Europe,0
+Slovakia,393160,101,12543,2,379865,Europe,0
+Slovenia,260372,216,4433,,254349,Europe,0
 Solomon Islands,20,,,,20,Australia/Oceania,0
 Somalia,15929,,858,,7783,Africa,0
 South Africa,2540222,,75012,,2308054,Africa,0
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,7187,,1389,,4355,Asia,0
 Zambia,200201,,3491,,193051,Africa,0
 Zimbabwe,116853,,3919,,90210,Africa,0
-World,204150802,62391,4316305,878,181620264,,0
+World,204193592,105039,4317210,1783,181656252,,0
