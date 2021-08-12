@@ -1,6 +1,6 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Anguilla,113,,,,111,North America,0
-Antigua and Barbuda,1348,,43,,1246,North America,1
+Antigua and Barbuda,1372,24,43,,1255,North America,0
 Aruba,12791,155,113,2,11692,North America,0
 Bahamas,15915,,308,,12942,North America,1
 Barbados,4496,11,48,,4326,North America,0
@@ -8,8 +8,8 @@ Belize,14672,94,344,3,13777,North America,0
 Bermuda,2645,,33,,2529,North America,1
 British Virgin Islands,2532,,37,,2343,North America,1
 Canada,1445305,1872,26688,5,1405064,North America,0
-Caribbean Netherlands,1729,,17,,1673,North America,1
-Cayman Islands,648,,2,,643,North America,1
+Caribbean Netherlands,1737,8,17,,1702,North America,0
+Cayman Islands,649,1,2,,644,North America,0
 Costa Rica,424472,2128,5185,16,345990,North America,0
 Cuba,483710,8605,3684,76,434587,North America,0
 Curaçao,14333,123,132,,13568,North America,0
@@ -27,13 +27,13 @@ Martinique,27255,,166,,104,North America,1
 Mexico,2997885,19555,245476,541,2360080,North America,0
 Montserrat,22,,1,,20,North America,1
 Nicaragua,10251,,197,,4225,North America,1
-Panama,443718,,6918,,425794,North America,0
+Panama,444695,977,6924,6,426779,North America,0
 Saint Barthelemy,1336,,2,,462,North America,0
-Saint Kitts and Nevis,625,5,3,,569,North America,0
+Saint Kitts and Nevis,630,5,3,,578,North America,0
 Saint Lucia,5982,33,94,2,5487,North America,0
 Saint Martin,2713,,39,,1399,North America,0
 Saint Pierre and Miquelon,30,,,,28,North America,0
 Saint Vincent and the Grenadines,2306,5,12,,2244,North America,0
 Trinidad and Tobago,40889,315,1151,7,33827,North America,0
-Turks and Caicos,2531,,18,,2459,North America,0
-USA,37013021,105477,635538,536,29999687,North America,0
+Turks and Caicos,2546,15,19,1,2461,North America,0
+USA,37027459,116691,635629,607,30000182,North America,0
