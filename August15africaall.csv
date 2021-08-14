@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Algeria,185902,,4730,,124755,Africa,1
+Algeria,186655,753,4766,36,125383,Africa,0
 Angola,44328,,1082,,41335,Africa,1
 Benin,9065,,113,,8136,Africa,1
 Botswana,136758,,1973,,121987,Africa,1
@@ -29,7 +29,7 @@ Liberia,5459,,148,,2715,Africa,1
 Libya,279099,,3869,,204108,Africa,1
 Madagascar,42811,9,952,1,42505,Africa,0
 Malawi,57896,276,1955,14,42838,Africa,0
-Mali,14685,,534,,14003,Africa,1
+Mali,14692,7,534,,14012,Africa,0
 Mauritania,29603,,634,,25412,Africa,1
 Mauritius,5607,,21,,1854,Africa,1
 Mayotte,19567,,175,,2964,Africa,1
@@ -45,7 +45,7 @@ Senegal,70413,288,1587,17,53449,Africa,0
 Seychelles,18895,,98,,18314,Africa,0
 Sierra Leone,6338,5,121,,4327,Africa,0
 Somalia,16195,,870,,7888,Africa,0
-South Africa,2582427,,76631,,2355254,Africa,0
+South Africa,2595447,13020,76869,238,2364507,Africa,0
 South Sudan,11172,,120,,10917,Africa,0
 Sudan,37551,,2804,,31482,Africa,0
 São Tomé and Príncipe,2488,6,37,,2385,Africa,0
