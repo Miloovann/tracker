@@ -10,7 +10,7 @@ Argentina,5080908,,108936,,4736632,South America,1
 Armenia,234558,331,4695,10,222613,Asia,0
 Aruba,13279,,116,,12012,North America,1
 Australia,39103,445,957,4,31011,Australia/Oceania,0
-Austria,667841,,10754,,648966,Europe,1
+Austria,668732,891,10756,2,649417,Europe,0
 Azerbaijan,365009,,5138,,338279,Asia,1
 Bahamas,16141,,311,,13070,North America,1
 Bahrain,270816,,1384,,268299,Asia,1
@@ -95,7 +95,7 @@ Iran,4389085,,97208,,3700828,Asia,1
 Iraq,1768753,,19606,,1586671,Asia,1
 Ireland,322989,,5059,,275725,Europe,1
 Isle of Man,5915,,37,,5151,Europe,1
-Israel,934896,,6622,,879873,Asia,1
+Israel,936894,1237,6632,10,880654,Asia,0
 Italy,4435008,,128413,,4180129,Europe,1
 Ivory Coast,52202,,359,,50972,Africa,1
 Jamaica,57289,,1285,,47411,North America,1
@@ -153,12 +153,12 @@ Panama,447261,,6947,,429660,North America,0
 Papua New Guinea,17806,,192,,17479,Australia/Oceania,0
 Paraguay,456589,,15420,,432107,South America,0
 Peru,2132834,,197340,,N/A,South America,0
-Philippines,1727321,,30070,,1598314,Asia,0
-Poland,2885185,,75299,,2655183,Europe,0
+Philippines,1741616,14749,30340,270,1608528,Asia,0
+Poland,2885333,148,75299,,2655313,Europe,0
 Portugal,1001118,,17549,,939376,Europe,0
 Qatar,228981,,601,,225881,Asia,0
 Romania,1086900,,34342,,1049742,Europe,0
-Russia,6579212,,169683,,5867890,Europe,0
+Russia,6600836,21624,170499,816,5884316,Europe,0
 Rwanda,79284,,949,,45065,Africa,0
 Réunion,43835,,298,,38315,Africa,0
 Saint Barthelemy,1336,,2,,462,North America,0
@@ -175,9 +175,9 @@ Senegal,70413,,1587,,53449,Africa,0
 Serbia,731227,,7163,,713195,Europe,0
 Seychelles,18895,,98,,18314,Africa,0
 Sierra Leone,6338,,121,,4327,Africa,0
-Singapore,66119,,36,,62212,Asia,0
+Singapore,66172,53,36,,62212,Asia,0
 Slovakia,393455,,12544,,380103,Europe,0
-Slovenia,261333,,4433,,254787,Europe,0
+Slovenia,261428,95,4433,,254845,Europe,0
 Solomon Islands,20,,,,20,Australia/Oceania,0
 Somalia,16265,,878,,7913,Africa,0
 South Africa,2595447,,76869,,2364507,Africa,0
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,7273,,1401,,4486,Asia,0
 Zambia,202078,,3521,,195370,Africa,0
 Zimbabwe,119853,,4090,,96716,Africa,0
-World,207530094,69430,4367189,1268,184305354,,0
+World,207569198,108227,4368287,2366,184333414,,0
