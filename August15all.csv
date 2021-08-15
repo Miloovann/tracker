@@ -16,12 +16,12 @@ Bahamas,16141,,311,,13070,North America,1
 Bahrain,270816,,1384,,268299,Asia,1
 Bangladesh,1418902,6684,24175,187,1292698,Asia,0
 Barbados,4525,,48,,4354,North America,1
-Belarus,459998,,3593,,454103,Europe,1
+Belarus,461303,1305,3604,11,455521,Europe,0
 Belgium,1149869,,25287,,1071747,Europe,1
 Belize,14847,,344,,13863,North America,1
 Benin,9065,,113,,8136,Africa,1
 Bermuda,2663,,33,,2538,North America,1
-Bhutan,2570,,3,,2527,Asia,1
+Bhutan,2571,1,3,,2531,Asia,0
 Bolivia,481631,,18152,,420592,South America,1
 Bosnia and Herzegovina,207076,,9701,,192034,Europe,1
 Botswana,136758,,1973,,121987,Africa,1
@@ -51,7 +51,7 @@ Curaçao,14530,,133,,13754,North America,1
 Cyprus,108707,,456,,90755,Asia,1
 Czechia,1676222,140,30373,,1643408,Europe,0
 DR Congo,53136,,1050,,30380,Africa,1
-Denmark,329927,,2559,,314618,Europe,1
+Denmark,330777,850,2560,1,315363,Europe,0
 Djibouti,11676,,156,,11506,Africa,1
 Dominica,943,367,,,216,North America,0
 Dominican Republic,345960,,3976,,336157,North America,1
@@ -75,7 +75,7 @@ Gambia,8920,,251,,8038,Africa,1
 Georgia,481578,4314,6406,35,421532,Asia,0
 Germany,3824527,,92370,,3679500,Europe,0
 Ghana,110710,404,922,9,103568,Africa,0
-Gibraltar,5205,,95,,4939,Europe,1
+Gibraltar,5212,7,95,,4946,Europe,0
 Greece,535237,,13174,,484452,Europe,1
 Greenland,245,,,,142,North America,0
 Grenada,180,,1,,167,North America,1
@@ -170,7 +170,7 @@ Saint Pierre and Miquelon,30,,,,28,North America,0
 Saint Vincent and the Grenadines,2308,,12,,2252,North America,0
 Samoa,3,,,,3,Australia/Oceania,0
 San Marino,5194,,90,,5029,Europe,0
-Saudi Arabia,537983,,8399,,522009,Asia,0
+Saudi Arabia,538525,542,8412,13,523050,Asia,0
 Senegal,70679,266,1600,13,53877,Africa,0
 Serbia,731227,,7163,,713195,Europe,0
 Seychelles,18895,,98,,18314,Africa,0
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,7273,,1401,,4486,Asia,0
 Zambia,202261,183,3529,8,195877,Africa,0
 Zimbabwe,119853,,4090,,96716,Africa,0
-World,207692982,231656,4371086,5155,184448324,,0
+World,207695687,234361,4371111,5180,184451539,,0
