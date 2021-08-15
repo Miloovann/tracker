@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Albania,135550,,2463,,130634,Europe,1
+Albania,135947,397,2464,1,130673,Europe,0
 Andorra,14924,,129,,14596,Europe,1
 Austria,668732,891,10756,2,649417,Europe,0
 Belarus,461303,1305,3604,11,455521,Europe,0
@@ -14,9 +14,9 @@ Estonia,136992,203,1279,,130582,Europe,0
 Faroe Islands,991,,2,,983,Europe,1
 Finland,117531,535,995,,46000,Europe,0
 France,6449863,,112612,,5881325,Europe,1
-Germany,3825103,576,92370,,3679500,Europe,0
+Germany,3825232,705,92370,,3679500,Europe,0
 Gibraltar,5212,7,95,,4946,Europe,0
-Greece,535237,,13174,,484452,Europe,1
+Greece,537125,1888,13191,17,487856,Europe,0
 Hungary,810316,,30038,,765952,Europe,1
 Iceland,9522,64,30,,8253,Europe,0
 Ireland,324747,1758,5059,,276895,Europe,0
@@ -27,7 +27,7 @@ Liechtenstein,3155,9,59,,3031,Europe,0
 Lithuania,289810,434,4451,3,273004,Europe,0
 Luxembourg,74595,,828,,73062,Europe,1
 Malta,35337,51,430,,33864,Europe,0
-Moldova,261947,,6304,,253891,Europe,1
+Moldova,262044,97,6308,4,254026,Europe,0
 Monaco,3058,,33,,2901,Europe,1
 Montenegro,106196,446,1644,2,100439,Europe,0
 Netherlands,1901900,2253,17909,3,1759493,Europe,0
@@ -44,6 +44,6 @@ Slovenia,261428,95,4433,,254845,Europe,0
 Spain,4693540,,82470,,3888717,Europe,0
 Sweden,1110147,,14621,,1079668,Europe,0
 Switzerland,735375,,10922,,695341,Europe,0
-UK,6241011,,130894,,4796774,Europe,0
+UK,6267437,26750,130953,61,4824915,Europe,0
 Ukraine,2265912,695,53255,17,2196827,Europe,0
 Vatican City,27,,,,27,Europe,0
