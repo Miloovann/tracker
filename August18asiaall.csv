@@ -1,6 +1,6 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,152363,,7043,,107927,Asia,1
-Armenia,235171,,4713,,223070,Asia,1
+Afghanistan,152411,48,7047,4,107927,Asia,0
+Armenia,235675,504,4716,3,223227,Asia,0
 Azerbaijan,373175,,5188,,340174,Asia,1
 Bahrain,271130,,1384,,268630,Asia,1
 Bangladesh,1433396,,24547,,1314916,Asia,1
@@ -9,18 +9,18 @@ Brunei,852,,3,,333,Asia,0
 Cambodia,87190,593,1730,12,82666,Asia,0
 China,94500,28,4636,,87908,Asia,0
 Cyprus,109665,,464,,90755,Asia,1
-Georgia,490462,,6483,,429190,Asia,1
+Georgia,496376,5914,6532,49,432506,Asia,0
 Hong Kong,12040,,212,,11750,Asia,1
 India,32285101,,432552,,31478405,Asia,1
 Indonesia,3892479,,120013,,3414109,Asia,1
 Iran,4517243,,99108,,3786488,Asia,1
 Iraq,1793372,,19815,,1615773,Asia,1
-Israel,956310,,6704,,891723,Asia,1
+Israel,959129,1582,6708,4,893143,Asia,0
 Japan,1159945,,15431,,982640,Asia,1
 Jordan,785697,,10239,,763418,Asia,1
 Kazakhstan,708379,7034,7867,116,585298,Asia,0
 Kuwait,407139,,2395,,398393,Asia,1
-Kyrgyzstan,172668,,2457,,163810,Asia,1
+Kyrgyzstan,172937,269,2462,5,164344,Asia,0
 Laos,10648,,9,,4240,Asia,1
 Lebanon,584896,,7988,,542954,Asia,1
 Macao,63,,,,59,Asia,0
@@ -31,7 +31,7 @@ Myanmar,360291,,13623,,279488,Asia,1
 Nepal,737294,,10354,,687069,Asia,1
 Oman,300581,,4007,,288922,Asia,1
 Pakistan,1109274,3974,24639,66,996426,Asia,0
-Palestine,321031,,3625,,313448,Asia,0
+Palestine,321867,,3625,,313529,Asia,0
 Philippines,1765675,,30462,,1629426,Asia,0
 Qatar,229697,,601,,226389,Asia,0
 Saudi Arabia,539698,,8431,,524765,Asia,0
