@@ -1,11 +1,11 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Albania,136598,,2468,,130755,Europe,1
-Andorra,14960,,129,,14685,Europe,1
+Albania,137075,477,2471,3,130822,Europe,0
+Andorra,14976,16,129,,14711,Europe,0
 Austria,671593,1221,10757,,650931,Europe,0
 Belarus,463855,1061,3637,12,457682,Europe,0
 Belgium,1156620,1741,25299,,1079249,Europe,0
 Bosnia and Herzegovina,208267,420,9718,2,192218,Europe,0
-Bulgaria,435940,,18395,,400562,Europe,1
+Bulgaria,437327,1387,18411,16,400797,Europe,0
 Channel Islands,10005,,92,,9398,Europe,1
 Croatia,367933,524,8291,3,357518,Europe,0
 Czechia,1676817,294,30378,,1643946,Europe,0
@@ -13,26 +13,26 @@ Denmark,333815,1193,2562,,317959,Europe,0
 Estonia,137800,287,1281,2,131084,Europe,0
 Faroe Islands,993,,2,,988,Europe,0
 Finland,119320,673,1008,13,46000,Europe,0
-France,6504978,,112864,,5941185,Europe,1
-Germany,3840791,3603,92414,11,3684700,Europe,0
+France,6533383,28405,112976,112,5966375,Europe,0
+Germany,3846186,8998,92428,25,3684700,Europe,0
 Gibraltar,5248,12,96,,5015,Europe,0
 Greece,547186,3437,13245,25,496376,Europe,0
 Hungary,810658,109,30045,3,768891,Europe,0
 Iceland,9812,130,30,,8613,Europe,0
-Ireland,327684,,5059,,279451,Europe,1
-Isle of Man,6070,,37,,5341,Europe,1
+Ireland,329388,1704,5074,15,280522,Europe,0
+Isle of Man,6112,42,37,,5341,Europe,0
 Italy,4456765,7162,128579,69,4199404,Europe,0
 Latvia,140505,180,2566,1,136576,Europe,0
 Liechtenstein,3185,10,59,,3065,Europe,0
 Lithuania,291412,576,4461,3,274236,Europe,0
-Luxembourg,74779,,828,,73234,Europe,1
+Luxembourg,74855,76,829,1,73286,Europe,0
 Malta,35516,82,433,,34072,Europe,0
 Moldova,263074,485,6328,8,254452,Europe,0
-Monaco,3080,,33,,2935,Europe,1
+Monaco,3099,19,33,,2950,Europe,0
 Montenegro,107576,535,1657,5,101007,Europe,0
 Netherlands,1909211,2777,17927,7,1789524,Europe,0
 North Macedonia,164529,1077,5589,15,151235,Europe,0
-Norway,146056,295,811,1,88952,Europe,0
+Norway,146373,612,811,1,88952,Europe,0
 Poland,2885883,208,75307,1,2655588,Europe,0
 Portugal,1009571,2983,17601,17,947465,Europe,0
 Romania,1088594,541,34365,6,1050600,Europe,0
