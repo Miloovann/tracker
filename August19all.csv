@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,152411,,7047,,107927,Asia,1
+Afghanistan,152448,37,7054,7,107927,Asia,0
 Albania,137075,,2471,,130822,Europe,1
 Algeria,189384,,4898,,127904,Africa,1
 Andorra,14976,,129,,14711,Europe,1
@@ -14,7 +14,7 @@ Austria,672819,1226,10760,3,651560,Europe,0
 Azerbaijan,377304,,5208,,341142,Asia,1
 Bahamas,16723,,313,,13361,North America,1
 Bahrain,271257,,1385,,268737,Asia,1
-Bangladesh,1440644,,24719,,1327028,Asia,1
+Bangladesh,1447210,6566,24878,159,1337181,Asia,0
 Barbados,4594,,48,,4419,North America,1
 Belarus,465210,1355,3649,12,459090,Europe,0
 Belgium,1159366,2746,25305,6,1080579,Europe,0
@@ -74,7 +74,7 @@ Gabon,25626,,165,,25395,Africa,1
 Gambia,9318,,277,,8610,Africa,1
 Georgia,501297,4921,6590,58,436977,Asia,0
 Germany,3846186,,92428,,3684700,Europe,1
-Ghana,112378,,945,,105168,Africa,1
+Ghana,112928,550,945,,105622,Africa,0
 Gibraltar,5248,,96,,5015,Europe,1
 Greece,547186,,13245,,496376,Europe,1
 Greenland,273,,,,171,North America,0
@@ -157,7 +157,7 @@ Philippines,1791003,14895,30881,258,1648402,Asia,0
 Poland,2886079,197,75311,4,2655781,Europe,0
 Portugal,1009571,,17601,,947465,Europe,0
 Qatar,229915,,601,,226562,Asia,0
-Romania,1088594,,34365,,1050600,Europe,0
+Romania,1089189,595,34379,14,1050969,Europe,0
 Russia,6684531,21058,173700,791,5963054,Europe,0
 Rwanda,81339,,980,,45177,Africa,0
 Réunion,43835,,298,,38315,Africa,0
@@ -188,7 +188,7 @@ Sri Lanka,369359,,6604,,316528,Asia,0
 Sudan,37620,,2818,,31562,Africa,0
 Suriname,26916,,692,,22937,South America,0
 Sweden,1114278,,14624,,1080646,Europe,0
-Switzerland,747396,,10934,,698619,Europe,0
+Switzerland,750186,2788,10934,,698619,Europe,0
 Syria,26554,,1947,,22202,Asia,0
 São Tomé and Príncipe,2496,,37,,2396,Africa,0
 Taiwan,15897,6,826,5,14811,Asia,0
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,7372,,1411,,4570,Asia,0
 Zambia,203169,,3556,,196936,Africa,0
 Zimbabwe,121498,,4181,,101837,Africa,0
-World,210278652,229602,4409278,5056,186651083,,0
+World,210289190,240138,4409458,5236,186662059,,0
