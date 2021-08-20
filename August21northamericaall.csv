@@ -2,7 +2,7 @@ Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,
 Anguilla,154,,,,132,North America,0
 Antigua and Barbuda,1421,,43,,1277,North America,1
 Aruba,13719,,124,,12538,North America,1
-Bahamas,16848,,316,,13465,North America,1
+Bahamas,16962,114,330,14,13539,North America,0
 Barbados,4609,,48,,4424,North America,1
 Belize,15334,,350,,14093,North America,1
 Bermuda,2715,,33,,2569,North America,1
@@ -11,12 +11,12 @@ Canada,1462906,,26783,,1414266,North America,1
 Caribbean Netherlands,1767,2,17,,1721,North America,0
 Cayman Islands,656,,2,,648,North America,1
 Costa Rica,438587,,5296,,353231,North America,1
-Cuba,554247,,4319,,504599,North America,1
+Cuba,564011,9764,4397,78,513108,North America,0
 Curaçao,14802,,136,,14045,North America,1
 Dominica,953,,,,378,North America,0
 Dominican Republic,346997,,3989,,337956,North America,1
 El Salvador,92416,,2824,7,78873,North America,0
-Greenland,285,,,,206,North America,0
+Greenland,296,11,,,207,North America,0
 Grenada,196,,1,,178,North America,1
 Guadeloupe,40018,,324,,2250,North America,1
 Guatemala,428096,,11339,,370182,North America,1
@@ -25,7 +25,7 @@ Honduras,325230,1605,8544,17,104871,North America,0
 Jamaica,59932,,1342,,47599,North America,1
 Martinique,31369,,243,,104,North America,1
 Mexico,3175211,23006,251319,850,2503833,North America,0
-Montserrat,23,,1,,20,North America,1
+Montserrat,25,,1,,20,North America,1
 Nicaragua,10672,,198,,4225,North America,1
 Panama,450624,,6990,,433831,North America,0
 Saint Barthelemy,1489,,2,,462,North America,0
@@ -36,4 +36,4 @@ Saint Pierre and Miquelon,30,,,,30,North America,0
 Saint Vincent and the Grenadines,2320,,12,,2258,North America,0
 Trinidad and Tobago,42582,,1208,,35606,North America,0
 Turks and Caicos,2601,13,19,,2502,North America,0
-USA,38231787,,643112,,30390669,North America,0
+USA,38237020,5233,643167,55,30390669,North America,0

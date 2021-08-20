@@ -1,49 +1,49 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Albania,137597,,2473,,130920,Europe,1
-Andorra,14981,,129,,14724,Europe,1
+Andorra,14988,7,129,,14729,Europe,0
 Austria,674077,1258,10761,1,652180,Europe,0
 Belarus,466948,1738,3659,10,460813,Europe,0
 Belgium,1161558,2192,25312,7,1080579,Europe,0
-Bosnia and Herzegovina,208644,,9721,,192218,Europe,1
+Bosnia and Herzegovina,209073,429,9722,1,192218,Europe,0
 Bulgaria,438698,,18438,,401046,Europe,1
 Channel Islands,10153,,93,,9558,Europe,1
 Croatia,368887,468,8295,1,358083,Europe,0
 Czechia,1677204,167,30384,,1644913,Europe,0
-Denmark,334799,,2562,,318881,Europe,1
+Denmark,335722,923,2563,1,319811,Europe,0
 Estonia,138488,332,1281,,131484,Europe,0
 Faroe Islands,995,,2,,988,Europe,1
 Finland,120870,684,1008,,46000,Europe,0
 France,6557356,,113103,,5990445,Europe,1
-Germany,3854509,,92447,,3693400,Europe,1
-Gibraltar,5261,,96,,5029,Europe,1
-Greece,550459,,13265,,499097,Europe,1
+Germany,3858609,4100,92451,4,3693400,Europe,0
+Gibraltar,5269,7,96,,5037,Europe,0
+Greece,554055,3596,13295,30,500927,Europe,0
 Hungary,810781,,30046,,769777,Europe,1
-Iceland,9916,,30,,8682,Europe,1
+Iceland,9980,64,30,,8813,Europe,0
 Ireland,331206,,5074,,281617,Europe,1
 Isle of Man,6167,,37,,5628,Europe,1
-Italy,4464005,,128634,,4204869,Europe,1
+Italy,4471225,7224,128683,49,4211080,Europe,0
 Latvia,140784,133,2568,1,136725,Europe,0
 Liechtenstein,3209,11,59,,3076,Europe,0
 Lithuania,292552,537,4471,4,275178,Europe,0
-Luxembourg,74918,,830,,73389,Europe,1
+Luxembourg,74985,67,830,,73467,Europe,0
 Malta,35653,51,435,,34181,Europe,0
-Moldova,263500,,6338,,254649,Europe,1
+Moldova,263907,407,6346,8,254861,Europe,0
 Monaco,3105,,33,,2970,Europe,1
-Montenegro,108108,,1662,,101224,Europe,1
-Netherlands,1911699,,17933,,1796210,Europe,1
+Montenegro,108742,634,1663,1,101502,Europe,0
+Netherlands,1913908,2209,17939,6,1803107,Europe,0
 North Macedonia,165684,,5608,,151401,Europe,1
-Norway,147058,,811,,88952,Europe,1
+Norway,147476,418,811,,88952,Europe,0
 Poland,2886291,212,75315,4,2655891,Europe,0
-Portugal,1012125,,17613,,949703,Europe,0
+Portugal,1014632,2507,17622,9,952094,Europe,0
 Romania,1089817,628,34388,9,1051504,Europe,0
 Russia,6705523,20992,174485,785,5983405,Europe,0
 San Marino,5231,,90,,5077,Europe,0
-Serbia,737969,,7188,,714735,Europe,0
+Serbia,739561,1592,7195,7,715033,Europe,0
 Slovakia,393883,84,12547,,380416,Europe,0
 Slovenia,262904,333,4438,,255474,Europe,0
 Spain,4758003,,83004,,4058425,Europe,0
-Sweden,1115566,,14626,,1081162,Europe,0
-Switzerland,750186,,10934,,698619,Europe,0
-UK,6392160,,131373,,4955689,Europe,0
+Sweden,1116584,,14629,,1081742,Europe,0
+Switzerland,752761,2575,10936,2,700097,Europe,0
+UK,6429147,37314,131487,114,4986845,Europe,0
 Ukraine,2271826,1600,53394,26,2200000,Europe,0
 Vatican City,27,,,,27,Europe,0
