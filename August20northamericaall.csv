@@ -1,30 +1,30 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Anguilla,154,,,,132,North America,0
 Antigua and Barbuda,1421,,43,,1277,North America,1
-Aruba,13719,,124,,12538,North America,0
-Bahamas,16848,,316,,13465,North America,0
-Barbados,4609,,48,,4419,North America,0
-Belize,15334,,350,,14093,North America,0
+Aruba,13719,,124,,12538,North America,1
+Bahamas,16848,,316,,13465,North America,1
+Barbados,4609,,48,,4419,North America,1
+Belize,15334,,350,,14093,North America,1
 Bermuda,2715,,33,,2569,North America,1
-British Virgin Islands,2568,,37,,2500,North America,0
-Canada,1462906,,26783,,1414266,North America,0
-Caribbean Netherlands,1765,,17,,1715,North America,0
+British Virgin Islands,2568,,37,,2500,North America,1
+Canada,1462906,,26783,,1414266,North America,1
+Caribbean Netherlands,1765,,17,,1715,North America,1
 Cayman Islands,656,,2,,648,North America,1
-Costa Rica,438587,,5296,,353231,North America,0
-Cuba,554247,,4319,,504599,North America,0
-Curaçao,14802,,136,,14045,North America,0
+Costa Rica,438587,,5296,,353231,North America,1
+Cuba,554247,,4319,,504599,North America,1
+Curaçao,14802,,136,,14045,North America,1
 Dominica,953,,,,378,North America,0
-Dominican Republic,346997,,3989,,337956,North America,0
-El Salvador,92416,,2817,,78873,North America,0
+Dominican Republic,346997,,3989,,337956,North America,1
+El Salvador,92416,,2817,,78873,North America,1
 Greenland,285,,,,206,North America,0
-Grenada,196,,1,,178,North America,0
-Guadeloupe,40018,,324,,2250,North America,0
-Guatemala,428096,,11339,,370182,North America,0
-Haiti,20719,,583,,16679,North America,0
-Honduras,323625,,8527,,104632,North America,0
-Jamaica,59932,,1342,,47599,North America,0
+Grenada,196,,1,,178,North America,1
+Guadeloupe,40018,,324,,2250,North America,1
+Guatemala,428096,,11339,,370182,North America,1
+Haiti,20719,,583,,16679,North America,1
+Honduras,323625,,8527,,104632,North America,1
+Jamaica,59932,,1342,,47599,North America,1
 Martinique,31369,,243,,104,North America,1
-Mexico,3152205,,250469,,2486658,North America,0
+Mexico,3175211,23006,251319,850,2503833,North America,0
 Montserrat,23,,1,,20,North America,1
 Nicaragua,10672,,198,,4225,North America,1
 Panama,450624,,6990,,433831,North America,0
