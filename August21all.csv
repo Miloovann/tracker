@@ -1,6 +1,6 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Afghanistan,152497,49,7065,11,107927,Asia,0
-Albania,137597,,2473,,130920,Europe,1
+Albania,138132,535,2475,2,131042,Europe,0
 Algeria,190078,,4929,,128516,Africa,1
 Andorra,14988,7,129,,14729,Europe,0
 Angola,45325,,1133,,42080,Africa,1
@@ -116,7 +116,7 @@ Lithuania,292552,537,4471,4,275178,Europe,0
 Luxembourg,74985,67,830,,73467,Europe,0
 Macao,63,,,,59,Asia,0
 Madagascar,42838,2,954,,41274,Africa,0
-Malawi,59048,,2028,,44784,Africa,1
+Malawi,59249,201,2044,16,45123,Africa,0
 Malaysia,1513024,23564,13713,233,1241894,Asia,0
 Maldives,79659,,222,,77713,Asia,1
 Mali,14735,,535,,14035,Africa,1
@@ -133,9 +133,9 @@ Monaco,3105,,33,,2970,Europe,1
 Mongolia,190253,1841,892,1,181162,Asia,0
 Montenegro,108742,634,1663,1,101502,Europe,0
 Montserrat,25,,1,,20,North America,1
-Morocco,791559,,11472,,698472,Africa,1
+Morocco,799775,8216,11587,115,707143,Africa,0
 Mozambique,141383,,1773,,122747,Africa,1
-Myanmar,365759,,13945,,286775,Asia,1
+Myanmar,368768,3009,14096,151,290823,Asia,0
 Namibia,123082,,3316,,116912,Africa,1
 Nepal,744307,2079,10455,26,693543,Asia,0
 Netherlands,1913908,2209,17939,6,1803107,Europe,0
@@ -203,7 +203,7 @@ Turkey,6157772,,53891,,5666562,Asia,0
 Turks and Caicos,2601,13,19,,2502,North America,0
 UAE,707236,1070,2014,2,687644,Asia,0
 UK,6429147,37314,131487,114,4986845,Europe,0
-USA,38237020,5233,643167,55,30390669,North America,0
+USA,38238718,6931,643177,65,30391317,North America,0
 Uganda,97453,,2931,,95217,Africa,0
 Ukraine,2271826,1600,53394,26,2200000,Europe,0
 Uruguay,383758,,6013,,376371,South America,0
@@ -217,4 +217,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,7407,,1414,,4589,Asia,0
 Zambia,203978,425,3569,5,198009,Africa,0
 Zimbabwe,121902,,4198,,104034,Africa,0
-World,211121587,333911,4422159,5984,187290611,,0
+World,211135246,347570,4422453,6278,187304439,,0
