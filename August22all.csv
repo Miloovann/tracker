@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,152511,,7070,,107927,Asia,1
+Afghanistan,152583,72,7076,6,108262,Asia,0
 Albania,138790,,2477,,131184,Europe,1
 Algeria,191171,,4984,,129555,Africa,1
 Andorra,14988,,129,,14729,Europe,1
@@ -11,7 +11,7 @@ Armenia,237634,385,4752,15,224254,Asia,0
 Aruba,13948,,126,,13029,North America,1
 Australia,44034,915,981,3,31593,Australia/Oceania,0
 Austria,676526,1121,10762,1,653564,Europe,0
-Azerbaijan,388437,,5279,,344603,Asia,1
+Azerbaijan,391506,3069,5308,29,345783,Asia,0
 Bahamas,16962,,330,,13539,North America,1
 Bahrain,271534,,1386,,269127,Asia,1
 Bangladesh,1461998,4804,25282,139,1363874,Asia,0
@@ -92,7 +92,7 @@ Iceland,10115,62,30,,9066,Europe,0
 India,32424234,685,434399,,31636469,Asia,0
 Indonesia,3979456,12408,126372,1030,3546324,Asia,0
 Iran,4677114,36419,102038,684,3932472,Asia,0
-Iraq,1819455,,20110,,1649521,Asia,1
+Iraq,1825089,5634,20184,74,1659168,Asia,0
 Ireland,335429,,5074,,284065,Europe,1
 Isle of Man,6274,,37,,5765,Europe,1
 Israel,988239,1696,6791,16,913938,Asia,0
@@ -102,7 +102,7 @@ Jamaica,61282,,1371,,47675,North America,1
 Japan,1277439,25492,15596,33,1052221,Asia,0
 Jordan,788516,,10285,,765893,Asia,1
 Kazakhstan,736906,6725,8302,93,610719,Asia,0
-Kenya,228363,,4467,,211781,Africa,1
+Kenya,229009,646,4497,30,212036,Africa,0
 Kuwait,408078,,2403,,400746,Asia,1
 Kyrgyzstan,173920,244,2484,6,166308,Asia,0
 Laos,12164,,11,,4604,Asia,1
@@ -131,31 +131,31 @@ Micronesia,1,,,,1,Australia/Oceania,0
 Moldova,264283,,6356,,255088,Europe,1
 Monaco,3129,,33,,2990,Europe,1
 Mongolia,193684,1780,898,2,182885,Asia,0
-Montenegro,109340,,1666,,101787,Europe,1
+Montenegro,109962,622,1671,5,102065,Europe,0
 Montserrat,25,,1,,20,North America,1
 Morocco,806288,,11677,,716904,Africa,1
 Mozambique,142523,,1785,,124681,Africa,1
 Myanmar,371512,,14236,,295338,Asia,1
-Namibia,123483,,3333,,117342,Africa,1
+Namibia,123581,98,3342,9,118085,Africa,0
 Nepal,747433,1702,10509,24,698173,Asia,0
-Netherlands,1916316,,17947,,1809326,Europe,1
+Netherlands,1918769,2453,17953,6,1815721,Europe,0
 New Caledonia,135,,,,58,Australia/Oceania,0
 New Zealand,3016,24,26,,2874,Australia/Oceania,0
 Nicaragua,10672,,198,,4225,North America,1
 Niger,5767,,196,,5485,Africa,1
 Nigeria,186635,,2260,,168320,Africa,1
 North Macedonia,167991,,5654,,151957,Europe,1
-Norway,148337,,811,,88952,Europe,1
+Norway,148608,271,811,,88952,Europe,0
 Oman,301299,105,4031,5,290144,Asia,0
 Pakistan,1123812,3842,24923,75,1009555,Asia,0
-Palestine,325404,,3632,,314248,Asia,0
+Palestine,326310,906,3637,5,314452,Asia,0
 Panama,451984,,7003,,435603,North America,0
 Papua New Guinea,17832,,192,,17547,Australia/Oceania,0
 Paraguay,457612,,15550,,434929,South America,0
 Peru,2141235,,197818,,N/A,South America,0
 Philippines,1839635,16044,31810,215,1681925,Asia,0
 Poland,2886698,185,75316,,2656143,Europe,0
-Portugal,1017308,,17630,,955090,Europe,0
+Portugal,1019420,2112,17639,9,956316,Europe,0
 Qatar,230632,,601,,227197,Asia,0
 Romania,1090925,517,34412,9,1051987,Europe,0
 Russia,6747087,20564,176044,762,6019466,Europe,0
@@ -170,9 +170,9 @@ Saint Pierre and Miquelon,30,,,,30,North America,0
 Saint Vincent and the Grenadines,2320,,12,,2261,North America,0
 Samoa,3,,,,3,Australia/Oceania,0
 San Marino,5231,,90,,5077,Europe,0
-Saudi Arabia,541610,,8469,,527899,Asia,0
+Saudi Arabia,541994,384,8481,12,528636,Asia,0
 Senegal,71927,155,1671,12,57394,Africa,0
-Serbia,741071,,7206,,715412,Europe,0
+Serbia,742313,1242,7214,8,715825,Europe,0
 Seychelles,19390,,101,,18650,Africa,0
 Sierra Leone,6347,,121,,4335,Africa,0
 Singapore,66478,35,36,,62212,Asia,0
@@ -214,7 +214,7 @@ Venezuela,324642,,3886,,310660,South America,0
 Vietnam,348059,11214,8277,737,147667,Asia,0
 Wallis and Futuna,445,,7,,438,Australia/Oceania,0
 Western Sahara,10,,1,,8,Africa,0
-Yemen,7487,,1416,,4622,Asia,0
+Yemen,7509,22,1418,2,4644,Asia,0
 Zambia,204549,212,3574,1,198559,Africa,0
 Zimbabwe,122487,,4236,,106366,Africa,0
-World,212313787,222879,4440768,5395,188209990,,0
+World,212331318,240410,4440963,5590,188231425,,0
