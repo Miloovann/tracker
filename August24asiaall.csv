@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,152660,,7083,,108863,Asia,1
+Afghanistan,152722,62,7090,7,109009,Asia,0
 Armenia,238422,537,4768,6,224719,Asia,0
 Azerbaijan,394451,,5340,,346810,Asia,1
 Bahrain,271715,,1387,,269362,Asia,1
@@ -24,14 +24,14 @@ Kyrgyzstan,174347,199,2494,5,167146,Asia,0
 Laos,12957,336,11,,4604,Asia,0
 Lebanon,592780,,8014,,546444,Asia,1
 Macao,63,,,,59,Asia,0
-Malaysia,1572765,,14342,,1297723,Asia,1
+Malaysia,1593602,20837,14553,211,1316336,Asia,0
 Maldives,80067,,225,,78189,Asia,1
 Mongolia,196846,1596,907,5,184559,Asia,0
 Myanmar,375871,,14499,,302447,Asia,1
-Nepal,748981,,10533,,700097,Asia,1
+Nepal,751001,2020,10568,35,702183,Asia,0
 Oman,301570,120,4043,5,290631,Asia,0
 Pakistan,1131659,4075,25094,91,1015519,Asia,0
-Palestine,327634,,3642,,314770,Asia,0
+Palestine,329204,1570,3646,4,314967,Asia,0
 Philippines,1869691,12067,32264,303,1709724,Asia,0
 Qatar,231126,,601,,227656,Asia,0
 Saudi Arabia,542354,,8490,,529377,Asia,0
@@ -46,5 +46,5 @@ Timor-Leste,14935,532,51,2,11068,Asia,0
 Turkey,6234520,,54765,,5724382,Asia,0
 UAE,711428,990,2026,2,694260,Asia,0
 Uzbekistan,150683,807,1035,7,143395,Asia,0
-Vietnam,358456,,8666,,154612,Asia,0
+Vietnam,369262,10806,9014,348,162279,Asia,0
 Yemen,7539,,1420,,4670,Asia,0
