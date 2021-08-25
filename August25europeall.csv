@@ -1,30 +1,30 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Albania,140521,,2480,,131608,Europe,1
 Andorra,15003,,130,,14785,Europe,1
-Austria,678605,,10768,,655187,Europe,1
+Austria,680179,1574,10770,2,656016,Europe,0
 Belarus,471495,,3701,,465027,Europe,1
 Belgium,1170213,1611,25342,1,1088145,Europe,0
 Bosnia and Herzegovina,210442,,9750,,192218,Europe,1
 Bulgaria,445097,,18565,,402718,Europe,1
 Channel Islands,10361,,94,,9788,Europe,1
 Croatia,370308,,8306,,359442,Europe,1
-Czechia,1677829,,30385,,1645674,Europe,1
+Czechia,1678083,250,30387,,1645875,Europe,0
 Denmark,339580,,2568,,323603,Europe,1
-Estonia,139500,,1285,,132025,Europe,1
-Faroe Islands,997,,2,,991,Europe,1
+Estonia,139937,437,1285,,132315,Europe,0
+Faroe Islands,999,2,2,,991,Europe,0
 Finland,123061,,1008,,46000,Europe,1
 France,6649630,,113572,,6093844,Europe,1
 Germany,3884417,,92522,,3710500,Europe,0
 Gibraltar,5299,,96,,5097,Europe,1
 Greece,566812,,13417,,515089,Europe,1
-Hungary,811203,,30054,,772241,Europe,1
+Hungary,811337,134,30055,1,773569,Europe,0
 Iceland,10254,,30,,9294,Europe,1
 Ireland,340278,,5074,,287922,Europe,1
 Isle of Man,6419,,37,,5877,Europe,1
 Italy,4494857,,128855,,4230677,Europe,1
 Latvia,141287,,2569,,136903,Europe,1
 Liechtenstein,3233,,59,,3112,Europe,1
-Lithuania,294708,,4498,,277068,Europe,1
+Lithuania,295373,649,4505,5,277592,Europe,0
 Luxembourg,75216,,830,,73641,Europe,1
 Malta,35866,,437,,34352,Europe,1
 Moldova,265258,,6374,,255724,Europe,1
@@ -36,11 +36,11 @@ Norway,150825,,811,,88952,Europe,1
 Poland,2887037,,75324,,2656355,Europe,0
 Portugal,1022807,,17658,,960969,Europe,0
 Romania,1092122,,34439,,1052478,Europe,0
-Russia,6785374,,177614,,6053503,Europe,0
+Russia,6804910,19536,178423,809,6073157,Europe,0
 San Marino,5261,,90,,5119,Europe,0
 Serbia,746366,,7226,,716879,Europe,0
-Slovakia,394204,,12547,,380613,Europe,0
-Slovenia,264141,,4442,,255942,Europe,0
+Slovakia,394285,81,12547,,380681,Europe,0
+Slovenia,264649,508,4443,1,256188,Europe,0
 Spain,4804424,,83527,,4197092,Europe,0
 Sweden,1119358,,14631,,1082670,Europe,0
 Switzerland,761978,,10954,,701746,Europe,0
