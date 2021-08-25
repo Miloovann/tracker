@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Algeria,192626,,5063,,130742,Africa,1
+Algeria,193171,545,5096,33,131143,Africa,0
 Angola,46340,,1166,,42738,Africa,1
 Benin,12492,,127,,8572,Africa,1
 Botswana,150842,,2171,,140350,Africa,1
@@ -9,9 +9,9 @@ Cabo Verde,34919,94,307,1,33907,Africa,0
 Cameroon,82454,,1338,,80433,Africa,1
 Central African Republic,11270,,99,,6859,Africa,1
 Chad,4987,,174,,4808,Africa,1
-Comoros,4054,,147,,3893,Africa,1
+Comoros,4055,1,147,,3893,Africa,0
 DR Congo,54009,,1053,,30858,Africa,1
-Djibouti,11701,,157,,11531,Africa,1
+Djibouti,11707,6,157,,11531,Africa,0
 Egypt,286735,,16683,,236228,Africa,1
 Equatorial Guinea,9096,,123,,8827,Africa,1
 Eritrea,6635,3,37,,6581,Africa,0
@@ -29,12 +29,12 @@ Liberia,5459,,148,,2715,Africa,1
 Libya,300455,1682,4126,27,216146,Africa,0
 Madagascar,42850,3,955,,41283,Africa,0
 Malawi,59954,167,2111,13,46290,Africa,0
-Mali,14778,,536,,14060,Africa,1
+Mali,14795,17,537,1,14065,Africa,0
 Mauritania,32220,,681,,28704,Africa,1
 Mauritius,8334,,26,,1854,Africa,1
 Mayotte,19698,,175,,2964,Africa,1
 Morocco,829137,8008,12079,85,747746,Africa,0
-Mozambique,143655,,1813,,127852,Africa,1
+Mozambique,144032,377,1822,9,128219,Africa,0
 Namibia,124083,51,3349,3,118471,Africa,0
 Niger,5778,,196,,5494,Africa,1
 Nigeria,188243,,2281,,169035,Africa,1
@@ -43,12 +43,12 @@ Réunion,48683,,332,,45980,Africa,0
 Saint Helena,2,,,,2,Africa,0
 Senegal,72215,129,1706,9,59063,Africa,0
 Seychelles,19594,,104,,18909,Africa,0
-Sierra Leone,6357,,121,,4342,Africa,0
+Sierra Leone,6358,1,121,,4344,Africa,0
 Somalia,16892,,927,,8141,Africa,0
-South Africa,2708951,,79953,,2464609,Africa,0
+South Africa,2722202,13251,80469,516,2474245,Africa,0
 South Sudan,11314,,120,,10948,Africa,0
 Sudan,37650,,2828,,31602,Africa,0
-São Tomé and Príncipe,2546,,37,,2411,Africa,0
+São Tomé and Príncipe,2555,9,37,,2413,Africa,0
 Tanzania,1367,,50,,183,Africa,0
 Togo,19963,,175,,16238,Africa,0
 Tunisia,647483,3411,22860,146,599440,Africa,0
