@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Albania,143174,,2487,,132376,Europe,1
+Albania,144079,905,2490,3,132723,Europe,0
 Andorra,15025,,130,,14821,Europe,1
 Austria,684541,1322,10777,1,659053,Europe,0
 Belarus,477901,1636,3745,10,471018,Europe,0
@@ -14,27 +14,27 @@ Estonia,141014,324,1287,,133349,Europe,0
 Faroe Islands,999,,2,,991,Europe,1
 Finland,125474,619,1018,,46000,Europe,0
 France,6711268,,114083,,6170625,Europe,1
-Germany,3926192,1212,92623,3,3723200,Europe,0
+Germany,3929563,4583,92626,6,3723200,Europe,0
 Gibraltar,5332,7,97,,5138,Europe,0
-Greece,576672,,13509,,523638,Europe,1
+Greece,579734,3062,13544,35,526034,Europe,0
 Hungary,811706,,30057,,775286,Europe,1
 Iceland,10514,,32,,9551,Europe,1
 Ireland,346070,,5092,,291595,Europe,1
-Isle of Man,6554,,38,,6046,Europe,1
+Isle of Man,6587,33,38,,6046,Europe,0
 Italy,4524292,6860,129056,54,4255808,Europe,0
 Latvia,142123,256,2573,,137380,Europe,0
 Liechtenstein,3259,2,59,,3136,Europe,0
 Lithuania,297334,545,4532,9,279426,Europe,0
 Luxembourg,75517,,830,,73790,Europe,1
 Malta,36039,49,440,1,34567,Europe,0
-Moldova,266591,,6387,,256283,Europe,1
+Moldova,266784,193,6390,3,256882,Europe,0
 Monaco,3178,,33,,3060,Europe,1
-Montenegro,113171,,1708,,103680,Europe,1
+Montenegro,113808,637,1712,4,104073,Europe,0
 Netherlands,1934283,2450,17994,9,1841214,Europe,0
 North Macedonia,173689,,5818,,154174,Europe,1
 Norway,155691,605,814,,88952,Europe,0
 Poland,2888028,290,75340,5,2656708,Europe,0
-Portugal,1030791,,17703,,967662,Europe,1
+Portugal,1033165,2374,17711,8,970497,Europe,0
 Romania,1095885,1015,34509,19,1053974,Europe,0
 Russia,6863541,19492,180840,799,6131446,Europe,0
 San Marino,5261,,90,,5119,Europe,1
@@ -44,6 +44,6 @@ Slovenia,266241,538,4448,2,256896,Europe,0
 Spain,4831809,,84000,,4258193,Europe,0
 Sweden,1123413,,14644,,1085412,Europe,0
 Switzerland,770758,,10967,2,705104,Europe,0
-UK,6666399,,132243,,5298660,Europe,0
+UK,6698486,32406,132376,133,5337919,Europe,0
 Ukraine,2282285,2082,53686,54,2205707,Europe,0
 Vatican City,27,,,,27,Europe,0
