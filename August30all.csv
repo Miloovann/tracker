@@ -8,14 +8,14 @@ Anguilla,201,7,,,170,North America,0
 Antigua and Barbuda,1651,13,43,,1338,North America,0
 Argentina,5171458,,111324,,4854329,South America,1
 Armenia,241336,383,4823,11,226292,Asia,0
-Aruba,14429,,137,,13702,North America,0
+Aruba,14465,36,137,,13758,North America,0
 Australia,51243,1305,999,6,32942,Australia/Oceania,0
 Austria,685956,1415,10781,4,660098,Europe,0
 Azerbaijan,417996,4010,5553,41,361128,Asia,0
 Bahamas,17940,,354,,14595,North America,1
-Bahrain,272246,,1388,,269904,Asia,1
+Bahrain,272341,95,1388,,270005,Asia,0
 Bangladesh,1489589,,25926,,1409231,Asia,1
-Barbados,4881,,48,,4621,North America,0
+Barbados,4931,50,49,1,4621,North America,0
 Belarus,479306,1405,3757,12,472505,Europe,0
 Belgium,1177909,,25360,,1093676,Europe,1
 Belize,16012,,356,,14607,North America,1
@@ -25,10 +25,10 @@ Bhutan,2594,,3,,2567,Asia,1
 Bolivia,489802,355,18402,11,432610,South America,0
 Bosnia and Herzegovina,212306,,9785,,192218,Europe,1
 Botswana,153793,,2213,,144254,Africa,1
-Brazil,20728605,,579052,,19646400,South America,1
+Brazil,20741815,13210,579308,256,19663748,South America,0
 British Virgin Islands,2568,,37,,2500,North America,1
 Brunei,2462,82,7,,664,Asia,0
-Bulgaria,451148,,18705,,404198,Europe,1
+Bulgaria,451599,451,18731,26,404359,Europe,0
 Burkina Faso,13759,,171,,13483,Africa,1
 Burundi,11994,,38,,773,Africa,1
 Cabo Verde,35147,,308,,34062,Africa,1
@@ -47,12 +47,12 @@ Comoros,4062,,147,,3898,Africa,1
 Costa Rica,455784,,5431,,366572,North America,1
 Croatia,373191,377,8325,1,361535,Europe,0
 Cuba,640438,6277,5144,77,596846,North America,0
-Curaçao,15216,,143,,14616,North America,0
+Curaçao,15248,32,143,,14658,North America,0
 Cyprus,113277,208,499,2,90755,Asia,0
 Czechia,1678862,132,30402,1,1646369,Europe,0
 DR Congo,54508,,1057,,30858,Africa,1
 Denmark,344088,737,2580,3,328434,Europe,0
-Djibouti,11728,,157,,11538,Africa,0
+Djibouti,11741,13,157,,11540,Africa,0
 Dominica,1638,,4,,996,North America,1
 Dominican Republic,349859,239,4007,,340733,North America,0
 Ecuador,501049,,32223,,443880,South America,1
@@ -64,7 +64,7 @@ Estonia,141344,330,1289,2,133408,Europe,0
 Eswatini,42828,109,1081,14,33549,Africa,0
 Ethiopia,306117,1040,4644,13,274577,Africa,0
 Falkland Islands,66,,,,63,South America,0
-Faroe Islands,999,,2,,991,Europe,0
+Faroe Islands,1000,1,2,,992,Europe,0
 Fiji,46027,396,479,,25951,Australia/Oceania,0
 Finland,126093,619,1018,,46000,Europe,0
 France,6742488,13630,114210,53,6196776,Europe,0
@@ -73,14 +73,14 @@ French Polynesia,40178,,385,,33500,Australia/Oceania,1
 Gabon,25819,,165,,25565,Africa,1
 Gambia,9626,93,314,3,9194,Africa,0
 Georgia,543118,2669,7251,76,482732,Asia,0
-Germany,3939643,6074,92643,12,3726700,Europe,0
+Germany,3940211,6642,92643,12,3726700,Europe,0
 Ghana,117636,,1008,,109612,Africa,1
 Gibraltar,5338,4,97,,5151,Europe,0
 Greece,581315,1581,13581,37,530205,Europe,0
 Greenland,333,4,,,259,North America,0
 Grenada,317,,1,,190,North America,1
 Guadeloupe,45277,,439,,2250,North America,1
-Guatemala,463753,,11818,,397556,North America,1
+Guatemala,465059,1306,11858,40,400378,North America,0
 Guinea,29209,,326,,26658,Africa,1
 Guinea-Bissau,5745,,116,,4753,Africa,1
 Guyana,24967,,609,,22676,South America,1
@@ -89,13 +89,13 @@ Honduras,335398,,8832,,106597,North America,1
 Hong Kong,12108,7,212,,11783,Asia,0
 Hungary,811706,,30057,,775286,Europe,1
 Iceland,10658,53,33,1,9781,Europe,0
-India,32737505,43317,438376,516,31914956,Asia,0
+India,32737569,43381,438387,527,31915969,Asia,0
 Indonesia,4073831,7427,131923,551,3724318,Asia,0
 Iran,4926964,31516,106482,581,4146742,Asia,0
 Iraq,1874435,6083,20699,67,1719557,Asia,0
 Ireland,349773,1706,5092,,294457,Europe,0
 Isle of Man,6629,42,38,,6046,Europe,0
-Israel,1051152,4456,6989,39,966079,Asia,0
+Israel,1051609,4913,6989,39,966079,Asia,0
 Italy,4530246,5959,129093,37,4260106,Europe,0
 Ivory Coast,54856,,424,,53119,Africa,1
 Jamaica,66663,929,1504,21,48095,North America,0
@@ -103,7 +103,7 @@ Japan,1434370,22748,15896,45,1173112,Asia,0
 Jordan,795161,811,10383,15,773065,Asia,0
 Kazakhstan,779927,5993,9118,135,662158,Asia,0
 Kenya,234589,,4694,,219706,Africa,1
-Kuwait,409363,,2416,,404217,Asia,1
+Kuwait,409552,189,2417,1,404558,Asia,0
 Kyrgyzstan,175437,213,2518,5,169117,Asia,0
 Laos,14641,195,12,,4928,Asia,0
 Latvia,142319,196,2573,,137561,Europe,0
@@ -160,7 +160,7 @@ Portugal,1034947,1782,17721,10,971567,Europe,0
 Qatar,232366,179,602,,229046,Asia,0
 Romania,1096753,868,34528,19,1054246,Europe,0
 Russia,6882827,19286,181637,797,6148250,Europe,0
-Rwanda,86242,,1074,,45287,Africa,1
+Rwanda,86613,371,1079,5,45288,Africa,0
 Réunion,48683,,332,,45980,Africa,1
 Saint Barthelemy,1520,,2,,462,North America,1
 Saint Helena,2,,,,2,Africa,0
@@ -190,21 +190,21 @@ Sudan,37699,,2831,,31630,Africa,1
 Suriname,28684,,714,,24163,South America,0
 Sweden,1123413,,14644,,1086097,Europe,0
 Switzerland,770758,,10967,,705104,Europe,0
-Syria,27539,,1998,,22410,Asia,0
+Syria,27654,115,2003,5,22429,Asia,0
 São Tomé and Príncipe,2590,,37,,2424,Africa,0
 Taiwan,15983,23,834,1,14941,Asia,0
-Tajikistan,16738,42,124,,16570,Asia,0
+Tajikistan,16778,82,124,,16618,Asia,0
 Tanzania,1367,,50,,183,Africa,0
 Thailand,1174091,16536,11143,264,985246,Asia,0
 Timor-Leste,16402,166,62,3,11786,Asia,0
-Togo,21037,,180,,16584,Africa,0
-Trinidad and Tobago,44296,,1274,,38321,North America,0
+Togo,21181,144,180,,16691,Africa,0
+Trinidad and Tobago,44481,185,1278,4,38611,North America,0
 Tunisia,660587,2265,23369,187,609496,Africa,0
 Turkey,6346881,17332,56213,255,5809710,Asia,0
 Turks and Caicos,2650,,20,,2541,North America,0
 UAE,716381,987,2038,2,702102,Asia,0
 UK,6731423,33196,132437,61,5383649,Europe,0
-USA,39621383,3966,654398,17,30812243,North America,0
+USA,39662129,33909,654672,267,30826004,North America,0
 Uganda,119732,188,2991,6,95476,Africa,0
 Ukraine,2284191,1906,53720,34,2206392,Europe,0
 Uruguay,384622,,6027,,377426,South America,0
@@ -218,4 +218,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,7784,33,1461,11,4797,Asia,0
 Zambia,206051,158,3596,5,200662,Africa,0
 Zimbabwe,124367,,4390,,110775,Africa,0
-World,217082232,386003,4512983,6369,192264638,,0
+World,217140305,433273,4513606,6968,192300751,,0
