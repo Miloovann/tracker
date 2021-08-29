@@ -4,10 +4,10 @@ Albania,144079,,2490,,132723,Europe,1
 Algeria,194671,,5179,,132292,Africa,1
 Andorra,15025,,130,,14821,Europe,1
 Angola,47079,,1192,,43195,Africa,1
-Anguilla,194,,,,149,North America,0
+Anguilla,201,7,,,170,North America,0
 Antigua and Barbuda,1638,,43,,1338,North America,1
 Argentina,5171458,,111324,,4854329,South America,1
-Armenia,240953,,4812,,225963,Asia,1
+Armenia,241336,383,4823,11,226292,Asia,0
 Aruba,14429,,137,,13702,North America,1
 Australia,51243,1305,999,6,32942,Australia/Oceania,0
 Austria,684541,,10777,,659053,Europe,1
@@ -49,7 +49,7 @@ Croatia,372814,,8324,,361056,Europe,1
 Cuba,634161,,5067,,587514,North America,1
 Curaçao,15216,,143,,14616,North America,1
 Cyprus,113069,,497,,90755,Asia,1
-Czechia,1678731,,30401,,1646365,Europe,1
+Czechia,1678862,132,30402,1,1646369,Europe,0
 DR Congo,54508,,1057,,30858,Africa,1
 Denmark,343351,,2577,,327615,Europe,1
 Djibouti,11728,,157,,11538,Africa,1
@@ -57,7 +57,7 @@ Dominica,1638,,4,,996,North America,1
 Dominican Republic,349620,,4007,,340472,North America,1
 Ecuador,501049,,32223,,443880,South America,1
 Egypt,287644,,16714,,237817,Africa,1
-El Salvador,94060,,2890,,79740,North America,1
+El Salvador,94060,,2898,8,79740,North America,0
 Equatorial Guinea,9173,,123,,8841,Africa,1
 Eritrea,6639,,37,,6589,Africa,1
 Estonia,141014,,1287,,133349,Europe,1
@@ -72,7 +72,7 @@ French Guiana,34375,,215,,9995,South America,1
 French Polynesia,40178,,385,,33500,Australia/Oceania,1
 Gabon,25819,,165,,25565,Africa,1
 Gambia,9533,,311,,9110,Africa,1
-Georgia,540449,,7175,,476555,Asia,1
+Georgia,543118,2669,7251,76,482732,Asia,0
 Germany,3933569,,92631,,3726700,Europe,0
 Ghana,117636,,1008,,109612,Africa,1
 Gibraltar,5332,,97,,5138,Europe,1
@@ -112,7 +112,7 @@ Lesotho,14395,,403,,6830,Africa,1
 Liberia,5459,,148,,2715,Africa,1
 Libya,303790,,4165,,217624,Africa,1
 Liechtenstein,3259,,59,,3136,Europe,1
-Lithuania,297334,,4532,,279426,Europe,1
+Lithuania,297777,396,4539,7,279529,Europe,0
 Luxembourg,75517,,830,,73790,Europe,1
 Macao,63,,,,60,Asia,0
 Madagascar,42862,,955,,41295,Africa,1
@@ -192,7 +192,7 @@ Sweden,1123413,,14644,,1085412,Europe,0
 Switzerland,770758,,10967,,705104,Europe,0
 Syria,27539,,1998,,22410,Asia,0
 São Tomé and Príncipe,2590,,37,,2424,Africa,0
-Taiwan,15960,,833,,14941,Asia,0
+Taiwan,15983,23,834,1,14941,Asia,0
 Tajikistan,16696,,124,,16531,Asia,0
 Tanzania,1367,,50,,183,Africa,0
 Thailand,1174091,16536,11143,264,985246,Asia,0
@@ -218,4 +218,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,7751,,1450,,4785,Asia,0
 Zambia,205893,,3591,,200316,Africa,0
 Zimbabwe,124367,,4390,,110775,Africa,0
-World,216748881,54002,4507906,1303,191956540,,0
+World,216752537,57612,4508010,1407,191963174,,0
