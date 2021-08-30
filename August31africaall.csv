@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Algeria,195162,,5209,,132667,Africa,1
+Algeria,195574,412,5240,31,133037,Africa,0
 Angola,47168,,1201,,43257,Africa,1
 Benin,13366,,128,,8854,Africa,1
 Botswana,153793,,2213,,144254,Africa,1
@@ -19,7 +19,7 @@ Eswatini,42828,,1081,,33549,Africa,1
 Ethiopia,306117,,4644,,274577,Africa,1
 Gabon,25819,,165,,25565,Africa,1
 Gambia,9698,72,319,5,9283,Africa,0
-Ghana,117636,,1008,,109612,Africa,1
+Ghana,118266,630,1017,9,110225,Africa,0
 Guinea,29209,,326,,26658,Africa,1
 Guinea-Bissau,5766,,117,,4780,Africa,1
 Ivory Coast,55108,,430,,53397,Africa,1
@@ -33,8 +33,8 @@ Mali,14857,,539,,14095,Africa,1
 Mauritania,33309,,705,,29987,Africa,1
 Mauritius,8667,,27,,1854,Africa,1
 Mayotte,19739,,175,,2964,Africa,1
-Morocco,853373,,12437,,780434,Africa,1
-Mozambique,145863,,1851,,131533,Africa,1
+Morocco,856049,2676,12540,103,787794,Africa,0
+Mozambique,146053,190,1853,2,132397,Africa,0
 Namibia,124900,184,3372,,118839,Africa,0
 Niger,5839,,198,,5517,Africa,1
 Nigeria,191345,,2454,,178283,Africa,1
