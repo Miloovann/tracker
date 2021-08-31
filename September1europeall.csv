@@ -1,6 +1,6 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Albania,145333,,2495,,133332,Europe,1
-Andorra,15032,,130,,14848,Europe,1
+Andorra,15033,1,130,,14854,Europe,0
 Austria,688305,1229,10772,,662330,Europe,0
 Belarus,481532,1168,3780,12,474300,Europe,0
 Belgium,1182810,1858,25374,6,1100752,Europe,0
@@ -14,25 +14,25 @@ Estonia,141956,358,1292,1,133538,Europe,0
 Faroe Islands,1001,1,2,,993,Europe,0
 Finland,127182,617,1018,,46000,Europe,0
 France,6746283,,114308,,6225201,Europe,1
-Germany,3947016,,92671,,3738000,Europe,0
+Germany,3950247,3231,92682,11,3738000,Europe,0
 Gibraltar,5342,,97,,5161,Europe,1
-Greece,583658,,13600,,533605,Europe,1
+Greece,587964,3628,13622,22,536859,Europe,0
 Hungary,812337,110,30058,1,777445,Europe,0
 Iceland,10705,,33,,9850,Europe,1
 Ireland,351065,,5092,,295884,Europe,1
-Isle of Man,6653,,38,,6046,Europe,1
-Italy,4534499,,129146,,4263960,Europe,1
+Isle of Man,6676,23,38,,6046,Europe,0
+Italy,4539991,5498,129146,,4272845,Europe,0
 Latvia,142637,237,2578,5,137608,Europe,0
 Liechtenstein,3273,7,59,,3177,Europe,0
 Lithuania,298825,646,4561,6,280597,Europe,0
-Luxembourg,75672,,830,,73927,Europe,1
+Luxembourg,75760,88,830,,73932,Europe,0
 Malta,36171,48,441,1,34678,Europe,0
 Moldova,267204,,6397,,257256,Europe,1
 Monaco,3188,,33,,3082,Europe,1
 Montenegro,115385,598,1724,4,105356,Europe,0
 Netherlands,1941055,2312,18010,12,1849817,Europe,0
 North Macedonia,175624,,5901,,155646,Europe,1
-Norway,158389,,814,,88952,Europe,1
+Norway,159258,869,814,,88952,Europe,0
 Poland,2888670,285,75345,5,2657084,Europe,0
 Portugal,1037927,1908,17743,13,976097,Europe,0
 Romania,1098765,1313,34570,31,1055059,Europe,0
