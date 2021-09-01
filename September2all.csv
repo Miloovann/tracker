@@ -1,7 +1,7 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Afghanistan,153306,46,7127,4,110813,Asia,0
-Albania,146387,,2498,,133801,Europe,1
-Algeria,196080,,5269,,133395,Africa,1
+Albania,147369,982,2501,3,134276,Europe,0
+Algeria,196527,447,5302,33,133739,Africa,0
 Andorra,15046,13,130,,14862,Europe,0
 Angola,47544,,1217,,43421,Africa,1
 Anguilla,217,,,,179,North America,0
@@ -38,7 +38,7 @@ Canada,1500520,1357,26947,15,1441949,North America,0
 Caribbean Netherlands,1791,,17,,1754,North America,1
 Cayman Islands,688,8,2,,668,North America,0
 Central African Republic,11296,,100,,6859,Africa,1
-Chad,4992,,174,,4810,Africa,1
+Chad,4994,2,174,,4812,Africa,0
 Channel Islands,10608,,95,,10109,Europe,1
 Chile,1639123,448,36945,8,1596357,South America,0
 China,94898,19,4636,,89240,Asia,0
@@ -48,7 +48,7 @@ Costa Rica,463726,,5506,,372694,North America,1
 Croatia,374803,805,8338,4,362833,Europe,0
 Cuba,659464,6609,5377,74,620157,North America,0
 Curaçao,15299,,144,,14753,North America,1
-Cyprus,113875,,503,,90755,Asia,1
+Cyprus,114131,256,507,4,90755,Asia,0
 Czechia,1679476,287,30404,,1647148,Europe,0
 DR Congo,54863,,1059,,30858,Africa,1
 Denmark,346518,825,2584,,331499,Europe,0
@@ -61,13 +61,13 @@ El Salvador,96067,285,2926,8,81339,North America,0
 Equatorial Guinea,9477,,126,,8879,Africa,1
 Eritrea,6642,,38,,6590,Africa,1
 Estonia,142363,408,1293,1,134004,Europe,0
-Eswatini,43371,,1101,,34778,Africa,1
+Eswatini,43626,255,1112,11,35541,Africa,0
 Ethiopia,308134,,4675,,276842,Africa,1
 Falkland Islands,66,,,,63,South America,0
 Faroe Islands,1001,,2,,993,Europe,1
 Fiji,47006,290,504,8,29067,Australia/Oceania,0
 Finland,127861,679,1030,12,46000,Europe,0
-France,6765708,,114444,,6255985,Europe,1
+France,6783329,17621,114577,86,6284539,Europe,0
 French Guiana,35073,,219,,9995,South America,1
 French Polynesia,40178,,436,,33500,Australia/Oceania,1
 Gabon,25888,,166,,25625,Africa,1
@@ -116,10 +116,10 @@ Lithuania,299532,695,4569,6,281207,Europe,0
 Luxembourg,75904,144,830,,74021,Europe,0
 Macao,63,,,,60,Asia,0
 Madagascar,42873,4,956,,41298,Africa,0
-Malawi,60494,,2177,,47806,Africa,1
+Malawi,60583,89,2185,8,48186,Africa,0
 Malaysia,1765016,18762,16942,278,1482800,Asia,0
 Maldives,81301,189,226,,79268,Asia,0
-Mali,14889,,539,,14104,Africa,1
+Mali,14895,6,539,,14111,Africa,0
 Malta,36247,76,441,,34727,Europe,0
 Marshall Islands,4,,,,4,Australia/Oceania,0
 Martinique,37192,,442,,104,North America,1
@@ -181,7 +181,7 @@ Slovakia,395122,199,12548,,381174,Europe,0
 Slovenia,267962,764,4450,,257752,Europe,0
 Solomon Islands,20,,,,20,Australia/Oceania,0
 Somalia,17466,,977,,8531,Africa,1
-South Africa,2777659,,82261,,2544563,Africa,1
+South Africa,2787203,9544,82496,235,2560605,Africa,0
 South Korea,253445,2024,2292,7,224319,Asia,0
 South Sudan,11436,,120,,10948,Africa,1
 Spain,4861883,6818,84472,132,4381350,Europe,0
@@ -218,4 +218,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,7900,31,1480,8,4871,Asia,0
 Zambia,206522,195,3605,3,201227,Africa,0
 Zimbabwe,124773,,4419,,113057,Africa,0
-World,218866364,369019,4538987,6610,194003782,,0
+World,218895566,398221,4539414,6990,194050349,,0
