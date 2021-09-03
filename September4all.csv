@@ -1,6 +1,6 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Afghanistan,153395,20,7128,1,111300,Asia,0
-Albania,148222,,2505,,134802,Europe,1
+Albania,149117,895,2508,3,135321,Europe,0
 Algeria,196915,,5339,,134073,Africa,1
 Andorra,15055,3,130,,14874,Europe,0
 Angola,48004,,1235,,43739,Africa,1
@@ -73,10 +73,10 @@ French Polynesia,40178,,463,,33500,Australia/Oceania,1
 Gabon,25888,,166,,25625,Africa,1
 Gambia,9736,21,323,1,9345,Africa,0
 Georgia,559943,3034,7649,86,506486,Asia,0
-Germany,3988411,4428,92807,13,3757600,Europe,0
+Germany,3989081,5098,92810,16,3757600,Europe,0
 Ghana,120452,449,1052,5,112460,Africa,0
 Gibraltar,5376,5,97,,5191,Europe,0
-Greece,593668,,13702,,543570,Europe,1
+Greece,596383,2715,13737,35,545484,Europe,0
 Greenland,347,,,,298,North America,0
 Grenada,817,,4,,214,North America,1
 Guadeloupe,49381,,539,,2250,North America,1
@@ -204,7 +204,7 @@ Turkey,6435773,,57283,,5872385,Asia,0
 Turks and Caicos,2674,2,20,,2569,North America,0
 UAE,721308,978,2044,1,709659,Asia,0
 UK,6904969,42076,133041,121,5561928,Europe,0
-USA,40522859,9841,662952,99,31202083,North America,0
+USA,40526949,13931,662983,130,31202415,North America,0
 Uganda,120377,169,3038,7,95590,Africa,0
 Ukraine,2293541,2693,53922,45,2210866,Europe,0
 Uruguay,385264,,6034,,377868,South America,0
@@ -218,4 +218,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,8018,67,1513,27,4937,Asia,0
 Zambia,206884,179,3611,3,201643,Africa,0
 Zimbabwe,125118,,4449,,114197,Africa,0
-World,220254510,348217,4561204,5650,195166581,,0
+World,220262880,356587,4561276,5722,195169346,,0
