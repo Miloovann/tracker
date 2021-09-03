@@ -1,6 +1,6 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Albania,148222,,2505,,134802,Europe,1
-Andorra,15052,,130,,14867,Europe,1
+Andorra,15055,3,130,,14874,Europe,0
 Austria,693416,1753,10785,7,665894,Europe,0
 Belarus,487017,1950,3814,11,479229,Europe,0
 Belgium,1189710,2204,25392,10,1103638,Europe,0
@@ -14,7 +14,7 @@ Estonia,143181,346,1296,1,134687,Europe,0
 Faroe Islands,1002,,2,,995,Europe,1
 Finland,129105,561,1030,,46000,Europe,0
 France,6799240,,114680,,6335183,Europe,1
-Germany,3983983,,92794,,3757600,Europe,0
+Germany,3987108,3125,92805,11,3757600,Europe,0
 Gibraltar,5376,5,97,,5191,Europe,0
 Greece,593668,,13702,,543570,Europe,1
 Hungary,813040,247,30061,1,777988,Europe,0
@@ -25,7 +25,7 @@ Italy,4553241,,129352,,4286991,Europe,1
 Latvia,143800,354,2584,4,138216,Europe,0
 Liechtenstein,3301,12,59,,3189,Europe,0
 Lithuania,301167,819,4593,9,282242,Europe,0
-Luxembourg,75981,,830,,74098,Europe,1
+Luxembourg,76102,121,830,,74161,Europe,0
 Malta,36364,42,441,,34836,Europe,0
 Moldova,268892,,6411,,257984,Europe,1
 Monaco,3220,,33,,3108,Europe,1
