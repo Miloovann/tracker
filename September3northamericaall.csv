@@ -1,6 +1,6 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Anguilla,256,,,,208,North America,0
-Antigua and Barbuda,1742,,44,,1349,North America,1
+Antigua and Barbuda,1750,8,44,,1349,North America,0
 Aruba,14719,,148,,13984,North America,1
 Bahamas,18576,,412,,14819,North America,1
 Barbados,5152,,51,,4688,North America,1
@@ -15,12 +15,12 @@ Cuba,665672,,5464,,627242,North America,1
 Curaçao,15379,,147,,14853,North America,1
 Dominica,1832,,4,,1210,North America,1
 Dominican Republic,350789,,4009,,341683,North America,1
-El Salvador,96067,,2934,,81339,North America,1
+El Salvador,96067,,2944,10,81339,North America,0
 Greenland,347,,,,298,North America,0
 Grenada,817,,4,,214,North America,1
 Guadeloupe,49381,,539,,2250,North America,1
 Guatemala,479376,,12098,,416180,North America,1
-Haiti,20941,,586,,18222,North America,1
+Haiti,20977,15,586,,18294,North America,0
 Honduras,342508,990,8998,24,107516,North America,0
 Jamaica,69054,,1568,,48493,North America,1
 Martinique,37192,,442,,104,North America,1
