@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,153395,,7128,,111300,Asia,1
+Afghanistan,153420,25,7130,2,111513,Asia,0
 Albania,149117,,2508,,135321,Europe,1
 Algeria,197308,,5373,,134390,Africa,1
 Andorra,15055,,130,,14874,Europe,1
@@ -60,14 +60,14 @@ Egypt,289353,,16766,,240976,Africa,1
 El Salvador,96067,,2952,8,81339,North America,0
 Equatorial Guinea,9760,,128,,8939,Africa,1
 Eritrea,6646,,38,,6595,Africa,1
-Estonia,143181,,1296,,134687,Europe,1
+Estonia,143533,352,1297,1,135317,Europe,0
 Eswatini,44014,,1132,,36882,Africa,1
 Ethiopia,312348,,4731,,280421,Africa,1
 Falkland Islands,67,,,,63,South America,0
 Faroe Islands,1002,,2,,995,Europe,1
-Fiji,47509,,508,,30332,Australia/Oceania,1
+Fiji,47709,200,510,2,30345,Australia/Oceania,0
 Finland,129105,,1030,,46000,Europe,1
-France,6812706,,114773,,6335090,Europe,1
+France,6812706,,114773,,6356262,Europe,1
 French Guiana,35721,,221,,9995,South America,1
 French Polynesia,40178,,480,,33500,Australia/Oceania,1
 Gabon,26079,,167,,25723,Africa,1
@@ -99,7 +99,7 @@ Israel,1104971,,7129,,1009009,Asia,1
 Italy,4559970,,129410,,4293535,Europe,1
 Ivory Coast,56608,,455,,54292,Africa,1
 Jamaica,69789,,1585,,48580,North America,1
-Japan,1524679,,16184,,1296746,Asia,1
+Japan,1541528,16739,16247,63,1319378,Asia,0
 Jordan,799825,,10454,,777634,Asia,1
 Kazakhstan,808431,4830,9689,98,710025,Asia,0
 Kenya,238852,,4757,,226037,Africa,1
@@ -154,12 +154,12 @@ Panama,459077,,7073,,445207,North America,1
 Papua New Guinea,17926,,192,,17547,Australia/Oceania,1
 Paraguay,458799,,15864,,438081,South America,1
 Peru,2153092,,198420,,N/A,South America,0
-Philippines,2040568,,33873,,1847701,Asia,1
-Poland,2889773,,75372,,2657274,Europe,1
+Philippines,2061084,20741,34062,189,1869376,Asia,0
+Poland,2890161,389,75379,7,2657330,Europe,0
 Portugal,1044144,,17772,,983063,Europe,1
 Qatar,233280,,602,,230168,Asia,1
 Romania,1103198,,34650,,1057522,Europe,1
-Russia,6975174,,185611,,6236738,Europe,1
+Russia,6993954,18780,186407,796,6255475,Europe,0
 Rwanda,89172,,1112,,45348,Africa,1
 Réunion,50346,,342,,47752,Africa,1
 Saint Barthelemy,1534,,2,,462,North America,1
@@ -178,7 +178,7 @@ Seychelles,20144,,105,,19500,Africa,1
 Sierra Leone,6371,,121,,4361,Africa,1
 Singapore,68210,,36,,62212,Asia,1
 Slovakia,395532,,12549,,381334,Europe,1
-Slovenia,269248,,4453,,258465,Europe,1
+Slovenia,269990,741,4455,2,258850,Europe,0
 Solomon Islands,20,,,,20,Australia/Oceania,0
 Somalia,17630,,992,,8604,Africa,1
 South Africa,2805604,,83161,,2578741,Africa,1
@@ -218,4 +218,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,8018,,1513,,4937,Asia,0
 Zambia,206884,,3611,,201643,Africa,0
 Zimbabwe,125331,,4457,,114639,Africa,0
-World,220637757,58601,4567329,1306,195421773,,0
+World,220695609,116568,4568391,2368,195507286,,0
