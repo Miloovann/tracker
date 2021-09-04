@@ -1,6 +1,6 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Afghanistan,153420,25,7130,2,111513,Asia,0
-Albania,149117,,2508,,135321,Europe,1
+Albania,150101,984,2512,4,135961,Europe,0
 Algeria,197308,,5373,,134390,Africa,1
 Andorra,15055,,130,,14874,Europe,1
 Angola,48261,,1248,,43795,Africa,1
@@ -43,7 +43,7 @@ Channel Islands,10738,,95,,10225,Europe,1
 Chile,1640666,474,37067,26,1597772,South America,0
 China,94982,28,4636,,89438,Asia,0
 Colombia,4914881,,125158,,4744394,South America,1
-Comoros,4083,,147,,3906,Africa,1
+Comoros,4084,1,147,,3906,Africa,0
 Costa Rica,472315,,5568,,377597,North America,1
 Croatia,377299,882,8362,7,364485,Europe,0
 Cuba,680453,7854,5617,79,641179,North America,0
@@ -77,7 +77,7 @@ Germany,3999340,2724,92836,7,3763600,Europe,0
 Ghana,120452,,1052,,112460,Africa,1
 Gibraltar,5386,10,97,,5198,Europe,0
 Greece,596383,,13737,,545484,Europe,1
-Greenland,347,,,,306,North America,0
+Greenland,349,2,,,309,North America,0
 Grenada,1098,,5,,225,North America,1
 Guadeloupe,49381,,539,,2250,North America,1
 Guatemala,484263,,12155,,419636,North America,1
@@ -95,12 +95,12 @@ Iran,5103537,20404,110064,515,4332892,Asia,0
 Iraq,1912395,4316,21042,48,1764001,Asia,0
 Ireland,354236,,5112,,300415,Europe,1
 Isle of Man,6779,,38,,6445,Europe,1
-Israel,1104971,,7129,,1009009,Asia,1
+Israel,1112744,7773,7153,24,1014832,Asia,0
 Italy,4566126,6157,129466,56,4299621,Europe,0
 Ivory Coast,56608,,455,,54292,Africa,1
 Jamaica,69789,,1585,,48580,North America,1
 Japan,1541528,16739,16247,63,1319378,Asia,0
-Jordan,799825,,10454,,777634,Asia,1
+Jordan,800240,415,10463,9,778053,Asia,0
 Kazakhstan,808431,4830,9689,98,710025,Asia,0
 Kenya,239692,840,4778,21,227274,Africa,0
 Kuwait,410167,,2422,,405583,Asia,1
@@ -191,7 +191,7 @@ Suriname,30120,,733,,24761,South America,0
 Sweden,1130525,,14651,,1089055,Europe,0
 Switzerland,788813,,11010,,710815,Europe,0
 Syria,28303,,2029,,22531,Asia,0
-São Tomé and Príncipe,2657,,37,,2449,Africa,0
+São Tomé and Príncipe,2683,26,37,,2456,Africa,0
 Taiwan,16013,1,837,,15013,Asia,0
 Tajikistan,16913,,124,,16776,Asia,0
 Tanzania,1367,,50,,183,Africa,0
@@ -218,4 +218,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,8056,38,1519,6,4961,Asia,0
 Zambia,207028,144,3614,3,201981,Africa,0
 Zimbabwe,125331,,4457,,114639,Africa,0
-World,220889773,311455,4571314,5287,195693232,,0
+World,220898974,320656,4571351,5324,195700124,,0
