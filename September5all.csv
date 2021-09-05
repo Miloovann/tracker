@@ -7,7 +7,7 @@ Angola,48475,,1258,,43817,Africa,1
 Anguilla,279,,,,208,North America,0
 Antigua and Barbuda,1759,,46,,1349,North America,1
 Argentina,5202405,,112444,,4895988,South America,1
-Armenia,244602,,4904,,228736,Asia,1
+Armenia,245025,423,4911,7,229113,Asia,0
 Aruba,14812,,150,,14137,North America,1
 Australia,61637,1686,1039,3,34413,Australia/Oceania,0
 Austria,695131,,10790,,667154,Europe,1
@@ -49,7 +49,7 @@ Croatia,377299,,8362,,364485,Europe,1
 Cuba,680453,,5617,,641179,North America,1
 Curaçao,15452,,149,,14940,North America,1
 Cyprus,114899,,513,,90755,Asia,1
-Czechia,1680354,,30406,,1647670,Europe,1
+Czechia,1680559,205,30406,,1647873,Europe,0
 DR Congo,55307,,1061,,30858,Africa,1
 Denmark,348347,,2590,,334468,Europe,1
 Djibouti,11775,,157,,11583,Africa,1
@@ -72,7 +72,7 @@ French Guiana,35721,,221,,9995,South America,1
 French Polynesia,40178,,480,,33500,Australia/Oceania,1
 Gabon,26079,,167,,25723,Africa,1
 Gambia,9736,,323,,9345,Africa,1
-Georgia,562627,,7732,,509181,Asia,1
+Georgia,564837,2210,7806,74,514768,Asia,0
 Germany,4005494,,92849,,3768400,Europe,0
 Ghana,120452,,1052,,112460,Africa,1
 Gibraltar,5386,,97,,5198,Europe,1
@@ -112,7 +112,7 @@ Lesotho,14395,,403,,6830,Africa,1
 Liberia,5459,,148,,2715,Africa,1
 Libya,313504,,4308,,225676,Africa,1
 Liechtenstein,3314,,59,,3189,Europe,1
-Lithuania,302014,,4598,,283305,Europe,1
+Lithuania,302624,581,4607,5,283416,Europe,0
 Luxembourg,76102,,830,,74161,Europe,1
 Macao,63,,,,60,Asia,0
 Madagascar,42881,,957,,41308,Africa,1
@@ -192,7 +192,7 @@ Sweden,1130525,,14651,,1089872,Europe,0
 Switzerland,788813,,11010,,710815,Europe,0
 Syria,28423,,2033,,22550,Asia,0
 São Tomé and Príncipe,2683,,37,,2456,Africa,0
-Taiwan,16013,,837,,15013,Asia,0
+Taiwan,16019,6,837,,15019,Asia,0
 Tajikistan,16963,,124,,16829,Asia,0
 Tanzania,1367,,50,,183,Africa,0
 Thailand,1280534,15452,12855,224,1115574,Asia,0
@@ -218,4 +218,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,8056,,1519,,4961,Asia,0
 Zambia,207028,,3614,,201981,Africa,0
 Zimbabwe,125425,,4466,,115089,Africa,0
-World,221119034,50180,4575416,1080,195887816,,0
+World,221122488,53605,4575506,1166,195894100,,0
