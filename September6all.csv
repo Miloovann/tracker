@@ -2,7 +2,7 @@ Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,
 Afghanistan,153626,92,7144,3,112039,Asia,0
 Albania,150997,,2515,,136479,Europe,1
 Algeria,198004,,5420,,134958,Africa,1
-Andorra,15055,,130,,14874,Europe,1
+Andorra,15069,14,130,,14891,Europe,0
 Angola,48656,,1270,,43865,Africa,1
 Anguilla,279,,,,208,North America,0
 Antigua and Barbuda,1870,,46,,1367,North America,1
@@ -52,7 +52,7 @@ Cyprus,115046,,515,,90755,Asia,1
 Czechia,1680697,139,30406,,1648058,Europe,0
 DR Congo,55307,,1061,,30858,Africa,1
 Denmark,349440,461,2592,2,336212,Europe,0
-Djibouti,11777,,157,,11589,Africa,1
+Djibouti,11785,8,157,,11592,Africa,0
 Dominica,1998,2,5,,1357,North America,0
 Dominican Republic,351738,,4012,,342500,North America,1
 Ecuador,503767,,32351,,443880,South America,1
@@ -73,10 +73,10 @@ French Polynesia,40178,,480,,33500,Australia/Oceania,1
 Gabon,26079,,167,,25723,Africa,1
 Gambia,9789,53,328,5,9379,Africa,0
 Georgia,565957,1120,7867,61,519673,Asia,0
-Germany,4013808,,92863,,3775500,Europe,0
+Germany,4015790,1982,92868,5,3775500,Europe,0
 Ghana,120452,,1052,,112460,Africa,1
 Gibraltar,5392,4,97,,5214,Europe,0
-Greece,599951,,13886,,552969,Europe,1
+Greece,601716,1765,13933,47,556191,Europe,0
 Greenland,353,,,,309,North America,0
 Grenada,1238,,5,,225,North America,1
 Guadeloupe,49381,,539,,2250,North America,1
@@ -89,7 +89,7 @@ Honduras,343807,,9023,,107551,North America,1
 Hong Kong,12124,2,212,,11821,Asia,0
 Hungary,813688,648,30070,9,778236,Europe,0
 Iceland,11063,31,33,,10399,Europe,0
-India,33027621,485,440785,,32181995,Asia,0
+India,33035200,8064,440894,109,32186250,Asia,0
 Indonesia,4133433,4413,136473,612,3850689,Asia,0
 Iran,5156986,27579,111257,583,4394083,Asia,0
 Iraq,1922942,5650,21162,62,1779187,Asia,0
@@ -131,7 +131,7 @@ Micronesia,1,,,,1,Australia/Oceania,0
 Moldova,270219,,6436,,259161,Europe,1
 Monaco,3234,,33,,3125,Europe,1
 Mongolia,236079,3766,968,6,207349,Asia,0
-Montenegro,118104,,1757,,108257,Europe,1
+Montenegro,118466,362,1770,13,108672,Europe,0
 Montserrat,31,,1,,24,North America,1
 Morocco,884085,,13073,,823330,Africa,1
 Mozambique,147923,,1878,,137334,Africa,1
@@ -204,7 +204,7 @@ Turkey,6498054,,58106,,5930665,Asia,0
 Turks and Caicos,2697,,20,,2585,North America,0
 UAE,723263,,2046,,712521,Asia,0
 UK,6978126,,133229,,5609575,Europe,0
-USA,40805259,,666219,,31315751,North America,0
+USA,40807762,2503,666222,3,31315751,North America,0
 Uganda,120662,81,3053,8,95669,Africa,0
 Ukraine,2298307,773,54001,18,2213177,Europe,0
 Uruguay,385660,,6034,,378241,South America,0
@@ -218,4 +218,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,8142,34,1530,7,5016,Asia,0
 Zambia,207167,53,3617,1,202392,Africa,0
 Zimbabwe,125550,,4482,,116401,Africa,0
-World,221696452,191581,4584937,3847,196521425,,0
+World,221710665,205794,4585114,4024,196529337,,0
