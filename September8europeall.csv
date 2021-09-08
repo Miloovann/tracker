@@ -1,7 +1,7 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Albania,152239,,2523,,137587,Europe,1
 Andorra,15070,,130,,14894,Europe,1
-Austria,698948,,10812,,670601,Europe,1
+Austria,701216,2268,10815,3,672145,Europe,0
 Belarus,493818,,3859,,485248,Europe,1
 Belgium,1198503,1847,25428,7,1105366,Europe,0
 Bosnia and Herzegovina,218080,,9919,,192218,Europe,1
@@ -10,7 +10,7 @@ Channel Islands,10921,,95,,10395,Europe,1
 Croatia,378726,,8385,,366142,Europe,1
 Czechia,1681681,588,30408,,1648424,Europe,0
 Denmark,349891,,2594,,337244,Europe,1
-Estonia,144390,,1305,,135563,Europe,1
+Estonia,144878,488,1305,,136048,Europe,0
 Faroe Islands,1022,,2,,997,Europe,1
 Finland,131054,,1030,,46000,Europe,1
 France,6854028,,115159,,6418224,Europe,1
@@ -36,10 +36,10 @@ Norway,170173,,823,,88952,Europe,1
 Poland,2891071,,75392,,2657745,Europe,1
 Portugal,1048941,,17816,,991215,Europe,1
 Romania,1109076,,34762,,1059637,Europe,1
-Russia,7047880,,188785,,6302250,Europe,1
+Russia,7065904,18024,189582,797,6320512,Europe,0
 San Marino,5351,,90,,5195,Europe,1
 Serbia,788895,,7421,,730571,Europe,1
-Slovakia,396487,,12552,,381652,Europe,1
+Slovakia,396904,417,12553,1,381733,Europe,0
 Slovenia,272512,1093,4461,3,260190,Europe,0
 Spain,4892640,,85066,,4503204,Europe,0
 Sweden,1133449,,14656,,1090663,Europe,0
