@@ -2,7 +2,7 @@ Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,
 Afghanistan,153962,122,7164,7,114939,Asia,0
 Albania,153318,,2528,,138391,Europe,1
 Algeria,198962,,5489,,135754,Africa,1
-Andorra,15070,,130,,14894,Europe,1
+Andorra,15078,8,130,,14904,Europe,0
 Angola,49349,,1309,,44302,Africa,1
 Anguilla,305,,,,269,North America,0
 Antigua and Barbuda,1974,,47,,1390,North America,1
@@ -95,7 +95,7 @@ Iran,5237799,26821,112935,505,4481814,Asia,0
 Iraq,1939408,5073,21333,51,1801394,Asia,0
 Ireland,360957,,5155,,306630,Europe,1
 Isle of Man,6923,,38,,6617,Europe,1
-Israel,1142371,1818,7279,18,1050527,Asia,0
+Israel,1144528,3975,7303,42,1057723,Asia,0
 Italy,4590941,5522,129766,59,4331257,Europe,0
 Ivory Coast,57293,,488,,55165,Africa,1
 Jamaica,73496,,1666,,49135,North America,1
@@ -144,7 +144,7 @@ New Zealand,3847,18,27,,3195,Australia/Oceania,0
 Nicaragua,12350,,201,,4225,North America,1
 Niger,5896,,199,,5636,Africa,1
 Nigeria,197046,,2578,,185379,Africa,1
-North Macedonia,181620,,6153,,161515,Europe,1
+North Macedonia,181875,255,6184,31,162060,Europe,0
 Norway,172469,750,827,1,88952,Europe,0
 Oman,302924,57,4084,1,293007,Asia,0
 Pakistan,1194198,4062,26497,84,1076112,Asia,0
@@ -184,7 +184,7 @@ Somalia,17947,,1005,,8896,Africa,1
 South Africa,2836773,,84152,,2618386,Africa,1
 South Korea,267470,2047,2343,9,238920,Asia,0
 South Sudan,11571,,120,,11195,Africa,1
-Spain,4898258,,85147,,4516279,Europe,0
+Spain,4903021,4763,85218,71,4529411,Europe,0
 Sri Lanka,477636,2856,10864,175,389969,Asia,0
 Sudan,37715,,2837,,31675,Africa,1
 Suriname,31894,,746,,25421,South America,0
@@ -218,4 +218,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,8267,37,1549,8,5119,Asia,0
 Zambia,207560,118,3623,1,202800,Africa,0
 Zimbabwe,125931,,4517,,117822,Africa,0
-World,223694639,322031,4613879,5132,198464558,,0
+World,223701822,329214,4614005,5258,198485441,,0
