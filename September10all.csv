@@ -1,6 +1,6 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
 Afghanistan,153962,122,7164,7,114939,Asia,0
-Albania,153318,,2528,,138391,Europe,1
+Albania,154316,998,2531,3,139257,Europe,0
 Algeria,198962,,5489,,135754,Africa,1
 Andorra,15078,8,130,,14904,Europe,0
 Angola,49349,,1309,,44302,Africa,1
@@ -67,13 +67,13 @@ Falkland Islands,67,,,,63,South America,0
 Faroe Islands,1027,2,2,,998,Europe,0
 Fiji,48393,,528,,33915,Australia/Oceania,1
 Finland,132172,486,1039,,46000,Europe,0
-France,6866856,,115259,,6464416,Europe,1
+France,6877825,10969,115362,103,6464416,Europe,0
 French Guiana,36481,,225,,9995,South America,1
 French Polynesia,40178,,535,,33500,Australia/Oceania,1
 Gabon,26379,,169,,25823,Africa,1
 Gambia,9789,,328,,9379,Africa,1
 Georgia,572948,2455,8035,58,531764,Asia,0
-Germany,4048966,4254,92996,8,3793000,Europe,0
+Germany,4049724,5012,93001,13,3793000,Europe,0
 Ghana,122543,,1084,,115680,Africa,1
 Gibraltar,5409,6,97,,5237,Europe,0
 Greece,609519,2163,14060,46,565720,Europe,0
@@ -93,7 +93,7 @@ India,33173166,34310,441983,201,32333781,Asia,0
 Indonesia,4153355,5990,138116,334,3887410,Asia,0
 Iran,5237799,26821,112935,505,4481814,Asia,0
 Iraq,1939408,5073,21333,51,1801394,Asia,0
-Ireland,360957,,5155,,306630,Europe,1
+Ireland,362228,1271,5155,,308086,Europe,0
 Isle of Man,6923,,38,,6617,Europe,1
 Israel,1144528,3975,7303,42,1057723,Asia,0
 Italy,4590941,5522,129766,59,4331257,Europe,0
@@ -218,4 +218,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,8267,37,1549,8,5119,Asia,0
 Zambia,207560,118,3623,1,202800,Africa,0
 Zimbabwe,125931,,4517,,117822,Africa,0
-World,223701822,329214,4614005,5258,198485441,,0
+World,223715818,343210,4614116,5369,198487763,,0
