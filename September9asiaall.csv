@@ -1,6 +1,6 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,153840,,7157,,113835,Asia,1
-Armenia,246410,,4954,,230291,Asia,1
+Afghanistan,153962,122,7164,7,114939,Asia,0
+Armenia,246997,587,4968,14,230820,Asia,0
 Azerbaijan,450282,,5959,,393569,Asia,1
 Bahrain,273366,,1388,,270999,Asia,1
 Bangladesh,1522302,,26736,,1464594,Asia,1
@@ -15,7 +15,7 @@ India,33139981,1125,441782,,32304618,Asia,0
 Indonesia,4147365,,137782,,3876760,Asia,1
 Iran,5210978,,112430,,4453651,Asia,1
 Iraq,1934335,,21282,,1793750,Asia,1
-Israel,1139887,,7261,,1047091,Asia,1
+Israel,1142371,1818,7279,18,1050527,Asia,0
 Japan,1590994,,16436,,1404535,Asia,1
 Jordan,804326,,10501,,781777,Asia,1
 Kazakhstan,828224,4106,10076,89,741809,Asia,0
@@ -39,7 +39,7 @@ Singapore,69582,,36,,62212,Asia,1
 South Korea,267470,2047,2343,9,238920,Asia,0
 Sri Lanka,474780,,10689,,389969,Asia,1
 Syria,28952,,2055,,22642,Asia,0
-Taiwan,16056,,837,,15019,Asia,0
+Taiwan,16062,6,838,1,15019,Asia,0
 Tajikistan,17024,,124,,16886,Asia,0
 Thailand,1338550,16031,13731,220,1181781,Asia,0
 Timor-Leste,18046,,86,,14329,Asia,0
