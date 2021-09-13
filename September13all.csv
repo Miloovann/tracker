@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,154094,,7169,,117579,Asia,1
+Afghanistan,154180,86,7171,2,118180,Asia,0
 Albania,157026,,2543,,141717,Europe,1
 Algeria,200068,,5578,,136662,Africa,1
 Andorra,15083,,130,,14906,Europe,1
@@ -10,7 +10,7 @@ Argentina,5224534,,113402,,5075073,South America,1
 Armenia,249146,296,5018,16,233105,Asia,0
 Aruba,15076,,155,,14571,North America,1
 Australia,75342,1732,1098,7,36173,Australia/Oceania,0
-Austria,710030,,10839,,677882,Europe,1
+Austria,711573,1543,10840,1,679480,Europe,0
 Azerbaijan,455044,,6031,,401300,Asia,1
 Bahamas,19335,,453,,15557,North America,1
 Bahrain,273743,,1388,,271377,Asia,1
@@ -30,7 +30,7 @@ British Virgin Islands,2642,,37,,2555,North America,1
 Brunei,4163,,21,,2647,Asia,0
 Bulgaria,471272,,19522,,414157,Europe,1
 Burkina Faso,13942,,171,,13606,Africa,1
-Burundi,14047,,38,,773,Africa,1
+Burundi,14189,142,38,,773,Africa,0
 Cabo Verde,36588,,320,,35212,Africa,1
 Cambodia,100133,629,2049,9,94326,Asia,0
 Cameroon,84210,,1357,,80433,Africa,1
@@ -60,7 +60,7 @@ Egypt,292957,,16871,,246726,Africa,1
 El Salvador,99701,324,3032,10,83342,North America,0
 Equatorial Guinea,10498,,131,,9152,Africa,1
 Eritrea,6655,,40,,6611,Africa,1
-Estonia,146707,,1312,,137464,Europe,1
+Estonia,146884,268,1313,1,137519,Europe,0
 Eswatini,44863,,1172,,42510,Africa,1
 Ethiopia,323104,,4929,,290748,Africa,1
 Falkland Islands,67,,,,63,South America,0
@@ -99,19 +99,19 @@ Israel,1172253,,7383,,1086211,Asia,1
 Italy,4606413,,129919,,4349160,Europe,1
 Ivory Coast,58009,,515,,55925,Africa,1
 Jamaica,75857,,1731,,49561,North America,1
-Japan,1632091,,16742,,1478100,Asia,1
+Japan,1639545,7213,16797,55,1495501,Asia,0
 Jordan,807384,,10548,,784613,Asia,1
 Kazakhstan,842587,3088,10354,57,762049,Asia,0
 Kenya,243725,,4906,,232918,Africa,1
 Kuwait,410784,,2431,,407145,Asia,1
 Kyrgyzstan,177226,68,2574,2,171523,Asia,0
 Laos,17357,,16,,5568,Asia,1
-Latvia,147193,,2609,,139746,Europe,1
+Latvia,147328,135,2613,4,139746,Europe,0
 Lebanon,613498,,8192,,570186,Asia,1
 Lesotho,14395,,403,,6830,Africa,1
 Liberia,5459,,148,,2715,Africa,1
 Libya,323930,,4427,,237665,Africa,1
-Liechtenstein,3380,,60,,3242,Europe,1
+Liechtenstein,3386,6,60,,3242,Europe,0
 Lithuania,308956,489,4711,19,287753,Europe,0
 Luxembourg,76632,,834,,74674,Europe,1
 Macao,63,,,,62,Asia,0
@@ -154,12 +154,12 @@ Panama,462224,,7137,,450194,North America,1
 Papua New Guinea,18412,8,196,,17836,Australia/Oceania,0
 Paraguay,459291,,16102,,440337,South America,1
 Peru,2161086,,198764,,N/A,South America,0
-Philippines,2227367,,35145,,2010271,Asia,1
-Poland,2893649,,75425,,2658374,Europe,1
+Philippines,2248071,20745,35307,163,2032471,Asia,0
+Poland,2893919,269,75425,,2658685,Europe,0
 Portugal,1055584,,17861,,999904,Europe,1
 Qatar,234642,,604,,232105,Asia,1
 Romania,1120804,,34990,,1065710,Europe,1
-Russia,7140070,,192749,,6389657,Europe,1
+Russia,7158248,18178,193468,719,6402126,Europe,0
 Rwanda,92620,,1172,,45396,Africa,1
 Réunion,51651,,354,,49439,Africa,1
 Saint Barthelemy,1542,,2,,462,North America,1
@@ -177,8 +177,8 @@ Serbia,816912,,7548,,738846,Europe,1
 Seychelles,20593,,110,,19878,Africa,1
 Sierra Leone,6385,,121,,4374,Africa,1
 Singapore,69582,,36,,62212,Asia,1
-Slovakia,398690,,12558,,382184,Europe,1
-Slovenia,276174,,4469,,262049,Europe,1
+Slovakia,398744,54,12560,2,382233,Europe,0
+Slovenia,276456,282,4470,1,262192,Europe,0
 Solomon Islands,20,,,,20,Australia/Oceania,0
 Somalia,18373,,1023,,9000,Africa,1
 South Africa,2858195,,84877,,2667296,Africa,1
@@ -192,7 +192,7 @@ Sweden,1138017,,14662,,1096481,Europe,0
 Switzerland,808050,,11010,,720152,Europe,0
 Syria,29498,,2077,,22752,Asia,0
 São Tomé and Príncipe,2816,,39,,2504,Africa,0
-Taiwan,16088,,839,,15019,Asia,0
+Taiwan,16093,5,839,,15019,Asia,0
 Tajikistan,17084,,124,,16948,Asia,0
 Tanzania,1367,,50,,183,Africa,0
 Thailand,1394756,12583,14485,132,1248158,Asia,0
@@ -218,4 +218,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,8414,,1584,,5244,Asia,0
 Zambia,207938,,3631,,203342,Africa,0
 Zimbabwe,126269,,4538,,118792,Africa,0
-World,225467692,36764,4644095,684,200339126,,0
+World,225516728,85690,4645042,1632,200393953,,0
