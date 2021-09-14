@@ -45,7 +45,7 @@ China,95340,92,4636,,89894,Asia,0
 Colombia,4931563,,125687,,4769617,South America,1
 Comoros,4100,,147,,3934,Africa,1
 Costa Rica,489784,,5754,,392993,North America,1
-Croatia,384082,,8447,,370103,Europe,1
+Croatia,385056,974,8456,9,370782,Europe,0
 Cuba,753544,,6373,,707504,North America,1
 Curaçao,15741,,155,,15220,North America,1
 Cyprus,116368,,532,,90755,Asia,1
@@ -88,7 +88,7 @@ Haiti,21271,,596,,19011,North America,1
 Honduras,353641,668,9370,30,108131,North America,0
 Hong Kong,12149,2,213,,11854,Asia,0
 Hungary,815851,246,30102,4,779114,Europe,0
-Iceland,11279,,33,,10859,Europe,1
+Iceland,11307,28,33,,10911,Europe,0
 India,33289579,1558,443247,,32484159,Asia,0
 Indonesia,4174216,4128,139415,250,3942473,Asia,0
 Iran,5340656,22329,115167,408,4627027,Asia,0
@@ -110,7 +110,7 @@ Latvia,147788,460,2621,8,139827,Europe,0
 Lebanon,613982,,8202,,573295,Asia,1
 Lesotho,14395,,403,,6830,Africa,1
 Liberia,5761,,283,,5428,Africa,1
-Libya,325221,,4441,,239259,Africa,1
+Libya,326370,1149,4457,16,240685,Africa,0
 Liechtenstein,3390,4,60,,3275,Europe,0
 Lithuania,309855,889,4721,5,288905,Europe,0
 Luxembourg,76798,,834,,74898,Europe,1
@@ -145,7 +145,7 @@ Nicaragua,12350,,201,,4225,North America,1
 Niger,5929,,200,,5660,Africa,1
 Nigeria,199538,,2619,,188427,Africa,1
 North Macedonia,183705,,6277,,164383,Europe,1
-Norway,177262,,827,,88952,Europe,1
+Norway,177262,,829,2,88952,Europe,0
 Oman,303223,60,4090,1,293414,Asia,0
 Pakistan,1210082,2574,26865,78,1097416,Asia,0
 Palau,2,,,,2,Australia/Oceania,0
@@ -189,7 +189,7 @@ Sri Lanka,488482,,11431,,414295,Asia,1
 Sudan,37715,,2837,,31675,Africa,1
 Suriname,33988,,766,,26040,South America,0
 Sweden,1138017,,14662,,1096487,Europe,0
-Switzerland,814113,,11010,,724365,Europe,0
+Switzerland,816107,1992,11010,,724365,Europe,0
 Syria,29648,,2083,,22792,Asia,0
 São Tomé and Príncipe,2825,,39,,2521,Africa,0
 Taiwan,16098,5,839,,15019,Asia,0
@@ -218,4 +218,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,8452,,1604,,5266,Asia,0
 Zambia,207960,,3633,,203466,Africa,0
 Zimbabwe,126399,,4543,,119049,Africa,0
-World,226188871,117573,4654816,2626,201137136,,0
+World,226193016,121716,4654843,2653,201139293,,0
