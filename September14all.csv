@@ -1,5 +1,5 @@
 Country,Total Cases,New Cases,Total Deaths,New Deaths,Total Recovered,Continent,Reliability*
-Afghanistan,154180,,7171,,118180,Asia,1
+Afghanistan,154283,103,7174,3,118764,Asia,0
 Albania,157436,,2548,,142269,Europe,1
 Algeria,200301,,5596,,136860,Africa,1
 Andorra,15096,,130,,14921,Europe,1
@@ -27,9 +27,9 @@ Bosnia and Herzegovina,222161,,10065,,192218,Europe,1
 Botswana,165644,,2337,,160221,Africa,1
 Brazil,21006424,,587138,,20076733,South America,1
 British Virgin Islands,2642,,37,,2555,North America,1
-Brunei,4323,,21,,2754,Asia,0
+Brunei,4431,108,21,,2856,Asia,0
 Bulgaria,473270,,19661,,415246,Europe,1
-Burkina Faso,13950,,171,,13627,Africa,1
+Burkina Faso,13959,9,171,,13645,Africa,0
 Burundi,14189,,38,,773,Africa,1
 Cabo Verde,36640,,322,,35317,Africa,1
 Cambodia,100790,657,2058,9,94904,Asia,0
@@ -66,7 +66,7 @@ Ethiopia,323715,,4967,,291946,Africa,1
 Falkland Islands,67,,,,63,South America,0
 Faroe Islands,1037,,2,,1003,Europe,1
 Fiji,49113,,538,,35284,Australia/Oceania,1
-Finland,133851,,1039,,46000,Europe,1
+Finland,134305,454,1039,,46000,Europe,0
 France,6907133,,115603,,6534027,Europe,1
 French Guiana,37210,,230,,9995,South America,1
 French Polynesia,40178,,575,,33500,Australia/Oceania,1
@@ -146,7 +146,7 @@ Niger,5929,,200,,5660,Africa,1
 Nigeria,199538,,2619,,188427,Africa,1
 North Macedonia,183705,,6277,,164383,Europe,1
 Norway,177262,,827,,88952,Europe,1
-Oman,303163,,4089,,293343,Asia,1
+Oman,303223,60,4090,1,293414,Asia,0
 Pakistan,1210082,2574,26865,78,1097416,Asia,0
 Palau,2,,,,2,Australia/Oceania,0
 Palestine,372108,,3831,,336459,Asia,1
@@ -165,7 +165,7 @@ Réunion,51651,,354,,49439,Africa,1
 Saint Barthelemy,1542,,2,,462,North America,1
 Saint Helena,2,,,,2,Africa,0
 Saint Kitts and Nevis,1510,34,8,,860,North America,0
-Saint Lucia,9823,,132,,7121,North America,1
+Saint Lucia,9971,148,132,,7434,North America,0
 Saint Martin,3582,,45,,1399,North America,1
 Saint Pierre and Miquelon,31,,,,30,North America,0
 Saint Vincent and the Grenadines,2521,8,13,1,2325,North America,0
@@ -218,4 +218,4 @@ Western Sahara,10,,1,,8,Africa,0
 Yemen,8452,,1604,,5266,Asia,0
 Zambia,207960,,3633,,203466,Africa,0
 Zimbabwe,126399,,4543,,119049,Africa,0
-World,226155498,84200,4654036,1846,201090424,,0
+World,226156380,85082,4654040,1850,201091512,,0
