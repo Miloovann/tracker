@@ -59,7 +59,6 @@ client = TelegramClient('tester', api_id, api_hash)
 
 month = datetime.datetime.now().strftime("%b") ##today's month
 date_num = str(datetime.datetime.now().day)
-mothership_afternoon_key = "[JUST IN] Covid-19 update in S'pore on "
 
 def getnum(msg, casetype):
     C = msg.find(casetype) + len(casetype)
@@ -70,22 +69,6 @@ def getnum(msg, casetype):
             else:   case += msg[i]
     case = case.replace(",","")
     return case
-
-async def afternoon():
-    async for message in client.iter_messages(-1001123464890):
-        msg = str(message.raw_text)
-        position = msg.find(mothership_afternoon_key)
-        if position == 0: ##if message is virus update
-            casetype = ["* Imported cases: ", "* Community cases: ", "* Dorm cases: ","NEW CASES: ", "Total cases: "]
-            varcase = ["impo", "comm", "dorm", 'new', "total"]
-            datadict = {}
-            for i in range(5):
-                datadict["{}".format(varcase[i])] = getnum(msg, casetype[i])
-            dd = int(msg.find(month + '. ')+len(month)+2)
-            if msg[dd+1].isnumeric() is True:   messageday = msg[dd:dd+2]
-            else:   messageday = msg[dd:dd+1]
-
-            return list(datadict.values()) + [messageday == date_num] #["impo", "comm", "dorm", 'new', "total", msgday == tdy]
 
 def countnumbers(text, title, siz):
     posi = text.find(title) + siz
@@ -99,12 +82,11 @@ def countnumbers(text, title, siz):
 async def night():
     async for message in client.iter_messages(-1001123464890):
         msg = str(message.raw_text)
-        # checker = msg.find(" new Covid-19 cases were announced earlier today (")
-        if msg.count("Total") == 3 and msg.find("VIRUS UPDATE: ") == 0:
+        if msg.find("VIRUS UPDATE: ") == 0 and msg.find("NEW CASES: ") > 0 and msg.find("* Local cases:  ") > 0 and msg.find("* Imported cases: ") > 0 and msg.find("Total cases: ") > 0:
             dd = int(msg.find(month + '. ')+len(month)+2)
             if msg[dd+1].isnumeric() is True:   messageday = msg[dd:dd+2]
             else:   messageday = msg[dd:dd+1]
-            
+
             sgdischarged = int(countnumbers(msg,"Total discharged: ",18))
             sgdeaths = int(countnumbers(msg,"Total deaths: ",14))
             return [sgdeaths, sgdischarged, messageday == date_num]
@@ -112,8 +94,7 @@ async def night():
 async def yesterday():      ##to check new deaths
     async for message in client.iter_messages(-1001123464890):
         msg = str(message.raw_text)
-        # checker = msg.find(" new Covid-19 cases were announced earlier today (")
-        if msg.count("Total") == 3 and msg.find("VIRUS UPDATE: ") == 0:
+        if msg.find("VIRUS UPDATE: ") == 0 and msg.find("NEW CASES: ") > 0 and msg.find("* Local cases:  ") > 0 and msg.find("* Imported cases: ") > 0 and msg.find("Total cases: ") > 0:
             dd = int(msg.find(month + '. ')+len(month)+2)
             if msg[dd+1].isnumeric() is True:   messageday = msg[dd:dd+2]
             else:   messageday = msg[dd:dd+1]
