@@ -70,7 +70,12 @@ tr{
   font-family: Segoe UI
 }
 .conttables{
-    width: 26%
+    width: 26%;
+}
+#Global{
+    display: inline-block;
+    width:fit-content;
+    height:fit-content;
 }
 a.hover.nav-item.nav-link{
   cursor: pointer;
