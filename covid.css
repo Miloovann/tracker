@@ -74,10 +74,10 @@ a.hover.nav-item.nav-link{
 }
 @media only screen and (max-width: 992px){
     #rightbar {
-    display: none;
+        display: none;
     }
     .conttables{
-    width: 33%
+        width: 40%
     }
     #newsandprotection{
         width: 80%;
