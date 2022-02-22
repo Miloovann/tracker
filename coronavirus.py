@@ -1,14 +1,13 @@
 import requests, csv, json, math, os, datetime, http.client, io, logging
-import pandas as pd, sys, tabula, urllib3, numpy as np, matplotlib.pyplot as plt
+import pandas as pd, sys, urllib3, numpy as np, matplotlib.pyplot as plt
 from bs4 import BeautifulSoup
 from operator import itemgetter
 from telethon import TelegramClient
-from tabula import read_pdf,convert_into
 plt.rcParams.update({'figure.max_open_warning': 0})
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 logging.getLogger().setLevel(logging.CRITICAL)
 
-dir_name = "/Users/junyiho/Desktop/Scripts/PW_Web"
+dir_name = "/Users/junyiho/Desktop/Scripts/Archive/CovidHunter"
 test = os.listdir(dir_name)
 
 for item in test:
@@ -53,7 +52,7 @@ trackerrepeat = ["Central African Republic","Faroe Islands","Saint Vincent and t
 repeatbool = [False,False,False]
 
 ##Start all data collection and cleaning
-#Start mothership scraping
+# #Start mothership scraping
 api_id, api_hash = 1239249, '9bc7bce40bfb10c3eabfaf220b77a0a0'
 client = TelegramClient('tester', api_id, api_hash)
 
@@ -110,11 +109,11 @@ with client:
     work = client.loop.run_until_complete(afternoon())
     if work[5]: ##update local grouped data if latest mothership afternoon data is from today
         othercases = list([date_num + " "  + month] + work[0:4])
-        with open('/Users/junyiho/Desktop/Scripts/PW_Web/MOH.csv', 'r+') as f:
+        with open('/Users/junyiho/Desktop/Scripts/Archive/CovidHunter/MOH.csv', 'r+') as f:
             for i in reversed(list(csv.reader(f))):
                     date = i[0]
                     if date != othercases[0]: #update local grouped data if not updated in csv yet
-                        with open('/Users/junyiho/Desktop/Scripts/PW_Web/MOH.csv', 'a') as f:
+                        with open('/Users/junyiho/Desktop/Scripts/Archive/CovidHunter/MOH.csv', 'a') as f:
                                 f.write('\n')
                                 writer = csv.writer(f)
                                 writer.writerow(othercases)
@@ -132,9 +131,9 @@ with client:
     sleep.insert(1,newdeaths)
     sgdata = ["Singapore"]+work+sleep[0:3]+["Asia"]
 
-# with open("/Users/junyiho/Desktop/Scripts/PW_Web/" + "SGCovid.csv","w",newline = '') as f:
-#     sglog = sgdata[0:6] + [month + " " + date_num]
-#     csv.writer(f).writerow(sglog)
+with open("/Users/junyiho/Desktop/Scripts/Archive/CovidHunter/" + "SGCovid.csv","w",newline = '') as f:
+    sglog = sgdata[0:6] + [month + " " + date_num]
+    csv.writer(f).writerow(sglog)
 #End mothership scraping
 
 #Scrape NCOV2019.live
@@ -143,7 +142,7 @@ src = requests.get(url).text
 soup = BeautifulSoup(src,'lxml')
 table = soup.find('table',id="sortable_table_world")
 content = table.find('tbody').find_all('tr')
-with open("/Users/junyiho/Desktop/Scripts/PW_Web/" + 'livencov.csv','w',newline='',encoding='utf-8')as f:
+with open("/Users/junyiho/Desktop/Scripts/Archive/CovidHunter/" + 'livencov.csv','w',newline='',encoding='utf-8')as f:
     writer = csv.writer(f)
     csvrow=["Country,Other","TotalCases","NewCases","NewCases%","TotalDeaths","NewDeaths","NewDeaths%","TotalRecovered"]
     for row in content:
@@ -190,7 +189,7 @@ url = 'https://www.worldometers.info/coronavirus/'
 source = requests.get(url).text
 soup = BeautifulSoup(source,'lxml')
 table = soup.find('table',id="main_table_countries_today")
-with open("/Users/junyiho/Desktop/Scripts/PW_Web/" + 'metersworld.csv','w',newline='')as f:
+with open("/Users/junyiho/Desktop/Scripts/Archive/CovidHunter/" + 'metersworld.csv','w',newline='')as f:
     writer = csv.writer(f)
     for row in table.find_all('tr'):
         csvRow = []
@@ -222,7 +221,7 @@ f.close()
 #Scrape Corona Tracker
 r=requests.get("https://api.coronatracker.com/v3/stats/worldometer/topCountry")
 result = r.json()
-with open("/Users/junyiho/Desktop/Scripts/PW_Web/" + 'tracker.csv','w',newline='')as f:
+with open("/Users/junyiho/Desktop/Scripts/Archive/CovidHunter/" + 'tracker.csv','w',newline='')as f:
     writer = csv.writer(f)
     scrape = ["country","totalConfirmed","totalDeaths","totalRecovered","dailyConfirmed","dailyDeaths"]
     for x in result:
@@ -263,9 +262,9 @@ def sortcountries(csvname):
     data.sort(key=itemgetter(0))
     with open(csvname, 'w+') as f:  csv.writer(f).writerows(data)
 
-sortcountries("/Users/junyiho/Desktop/Scripts/PW_Web/tracker.csv")
-sortcountries("/Users/junyiho/Desktop/Scripts/PW_Web/livencov.csv")
-sortcountries("/Users/junyiho/Desktop/Scripts/PW_Web/metersworld.csv")
+sortcountries("/Users/junyiho/Desktop/Scripts/Archive/CovidHunter/tracker.csv")
+sortcountries("/Users/junyiho/Desktop/Scripts/Archive/CovidHunter/livencov.csv")
+sortcountries("/Users/junyiho/Desktop/Scripts/Archive/CovidHunter/metersworld.csv")
 #End sorting of country names
 
 #adding function
@@ -279,14 +278,14 @@ def combinefinals(total,addition):
 #start combining tracker,meters and livencov into 1 csv
 filedate = datetime.datetime.now().strftime("%B") + str(datetime.datetime.now().day)
 check = worldtotalcases = worldnewcases = worldtotaldeaths = worldnewdeaths = worldtotalrecovery = 0
-with open("/Users/junyiho/Desktop/Scripts/PW_Web/" + filedate + "all.csv","w",newline = '')as final:
+with open("/Users/junyiho/Desktop/Scripts/Archive/CovidHunter/" + filedate + "all.csv","w",newline = '')as final:
     w = csv.writer(final)
     w.writerow(head)
-    with open("/Users/junyiho/Desktop/Scripts/PW_Web/livencov.csv","r",newline='')as fone:
+    with open("/Users/junyiho/Desktop/Scripts/Archive/CovidHunter/livencov.csv","r",newline='')as fone:
         readerone = list(csv.reader(fone))
-        with open("/Users/junyiho/Desktop/Scripts/PW_Web/tracker.csv","r",newline='')as ftwo:
+        with open("/Users/junyiho/Desktop/Scripts/Archive/CovidHunter/tracker.csv","r",newline='')as ftwo:
             readertwo = list(csv.reader(ftwo))
-            with open("/Users/junyiho/Desktop/Scripts/PW_Web/metersworld.csv","r",newline='')as fthree:
+            with open("/Users/junyiho/Desktop/Scripts/Archive/CovidHunter/metersworld.csv","r",newline='')as fthree:
                 readerthree = list(csv.reader(fthree))
                 while check < len(readertwo):
                     first = readerone[check]
@@ -310,14 +309,14 @@ with open("/Users/junyiho/Desktop/Scripts/PW_Web/" + filedate + "all.csv","w",ne
         ftwo.close()
     fone.close()
 final.close()
-for i in ["/Users/junyiho/Desktop/Scripts/PW_Web/metersworld.csv","/Users/junyiho/Desktop/Scripts/PW_Web/livencov.csv","/Users/junyiho/Desktop/Scripts/PW_Web/tracker.csv"]:    os.remove(i)
+for i in ["/Users/junyiho/Desktop/Scripts/Archive/CovidHunter/metersworld.csv","/Users/junyiho/Desktop/Scripts/Archive/CovidHunter/livencov.csv","/Users/junyiho/Desktop/Scripts/Archive/CovidHunter/tracker.csv"]:    os.remove(i)
 #End Combining tracker,meters and livencov into 1 csv
 
 #Start analysis of all.csv
 ###Start Logarithm analysis of all data
-##with open("/Users/junyiho/Desktop/Scripts/PW_Web/" + filedate + "logall.csv","w",newline='')as flog:
+##with open("/Users/junyiho/Desktop/Scripts/Archive/CovidHunter/" + filedate + "logall.csv","w",newline='')as flog:
 ##    writer = csv.writer(flog)
-##    with open("/Users/junyiho/Desktop/Scripts/PW_Web/" + filedate + "all.csv",'r')as foriginal:
+##    with open("/Users/junyiho/Desktop/Scripts/Archive/CovidHunter/" + filedate + "all.csv",'r')as foriginal:
 ##        reader = list(csv.reader(foriginal))
 ##        for row in reader:
 ##            logrow = []
@@ -332,13 +331,13 @@ for i in ["/Users/junyiho/Desktop/Scripts/PW_Web/metersworld.csv","/Users/junyih
 
 #Start splitting function of data into continents
 def SortSplitContinents(csvname):
-    f = open("/Users/junyiho/Desktop/Scripts/PW_Web/" + filedate + csvname, 'r')
+    f = open("/Users/junyiho/Desktop/Scripts/Archive/CovidHunter/" + filedate + csvname, 'r')
     data = [line for line in csv.reader(f)]
     data.sort(key=itemgetter(6))
     names = ["africa","asia","australiaoceania","europe","northamerica","southamerica"]
     cont = names.copy()
     for i in range(len(names)):
-        names[i] = open("/Users/junyiho/Desktop/Scripts/PW_Web/" + filedate + names[i] + csvname, 'w+')
+        names[i] = open("/Users/junyiho/Desktop/Scripts/Archive/CovidHunter/" + filedate + names[i] + csvname, 'w+')
         csv.writer(names[i]).writerow(head)
     for i in range(len(data)):
         dataname = data[i][6].replace(" ","").replace("/","").lower()
@@ -356,7 +355,7 @@ countrynames = ["Africa","Worldwide","Asia","AustraliaOceania","Europe", "North 
 ##Graphing function for horizontal bar graphs
 def graphbarh(colnum, casetype, casesave):
     for x in range(len(csvfilenames)):
-        with open("/Users/junyiho/Desktop/Scripts/PW_Web/" + filedate + csvfilenames[x], 'r') as f:
+        with open("/Users/junyiho/Desktop/Scripts/Archive/CovidHunter/" + filedate + csvfilenames[x], 'r') as f:
             data, world = [],[]
             for row in list(csv.reader(f)):
                 if row[0] != "Country" and row[0] != "World":
@@ -383,7 +382,7 @@ def graphbarh(colnum, casetype, casesave):
         highall.set_yticks(highall.get_yticks())
         highall.set_yticklabels(y_axis, fontsize = 10, rotation = 45)
         highall.set_xlim(xmin=0)
-        hightotal.savefig("/Users/junyiho/Desktop/Scripts/PW_Web/" + countrynames[x] + casesave, format='svg', bbox_inches='tight', transparent=True)
+        hightotal.savefig("/Users/junyiho/Desktop/Scripts/Archive/CovidHunter/" + countrynames[x] + casesave, format='svg', bbox_inches='tight', transparent=True)
 
 graphbarh(1, "cases", "total10.svg")
 graphbarh(3, "deaths", "death10.svg")
@@ -392,7 +391,7 @@ graphbarh(5, "recovered cases", "recovered10.svg")
 
 ##Start Singapore Graphs
 dates, imported, community, dorm, total = [],[],[],[],[]
-with open('/Users/junyiho/Desktop/Scripts/PW_Web/MOH.csv', 'r') as f:
+with open('/Users/junyiho/Desktop/Scripts/Archive/CovidHunter/MOH.csv', 'r') as f:
     loop = 0
     for row in reversed(list(csv.reader(f))):
         if len(row) == 0:   continue
@@ -424,7 +423,7 @@ def singaporegraphs(ynumb, titlename, figurename):
     SG.set_xticks(SG.get_xticks())
     SG.set_xticklabels(dates, rotation=45)
     SG.set_ylim(ymin=0)
-    ALLSG.savefig("/Users/junyiho/Desktop/Scripts/PW_Web/" + figurename, format='svg', bbox_inches='tight', transparent=True)
+    ALLSG.savefig("/Users/junyiho/Desktop/Scripts/Archive/CovidHunter/" + figurename, format='svg', bbox_inches='tight', transparent=True)
 
 def singaporebargraphs(ynumb,titlename,figurename):
     ALLSG, SG = plt.subplots()
@@ -433,7 +432,7 @@ def singaporebargraphs(ynumb,titlename,figurename):
     SG.set_xticks(SG.get_xticks())
     SG.set_xticklabels(dates, rotation=45)
     SG.set_ylim(ymin=0)
-    ALLSG.savefig("/Users/junyiho/Desktop/Scripts/PW_Web/" + figurename, format='svg', bbox_inches='tight', transparent=True)
+    ALLSG.savefig("/Users/junyiho/Desktop/Scripts/Archive/CovidHunter/" + figurename, format='svg', bbox_inches='tight', transparent=True)
 
 for i in linefigures:
     singaporegraphs(i[0],i[1],i[2])
@@ -454,8 +453,8 @@ for i in range(len(total)):
           lgn = chart.legend(patches, labels, bbox_to_anchor=(-0.1, 1.), fontsize=10)
           lgn.set_title(dates[i] + " Total -- "+ str(total[i])+" Cases")
           chart.set_title("SG " + dates[i] + " Cases", fontweight='bold')
-          circle.savefig("/Users/junyiho/Desktop/Scripts/PW_Web/" + "SG " + dates[i] + " Cases.svg", format = "svg", bbox_inches='tight', transparent=True)
+          circle.savefig("/Users/junyiho/Desktop/Scripts/Archive/CovidHunter/" + "SG " + dates[i] + " Cases.svg", format = "svg", bbox_inches='tight', transparent=True)
 ##End Singapore Graphs
 
-with open("/Users/junyiho/Desktop/Scripts/PW_Web/updatetiming.txt", 'w') as f:
+with open("/Users/junyiho/Desktop/Scripts/Archive/CovidHunter/updatetiming.txt", 'w') as f:
 	f.write(datetime.datetime.now().strftime("%-Y %-m %-d %-H %-M %-S"))

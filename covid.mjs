@@ -38,7 +38,7 @@ hideSidebar();
 window.addEventListener("resize", hideSidebar);
 
 // start csv
-$.get(m+d+"all.csv", function(data) {
+$.get("all.csv", function(data) {
     var build = '<table cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="80%">\n';
     var head = data.split("\n");
     for (var i = 0; i < 1; i++) {
@@ -52,7 +52,7 @@ $.get(m+d+"all.csv", function(data) {
     for (var i = 1; i < head.length; i++) {
         build += "<tr>";
         currentRow = head[i].split(",");
-        if (currentRow.length === 8){
+        if (currentRow.length === 7){
             for (let i2 = 0; i2 < currentRow.length; i2++) {
                 build += `<td>${currentRow[i2]}</td>`;
             }
@@ -63,7 +63,7 @@ $.get(m+d+"all.csv", function(data) {
     document.getElementById("inttable").innerHTML = build;
 });
 
-$.get(m+d+"africa"+"all.csv", function(data) {
+$.get("africa"+"all.csv", function(data) {
     var build = '<table cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="80%">\n';
     var head = data.split("\n");
     for (var i = 0; i < 1; i++) {
@@ -77,7 +77,7 @@ $.get(m+d+"africa"+"all.csv", function(data) {
     for (var i = 1; i < head.length; i++) {
         build += "<tr>";
         currentRow = head[i].split(",");
-        if (currentRow.length === 8){
+        if (currentRow.length === 7){
             for (let i2 = 0; i2 < currentRow.length; i2++) {
                 build += `<td>${currentRow[i2]}</td>`;
             }
@@ -88,7 +88,7 @@ $.get(m+d+"africa"+"all.csv", function(data) {
     document.getElementById("afrtable").innerHTML = build;
 });
 
-$.get(m+d+"northamerica"+"all.csv", function(data) {
+$.get("northamerica"+"all.csv", function(data) {
     var build = '<table cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="80%">\n';
     var head = data.split("\n");
     for (var i = 0; i < 1; i++) {
@@ -102,7 +102,7 @@ $.get(m+d+"northamerica"+"all.csv", function(data) {
     for (var i = 1; i < head.length; i++) {
         build += "<tr>";
         currentRow = head[i].split(",");
-        if (currentRow.length === 8){
+        if (currentRow.length === 7){
             for (let i2 = 0; i2 < currentRow.length; i2++) {
                 build += `<td>${currentRow[i2]}</td>`;
             }
@@ -113,7 +113,7 @@ $.get(m+d+"northamerica"+"all.csv", function(data) {
     document.getElementById("namtable").innerHTML = build;
 });
 
-$.get(m+d+"southamerica"+"all.csv", function(data) {
+$.get("southamerica"+"all.csv", function(data) {
     var build = '<table cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="80%">\n';
     var head = data.split("\n");
     for (var i = 0; i < 1; i++) {
@@ -127,7 +127,7 @@ $.get(m+d+"southamerica"+"all.csv", function(data) {
     for (var i = 1; i < head.length; i++) {
         build += "<tr>";
         currentRow = head[i].split(",");
-        if (currentRow.length === 8){
+        if (currentRow.length === 7){
             for (let i2 = 0; i2 < currentRow.length; i2++) {
                 build += `<td>${currentRow[i2]}</td>`;
             }
@@ -138,7 +138,7 @@ $.get(m+d+"southamerica"+"all.csv", function(data) {
     document.getElementById("samtable").innerHTML = build;
 });
 
-$.get(m+d+"asia"+"all.csv", function(data) {
+$.get("asia"+"all.csv", function(data) {
     var build = '<table cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="80%">\n';
     var head = data.split("\n");
     for (var i = 0; i < 1; i++) {
@@ -152,7 +152,7 @@ $.get(m+d+"asia"+"all.csv", function(data) {
     for (var i = 1; i < head.length; i++) {
         build += "<tr>";
         currentRow = head[i].split(",");
-        if (currentRow.length === 8){
+        if (currentRow.length === 7){
             for (let i2 = 0; i2 < currentRow.length; i2++) {
                 build += `<td>${currentRow[i2]}</td>`;
             }
@@ -163,7 +163,7 @@ $.get(m+d+"asia"+"all.csv", function(data) {
     document.getElementById("asatable").innerHTML = build;
 });
 
-$.get(m+d+"AustraliaOceania"+"all.csv", function(data) {
+$.get("AustraliaOceania"+"all.csv", function(data) {
     var build = '<table cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="80%">\n';
     var head = data.split("\n");
     for (var i = 0; i < 1; i++) {
@@ -177,7 +177,7 @@ $.get(m+d+"AustraliaOceania"+"all.csv", function(data) {
     for (var i = 1; i < head.length; i++) {
         build += "<tr>";
         currentRow = head[i].split(",");
-        if (currentRow.length === 8){
+        if (currentRow.length === 7){
             for (let i2 = 0; i2 < currentRow.length; i2++) {
                 build += `<td>${currentRow[i2]}</td>`;
             }
@@ -188,7 +188,7 @@ $.get(m+d+"AustraliaOceania"+"all.csv", function(data) {
     document.getElementById("austable").innerHTML = build;
 });
 
-$.get(m+d+"europe"+"all.csv", function(data) {
+$.get("europe"+"all.csv", function(data) {
     var build = '<table cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="80%">\n';
     var head = data.split("\n");
     for (var i = 0; i < 1; i++) {
@@ -202,7 +202,7 @@ $.get(m+d+"europe"+"all.csv", function(data) {
     for (var i = 1; i < head.length; i++) {
         build += "<tr>";
         currentRow = head[i].split(",");
-        if (currentRow.length === 8){
+        if (currentRow.length === 7){
             for (let i2 = 0; i2 < currentRow.length; i2++) {
                 build += `<td>${currentRow[i2]}</td>`;
             }
@@ -218,7 +218,7 @@ $.get(m+d+"europe"+"all.csv", function(data) {
 $(document).ready(function(){
     $.ajax({
         type: "GET",
-        url: m+d+"all.csv",
+        url: "all.csv",
         dataType: "text",
         success: function(data) {processData(data);}
     });
