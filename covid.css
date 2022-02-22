@@ -76,12 +76,15 @@ tr{
     display: inline-block;
     width:fit-content;
     height:fit-content;
-    max-width: 480px
+    max-width: fit-content;
 }
 a.hover.nav-item.nav-link{
   cursor: pointer;
 }
 @media only screen and (max-width: 992px){
+    #Global{
+        max-width: 480px
+    }
     #rightbar {
         display: none;
     }
