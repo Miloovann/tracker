@@ -37,6 +37,32 @@ const hideSidebar=()=>{
 hideSidebar();
 window.addEventListener("resize", hideSidebar);
 
+function lengthof(a){
+    for (var k=0; k<10000; k++){
+        if(a[k] === undefined){
+            return k;
+            break;
+        }
+    }
+}
+
+function splitstring(a){
+    var s = "";
+    q = lengthof(a);
+    special = q%3;
+    counter = 0;
+    for (var j=0; j<q; j++){
+    if (counter >= special){
+    if ((j-special)%3===0&&j!==0){
+        s += ",";
+    }
+    }
+        s+=a[j];
+    counter +=1;
+    }
+    return s;
+}
+
 // start csv
 $.get("all.csv", function(data) {
     var build = '<table cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="80%">\n';
@@ -54,6 +80,9 @@ $.get("all.csv", function(data) {
         currentRow = head[i].split(",");
         if (currentRow.length === 7){
             for (let i2 = 0; i2 < currentRow.length; i2++) {
+                if(isNaN(currentRow[i2])==false){
+                    currentRow[i2] = splitstring(currentRow[i2])
+                }
                 build += `<td>${currentRow[i2]}</td>`;
             }
         }
@@ -79,6 +108,9 @@ $.get("africa"+"all.csv", function(data) {
         currentRow = head[i].split(",");
         if (currentRow.length === 7){
             for (let i2 = 0; i2 < currentRow.length; i2++) {
+                if(isNaN(currentRow[i2])==false){
+                    currentRow[i2] = splitstring(currentRow[i2])
+                }
                 build += `<td>${currentRow[i2]}</td>`;
             }
         }
@@ -104,6 +136,9 @@ $.get("northamerica"+"all.csv", function(data) {
         currentRow = head[i].split(",");
         if (currentRow.length === 7){
             for (let i2 = 0; i2 < currentRow.length; i2++) {
+                if(isNaN(currentRow[i2])==false){
+                    currentRow[i2] = splitstring(currentRow[i2])
+                }
                 build += `<td>${currentRow[i2]}</td>`;
             }
         }
@@ -129,6 +164,9 @@ $.get("southamerica"+"all.csv", function(data) {
         currentRow = head[i].split(",");
         if (currentRow.length === 7){
             for (let i2 = 0; i2 < currentRow.length; i2++) {
+                if(isNaN(currentRow[i2])==false){
+                    currentRow[i2] = splitstring(currentRow[i2])
+                }
                 build += `<td>${currentRow[i2]}</td>`;
             }
         }
@@ -154,6 +192,9 @@ $.get("asia"+"all.csv", function(data) {
         currentRow = head[i].split(",");
         if (currentRow.length === 7){
             for (let i2 = 0; i2 < currentRow.length; i2++) {
+                if(isNaN(currentRow[i2])==false){
+                    currentRow[i2] = splitstring(currentRow[i2])
+                }
                 build += `<td>${currentRow[i2]}</td>`;
             }
         }
@@ -179,6 +220,9 @@ $.get("AustraliaOceania"+"all.csv", function(data) {
         currentRow = head[i].split(",");
         if (currentRow.length === 7){
             for (let i2 = 0; i2 < currentRow.length; i2++) {
+                if(isNaN(currentRow[i2])==false){
+                    currentRow[i2] = splitstring(currentRow[i2])
+                }
                 build += `<td>${currentRow[i2]}</td>`;
             }
         }
@@ -204,6 +248,9 @@ $.get("europe"+"all.csv", function(data) {
         currentRow = head[i].split(",");
         if (currentRow.length === 7){
             for (let i2 = 0; i2 < currentRow.length; i2++) {
+                if(isNaN(currentRow[i2])==false){
+                    currentRow[i2] = splitstring(currentRow[i2])
+                }
                 build += `<td>${currentRow[i2]}</td>`;
             }
         }
@@ -237,33 +284,9 @@ if (data.length == headers.length) {
     }
     lines.push(tarr);
 }
-function lengthof(a){
-    for (var k=0; k<10000; k++){
-        if(a[k] === undefined){
-            return k;
-            break;
-        }
-    }
-}
-function splitstring(a){
-    var s = "";
-    q = lengthof(a);
-    special = q%3;
-    counter = 0;
-    for (var j=0; j<q; j++){
-    if (counter >= special){
-    if ((j-special)%3===0&&j!==0){
-        s += ",";
-    }
-    }
-        s+=a[j];
-    counter +=1;
-    }
-    return s;
-}
-document.getElementById('total_cases').innerHTML = splitstring(lines[0][3]);
-document.getElementById('total_deaths').innerHTML = splitstring(lines[0][7]);
-document.getElementById('total_recovered').innerHTML = splitstring(lines[0][11]);
+document.getElementById('total_cases').innerHTML = splitstring("427090924");
+document.getElementById('total_deaths').innerHTML = "5,912,880";
+document.getElementById('total_recovered').innerHTML = "352,174,411";
 }
 //End Right Bar Collection
 
