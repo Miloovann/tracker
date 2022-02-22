@@ -27,14 +27,14 @@
             </button>
 
             <div class="collapse navbar-collapse justify-content-end" id="navbarText">
-                <style>
+                <!-- <style>
                     .navbar-toggler:hover .dropdown-menu{
                         display: block;
                     }
                     .dropdown-menu{
                         margin-top: 0;
                     }
-                </style>
+                </style> -->
                 <ul class="navbar-nav" id = "international_hover"></ul>
             </div>
             <script src="HeaderSelector.mjs"></script>
@@ -64,7 +64,7 @@
     abbrev.forEach(cont=>{
         continentsdata += '<div class="' + cont[0] + '" style="padding: 130px 40px 0px 20px;">';
         graphtype.forEach(type=>{
-            continentsdata += '<img src = "' + cont[1] + type + '10.svg" style="width: 26%;">';
+            continentsdata += '<img src = "' + cont[1] + type + '10.svg" style="width: 33%;">';
         });
         continentsdata += '<div class="table-responsive" id = "' + cont[0] + 'table"></div><p>*If data is consistent across all sources, reliability = 1. If data is taken only from Worldometers, reliability = 0</p></div>';
     });
