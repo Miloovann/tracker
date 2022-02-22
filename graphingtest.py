@@ -3,6 +3,9 @@ import pandas as pd, sys, urllib3, numpy as np, matplotlib.pyplot as plt
 from bs4 import BeautifulSoup
 from operator import itemgetter
 from telethon import TelegramClient
+plt.rcParams.update({'figure.max_open_warning': 0})
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+logging.getLogger().setLevel(logging.CRITICAL)
 
 filedate = datetime.datetime.now().strftime("%B") + str(datetime.datetime.now().day)
 countrynames = ["Africa","Worldwide","Asia","AustraliaOceania","Europe", "North America","South America"]
