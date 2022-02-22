@@ -80,7 +80,7 @@ tr{
 a.hover.nav-item.nav-link{
   cursor: pointer;
 }
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: fit-content){
     #rightbar {
         display: none;
     }
