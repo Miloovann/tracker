@@ -76,6 +76,9 @@ a.hover.nav-item.nav-link{
     #rightbar {
     display: none;
     }
+    .conttables{
+    width: 33%
+    }
     #newsandprotection{
         width: 80%;
         height: 50px;
