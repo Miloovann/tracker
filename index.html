@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
         <link rel="stylesheet" href = "covid.css">
@@ -27,6 +27,14 @@
             </button>
 
             <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+                <style>
+                    .navbar-toggler:hover .dropdown-menu{
+                        display: block;
+                    }
+                    .dropdown-menu{
+                        margin-top: 0;
+                    }
+                </style>
                 <ul class="navbar-nav" id = "international_hover"></ul>
             </div>
             <script src="HeaderSelector.mjs"></script>
